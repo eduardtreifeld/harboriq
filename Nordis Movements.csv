@@ -1,0 +1,1036 @@
+﻿"Status and Distance","Place","Country/Region","Type","From","To","Duration","Destination","Passing details","Terminal name","Draught (m)"
+"called at","Monfalcone","Italy (GMT +02H)","Port","09:55:00 +02:00 19/04/2026","—","—","Monfalcone ETA: 19 Apr 2026","—","—","—"
+"called at","Berth No 6","Italy (GMT +02H)","Berth","10:02:00 +02:00 19/04/2026","—","—","Monfalcone ETA: 19 Apr 2026","—","Portorosega Terminal Terminal","—"
+"nearing (0.4nm)","Monfalcone","Italy (GMT +02H)","Port","09:54:40 +02:00 19/04/2026","10:54:49 +02:00 19/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (1.3nm)","Duino","Italy (GMT +02H)","Port","09:33:19 +02:00 19/04/2026","09:42:00 +02:00 19/04/2026","8 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (1.1nm)","Duino","Italy (GMT +02H)","Port","09:25:49 +02:00 19/04/2026","09:33:19 +02:00 19/04/2026","7 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (1.1nm)","Monfalcone Anchorage","Italy (GMT +02H)","Anchorage","08:39:51 +02:00 19/04/2026","08:58:21 +02:00 19/04/2026","18 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.9nm)","Grignano","Italy (GMT +02H)","Port","23:52:39 +02:00 14/04/2026","07:39:43 +02:00 19/04/2026","4 days","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (1.9nm)","Grignano","Italy (GMT +02H)","Port","22:52:32 +02:00 14/04/2026","23:52:39 +02:00 14/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.9nm)","Grignano","Italy (GMT +02H)","Port","18:46:40 +02:00 13/04/2026","22:52:32 +02:00 14/04/2026","a day","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (1.8nm)","Grignano","Italy (GMT +02H)","Port","17:44:36 +02:00 13/04/2026","18:46:40 +02:00 13/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.8nm)","Grignano","Italy (GMT +02H)","Port","15:44:33 +02:00 13/04/2026","17:44:36 +02:00 13/04/2026","2 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (1.8nm)","Grignano","Italy (GMT +02H)","Port","14:41:34 +02:00 13/04/2026","15:44:33 +02:00 13/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.8nm)","Grignano","Italy (GMT +02H)","Port","13:41:32 +02:00 13/04/2026","14:41:34 +02:00 13/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (1.8nm)","Grignano","Italy (GMT +02H)","Port","12:41:31 +02:00 13/04/2026","13:41:32 +02:00 13/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.8nm)","Grignano","Italy (GMT +02H)","Port","05:32:56 +02:00 13/04/2026","12:41:31 +02:00 13/04/2026","7 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (1.8nm)","Grignano","Italy (GMT +02H)","Port","04:32:30 +02:00 13/04/2026","05:32:56 +02:00 13/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.6nm)","Grignano","Italy (GMT +02H)","Port","22:23:11 +02:00 11/04/2026","04:32:30 +02:00 13/04/2026","a day","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (1.7nm)","Grignano","Italy (GMT +02H)","Port","21:20:12 +02:00 11/04/2026","22:23:11 +02:00 11/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"stopped (1.6nm)","Grignano","Italy (GMT +02H)","Port","13:55:57 +02:00 11/04/2026","21:20:12 +02:00 11/04/2026","7 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"called at","Trieste Anchorage","Italy (GMT +02H)","Anchorage","13:07:49 +02:00 11/04/2026","08:35:30 +02:00 19/04/2026","7 days","Monfalcone ETA: 19 Apr 2026","—","—","—"
+"distancing (2.2nm)","Trieste Anchorage","Italy (GMT +02H)","Anchorage","12:46:06 +02:00 11/04/2026","12:55:35 +02:00 11/04/2026","9 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (2.1nm)","Trieste Anchorage","Italy (GMT +02H)","Anchorage","12:21:05 +02:00 11/04/2026","12:46:06 +02:00 11/04/2026","25 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (4.7nm)","Piran","Slovenia (GMT +02H)","Port","11:56:05 +02:00 11/04/2026","12:14:45 +02:00 11/04/2026","18 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (3.3nm)","Piran","Slovenia (GMT +02H)","Port","11:24:27 +02:00 11/04/2026","11:56:05 +02:00 11/04/2026","31 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (7.3nm)","Umag","Croatia (GMT +02H)","Port","09:27:01 +02:00 11/04/2026","11:18:07 +02:00 11/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (15.9nm)","Novigrad","Croatia (GMT +02H)","Port","09:09:10 +02:00 11/04/2026","09:19:48 +02:00 11/04/2026","10 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (15.7nm)","Porec","Croatia (GMT +02H)","Port","08:44:16 +02:00 11/04/2026","09:00:22 +02:00 11/04/2026","16 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (15.3nm)","Funtana","Croatia (GMT +02H)","Port","08:05:57 +02:00 11/04/2026","08:37:49 +02:00 11/04/2026","31 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (14.2nm)","Funtana","Croatia (GMT +02H)","Port","07:59:35 +02:00 11/04/2026","08:05:57 +02:00 11/04/2026","6 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (14.0nm)","Rovinj","Croatia (GMT +02H)","Port","07:21:06 +02:00 11/04/2026","07:53:15 +02:00 11/04/2026","32 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (13.2nm)","Rovinj","Croatia (GMT +02H)","Port","06:49:06 +02:00 11/04/2026","07:21:06 +02:00 11/04/2026","32 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (13.5nm)","Sveti Mikula","Croatia (GMT +02H)","Port","06:17:07 +02:00 11/04/2026","06:42:46 +02:00 11/04/2026","25 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (12.4nm)","Pula Anchorage","Croatia (GMT +02H)","Anchorage","05:39:07 +02:00 11/04/2026","06:10:46 +02:00 11/04/2026","31 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (11.2nm)","Pula Anchorage","Croatia (GMT +02H)","Anchorage","04:54:36 +02:00 11/04/2026","05:39:07 +02:00 11/04/2026","44 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (13.7nm)","Banjole","Croatia (GMT +02H)","Port","03:38:46 +02:00 11/04/2026","04:48:25 +02:00 11/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (20.2nm)","Susak","Croatia (GMT +02H)","Port","02:48:06 +02:00 11/04/2026","03:26:07 +02:00 11/04/2026","38 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (18.7nm)","Susak","Croatia (GMT +02H)","Port","00:20:36 +02:00 11/04/2026","02:48:06 +02:00 11/04/2026","2 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (27.2nm)","Ist","Croatia (GMT +02H)","Port","00:03:05 +02:00 11/04/2026","00:14:46 +02:00 11/04/2026","11 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (26.8nm)","Veli Rat","Croatia (GMT +02H)","Port","23:04:27 +02:00 10/04/2026","23:57:16 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (25.0nm)","Veli Rat","Croatia (GMT +02H)","Port","21:54:05 +02:00 10/04/2026","23:04:27 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (26.7nm)","Uvala Mir","Croatia (GMT +02H)","Port","21:01:47 +02:00 10/04/2026","21:48:15 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (25.5nm)","Uvala Mir","Croatia (GMT +02H)","Port","19:00:16 +02:00 10/04/2026","21:01:47 +02:00 10/04/2026","2 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (33.9nm)","Muna na Zirju","Croatia (GMT +02H)","Port","18:47:56 +02:00 10/04/2026","18:53:46 +02:00 10/04/2026","5 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (33.8nm)","Muna na Zirju","Croatia (GMT +02H)","Port","17:27:47 +02:00 10/04/2026","18:47:56 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (36.7nm)","Komiza","Croatia (GMT +02H)","Port","14:45:56 +02:00 10/04/2026","17:21:26 +02:00 10/04/2026","2 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (25.4nm)","Komiza","Croatia (GMT +02H)","Port","12:58:01 +02:00 10/04/2026","14:45:56 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (30.7nm)","Tremiti","Italy (GMT +02H)","Port","12:22:44 +02:00 10/04/2026","12:48:52 +02:00 10/04/2026","26 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (29.9nm)","Tremiti","Italy (GMT +02H)","Port","12:15:39 +02:00 10/04/2026","12:22:44 +02:00 10/04/2026","7 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (29.7nm)","Peschici","Italy (GMT +02H)","Port","10:31:54 +02:00 10/04/2026","12:09:34 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (21.1nm)","Vieste","Italy (GMT +02H)","Port","09:19:42 +02:00 10/04/2026","10:20:06 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (18.6nm)","Vieste","Italy (GMT +02H)","Port","06:17:35 +02:00 10/04/2026","09:19:42 +02:00 10/04/2026","3 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (36.2nm)","Bari Anchorage","Italy (GMT +02H)","Anchorage","04:22:16 +02:00 10/04/2026","06:12:13 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (30.7nm)","Mola di Bari","Italy (GMT +02H)","Port","03:09:17 +02:00 10/04/2026","04:16:30 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (27.9nm)","Polignano a Mare","Italy (GMT +02H)","Port","02:49:46 +02:00 10/04/2026","03:03:56 +02:00 10/04/2026","14 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (27.3nm)","Monopoli","Italy (GMT +02H)","Port","01:48:19 +02:00 10/04/2026","02:40:59 +02:00 10/04/2026","an hour","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (25.9nm)","Monopoli","Italy (GMT +02H)","Port","01:33:36 +02:00 10/04/2026","01:48:19 +02:00 10/04/2026","14 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (25.9nm)","Ostuni","Italy (GMT +02H)","Port","00:52:51 +02:00 10/04/2026","01:20:24 +02:00 10/04/2026","27 minutes","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"distancing (23.9nm)","Aquila","Italy (GMT +02H)","Hydrocarbon Field","22:24:11 +02:00 09/04/2026","00:46:35 +02:00 10/04/2026","2 hours","ITMNF ETA: 11 Apr 2026","—","—",9.3
+"nearing (6.7nm)","Aquila","Italy (GMT +02H)","Hydrocarbon Field","21:24:16 +02:00 09/04/2026","22:24:11 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (13.4nm)","Brindisi Anchorage","Italy (GMT +02H)","Anchorage","21:05:06 +02:00 09/04/2026","21:18:07 +02:00 09/04/2026","13 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (14.3nm)","Frigole","Italy (GMT +02H)","Port","20:26:17 +02:00 09/04/2026","20:58:46 +02:00 09/04/2026","32 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (12.2nm)","San Cataldo","Italy (GMT +02H)","Port","19:54:16 +02:00 09/04/2026","20:19:17 +02:00 09/04/2026","25 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (11.5nm)","San Cataldo","Italy (GMT +02H)","Port","19:48:05 +02:00 09/04/2026","19:54:16 +02:00 09/04/2026","6 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (11.1nm)","Santa Foca di Melendugno","Italy (GMT +02H)","Port","18:59:06 +02:00 09/04/2026","19:41:52 +02:00 09/04/2026","42 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (8.2nm)","Santa Foca di Melendugno","Italy (GMT +02H)","Port","18:40:27 +02:00 09/04/2026","18:59:06 +02:00 09/04/2026","18 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (8.9nm)","Otranto","Italy (GMT +02H)","Port","17:59:46 +02:00 09/04/2026","18:34:35 +02:00 09/04/2026","34 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (6.5nm)","Otranto","Italy (GMT +02H)","Port","17:18:57 +02:00 09/04/2026","17:59:46 +02:00 09/04/2026","40 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (8.9nm)","Torre Cesarea","Italy (GMT +02H)","Port","17:00:56 +02:00 09/04/2026","17:12:56 +02:00 09/04/2026","12 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (8.7nm)","Torre Cesarea","Italy (GMT +02H)","Port","16:49:35 +02:00 09/04/2026","17:00:56 +02:00 09/04/2026","11 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (9.0nm)","Castro Marina","Italy (GMT +02H)","Port","16:32:26 +02:00 09/04/2026","16:43:55 +02:00 09/04/2026","11 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (8.3nm)","Novaglie","Italy (GMT +02H)","Port","15:40:35 +02:00 09/04/2026","16:13:59 +02:00 09/04/2026","33 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (6.5nm)","Novaglie","Italy (GMT +02H)","Port","15:31:48 +02:00 09/04/2026","15:40:35 +02:00 09/04/2026","8 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (6.3nm)","Leuca","Italy (GMT +02H)","Port","15:05:56 +02:00 09/04/2026","15:19:52 +02:00 09/04/2026","13 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (6.3nm)","Leuca","Italy (GMT +02H)","Port","11:40:31 +02:00 09/04/2026","15:05:56 +02:00 09/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (29.9nm)","Torre Pali","Italy (GMT +02H)","Port","10:28:49 +02:00 09/04/2026","11:29:31 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (37.7nm)","Crotone","Italy (GMT +02H)","Port","07:03:54 +02:00 09/04/2026","10:20:36 +02:00 09/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.9nm)","Crotone","Italy (GMT +02H)","Port","06:55:46 +02:00 09/04/2026","07:03:54 +02:00 09/04/2026","8 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (22.0nm)","Le Castella","Italy (GMT +02H)","Port","06:02:05 +02:00 09/04/2026","06:50:27 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (20.0nm)","Le Castella","Italy (GMT +02H)","Port","04:12:15 +02:00 09/04/2026","06:02:05 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (27.1nm)","Isca Sullo Ionio","Italy (GMT +02H)","Port","03:02:52 +02:00 09/04/2026","04:08:18 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (24.3nm)","Roccella Ionica","Italy (GMT +02H)","Port","01:29:22 +02:00 09/04/2026","02:53:57 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (19.7nm)","Roccella Ionica","Italy (GMT +02H)","Port","00:13:55 +02:00 09/04/2026","01:29:22 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (23.8nm)","Siderno Marina","Italy (GMT +02H)","Port","22:24:26 +02:00 08/04/2026","00:04:49 +02:00 09/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (33.1nm)","Saline, Reggio Calabria","Italy (GMT +02H)","Port","21:27:18 +02:00 08/04/2026","22:18:18 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (32.0nm)","Saline, Reggio Calabria","Italy (GMT +02H)","Port","20:43:27 +02:00 08/04/2026","21:27:18 +02:00 08/04/2026","43 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.9nm)","Augusta Anchorage","Italy (GMT +02H)","Anchorage","16:28:56 +02:00 08/04/2026","20:36:10 +02:00 08/04/2026","4 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (4.9nm)","Augusta Anchorage","Italy (GMT +02H)","Anchorage","15:00:27 +02:00 08/04/2026","16:28:56 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (12.0nm)","Ognina","Italy (GMT +02H)","Port","14:05:56 +02:00 08/04/2026","14:51:17 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (11.6nm)","Ognina","Italy (GMT +02H)","Port","13:31:16 +02:00 08/04/2026","14:05:56 +02:00 08/04/2026","34 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (12.7nm)","Marzamemi","Italy (GMT +02H)","Port","12:50:25 +02:00 08/04/2026","13:23:06 +02:00 08/04/2026","32 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (7.9nm)","Portopalo","Italy (GMT +02H)","Port","12:12:55 +02:00 08/04/2026","12:45:45 +02:00 08/04/2026","32 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (3.8nm)","Portopalo","Italy (GMT +02H)","Port","11:16:36 +02:00 08/04/2026","12:12:55 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (13.2nm)","Pozzallo","Italy (GMT +02H)","Port","11:07:25 +02:00 08/04/2026","11:11:56 +02:00 08/04/2026","4 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (12.9nm)","Vega","Italy (GMT +02H)","Hydrocarbon Field","09:59:45 +02:00 08/04/2026","11:02:56 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (5.5nm)","Vega","Italy (GMT +02H)","Hydrocarbon Field","08:38:33 +02:00 08/04/2026","09:59:45 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (19.3nm)","Marina di Ragusa","Italy (GMT +02H)","Port","08:05:06 +02:00 08/04/2026","08:33:56 +02:00 08/04/2026","28 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (23.8nm)","Scoglitti","Italy (GMT +02H)","Port","07:31:46 +02:00 08/04/2026","08:00:26 +02:00 08/04/2026","28 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (27.1nm)","Licata","Italy (GMT +02H)","Port","06:41:40 +02:00 08/04/2026","07:27:05 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (25.4nm)","Licata","Italy (GMT +02H)","Port","05:05:56 +02:00 08/04/2026","06:41:40 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.2nm)","Porto Empedocle","Italy (GMT +02H)","Port","04:35:06 +02:00 08/04/2026","04:59:46 +02:00 08/04/2026","24 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (31.0nm)","Porto Empedocle","Italy (GMT +02H)","Port","02:41:56 +02:00 08/04/2026","04:35:06 +02:00 08/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (37.1nm)","Sciacca","Italy (GMT +02H)","Port","02:11:26 +02:00 08/04/2026","02:35:45 +02:00 08/04/2026","24 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (36.5nm)","Sciacca","Italy (GMT +02H)","Port","01:29:05 +02:00 08/04/2026","02:11:26 +02:00 08/04/2026","42 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (36.3nm)","Pantelleria","Italy (GMT +02H)","Port","22:05:26 +02:00 07/04/2026","01:23:07 +02:00 08/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (17.1nm)","Pantelleria","Italy (GMT +02H)","Port","21:11:56 +02:00 07/04/2026","22:05:26 +02:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (21.1nm)","Nilde","Italy (GMT +02H)","Hydrocarbon Field","20:54:07 +02:00 07/04/2026","21:06:06 +02:00 07/04/2026","11 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.0nm)","Nilde","Italy (GMT +02H)","Hydrocarbon Field","19:41:58 +02:00 07/04/2026","20:54:07 +02:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (24.4nm)","Haouaria","Tunisia (GMT +01H)","Port","17:24:55 +01:00 07/04/2026","18:36:07 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (19.5nm)","Haouaria","Tunisia (GMT +01H)","Port","15:36:27 +01:00 07/04/2026","17:24:55 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (24.8nm)","Sidi Daoud","Tunisia (GMT +01H)","Port","14:04:36 +01:00 07/04/2026","15:30:16 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (32.5nm)","Bizerte Anchorage","Tunisia (GMT +01H)","Anchorage","11:02:55 +01:00 07/04/2026","13:58:35 +01:00 07/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (17.6nm)","Bizerte Anchorage","Tunisia (GMT +01H)","Anchorage","10:13:03 +01:00 07/04/2026","11:02:55 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (20.5nm)","Bizerte","Tunisia (GMT +01H)","Port","08:59:56 +01:00 07/04/2026","10:06:06 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (26.9nm)","Galita Islands","Tunisia (GMT +01H)","Port","06:19:23 +01:00 07/04/2026","08:53:36 +01:00 07/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (6.4nm)","Galita Islands","Tunisia (GMT +01H)","Port","02:38:19 +01:00 07/04/2026","06:19:23 +01:00 07/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (39.4nm)","Annaba Anchorage","Algeria (GMT +01H)","Anchorage","00:27:55 +01:00 07/04/2026","02:23:41 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (34.3nm)","Annaba Anchorage","Algeria (GMT +01H)","Anchorage","22:54:11 +01:00 06/04/2026","00:27:55 +01:00 07/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (37.4nm)","Skikda Anchorage","Algeria (GMT +01H)","Anchorage","20:42:08 +01:00 06/04/2026","22:48:02 +01:00 06/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (28.5nm)","Collo","Algeria (GMT +01H)","Port","18:41:15 +01:00 06/04/2026","20:36:01 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.4nm)","Collo","Algeria (GMT +01H)","Port","16:37:22 +01:00 06/04/2026","18:41:15 +01:00 06/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (29.9nm)","Djen Djen Anchorage","Algeria (GMT +01H)","Anchorage","15:08:35 +01:00 06/04/2026","16:30:04 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (26.1nm)","Djen Djen Anchorage","Algeria (GMT +01H)","Anchorage","13:51:16 +01:00 06/04/2026","15:08:35 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (28.9nm)","Jijel (ex Djidjelli)","Algeria (GMT +01H)","Port","13:04:46 +01:00 06/04/2026","13:45:15 +01:00 06/04/2026","40 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.8nm)","Bejaia","Algeria (GMT +01H)","Port","11:31:06 +01:00 06/04/2026","12:58:26 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (28.0nm)","Bejaia","Algeria (GMT +01H)","Port","09:20:56 +01:00 06/04/2026","11:31:06 +01:00 06/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (34.4nm)","Dellys","Algeria (GMT +01H)","Port","06:07:06 +01:00 06/04/2026","09:14:41 +01:00 06/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (11.7nm)","Dellys","Algeria (GMT +01H)","Port","04:07:15 +01:00 06/04/2026","06:07:06 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (23.3nm)","Rouiba","Algeria (GMT +01H)","Port","02:42:06 +01:00 06/04/2026","04:01:15 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (18.7nm)","Alger (Algiers) Anchorage","Algeria (GMT +01H)","Anchorage","01:54:15 +01:00 06/04/2026","02:35:55 +01:00 06/04/2026","41 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (17.7nm)","Alger (Algiers) Anchorage","Algeria (GMT +01H)","Anchorage","01:48:15 +01:00 06/04/2026","01:54:15 +01:00 06/04/2026","6 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (17.7nm)","Alger (Algiers) Anchorage","Algeria (GMT +01H)","Anchorage","01:42:16 +01:00 06/04/2026","01:48:15 +01:00 06/04/2026","5 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (17.7nm)","Alger (Algiers) Anchorage","Algeria (GMT +01H)","Anchorage","23:48:05 +01:00 05/04/2026","01:42:16 +01:00 06/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (27.4nm)","El Hamdania","Algeria (GMT +01H)","Port","21:40:29 +01:00 05/04/2026","23:41:06 +01:00 05/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (15.3nm)","El Hamdania","Algeria (GMT +01H)","Port","21:20:39 +01:00 05/04/2026","21:40:29 +01:00 05/04/2026","19 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (15.6nm)","Cherchell","Algeria (GMT +01H)","Port","19:13:05 +01:00 05/04/2026","21:14:06 +01:00 05/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (25.5nm)","Tenes","Algeria (GMT +01H)","Port","18:35:03 +01:00 05/04/2026","19:06:46 +01:00 05/04/2026","31 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (20.7nm)","Tenes Anchorage","Algeria (GMT +01H)","Anchorage","16:52:26 +01:00 05/04/2026","18:28:53 +01:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (12.9nm)","Tenes Anchorage","Algeria (GMT +01H)","Anchorage","12:44:56 +01:00 05/04/2026","16:52:26 +01:00 05/04/2026","4 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (43.3nm)","Mostaganem Anchorage","Algeria (GMT +01H)","Anchorage","10:56:26 +01:00 05/04/2026","12:36:56 +01:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (38.2nm)","Mostaganem Anchorage","Algeria (GMT +01H)","Anchorage","08:56:45 +01:00 05/04/2026","10:56:26 +01:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (41.9nm)","Bethioua Anchorage","Algeria (GMT +01H)","Anchorage","07:43:32 +01:00 05/04/2026","08:50:51 +01:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (45.3nm)","Arzew","Algeria (GMT +01H)","Port","07:24:37 +01:00 05/04/2026","07:37:13 +01:00 05/04/2026","12 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (46.2nm)","Oran Dry Port Anchorage","Algeria (GMT +01H)","Anchorage","05:41:25 +01:00 05/04/2026","07:17:06 +01:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (48.3nm)","Carboneras","Spain (GMT +02H)","Port","03:36:26 +02:00 05/04/2026","06:35:21 +02:00 05/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (35.1nm)","Carboneras","Spain (GMT +02H)","Port","02:22:55 +02:00 05/04/2026","03:36:26 +02:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (36.0nm)","Almeria","Spain (GMT +02H)","Port","01:34:07 +02:00 05/04/2026","02:16:45 +02:00 05/04/2026","42 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (32.1nm)","Roquetas","Spain (GMT +02H)","Port","23:49:16 +02:00 04/04/2026","01:28:01 +02:00 05/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (26.3nm)","Roquetas","Spain (GMT +02H)","Port","22:31:37 +02:00 04/04/2026","23:49:16 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (29.2nm)","Adra","Spain (GMT +02H)","Port","21:49:36 +02:00 04/04/2026","22:25:25 +02:00 04/04/2026","35 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (28.6nm)","Adra","Spain (GMT +02H)","Port","20:24:27 +02:00 04/04/2026","21:49:36 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (32.0nm)","Motril","Spain (GMT +02H)","Port","19:20:47 +02:00 04/04/2026","20:18:25 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (30.6nm)","Motril","Spain (GMT +02H)","Port","17:07:34 +02:00 04/04/2026","19:20:47 +02:00 04/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (38.7nm)","Malaga Anchorage","Spain (GMT +02H)","Anchorage","15:26:55 +02:00 04/04/2026","17:01:51 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (35.1nm)","Malaga Anchorage","Spain (GMT +02H)","Anchorage","14:49:24 +02:00 04/04/2026","15:26:55 +02:00 04/04/2026","37 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (35.5nm)","Puerto Banus","Spain (GMT +02H)","Port","13:06:04 +02:00 04/04/2026","14:42:55 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (27.9nm)","Gibraltar East Anchorage","Gibraltar (GMT +02H)","Anchorage","11:41:35 +02:00 04/04/2026","12:59:24 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (15.6nm)","Ceuta Anchorage","Spain (GMT +02H)","Anchorage","10:07:14 +02:00 04/04/2026","11:35:10 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (3.1nm)","Ceuta Anchorage","Spain (GMT +02H)","Anchorage","09:35:45 +02:00 04/04/2026","10:01:14 +02:00 04/04/2026","25 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (4.1nm)","Tanger Med","Morocco (GMT +01H)","Port","08:18:55 +01:00 04/04/2026","08:16:00 +01:00 04/04/2026","2 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"passing","Strait of Gibraltar Passing","Spain (GMT +02H)","Passing Place","09:16:00 +02:00 04/04/2026","09:16:00 +02:00 04/04/2026","a few seconds","Trieste Anchorage ETA: 11 Apr 2026","Passed East","—","—"
+"distancing (5.9nm)","Tanger Med","Morocco (GMT +01H)","Port","08:16:00 +01:00 04/04/2026","08:29:05 +01:00 04/04/2026","13 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (4.7nm)","Tanger Med","Morocco (GMT +01H)","Port","07:52:26 +01:00 04/04/2026","08:18:55 +01:00 04/04/2026","26 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (3.3nm)","Tanger Med","Morocco (GMT +01H)","Port","07:45:54 +01:00 04/04/2026","07:52:26 +01:00 04/04/2026","6 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (3.1nm)","Tanger Med Anchorage","Morocco (GMT +01H)","Anchorage","07:33:26 +01:00 04/04/2026","07:39:45 +01:00 04/04/2026","6 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (2.9nm)","Tanger Med Anchorage","Morocco (GMT +01H)","Anchorage","06:57:26 +01:00 04/04/2026","07:33:26 +01:00 04/04/2026","36 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (7.2nm)","Tangier","Morocco (GMT +01H)","Port","06:38:34 +01:00 04/04/2026","06:51:04 +01:00 04/04/2026","12 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (6.7nm)","Tangier","Morocco (GMT +01H)","Port","05:23:05 +01:00 04/04/2026","06:38:34 +01:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (14.7nm)","Banco del Hoyo Anchorage","Spain (GMT +02H)","Anchorage","05:04:32 +02:00 04/04/2026","06:16:59 +02:00 04/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (9.3nm)","Banco del Hoyo Anchorage","Spain (GMT +02H)","Anchorage","04:32:36 +02:00 04/04/2026","05:04:32 +02:00 04/04/2026","31 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (11.3nm)","Banco del Hoyo Anchorage","Spain (GMT +02H)","Anchorage","04:31:04 +02:00 04/04/2026","04:32:36 +02:00 04/04/2026","a minute","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (11.1nm)","Banco del Hoyo Anchorage","Spain (GMT +02H)","Anchorage","23:28:06 +02:00 03/04/2026","04:31:04 +02:00 04/04/2026","5 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (55.3nm)","Olhao","Portugal (GMT +01H)","Sub Port","20:57:01 +01:00 03/04/2026","22:21:54 +01:00 03/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (48.1nm)","Faro","Portugal (GMT +01H)","Port","18:48:17 +01:00 03/04/2026","20:52:57 +01:00 03/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (42.9nm)","Faro","Portugal (GMT +01H)","Port","18:04:47 +01:00 03/04/2026","18:48:17 +01:00 03/04/2026","43 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (43.8nm)","Albufeira","Portugal (GMT +01H)","Port","17:16:55 +01:00 03/04/2026","17:58:37 +01:00 03/04/2026","41 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (42.7nm)","Sagres","Portugal (GMT +01H)","Port","14:14:24 +01:00 03/04/2026","17:11:06 +01:00 03/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (30.5nm)","Sagres","Portugal (GMT +01H)","Port","13:29:30 +01:00 03/04/2026","14:14:24 +01:00 03/04/2026","44 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.4nm)","Sagres","Portugal (GMT +01H)","Port","12:47:06 +01:00 03/04/2026","13:29:30 +01:00 03/04/2026","42 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (30.5nm)","Sagres","Portugal (GMT +01H)","Port","11:34:16 +01:00 03/04/2026","12:47:06 +01:00 03/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.8nm)","Sagres","Portugal (GMT +01H)","Port","11:03:27 +01:00 03/04/2026","11:34:16 +01:00 03/04/2026","30 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (31.4nm)","Sagres","Portugal (GMT +01H)","Port","10:56:56 +01:00 03/04/2026","11:03:27 +01:00 03/04/2026","6 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (31.5nm)","Sagres","Portugal (GMT +01H)","Port","10:44:56 +01:00 03/04/2026","10:56:56 +01:00 03/04/2026","12 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (31.4nm)","Sagres","Portugal (GMT +01H)","Port","07:20:16 +01:00 03/04/2026","10:44:56 +01:00 03/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (47.9nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","05:55:10 +01:00 03/04/2026","07:13:56 +01:00 03/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (45.6nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","04:36:08 +01:00 03/04/2026","05:55:10 +01:00 03/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (47.2nm)","Sesimbra","Portugal (GMT +01H)","Port","03:58:17 +01:00 03/04/2026","04:30:16 +01:00 03/04/2026","31 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (44.4nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","01:51:46 +01:00 03/04/2026","03:52:15 +01:00 03/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (33.6nm)","Cascais","Portugal (GMT +01H)","Port","00:28:19 +01:00 03/04/2026","01:45:37 +01:00 03/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (31.6nm)","Cascais","Portugal (GMT +01H)","Port","21:48:03 +01:00 02/04/2026","00:28:19 +01:00 03/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (38.5nm)","Peniche","Portugal (GMT +01H)","Port","19:47:37 +01:00 02/04/2026","21:37:49 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (34.3nm)","Peniche","Portugal (GMT +01H)","Port","15:18:31 +01:00 02/04/2026","19:47:37 +01:00 02/04/2026","4 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (58.4nm)","Figueira da Foz","Portugal (GMT +01H)","Port","13:48:25 +01:00 02/04/2026","15:08:57 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (60.4nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","12:09:05 +01:00 02/04/2026","13:42:36 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (58.2nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","10:15:15 +01:00 02/04/2026","12:09:05 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (62.2nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","09:39:17 +01:00 02/04/2026","10:09:27 +01:00 02/04/2026","30 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (61.9nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","09:21:26 +01:00 02/04/2026","09:39:17 +01:00 02/04/2026","17 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (61.9nm)","Povoa de Varzim","Portugal (GMT +01H)","Port","08:12:27 +01:00 02/04/2026","09:15:36 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (60.6nm)","Viana do Castelo","Portugal (GMT +01H)","Port","07:02:31 +01:00 02/04/2026","08:05:56 +01:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (57.8nm)","La Guardia","Spain (GMT +02H)","Port","05:52:55 +02:00 02/04/2026","07:53:27 +02:00 02/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (54.8nm)","La Guardia","Spain (GMT +02H)","Port","05:21:08 +02:00 02/04/2026","05:52:55 +02:00 02/04/2026","31 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (55.2nm)","Ons","Spain (GMT +02H)","Port","04:13:05 +02:00 02/04/2026","05:12:10 +02:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (52.9nm)","Ribeira (Santa Uxia)","Spain (GMT +02H)","Port","03:12:25 +02:00 02/04/2026","04:06:55 +02:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (50.0nm)","Corcubion","Spain (GMT +02H)","Port","00:29:25 +02:00 02/04/2026","03:02:55 +02:00 02/04/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (40.0nm)","Mugia","Spain (GMT +02H)","Port","23:27:47 +02:00 01/04/2026","00:23:46 +02:00 02/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (38.3nm)","Mugia","Spain (GMT +02H)","Port","22:35:46 +02:00 01/04/2026","23:27:47 +02:00 01/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (39.3nm)","Mugia","Spain (GMT +02H)","Port","22:03:46 +02:00 01/04/2026","22:35:46 +02:00 01/04/2026","32 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (39.0nm)","Mugia","Spain (GMT +02H)","Port","20:39:07 +02:00 01/04/2026","22:03:46 +02:00 01/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (41.7nm)","Camarinas","Spain (GMT +02H)","Port","19:54:27 +02:00 01/04/2026","20:32:16 +02:00 01/04/2026","37 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (44.4nm)","Camelle","Spain (GMT +02H)","Port","19:19:36 +02:00 01/04/2026","19:48:36 +02:00 01/04/2026","29 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (46.8nm)","Corme","Spain (GMT +02H)","Port","17:27:15 +02:00 01/04/2026","19:13:56 +02:00 01/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (56.5nm)","Malpica","Spain (GMT +02H)","Port","15:32:35 +02:00 01/04/2026","17:21:27 +02:00 01/04/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (69.1nm)","Cedeira","Spain (GMT +02H)","Port","12:17:26 +02:00 01/04/2026","15:26:55 +02:00 01/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (84.9nm)","Carino","Spain (GMT +02H)","Port","03:15:43 +02:00 01/04/2026","12:08:57 +02:00 01/04/2026","8 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (158.1nm)","Viveiro Anchorage","Spain (GMT +02H)","Anchorage","03:00:41 +02:00 01/04/2026","03:07:48 +02:00 01/04/2026","7 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (160.1nm)","Plogoff","France (GMT +02H)","Port","22:59:28 +02:00 31/03/2026","02:50:41 +02:00 01/04/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (123.4nm)","Creac'h-Point","France (GMT +02H)","Port","11:41:31 +02:00 31/03/2026","22:52:47 +02:00 31/03/2026","11 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (37.0nm)","Creac'h-Point","France (GMT +02H)","Port","10:38:19 +02:00 31/03/2026","11:41:31 +02:00 31/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (37.6nm)","Creac'h-Point","France (GMT +02H)","Port","09:49:48 +02:00 31/03/2026","10:38:19 +02:00 31/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (37.0nm)","Creac'h-Point","France (GMT +02H)","Port","09:44:09 +02:00 31/03/2026","09:49:48 +02:00 31/03/2026","5 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (37.1nm)","Port du Stiff","France (GMT +02H)","Port","08:12:57 +02:00 31/03/2026","09:33:49 +02:00 31/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (40.1nm)","Aber Wrac'h","France (GMT +02H)","Port","07:38:26 +02:00 31/03/2026","07:58:26 +02:00 31/03/2026","20 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (39.9nm)","Aber Wrac'h","France (GMT +02H)","Port","05:20:11 +02:00 31/03/2026","07:38:26 +02:00 31/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (43.6nm)","Ile de Batz","France (GMT +02H)","Port","04:33:35 +02:00 31/03/2026","05:08:34 +02:00 31/03/2026","34 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (43.3nm)","Ile de Batz","France (GMT +02H)","Port","02:03:37 +02:00 31/03/2026","04:33:35 +02:00 31/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (46.2nm)","Hope Cove","U.K. (GMT +01H)","Port","00:15:11 +01:00 31/03/2026","00:54:58 +01:00 31/03/2026","39 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (42.2nm)","Salcombe","U.K. (GMT +01H)","Port","20:09:15 +01:00 30/03/2026","00:06:06 +01:00 31/03/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (29.0nm)","Salcombe","U.K. (GMT +01H)","Port","18:11:07 +01:00 30/03/2026","20:09:15 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (33.2nm)","Dartmouth","U.K. (GMT +01H)","Port","17:52:57 +01:00 30/03/2026","18:01:56 +01:00 30/03/2026","8 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (33.3nm)","Braye","Guernsey (GMT +01H)","Port","13:43:05 +01:00 30/03/2026","17:43:22 +01:00 30/03/2026","4 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (22.8nm)","Braye","Guernsey (GMT +01H)","Port","11:38:35 +01:00 30/03/2026","13:43:05 +01:00 30/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (27.0nm)","Swanage","U.K. (GMT +01H)","Port","10:36:36 +01:00 30/03/2026","11:30:06 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (26.0nm)","Swanage","U.K. (GMT +01H)","Port","09:47:26 +01:00 30/03/2026","10:36:36 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (26.9nm)","Ventnor","U.K. (GMT +01H)","Port","06:13:16 +01:00 30/03/2026","09:40:17 +01:00 30/03/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (18.6nm)","Ventnor","U.K. (GMT +01H)","Port","04:35:36 +01:00 30/03/2026","06:13:16 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (21.9nm)","Selsey","U.K. (GMT +01H)","Port","03:44:46 +01:00 30/03/2026","04:25:06 +01:00 30/03/2026","40 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.3nm)","Selsey","U.K. (GMT +01H)","Port","02:19:59 +01:00 30/03/2026","03:44:46 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (23.4nm)","Littlehampton","U.K. (GMT +01H)","Port","02:03:26 +01:00 30/03/2026","02:11:26 +01:00 30/03/2026","8 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (23.2nm)","Brighton","U.K. (GMT +01H)","Port","01:04:35 +01:00 30/03/2026","01:54:57 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (19.8nm)","Newhaven","U.K. (GMT +01H)","Port","23:14:16 +01:00 29/03/2026","00:56:25 +01:00 30/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (15.7nm)","Eastbourne","U.K. (GMT +01H)","Port","21:34:06 +01:00 29/03/2026","23:05:27 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (12.4nm)","Eastbourne","U.K. (GMT +01H)","Port","20:00:45 +01:00 29/03/2026","21:34:06 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (15.0nm)","Rye","U.K. (GMT +01H)","Port","18:53:36 +01:00 29/03/2026","19:51:06 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (11.2nm)","Dungeness","U.K. (GMT +01H)","Port","17:15:16 +01:00 29/03/2026","18:44:36 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (5.5nm)","Dungeness","U.K. (GMT +01H)","Port","16:23:46 +01:00 29/03/2026","17:15:16 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (8.8nm)","Folkestone","U.K. (GMT +01H)","Port","15:35:15 +01:00 29/03/2026","16:15:46 +01:00 29/03/2026","40 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (6.9nm)","Dover","U.K. (GMT +01H)","Port","15:10:56 +01:00 29/03/2026","15:27:15 +01:00 29/03/2026","16 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"passing","Dover Strait Passing","—","Passing Place","15:10:56 +01:00 29/03/2026","15:10:56 +01:00 29/03/2026","a few seconds","Strait of Gibraltar Passing ETA: 04 Apr 2026","Passed West","—","—"
+"nearing (5.7nm)","Dover","U.K. (GMT +01H)","Port","15:10:46 +01:00 29/03/2026","15:10:56 +01:00 29/03/2026","a few seconds","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (5.7nm)","Dover","U.K. (GMT +01H)","Port","14:54:15 +01:00 29/03/2026","15:10:46 +01:00 29/03/2026","16 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (5.1nm)","Dover","U.K. (GMT +01H)","Port","13:30:36 +01:00 29/03/2026","14:54:15 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (11.7nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","13:47:16 +02:00 29/03/2026","14:22:17 +02:00 29/03/2026","35 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (11.1nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","13:02:16 +02:00 29/03/2026","13:47:16 +02:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (14.2nm)","Broadstairs","U.K. (GMT +01H)","Port","09:24:27 +01:00 29/03/2026","11:53:05 +01:00 29/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (25.5nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","08:47:45 +02:00 29/03/2026","10:15:06 +02:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (23.6nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","08:23:58 +02:00 29/03/2026","08:47:45 +02:00 29/03/2026","23 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (23.6nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","07:18:46 +02:00 29/03/2026","08:15:26 +02:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.8nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","06:19:37 +02:00 29/03/2026","07:18:46 +02:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (25.7nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","05:24:15 +02:00 29/03/2026","06:12:55 +02:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (24.9nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","05:09:45 +02:00 29/03/2026","05:24:15 +02:00 29/03/2026","14 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (24.9nm)","Southwold Anchorage (STS Area)","U.K. (GMT +01H)","Anchorage","03:54:47 +01:00 29/03/2026","04:02:25 +01:00 29/03/2026","7 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (25.1nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","04:23:36 +02:00 29/03/2026","04:47:06 +02:00 29/03/2026","23 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (25.5nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","00:51:11 +01:00 29/03/2026","04:15:37 +02:00 29/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (18.7nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","23:56:12 +01:00 28/03/2026","00:51:11 +01:00 29/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (19.5nm)","Wissey Field","U.K. (GMT +01H)","Hydrocarbon Field","21:46:00 +00:00 28/03/2026","22:46:35 +00:00 28/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (15.1nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","20:20:53 +00:00 28/03/2026","21:35:59 +00:00 28/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (10.4nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","19:25:22 +00:00 28/03/2026","20:20:53 +00:00 28/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (11.8nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","18:51:58 +00:00 28/03/2026","19:17:00 +00:00 28/03/2026","25 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (10.7nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","17:05:02 +00:00 28/03/2026","18:51:58 +00:00 28/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (20.1nm)","Shamrock Field","U.K. (GMT +01H)","Hydrocarbon Field","16:43:47 +00:00 28/03/2026","16:57:48 +00:00 28/03/2026","14 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (19.9nm)","Shamrock Field","U.K. (GMT +01H)","Hydrocarbon Field","14:28:35 +00:00 28/03/2026","16:43:47 +00:00 28/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (28.4nm)","Markham Field","U.K. (GMT +01H)","Hydrocarbon Field","10:02:04 +00:00 28/03/2026","14:20:34 +00:00 28/03/2026","4 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (50.5nm)","Vlieland","Netherlands (GMT +02H)","Port","10:28:14 +01:00 28/03/2026","10:52:03 +01:00 28/03/2026","23 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (50.9nm)","Terschelling","Netherlands (GMT +02H)","Port","09:56:58 +01:00 28/03/2026","10:19:13 +01:00 28/03/2026","22 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (51.5nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","03:35:14 +01:00 28/03/2026","09:46:58 +01:00 28/03/2026","6 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (24.3nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","01:00:05 +01:00 28/03/2026","03:35:14 +01:00 28/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (30.2nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","22:11:27 +01:00 27/03/2026","00:49:41 +01:00 28/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (23.5nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","15:24:36 +01:00 27/03/2026","22:11:27 +01:00 27/03/2026","6 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (53.7nm)","Hvide Sande","Denmark (GMT +02H)","Port","13:02:26 +01:00 27/03/2026","15:15:25 +01:00 27/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (45.4nm)","Torsminde","Denmark (GMT +02H)","Port","09:33:45 +01:00 27/03/2026","12:53:25 +01:00 27/03/2026","3 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (28.5nm)","Thyboron","Denmark (GMT +02H)","Port","07:23:36 +01:00 27/03/2026","09:26:46 +01:00 27/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (21.1nm)","Thyboron","Denmark (GMT +02H)","Port","06:32:45 +01:00 27/03/2026","07:23:36 +01:00 27/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (22.7nm)","Hanstholm","Denmark (GMT +02H)","Port","04:33:35 +01:00 27/03/2026","06:27:06 +01:00 27/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (8.8nm)","Hanstholm","Denmark (GMT +02H)","Port","04:21:46 +01:00 27/03/2026","04:33:35 +01:00 27/03/2026","11 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (9.0nm)","Hanstholm","Denmark (GMT +02H)","Port","04:03:05 +01:00 27/03/2026","04:21:46 +01:00 27/03/2026","18 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (8.4nm)","Hanstholm","Denmark (GMT +02H)","Port","01:34:56 +01:00 27/03/2026","04:03:05 +01:00 27/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (26.3nm)","Hirtshals","Denmark (GMT +02H)","Port","23:02:45 +01:00 26/03/2026","01:28:45 +01:00 27/03/2026","2 hours","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (7.3nm)","Hirtshals","Denmark (GMT +02H)","Port","21:44:17 +01:00 26/03/2026","23:02:45 +01:00 26/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (14.4nm)","Skagen","Denmark (GMT +02H)","Port","20:19:17 +01:00 26/03/2026","21:38:26 +01:00 26/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (8.0nm)","Skagen","Denmark (GMT +02H)","Port","19:38:36 +01:00 26/03/2026","20:19:17 +01:00 26/03/2026","40 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (9.8nm)","Skagen","Denmark (GMT +02H)","Port","19:07:06 +01:00 26/03/2026","19:38:36 +01:00 26/03/2026","31 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"passing","Skaw Passing","Denmark (GMT +02H)","Passing Place","19:07:06 +01:00 26/03/2026","19:07:06 +01:00 26/03/2026","a few seconds","Dover Strait Passing ETA: 29 Mar 2026","Passed North","—","—"
+"nearing (6.6nm)","Skagen","Denmark (GMT +02H)","Port","19:05:46 +01:00 26/03/2026","19:07:06 +01:00 26/03/2026","a minute","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (6.6nm)","Skagen","Denmark (GMT +02H)","Port","18:59:47 +01:00 26/03/2026","19:05:46 +01:00 26/03/2026","5 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"distancing (5.9nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","18:11:27 +01:00 26/03/2026","18:53:47 +01:00 26/03/2026","42 minutes","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"nearing (0.2nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","17:14:32 +01:00 26/03/2026","18:11:27 +01:00 26/03/2026","an hour","ITMNF ETA: 10 Apr 2026","—","—",9.3
+"stopped (2.0nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","12:20:30 +01:00 26/03/2026","17:14:32 +01:00 26/03/2026","4 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (2.0nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","11:13:03 +01:00 26/03/2026","12:20:30 +01:00 26/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (0.7nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","10:53:03 +01:00 26/03/2026","11:13:03 +01:00 26/03/2026","20 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (3.0nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","10:31:13 +01:00 26/03/2026","10:53:03 +01:00 26/03/2026","21 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (0.8nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","10:10:04 +01:00 26/03/2026","10:31:13 +01:00 26/03/2026","21 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (3.2nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","09:40:34 +01:00 26/03/2026","10:10:04 +01:00 26/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (1.3nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","09:25:34 +01:00 26/03/2026","09:40:34 +01:00 26/03/2026","15 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (2.8nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","08:54:10 +01:00 26/03/2026","09:25:34 +01:00 26/03/2026","31 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (1.4nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","08:13:14 +01:00 26/03/2026","08:54:10 +01:00 26/03/2026","40 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (2.4nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","07:13:13 +01:00 26/03/2026","08:13:14 +01:00 26/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"stopped (2.4nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","23:22:52 +01:00 25/03/2026","07:13:13 +01:00 26/03/2026","7 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"called at","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","22:38:14 +01:00 25/03/2026","18:47:41 +01:00 26/03/2026","20 hours","Skaw Passing ETA: 26 Mar 2026","—","—","—"
+"distancing (2.4nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","22:08:15 +01:00 25/03/2026","23:22:52 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (0.2nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","21:10:15 +01:00 25/03/2026","22:08:15 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (11.3nm)","Frederikshavn OPL","Denmark (GMT +02H)","Anchorage","20:35:46 +01:00 25/03/2026","21:04:24 +01:00 25/03/2026","28 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (14.0nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","19:48:01 +01:00 25/03/2026","20:24:04 +01:00 25/03/2026","36 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (8.6nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","18:55:26 +01:00 25/03/2026","19:48:01 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.0nm)","Osterby Havn","Denmark (GMT +02H)","Port","18:03:56 +01:00 25/03/2026","18:49:16 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.3nm)","Bua","Sweden (GMT +02H)","Port","17:35:15 +01:00 25/03/2026","17:58:15 +01:00 25/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (15.8nm)","Bua","Sweden (GMT +02H)","Port","17:11:45 +01:00 25/03/2026","17:35:15 +01:00 25/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.4nm)","Kattegat","Denmark (GMT +02H)","Anchorage","16:59:54 +01:00 25/03/2026","17:05:55 +01:00 25/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (16.3nm)","Kattegat","Denmark (GMT +02H)","Anchorage","16:42:04 +01:00 25/03/2026","16:59:54 +01:00 25/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.6nm)","Traslovslage","Sweden (GMT +02H)","Port","16:24:35 +01:00 25/03/2026","16:30:25 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (16.6nm)","Traslovslage","Sweden (GMT +02H)","Port","16:18:45 +01:00 25/03/2026","16:24:35 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.4nm)","Anholt","Denmark (GMT +02H)","Port","15:11:05 +01:00 25/03/2026","16:12:44 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.5nm)","Anholt","Denmark (GMT +02H)","Port","14:58:14 +01:00 25/03/2026","15:11:05 +01:00 25/03/2026","12 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (13.7nm)","Anholt","Denmark (GMT +02H)","Port","14:02:46 +01:00 25/03/2026","14:58:14 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (11.3nm)","Anholt","Denmark (GMT +02H)","Port","12:28:35 +01:00 25/03/2026","14:02:46 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (19.2nm)","Grenaa","Denmark (GMT +02H)","Port","11:40:55 +01:00 25/03/2026","12:22:35 +01:00 25/03/2026","41 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (17.2nm)","Sjaellands Odde","Denmark (GMT +02H)","Port","11:28:55 +01:00 25/03/2026","11:34:55 +01:00 25/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (15.3nm)","Odden","Denmark (GMT +02H)","Port","10:00:04 +01:00 25/03/2026","11:22:55 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (7.6nm)","Odden","Denmark (GMT +02H)","Port","09:54:15 +01:00 25/03/2026","10:00:04 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (7.8nm)","Sejero","Denmark (GMT +02H)","Port","09:19:16 +01:00 25/03/2026","09:48:24 +01:00 25/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (6.1nm)","Sejero","Denmark (GMT +02H)","Port","08:51:13 +01:00 25/03/2026","09:19:16 +01:00 25/03/2026","28 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (8.1nm)","Ballen","Denmark (GMT +02H)","Port","08:24:36 +01:00 25/03/2026","08:45:55 +01:00 25/03/2026","21 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (6.0nm)","Ballen","Denmark (GMT +02H)","Port","08:18:44 +01:00 25/03/2026","08:24:36 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (5.2nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","07:42:25 +01:00 25/03/2026","08:12:56 +01:00 25/03/2026","30 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (0.6nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","06:40:45 +01:00 25/03/2026","07:42:25 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (8.4nm)","Kerteminde","Denmark (GMT +02H)","Port","06:29:04 +01:00 25/03/2026","06:34:54 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (7.9nm)","Reerso","Denmark (GMT +02H)","Port","05:59:45 +01:00 25/03/2026","06:23:05 +01:00 25/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (6.2nm)","Sprogo","Denmark (GMT +02H)","Port","05:30:15 +01:00 25/03/2026","05:53:54 +01:00 25/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (2.9nm)","Korsor Anchorage","Denmark (GMT +02H)","Anchorage","05:12:25 +01:00 25/03/2026","05:24:14 +01:00 25/03/2026","11 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (2.0nm)","Korsor Anchorage","Denmark (GMT +02H)","Anchorage","04:49:05 +01:00 25/03/2026","05:12:25 +01:00 25/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (4.1nm)","Agerso","Denmark (GMT +02H)","Port","04:37:14 +01:00 25/03/2026","04:43:14 +01:00 25/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (3.2nm)","Omo","Denmark (GMT +02H)","Port","04:25:15 +01:00 25/03/2026","04:31:14 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (2.8nm)","Omo","Denmark (GMT +02H)","Port","03:55:44 +01:00 25/03/2026","04:25:15 +01:00 25/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (5.4nm)","Lohals","Denmark (GMT +02H)","Port","03:20:44 +01:00 25/03/2026","03:49:54 +01:00 25/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (7.4nm)","Tars","Denmark (GMT +02H)","Port","02:56:55 +01:00 25/03/2026","03:14:44 +01:00 25/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (4.5nm)","Spodsbjerg","Denmark (GMT +02H)","Port","02:33:34 +01:00 25/03/2026","02:51:04 +01:00 25/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (3.0nm)","Spodsbjerg","Denmark (GMT +02H)","Port","02:15:36 +01:00 25/03/2026","02:33:34 +01:00 25/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (5.5nm)","Tars","Denmark (GMT +02H)","Port","01:50:54 +01:00 25/03/2026","02:09:25 +01:00 25/03/2026","18 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (7.2nm)","Bagenkop","Denmark (GMT +02H)","Port","01:38:55 +01:00 25/03/2026","01:44:54 +01:00 25/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (7.1nm)","Bagenkop","Denmark (GMT +02H)","Port","01:08:44 +01:00 25/03/2026","01:38:55 +01:00 25/03/2026","30 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (10.3nm)","Nakskov","Denmark (GMT +02H)","Port","00:45:04 +01:00 25/03/2026","01:02:44 +01:00 25/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (10.2nm)","Puttgarden","Germany (GMT +02H)","Port","23:45:25 +01:00 24/03/2026","00:38:55 +01:00 25/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (4.4nm)","Puttgarden","Germany (GMT +02H)","Port","22:46:34 +01:00 24/03/2026","23:45:25 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (11.5nm)","Kettinge","Denmark (GMT +02H)","Port","22:29:15 +01:00 24/03/2026","22:40:44 +01:00 24/03/2026","11 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (11.4nm)","Gedser","Denmark (GMT +02H)","Port","21:31:25 +01:00 24/03/2026","22:23:34 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (7.7nm)","Gedser","Denmark (GMT +02H)","Port","20:49:56 +01:00 24/03/2026","21:31:25 +01:00 24/03/2026","41 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (10.4nm)","Althagen","Germany (GMT +02H)","Port","20:31:34 +01:00 24/03/2026","20:43:55 +01:00 24/03/2026","12 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (9.5nm)","Althagen","Germany (GMT +02H)","Port","20:14:25 +01:00 24/03/2026","20:31:34 +01:00 24/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (10.8nm)","Gedser","Denmark (GMT +02H)","Port","19:09:24 +01:00 24/03/2026","20:08:44 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (17.3nm)","Klintholm","Denmark (GMT +02H)","Port","17:59:55 +01:00 24/03/2026","19:03:24 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.0nm)","Klintholm","Denmark (GMT +02H)","Port","17:17:44 +01:00 24/03/2026","17:59:55 +01:00 24/03/2026","42 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.3nm)","Kloster","Germany (GMT +02H)","Port","17:05:44 +01:00 24/03/2026","17:11:45 +01:00 24/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.0nm)","Dranske","Germany (GMT +02H)","Port","16:35:54 +01:00 24/03/2026","16:59:44 +01:00 24/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (15.3nm)","Dranske","Germany (GMT +02H)","Port","15:36:56 +01:00 24/03/2026","16:35:54 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (18.6nm)","Wiek","Germany (GMT +02H)","Port","14:25:45 +01:00 24/03/2026","15:30:56 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (26.0nm)","Ystad","Sweden (GMT +02H)","Port","13:08:45 +01:00 24/03/2026","14:19:54 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (21.9nm)","Ronne","Denmark (GMT +02H)","Port","12:27:34 +01:00 24/03/2026","13:02:45 +01:00 24/03/2026","35 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.5nm)","Hasle","Denmark (GMT +02H)","Port","11:41:04 +01:00 24/03/2026","12:21:34 +01:00 24/03/2026","40 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (12.8nm)","Helligpeder","Denmark (GMT +02H)","Port","11:17:34 +01:00 24/03/2026","11:35:05 +01:00 24/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (11.7nm)","Vang","Denmark (GMT +02H)","Port","11:06:24 +01:00 24/03/2026","11:11:55 +01:00 24/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (11.1nm)","Hammerhavn","Denmark (GMT +02H)","Port","10:38:04 +01:00 24/03/2026","11:00:44 +01:00 24/03/2026","22 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (10.3nm)","Simrishamn","Sweden (GMT +02H)","Port","10:20:34 +01:00 24/03/2026","10:32:14 +01:00 24/03/2026","11 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (9.8nm)","Simrishamn","Sweden (GMT +02H)","Port","10:09:04 +01:00 24/03/2026","10:20:34 +01:00 24/03/2026","11 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (10.8nm)","Sandvig","Denmark (GMT +02H)","Port","09:11:45 +01:00 24/03/2026","10:03:25 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (15.9nm)","Christianso Havn","Denmark (GMT +02H)","Port","08:59:54 +01:00 24/03/2026","09:05:55 +01:00 24/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (15.8nm)","Christianso Havn","Denmark (GMT +02H)","Port","06:55:56 +01:00 24/03/2026","08:59:54 +01:00 24/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (26.1nm)","Torko","Sweden (GMT +02H)","Port","06:33:25 +01:00 24/03/2026","06:49:54 +01:00 24/03/2026","16 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (25.7nm)","Karlskrona","Sweden (GMT +02H)","Port","06:24:53 +01:00 24/03/2026","06:30:31 +01:00 24/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (24.0nm)","Karlskrona","Sweden (GMT +02H)","Port","06:24:49 +01:00 24/03/2026","06:24:53 +01:00 24/03/2026","a few seconds","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (25.6nm)","Karlskrona","Sweden (GMT +02H)","Port","06:13:53 +01:00 24/03/2026","06:24:49 +01:00 24/03/2026","10 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (23.3nm)","Karlskrona","Sweden (GMT +02H)","Port","06:11:55 +01:00 24/03/2026","06:13:53 +01:00 24/03/2026","a minute","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (23.6nm)","Karlskrona","Sweden (GMT +02H)","Port","05:59:41 +01:00 24/03/2026","06:11:55 +01:00 24/03/2026","12 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (22.9nm)","Karlskrona","Sweden (GMT +02H)","Port","05:59:01 +01:00 24/03/2026","05:59:41 +01:00 24/03/2026","a few seconds","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (25.3nm)","Karlskrona","Sweden (GMT +02H)","Port","05:58:19 +01:00 24/03/2026","05:59:01 +01:00 24/03/2026","a few seconds","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (22.8nm)","Karlskrona","Sweden (GMT +02H)","Port","05:56:33 +01:00 24/03/2026","05:58:19 +01:00 24/03/2026","a minute","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (24.2nm)","Karlskrona","Sweden (GMT +02H)","Port","05:51:35 +01:00 24/03/2026","05:56:33 +01:00 24/03/2026","4 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (22.4nm)","Karlskrona","Sweden (GMT +02H)","Port","05:49:49 +01:00 24/03/2026","05:51:35 +01:00 24/03/2026","a minute","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (22.7nm)","Karlskrona","Sweden (GMT +02H)","Port","05:47:37 +01:00 24/03/2026","05:49:49 +01:00 24/03/2026","2 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (22.4nm)","Karlskrona","Sweden (GMT +02H)","Port","05:47:31 +01:00 24/03/2026","05:47:37 +01:00 24/03/2026","a few seconds","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (23.1nm)","Karlskrona","Sweden (GMT +02H)","Port","05:24:02 +01:00 24/03/2026","05:47:31 +01:00 24/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (21.8nm)","Karlskrona","Sweden (GMT +02H)","Port","04:26:03 +01:00 24/03/2026","05:24:02 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (24.1nm)","Degerhamn","Sweden (GMT +02H)","Port","02:41:12 +01:00 24/03/2026","04:20:12 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (16.1nm)","Degerhamn","Sweden (GMT +02H)","Port","02:05:23 +01:00 24/03/2026","02:41:12 +01:00 24/03/2026","35 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.6nm)","Degerhamn","Sweden (GMT +02H)","Port","01:41:23 +01:00 24/03/2026","02:05:23 +01:00 24/03/2026","24 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (16.3nm)","Degerhamn","Sweden (GMT +02H)","Port","00:29:43 +01:00 24/03/2026","01:41:23 +01:00 24/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (20.4nm)","Farjestaden","Sweden (GMT +02H)","Port","23:54:43 +01:00 23/03/2026","00:18:02 +01:00 24/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (19.9nm)","Farjestaden","Sweden (GMT +02H)","Port","23:25:43 +01:00 23/03/2026","23:54:43 +01:00 23/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (20.7nm)","Karehamn","Sweden (GMT +02H)","Port","21:47:13 +01:00 23/03/2026","23:19:53 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.1nm)","Karehamn","Sweden (GMT +02H)","Port","20:37:13 +01:00 23/03/2026","21:47:13 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (17.6nm)","Grankullavik","Sweden (GMT +02H)","Port","19:34:03 +01:00 23/03/2026","20:31:22 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (14.4nm)","Grankullavik","Sweden (GMT +02H)","Port","18:41:33 +01:00 23/03/2026","19:34:03 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (17.4nm)","Klintehamn","Sweden (GMT +02H)","Port","17:55:13 +01:00 23/03/2026","18:35:43 +01:00 23/03/2026","40 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (16.2nm)","Klintehamn","Sweden (GMT +02H)","Port","17:37:53 +01:00 23/03/2026","17:55:13 +01:00 23/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (16.1nm)","Visby","Sweden (GMT +02H)","Port","16:28:23 +01:00 23/03/2026","17:32:03 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (11.7nm)","Visby","Sweden (GMT +02H)","Port","15:01:02 +01:00 23/03/2026","16:28:23 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (19.5nm)","Kappelshamn","Sweden (GMT +02H)","Port","14:37:43 +01:00 23/03/2026","14:55:14 +01:00 23/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (19.3nm)","Kappelshamn","Sweden (GMT +02H)","Port","13:39:52 +01:00 23/03/2026","14:37:43 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (22.1nm)","Ar","Sweden (GMT +02H)","Port","11:37:53 +01:00 23/03/2026","13:34:02 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (34.3nm)","Landsort","Sweden (GMT +02H)","Port","11:03:03 +01:00 23/03/2026","11:32:12 +01:00 23/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (34.8nm)","Hasselmara","Sweden (GMT +02H)","Port","09:19:42 +01:00 23/03/2026","10:57:23 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (28.8nm)","Sandhamn","Sweden (GMT +02H)","Port","07:23:13 +01:00 23/03/2026","09:14:04 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (21.5nm)","Sandhamn","Sweden (GMT +02H)","Port","05:21:13 +01:00 23/03/2026","07:23:13 +01:00 23/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (30.9nm)","Kapellskar","Sweden (GMT +02H)","Port","04:52:13 +01:00 23/03/2026","05:15:33 +01:00 23/03/2026","23 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (29.9nm)","Linanas","Sweden (GMT +02H)","Port","01:53:33 +01:00 23/03/2026","04:45:53 +01:00 23/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.3nm)","Linanas","Sweden (GMT +02H)","Port","01:19:34 +01:00 23/03/2026","01:53:33 +01:00 23/03/2026","33 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (15.0nm)","Eckero","Aland (GMT +03H)","Port","02:02:43 +02:00 23/03/2026","02:13:52 +02:00 23/03/2026","11 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (13.7nm)","Grisslehamn","Sweden (GMT +02H)","Port","00:01:43 +01:00 23/03/2026","00:57:03 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (8.1nm)","Grisslehamn","Sweden (GMT +02H)","Port","23:02:33 +01:00 22/03/2026","00:01:43 +01:00 23/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (15.9nm)","Graso","Sweden (GMT +02H)","Port","17:43:32 +01:00 22/03/2026","22:56:42 +01:00 22/03/2026","5 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (60.7nm)","Olkiluoto","Finland (GMT +03H)","Port","18:08:42 +02:00 22/03/2026","18:37:43 +02:00 22/03/2026","29 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (59.4nm)","Tahkoluoto","Finland (GMT +03H)","Sub Port","15:13:02 +02:00 22/03/2026","18:03:02 +02:00 22/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (51.6nm)","Tahkoluoto","Finland (GMT +03H)","Sub Port","14:55:33 +02:00 22/03/2026","15:13:02 +02:00 22/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (51.0nm)","Kaskinen","Finland (GMT +03H)","Port","12:40:43 +02:00 22/03/2026","14:49:44 +02:00 22/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (38.0nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","08:56:33 +02:00 22/03/2026","12:34:43 +02:00 22/03/2026","3 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (1.1nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","06:47:32 +02:00 22/03/2026","08:56:33 +02:00 22/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (22.9nm)","Hornefors","Sweden (GMT +02H)","Port","05:24:12 +01:00 22/03/2026","05:41:42 +01:00 22/03/2026","17 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (21.3nm)","Holmsund","Sweden (GMT +02H)","Port","04:03:12 +01:00 22/03/2026","05:18:23 +01:00 22/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.6nm)","Holmsund","Sweden (GMT +02H)","Port","01:57:54 +01:00 22/03/2026","04:03:12 +01:00 22/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (24.8nm)","Sikea","Sweden (GMT +02H)","Port","00:13:13 +01:00 22/03/2026","01:51:52 +01:00 22/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (18.0nm)","Sikea","Sweden (GMT +02H)","Port","00:00:43 +01:00 22/03/2026","00:13:13 +01:00 22/03/2026","12 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (17.9nm)","Kallviken","Sweden (GMT +02H)","Port","22:43:03 +01:00 21/03/2026","23:54:22 +01:00 21/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (13.4nm)","Kallviken","Sweden (GMT +02H)","Port","21:45:02 +01:00 21/03/2026","22:43:03 +01:00 21/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (17.3nm)","Backfors","Sweden (GMT +02H)","Port","19:27:32 +01:00 21/03/2026","21:39:12 +01:00 21/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (27.1nm)","Skelleftehamn","Sweden (GMT +02H)","Port","19:17:52 +01:00 21/03/2026","19:22:30 +01:00 21/03/2026","4 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (27.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","19:13:02 +01:00 21/03/2026","19:17:52 +01:00 21/03/2026","4 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (27.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","19:08:02 +01:00 21/03/2026","19:13:02 +01:00 21/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (27.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","19:02:43 +01:00 21/03/2026","19:08:02 +01:00 21/03/2026","5 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (27.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","18:46:23 +01:00 21/03/2026","19:02:43 +01:00 21/03/2026","16 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (28.4nm)","Pitea","Sweden (GMT +02H)","Port","17:04:12 +01:00 21/03/2026","18:40:43 +01:00 21/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (19.7nm)","Pitea","Sweden (GMT +02H)","Port","16:45:43 +01:00 21/03/2026","17:04:12 +01:00 21/03/2026","18 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (20.2nm)","Lulea","Sweden (GMT +02H)","Port","15:58:43 +01:00 21/03/2026","16:39:43 +01:00 21/03/2026","41 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (18.0nm)","Lulea","Sweden (GMT +02H)","Port","15:52:43 +01:00 21/03/2026","15:58:43 +01:00 21/03/2026","6 minutes","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"distancing (18.0nm)","Lulea","Sweden (GMT +02H)","Port","13:32:17 +01:00 21/03/2026","15:52:43 +01:00 21/03/2026","2 hours","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"nearing (1.3nm)","Lulea","Sweden (GMT +02H)","Port","12:32:16 +01:00 21/03/2026","13:32:17 +01:00 21/03/2026","an hour","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"stopped (1.4nm)","Lulea","Sweden (GMT +02H)","Port","15:04:39 +01:00 18/03/2026","12:32:16 +01:00 21/03/2026","2 days","ITMNF ETA: 08 Apr 2026","—","—",9.3
+"called at","Lulea","Sweden (GMT +02H)","Port","14:08:28 +01:00 18/03/2026","13:52:23 +01:00 21/03/2026","2 days","Skagen Anchorage ETA: 25 Mar 2026","—","—","—"
+"called at","Outer Berth","Sweden (GMT +02H)","Berth","14:27:57 +01:00 18/03/2026","13:26:18 +01:00 21/03/2026","2 days","Skagen Anchorage ETA: 25 Mar 2026","—","Victoria Harbour","—"
+"nearing (1.4nm)","Lulea","Sweden (GMT +02H)","Port","11:29:07 +01:00 18/03/2026","15:04:39 +01:00 18/03/2026","3 hours","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (20.0nm)","Pitea","Sweden (GMT +02H)","Port","11:05:17 +01:00 18/03/2026","11:23:28 +01:00 18/03/2026","18 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (19.6nm)","Pitea","Sweden (GMT +02H)","Port","09:25:08 +01:00 18/03/2026","11:05:17 +01:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (24.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","08:01:54 +01:00 18/03/2026","09:18:01 +01:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (16.2nm)","Skelleftehamn","Sweden (GMT +02H)","Port","07:57:42 +01:00 18/03/2026","08:01:54 +01:00 18/03/2026","4 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (16.2nm)","Backfors","Sweden (GMT +02H)","Port","07:11:48 +01:00 18/03/2026","07:53:30 +01:00 18/03/2026","41 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (13.6nm)","Backfors","Sweden (GMT +02H)","Port","06:36:47 +01:00 18/03/2026","07:11:48 +01:00 18/03/2026","35 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (15.3nm)","Kallviken","Sweden (GMT +02H)","Port","06:14:37 +01:00 18/03/2026","06:31:17 +01:00 18/03/2026","16 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (14.9nm)","Kallviken","Sweden (GMT +02H)","Port","05:17:18 +01:00 18/03/2026","06:14:37 +01:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (20.5nm)","Kokkola Anchorage","Finland (GMT +03H)","Anchorage","04:36:07 +02:00 18/03/2026","06:11:27 +02:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (12.2nm)","Kokkola Anchorage","Finland (GMT +03H)","Anchorage","03:05:17 +02:00 18/03/2026","04:36:07 +02:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (18.8nm)","Rahja","Finland (GMT +03H)","Port","02:54:18 +02:00 18/03/2026","02:59:58 +02:00 18/03/2026","5 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (18.9nm)","Rahja","Finland (GMT +03H)","Port","02:39:37 +02:00 18/03/2026","02:54:18 +02:00 18/03/2026","14 minutes","SELLA ETA: 18 Mar 2026","—","—",7.6
+"nearing (18.8nm)","Rahja","Finland (GMT +03H)","Port","01:09:08 +02:00 18/03/2026","02:39:37 +02:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (22.6nm)","Parhalahti","Finland (GMT +03H)","Port","00:08:28 +02:00 18/03/2026","00:59:48 +02:00 18/03/2026","an hour","SELLA ETA: 18 Mar 2026","—","—",7.6
+"distancing (19.9nm)","Raahe (Brahestad)","Finland (GMT +03H)","Port","18:01:37 +02:00 17/03/2026","00:00:48 +02:00 18/03/2026","5 hours","SELLA ETA: 18 Mar 2026","—","—",7.6
+"stopped (0.7nm)","Raahe (Brahestad)","Finland (GMT +03H)","Port","02:59:31 +02:00 15/03/2026","18:01:37 +02:00 17/03/2026","2 days","SELLA ETA: 18 Mar 2026","—","—",7
+"called at","Raahe (Brahestad)","Finland (GMT +03H)","Port","01:52:48 +02:00 15/03/2026","18:17:27 +02:00 17/03/2026","2 days","Lulea ETA: 18 Mar 2026","—","—","—"
+"called at","Berth No.3","Finland (GMT +03H)","Berth","02:13:12 +02:00 15/03/2026","18:09:38 +02:00 17/03/2026","2 days","Lulea ETA: 18 Mar 2026","—","Lapaluoto Terminal","—"
+"nearing (0.7nm)","Raahe (Brahestad)","Finland (GMT +03H)","Port","22:47:31 +02:00 14/03/2026","02:59:31 +02:00 15/03/2026","4 hours","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (16.2nm)","Parhalahti","Finland (GMT +03H)","Port","21:44:41 +02:00 14/03/2026","22:41:12 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (21.4nm)","Rahja","Finland (GMT +03H)","Port","20:28:52 +02:00 14/03/2026","21:38:12 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (17.6nm)","Rahja","Finland (GMT +03H)","Port","20:22:52 +02:00 14/03/2026","20:28:52 +02:00 14/03/2026","6 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (17.6nm)","Rahja","Finland (GMT +03H)","Port","20:17:00 +02:00 14/03/2026","20:22:52 +02:00 14/03/2026","5 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (17.6nm)","Rahja","Finland (GMT +03H)","Port","19:58:50 +02:00 14/03/2026","20:17:00 +02:00 14/03/2026","18 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (17.9nm)","Kokkola Anchorage","Finland (GMT +03H)","Anchorage","18:21:38 +02:00 14/03/2026","19:52:02 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (5.6nm)","Kokkola Anchorage","Finland (GMT +03H)","Anchorage","17:12:29 +02:00 14/03/2026","18:21:38 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (16.3nm)","Jakobstad (Pietarsaari)","Finland (GMT +03H)","Port","16:00:50 +02:00 14/03/2026","17:07:19 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (23.2nm)","Monasintie","Finland (GMT +03H)","Port","14:50:28 +02:00 14/03/2026","15:50:50 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (27.4nm)","Holmsund","Sweden (GMT +02H)","Port","11:56:19 +01:00 14/03/2026","13:45:20 +01:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (14.0nm)","Holmsund","Sweden (GMT +02H)","Port","09:54:09 +01:00 14/03/2026","11:56:19 +01:00 14/03/2026","2 hours","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (20.6nm)","Hornefors","Sweden (GMT +02H)","Port","08:46:19 +01:00 14/03/2026","09:37:59 +01:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (21.6nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","08:15:39 +02:00 14/03/2026","09:15:50 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (20.8nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","08:08:08 +02:00 14/03/2026","08:15:39 +02:00 14/03/2026","7 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (21.0nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","07:10:59 +02:00 14/03/2026","08:08:08 +02:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (18.1nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","06:37:28 +02:00 14/03/2026","07:10:59 +02:00 14/03/2026","33 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (18.8nm)","Husum","Sweden (GMT +02H)","Sub Port","05:26:39 +01:00 14/03/2026","05:31:58 +01:00 14/03/2026","5 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (17.8nm)","Skagshamn","Sweden (GMT +02H)","Port","04:59:50 +01:00 14/03/2026","05:21:18 +01:00 14/03/2026","21 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (15.8nm)","Skagshamn","Sweden (GMT +02H)","Port","04:01:29 +01:00 14/03/2026","04:59:50 +01:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (21.8nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","02:07:29 +02:00 14/03/2026","04:56:19 +02:00 14/03/2026","2 hours","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (43.2nm)","Harnosand","Sweden (GMT +02H)","Port","23:22:40 +01:00 13/03/2026","01:02:29 +01:00 14/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (54.9nm)","Stocka","Sweden (GMT +02H)","Port","22:42:59 +01:00 13/03/2026","23:17:40 +01:00 13/03/2026","34 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (54.5nm)","Stocka","Sweden (GMT +02H)","Port","20:55:20 +01:00 13/03/2026","22:42:59 +01:00 13/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (59.3nm)","Sandarne","Sweden (GMT +02H)","Sub Port","19:53:49 +01:00 13/03/2026","20:49:40 +01:00 13/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (56.9nm)","Forsmark","Sweden (GMT +02H)","Port","19:28:39 +01:00 13/03/2026","19:48:39 +01:00 13/03/2026","20 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (52.2nm)","Graso","Sweden (GMT +02H)","Port","15:40:28 +01:00 13/03/2026","19:23:38 +01:00 13/03/2026","3 hours","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (16.3nm)","Grisslehamn","Sweden (GMT +02H)","Port","14:53:39 +01:00 13/03/2026","15:35:49 +01:00 13/03/2026","42 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (10.6nm)","Grisslehamn","Sweden (GMT +02H)","Port","14:34:49 +01:00 13/03/2026","14:53:39 +01:00 13/03/2026","18 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (11.5nm)","Eckero","Aland (GMT +03H)","Port","15:25:29 +02:00 13/03/2026","15:30:08 +02:00 13/03/2026","4 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (11.4nm)","Eckero","Aland (GMT +03H)","Port","14:36:50 +02:00 13/03/2026","15:25:29 +02:00 13/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"distancing (15.4nm)","Linanas","Sweden (GMT +02H)","Port","13:17:29 +01:00 13/03/2026","13:32:00 +01:00 13/03/2026","14 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (14.9nm)","Linanas","Sweden (GMT +02H)","Port","12:53:19 +01:00 13/03/2026","13:17:29 +01:00 13/03/2026","24 minutes","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (16.6nm)","Mariehamn (Maarianhamina)","Aland (GMT +03H)","Port","12:45:00 +02:00 13/03/2026","13:48:29 +02:00 13/03/2026","an hour","FIRAA ETA: 14 Mar 2026","—","—",7
+"nearing (24.5nm)","Foglo","Aland (GMT +03H)","Port","11:20:09 +02:00 13/03/2026","12:39:38 +02:00 13/03/2026","an hour","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (34.1nm)","Kapellskar","Sweden (GMT +02H)","Port","09:54:20 +01:00 13/03/2026","10:14:58 +01:00 13/03/2026","20 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (31.8nm)","Sandhamn","Sweden (GMT +02H)","Port","07:23:50 +01:00 13/03/2026","09:49:09 +01:00 13/03/2026","2 hours","FIRAA ETA: 15 Mar 2026","—","—",7
+"nearing (13.0nm)","Sandhamn","Sweden (GMT +02H)","Port","06:40:09 +01:00 13/03/2026","07:23:50 +01:00 13/03/2026","43 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (16.0nm)","Hasselmara","Sweden (GMT +02H)","Port","05:51:39 +01:00 13/03/2026","06:35:18 +01:00 13/03/2026","43 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"nearing (12.9nm)","Hasselmara","Sweden (GMT +02H)","Port","05:17:18 +01:00 13/03/2026","05:51:39 +01:00 13/03/2026","34 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (15.2nm)","Musko","Sweden (GMT +02H)","Port","04:57:29 +01:00 13/03/2026","05:12:20 +01:00 13/03/2026","14 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (14.5nm)","Nynashamn","Sweden (GMT +02H)","Port","04:42:39 +01:00 13/03/2026","04:52:40 +01:00 13/03/2026","10 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (13.5nm)","Landsort","Sweden (GMT +02H)","Port","03:29:49 +01:00 13/03/2026","04:37:40 +01:00 13/03/2026","an hour","FIRAA ETA: 15 Mar 2026","—","—",7
+"nearing (7.8nm)","Landsort","Sweden (GMT +02H)","Port","03:19:29 +01:00 13/03/2026","03:29:49 +01:00 13/03/2026","10 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (7.3nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","02:42:30 +01:00 13/03/2026","03:14:09 +01:00 13/03/2026","31 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"nearing (3.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","02:05:09 +01:00 13/03/2026","02:42:30 +01:00 13/03/2026","37 minutes","FIRAA ETA: 15 Mar 2026","—","—",7
+"distancing (8.1nm)","Oxelosund","Sweden (GMT +02H)","Port","23:51:00 +01:00 12/03/2026","01:59:30 +01:00 13/03/2026","2 hours","FIRAA ETA: 15 Mar 2026","—","—",7
+"stopped (0.5nm)","Oxelosund","Sweden (GMT +02H)","Port","14:18:04 +01:00 11/03/2026","23:51:00 +01:00 12/03/2026","a day","FIRAA ETA: 15 Mar 2026","—","—",7
+"called at","Oxelosund","Sweden (GMT +02H)","Port","13:30:54 +01:00 11/03/2026","01:11:39 +01:00 13/03/2026","a day","Raahe (Brahestad) ETA: 15 Mar 2026","—","—","—"
+"called at","Berth 5","Sweden (GMT +02H)","Berth","13:40:23 +01:00 11/03/2026","00:45:00 +01:00 13/03/2026","a day","Raahe (Brahestad) ETA: 15 Mar 2026","—","Dry Bulk And Container Terminal","—"
+"nearing (0.5nm)","Oxelosund","Sweden (GMT +02H)","Port","12:30:33 +01:00 11/03/2026","14:18:04 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (7.9nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","11:05:39 +01:00 11/03/2026","12:24:53 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (3.9nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","10:05:34 +01:00 11/03/2026","11:05:39 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","09:05:29 +01:00 11/03/2026","10:05:34 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","08:05:23 +01:00 11/03/2026","09:05:29 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","07:04:01 +01:00 11/03/2026","08:05:23 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","05:03:51 +01:00 11/03/2026","07:04:01 +01:00 11/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","04:03:45 +01:00 11/03/2026","05:03:51 +01:00 11/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","20:01:49 +01:00 10/03/2026","04:03:45 +01:00 11/03/2026","8 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","19:01:43 +01:00 10/03/2026","20:01:49 +01:00 10/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","12:56:42 +01:00 10/03/2026","19:01:43 +01:00 10/03/2026","6 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","10:56:39 +01:00 10/03/2026","12:56:42 +01:00 10/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","09:56:01 +01:00 10/03/2026","10:56:39 +01:00 10/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","16:41:31 +01:00 09/03/2026","09:56:01 +01:00 10/03/2026","17 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","15:41:30 +01:00 09/03/2026","16:41:31 +01:00 09/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","14:38:32 +01:00 09/03/2026","15:41:30 +01:00 09/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","13:38:30 +01:00 09/03/2026","14:38:32 +01:00 09/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","11:38:28 +01:00 09/03/2026","13:38:30 +01:00 09/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","10:35:29 +01:00 09/03/2026","11:38:28 +01:00 09/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","07:32:27 +01:00 09/03/2026","10:35:29 +01:00 09/03/2026","3 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","04:29:24 +01:00 09/03/2026","07:32:27 +01:00 09/03/2026","3 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","02:23:32 +01:00 09/03/2026","04:29:24 +01:00 09/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","01:23:26 +01:00 09/03/2026","02:23:32 +01:00 09/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","23:23:22 +01:00 08/03/2026","01:23:26 +01:00 09/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","22:20:22 +01:00 08/03/2026","23:23:22 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","21:20:21 +01:00 08/03/2026","22:20:22 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","20:20:20 +01:00 08/03/2026","21:20:21 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","19:17:20 +01:00 08/03/2026","20:20:20 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","18:17:16 +01:00 08/03/2026","19:17:20 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","17:14:21 +01:00 08/03/2026","18:17:16 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","16:14:18 +01:00 08/03/2026","17:14:21 +01:00 08/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.2nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","18:54:27 +01:00 07/03/2026","16:14:18 +01:00 08/03/2026","21 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.3nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","17:53:10 +01:00 07/03/2026","18:54:27 +01:00 07/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.3nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","16:53:08 +01:00 07/03/2026","17:53:10 +01:00 07/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.3nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","15:53:06 +01:00 07/03/2026","16:53:08 +01:00 07/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.3nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","22:34:56 +01:00 06/03/2026","15:53:06 +01:00 07/03/2026","17 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","18:31:54 +01:00 06/03/2026","22:34:56 +01:00 06/03/2026","4 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","17:28:55 +01:00 06/03/2026","18:31:54 +01:00 06/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","15:25:55 +01:00 06/03/2026","17:28:55 +01:00 06/03/2026","2 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","09:22:51 +01:00 06/03/2026","15:25:55 +01:00 06/03/2026","6 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","08:22:50 +01:00 06/03/2026","09:22:51 +01:00 06/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","03:21:43 +01:00 06/03/2026","08:22:50 +01:00 06/03/2026","5 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","02:21:38 +01:00 06/03/2026","03:21:43 +01:00 06/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","23:19:45 +01:00 05/03/2026","02:21:38 +01:00 06/03/2026","3 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","22:19:43 +01:00 05/03/2026","23:19:45 +01:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"called at","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","19:25:10 +01:00 05/03/2026","12:01:14 +01:00 11/03/2026","5 days","Oxelosund ETA: 11 Mar 2026","—","—","—"
+"distancing (4.1nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","18:58:21 +01:00 05/03/2026","22:19:43 +01:00 05/03/2026","3 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (1.5nm)","Oxelosund Anchorage","Sweden (GMT +02H)","Anchorage","18:12:01 +01:00 05/03/2026","18:58:21 +01:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (8.1nm)","Landsort","Sweden (GMT +02H)","Port","17:54:40 +01:00 05/03/2026","18:06:10 +01:00 05/03/2026","11 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (7.9nm)","Landsort","Sweden (GMT +02H)","Port","16:15:30 +01:00 05/03/2026","17:54:40 +01:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (20.8nm)","Musko","Sweden (GMT +02H)","Port","15:57:31 +01:00 05/03/2026","16:03:32 +01:00 05/03/2026","6 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (21.4nm)","Hasselmara","Sweden (GMT +02H)","Port","15:45:40 +01:00 05/03/2026","15:51:31 +01:00 05/03/2026","5 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (21.3nm)","Hasselmara","Sweden (GMT +02H)","Port","14:08:01 +01:00 05/03/2026","15:45:40 +01:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (27.1nm)","Sandhamn","Sweden (GMT +02H)","Port","13:51:00 +01:00 05/03/2026","14:02:22 +01:00 05/03/2026","11 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (27.1nm)","Sandhamn","Sweden (GMT +02H)","Port","09:55:11 +01:00 05/03/2026","13:51:00 +01:00 05/03/2026","3 hours","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (48.6nm)","Uto","Finland (GMT +03H)","Port","08:54:31 +02:00 05/03/2026","10:49:00 +02:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (32.2nm)","Kalana","Estonia (GMT +03H)","Port","07:16:50 +02:00 05/03/2026","08:50:00 +02:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (27.1nm)","Kalana","Estonia (GMT +03H)","Port","06:37:50 +02:00 05/03/2026","07:16:50 +02:00 05/03/2026","39 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (27.8nm)","Korgessaare","Estonia (GMT +03H)","Port","06:15:20 +02:00 05/03/2026","06:31:50 +02:00 05/03/2026","16 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (27.0nm)","Lehtma","Estonia (GMT +03H)","Port","05:31:11 +02:00 05/03/2026","06:09:50 +02:00 05/03/2026","38 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (25.1nm)","Rosalalandet","Finland (GMT +03H)","Port","04:52:41 +02:00 05/03/2026","05:25:41 +02:00 05/03/2026","33 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (22.4nm)","Hanko (Hango)","Finland (GMT +03H)","Port","03:48:31 +02:00 05/03/2026","04:47:11 +02:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (17.6nm)","Hanko (Hango)","Finland (GMT +03H)","Port","03:27:11 +02:00 05/03/2026","03:48:31 +02:00 05/03/2026","21 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (17.8nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:27:51 +02:00 05/03/2026","03:21:51 +02:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (14.9nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:10:20 +02:00 05/03/2026","02:27:51 +02:00 05/03/2026","17 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (15.6nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","01:35:20 +02:00 05/03/2026","02:03:51 +02:00 05/03/2026","28 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (13.0nm)","Paldiski","Estonia (GMT +03H)","Port","01:12:41 +02:00 05/03/2026","01:24:00 +02:00 05/03/2026","11 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (11.0nm)","Lohusalu","Estonia (GMT +03H)","Port","00:02:40 +02:00 05/03/2026","01:07:01 +02:00 05/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (6.3nm)","Lohusalu","Estonia (GMT +03H)","Port","23:55:20 +02:00 04/03/2026","00:02:40 +02:00 05/03/2026","7 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (6.0nm)","Tilgu","Estonia (GMT +03H)","Port","23:04:41 +02:00 04/03/2026","23:40:40 +02:00 04/03/2026","35 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (2.3nm)","Tallinn Anchorage","Estonia (GMT +03H)","Anchorage","22:34:51 +02:00 04/03/2026","22:57:31 +02:00 04/03/2026","22 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"nearing (0.9nm)","Tallinn Anchorage","Estonia (GMT +03H)","Anchorage","22:23:21 +02:00 04/03/2026","22:34:51 +02:00 04/03/2026","11 minutes","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"distancing (2.7nm)","Paljassaare","Estonia (GMT +03H)","Sub Port","21:05:30 +02:00 04/03/2026","22:12:11 +02:00 04/03/2026","an hour","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (0.1nm)","Paljassaare","Estonia (GMT +03H)","Sub Port","14:08:38 +02:00 19/01/2026","21:05:30 +02:00 04/03/2026","a month","SEOXE ETA: 05 Mar 2026","—","—",5.8
+"stopped (0.1nm)","Paljassaare","Estonia (GMT +03H)","Sub Port","10:00:04 +02:00 16/01/2026","12:18:12 +02:00 19/01/2026","3 days","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"called at","Paljassaare","Estonia (GMT +03H)","Sub Port","09:33:54 +02:00 15/12/2025","21:43:30 +02:00 04/03/2026","2 months","Oxelosund Anchorage ETA: 05 Mar 2026","—","—","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","23:10:42 +02:00 16/12/2025","00:05:45 +02:00 17/12/2025","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","06:41:15 +02:00 28/12/2025","07:31:30 +02:00 28/12/2025","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","23:20:33 +02:00 15/12/2025","23:50:34 +02:00 15/12/2025","30 minutes","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:38:07 +02:00 20/02/2026","23:45:54 +02:00 20/02/2026","2 hours","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","02:23:22 +02:00 22/02/2026","02:57:07 +02:00 22/02/2026","33 minutes","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:35:19 +02:00 21/02/2026","23:26:48 +02:00 21/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","18:14:30 +02:00 22/02/2026","23:29:33 +02:00 22/02/2026","5 hours","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:10:16 +02:00 16/02/2026","23:49:19 +02:00 16/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:25:29 +02:00 17/02/2026","23:37:29 +02:00 17/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:23:45 +02:00 23/02/2026","23:29:52 +02:00 23/02/2026","2 hours","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:02:16 +02:00 03/03/2026","22:56:17 +02:00 03/03/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:04:51 +02:00 01/03/2026","22:58:52 +02:00 01/03/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:28:13 +02:00 26/02/2026","23:25:57 +02:00 26/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:29:58 +02:00 24/02/2026","23:18:00 +02:00 24/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","21:24:11 +02:00 25/02/2026","23:27:12 +02:00 25/02/2026","2 hours","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:41:59 +02:00 04/02/2026","00:36:08 +02:00 05/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:37:55 +02:00 05/02/2026","00:10:56 +02:00 06/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:53:08 +02:00 06/02/2026","01:20:10 +02:00 07/02/2026","2 hours","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","12:40:19 +02:00 20/01/2026","14:31:22 +02:00 20/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","02:30:13 +02:00 05/01/2026","03:15:17 +02:00 05/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","02:07:08 +02:00 06/01/2026","02:55:02 +02:00 06/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:47:00 +02:00 18/01/2026","00:35:24 +02:00 19/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","23:35:43 +02:00 19/01/2026","00:26:52 +02:00 20/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","00:37:16 +02:00 08/01/2026","01:36:06 +02:00 08/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:35:59 +02:00 10/02/2026","00:21:02 +02:00 11/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","00:12:15 +02:00 27/01/2026","01:44:45 +02:00 27/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","23:21:32 +02:00 30/01/2026","01:03:34 +02:00 31/01/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","04:28:14 +02:00 03/02/2026","05:12:13 +02:00 03/02/2026","43 minutes","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","22:43:23 +02:00 03/02/2026","00:19:26 +02:00 04/02/2026","an hour","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"called at","Berth 35","Estonia (GMT +03H)","Berth","23:00:12 +02:00 11/02/2026","23:41:18 +02:00 11/02/2026","41 minutes","Oxelosund Anchorage ETA: 05 Mar 2026","—","Paljassaare-port Of Tallinn Terminal","—"
+"nearing (0.1nm)","Paljassaare","Estonia (GMT +03H)","Sub Port","08:54:36 +02:00 15/12/2025","10:32:45 +02:00 15/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"distancing (2.6nm)","Tallinn Anchorage","Estonia (GMT +03H)","Anchorage","08:35:55 +02:00 15/12/2025","08:48:36 +02:00 15/12/2025","12 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (1.2nm)","Tallinn Anchorage","Estonia (GMT +03H)","Anchorage","08:20:55 +02:00 15/12/2025","08:35:55 +02:00 15/12/2025","15 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"distancing (2.5nm)","Tilgu","Estonia (GMT +03H)","Port","08:06:35 +02:00 15/12/2025","08:13:56 +02:00 15/12/2025","7 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (2.5nm)","Tilgu","Estonia (GMT +03H)","Port","07:40:06 +02:00 15/12/2025","08:06:35 +02:00 15/12/2025","26 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (5.8nm)","Keila Juga","Estonia (GMT +03H)","Port","07:27:46 +02:00 15/12/2025","07:33:56 +02:00 15/12/2025","6 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"distancing (5.8nm)","Lohusalu","Estonia (GMT +03H)","Port","07:15:26 +02:00 15/12/2025","07:21:36 +02:00 15/12/2025","6 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (5.8nm)","Lohusalu","Estonia (GMT +03H)","Port","06:25:56 +02:00 15/12/2025","07:15:26 +02:00 15/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (10.9nm)","Paldiski","Estonia (GMT +03H)","Port","06:06:56 +02:00 15/12/2025","06:19:35 +02:00 15/12/2025","12 minutes","EEPASBA FERRY ETA: 15 Dec 2025","—","—",5.8
+"nearing (12.7nm)","Vaike-Pakri","Estonia (GMT +03H)","Port","05:54:15 +02:00 15/12/2025","06:00:36 +02:00 15/12/2025","6 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (13.4nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","05:23:05 +02:00 15/12/2025","05:48:05 +02:00 15/12/2025","25 minutes","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:30:17 +02:00 15/12/2025","05:16:56 +02:00 15/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.8
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:30:08 +02:00 15/12/2025","03:30:17 +02:00 15/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","01:30:00 +02:00 15/12/2025","02:30:08 +02:00 15/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"nearing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:29:42 +02:00 14/12/2025","01:30:00 +02:00 15/12/2025","2 hours","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","22:29:37 +02:00 14/12/2025","23:29:42 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","21:29:32 +02:00 14/12/2025","22:29:37 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:24:45 +02:00 14/12/2025","21:29:32 +02:00 14/12/2025","2 hours","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"stopped (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:24:44 +02:00 14/12/2025","19:24:45 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"nearing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:24:43 +02:00 14/12/2025","18:24:44 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","16:21:43 +02:00 14/12/2025","17:24:43 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"nearing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:18:43 +02:00 14/12/2025","16:21:43 +02:00 14/12/2025","an hour","EEPAS ETA: 15 Dec 2025","—","—",5.9
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","13:15:50 +02:00 14/12/2025","15:18:43 +02:00 14/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","12:15:41 +02:00 14/12/2025","13:15:50 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:12:40 +02:00 14/12/2025","12:15:41 +02:00 14/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:09:47 +02:00 14/12/2025","10:12:40 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","08:09:39 +02:00 14/12/2025","09:09:47 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","07:09:38 +02:00 14/12/2025","08:09:39 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","06:09:37 +02:00 14/12/2025","07:09:38 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:07:32 +02:00 14/12/2025","06:09:37 +02:00 14/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:06:36 +02:00 14/12/2025","04:07:32 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","01:04:04 +02:00 14/12/2025","03:06:36 +02:00 14/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","00:03:34 +02:00 14/12/2025","01:04:04 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:03:33 +02:00 13/12/2025","00:03:34 +02:00 14/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","22:02:39 +02:00 13/12/2025","23:03:33 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","21:02:14 +02:00 13/12/2025","22:02:39 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:01:48 +02:00 13/12/2025","21:02:14 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:01:07 +02:00 13/12/2025","20:01:48 +02:00 13/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:00:32 +02:00 13/12/2025","18:01:07 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","11:56:10 +02:00 13/12/2025","17:00:32 +02:00 13/12/2025","5 hours","TO ORDERAKGD ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:54:27 +02:00 13/12/2025","11:56:10 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:52:06 +02:00 13/12/2025","10:54:27 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","00:47:12 +02:00 13/12/2025","09:52:06 +02:00 13/12/2025","9 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:47:07 +02:00 12/12/2025","00:47:12 +02:00 13/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:45:40 +02:00 12/12/2025","23:47:07 +02:00 12/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:45:34 +02:00 12/12/2025","20:45:40 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:45:19 +02:00 12/12/2025","19:45:34 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:45:18 +02:00 12/12/2025","18:45:19 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:42:17 +02:00 12/12/2025","17:45:18 +02:00 12/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","14:42:16 +02:00 12/12/2025","15:42:17 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","11:36:15 +02:00 12/12/2025","14:42:16 +02:00 12/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:36:14 +02:00 12/12/2025","11:36:15 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:36:13 +02:00 12/12/2025","10:36:14 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","07:33:13 +02:00 12/12/2025","09:36:13 +02:00 12/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","06:30:12 +02:00 12/12/2025","07:33:13 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","05:28:04 +02:00 12/12/2025","06:30:12 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:27:58 +02:00 12/12/2025","05:28:04 +02:00 12/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","01:27:41 +02:00 12/12/2025","04:27:58 +02:00 12/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","22:24:33 +02:00 11/12/2025","01:27:41 +02:00 12/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:24:11 +02:00 11/12/2025","22:24:33 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:24:06 +02:00 11/12/2025","20:24:11 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:22:56 +02:00 11/12/2025","19:24:06 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","16:21:05 +02:00 11/12/2025","18:22:56 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","14:18:05 +02:00 11/12/2025","16:21:05 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","13:18:04 +02:00 11/12/2025","14:18:05 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","12:18:03 +02:00 11/12/2025","13:18:04 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:15:21 +02:00 11/12/2025","12:18:03 +02:00 11/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","08:15:15 +02:00 11/12/2025","09:15:21 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","06:14:59 +02:00 11/12/2025","08:15:15 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:13:06 +02:00 11/12/2025","06:14:59 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:13:01 +02:00 11/12/2025","04:13:06 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:11:57 +02:00 11/12/2025","03:13:01 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","00:08:56 +02:00 11/12/2025","02:11:57 +02:00 11/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:08:55 +02:00 10/12/2025","00:08:56 +02:00 11/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","22:07:43 +02:00 10/12/2025","23:08:55 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","21:05:56 +02:00 10/12/2025","22:07:43 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:05:54 +02:00 10/12/2025","21:05:56 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:05:53 +02:00 10/12/2025","20:05:54 +02:00 10/12/2025","an hour","TO ORDER< ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:02:53 +02:00 10/12/2025","19:05:53 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:00:55 +02:00 10/12/2025","18:02:53 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","16:00:50 +02:00 10/12/2025","17:00:55 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:00:45 +02:00 10/12/2025","16:00:50 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","14:00:39 +02:00 10/12/2025","15:00:45 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","12:59:50 +02:00 10/12/2025","14:00:39 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","11:56:50 +02:00 10/12/2025","12:59:50 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:56:49 +02:00 10/12/2025","11:56:50 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:53:53 +02:00 10/12/2025","10:56:49 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","08:53:48 +02:00 10/12/2025","09:53:53 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","05:50:46 +02:00 10/12/2025","08:53:48 +02:00 10/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:50:45 +02:00 10/12/2025","05:50:46 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:47:45 +02:00 10/12/2025","04:50:45 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:46:49 +02:00 10/12/2025","03:47:45 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","01:44:44 +02:00 10/12/2025","02:46:49 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","00:44:43 +02:00 10/12/2025","01:44:44 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:41:43 +02:00 09/12/2025","00:44:43 +02:00 10/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","22:41:42 +02:00 09/12/2025","23:41:43 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","21:41:39 +02:00 09/12/2025","22:41:42 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:38:41 +02:00 09/12/2025","21:41:39 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:38:40 +02:00 09/12/2025","20:38:41 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:38:23 +02:00 09/12/2025","19:38:40 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:35:38 +02:00 09/12/2025","18:38:23 +02:00 09/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","14:32:38 +02:00 09/12/2025","15:35:38 +02:00 09/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.5nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","12:22:14 +02:00 09/12/2025","14:32:38 +02:00 09/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (15.4nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","11:57:03 +02:00 09/12/2025","12:12:55 +02:00 09/12/2025","15 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (15.3nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","11:19:33 +02:00 09/12/2025","11:57:03 +02:00 09/12/2025","37 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (16.4nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","10:39:24 +02:00 09/12/2025","11:19:33 +02:00 09/12/2025","40 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Alliklepa Sadam","Estonia (GMT +03H)","Port","10:29:54 +02:00 09/12/2025","10:39:24 +02:00 09/12/2025","9 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (15.1nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:10:54 +02:00 09/12/2025","10:20:24 +02:00 09/12/2025","9 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (15.1nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:01:04 +02:00 09/12/2025","10:10:54 +02:00 09/12/2025","9 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (15.3nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:21:13 +02:00 09/12/2025","10:01:04 +02:00 09/12/2025","39 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (13.3nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","06:58:21 +02:00 09/12/2025","09:21:13 +02:00 09/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (15.8nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:48:29 +02:00 08/12/2025","06:58:21 +02:00 09/12/2025","10 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.9nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","16:39:27 +02:00 08/12/2025","20:48:29 +02:00 08/12/2025","4 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.9nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","14:18:26 +02:00 08/12/2025","16:39:27 +02:00 08/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.9nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:09:23 +02:00 08/12/2025","14:18:26 +02:00 08/12/2025","5 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","08:07:14 +02:00 08/12/2025","09:09:23 +02:00 08/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.7nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:03:28 +02:00 08/12/2025","08:07:14 +02:00 08/12/2025","5 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:03:22 +02:00 08/12/2025","03:03:28 +02:00 08/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","00:03:18 +02:00 08/12/2025","02:03:22 +02:00 08/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:00:18 +02:00 07/12/2025","00:03:18 +02:00 08/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","19:57:18 +02:00 07/12/2025","23:00:18 +02:00 07/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","18:57:16 +02:00 07/12/2025","19:57:18 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:56:21 +02:00 07/12/2025","18:57:16 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:56:12 +02:00 07/12/2025","17:56:21 +02:00 07/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","13:55:55 +02:00 07/12/2025","15:56:12 +02:00 07/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","12:54:49 +02:00 07/12/2025","13:55:55 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","11:54:14 +02:00 07/12/2025","12:54:49 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","10:54:12 +02:00 07/12/2025","11:54:14 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","09:53:02 +02:00 07/12/2025","10:54:12 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","08:52:37 +02:00 07/12/2025","09:53:02 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","06:51:09 +02:00 07/12/2025","08:52:37 +02:00 07/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:49:49 +02:00 07/12/2025","06:51:09 +02:00 07/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:49:44 +02:00 07/12/2025","04:49:49 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","02:49:39 +02:00 07/12/2025","03:49:44 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","01:48:07 +02:00 07/12/2025","02:49:39 +02:00 07/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","23:48:05 +02:00 06/12/2025","01:48:07 +02:00 07/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","20:46:46 +02:00 06/12/2025","23:48:05 +02:00 06/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:44:09 +02:00 06/12/2025","20:46:46 +02:00 06/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:37:09 +02:00 06/12/2025","17:44:09 +02:00 06/12/2025","7 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.4nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","17:31:28 +02:00 06/12/2025","17:37:09 +02:00 06/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (14.3nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","15:38:38 +02:00 06/12/2025","17:31:28 +02:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (21.6nm)","Lehtma","Estonia (GMT +03H)","Port","14:40:38 +02:00 06/12/2025","15:32:39 +02:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (18.3nm)","Lehtma","Estonia (GMT +03H)","Port","13:32:29 +02:00 06/12/2025","14:40:38 +02:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (26.5nm)","Korgessaare","Estonia (GMT +03H)","Port","13:01:59 +02:00 06/12/2025","13:26:28 +02:00 06/12/2025","24 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (28.4nm)","Uto","Finland (GMT +03H)","Port","10:21:28 +02:00 06/12/2025","12:55:49 +02:00 06/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (15.9nm)","Uto","Finland (GMT +03H)","Port","09:12:59 +02:00 06/12/2025","10:21:28 +02:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (19.8nm)","Kokar","Aland (GMT +03H)","Port","08:48:19 +02:00 06/12/2025","09:06:49 +02:00 06/12/2025","18 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (19.5nm)","Kokar","Aland (GMT +03H)","Port","08:42:08 +02:00 06/12/2025","08:48:19 +02:00 06/12/2025","6 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (19.5nm)","Kokar","Aland (GMT +03H)","Port","08:36:08 +02:00 06/12/2025","08:42:08 +02:00 06/12/2025","6 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (19.5nm)","Kokar","Aland (GMT +03H)","Port","08:18:09 +02:00 06/12/2025","08:36:08 +02:00 06/12/2025","17 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (19.6nm)","Kokar","Aland (GMT +03H)","Port","08:12:08 +02:00 06/12/2025","08:18:09 +02:00 06/12/2025","6 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (19.0nm)","Foglo","Aland (GMT +03H)","Port","07:30:18 +02:00 06/12/2025","08:06:19 +02:00 06/12/2025","36 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (16.3nm)","Foglo","Aland (GMT +03H)","Port","06:36:48 +02:00 06/12/2025","07:30:18 +02:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (20.7nm)","Mariehamn (Maarianhamina)","Aland (GMT +03H)","Port","06:07:09 +02:00 06/12/2025","06:30:48 +02:00 06/12/2025","23 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (20.5nm)","Mariehamn (Maarianhamina)","Aland (GMT +03H)","Port","06:01:19 +02:00 06/12/2025","06:07:09 +02:00 06/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (19.9nm)","Linanas","Sweden (GMT +02H)","Port","03:33:49 +01:00 06/12/2025","04:55:29 +01:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (13.4nm)","Linanas","Sweden (GMT +02H)","Port","02:58:59 +01:00 06/12/2025","03:33:49 +01:00 06/12/2025","34 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.8nm)","Eckero","Aland (GMT +03H)","Port","03:47:39 +02:00 06/12/2025","03:53:18 +02:00 06/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (14.0nm)","Grisslehamn","Sweden (GMT +02H)","Port","01:39:29 +01:00 06/12/2025","02:41:59 +01:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (7.8nm)","Grisslehamn","Sweden (GMT +02H)","Port","00:48:29 +01:00 06/12/2025","01:39:29 +01:00 06/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (15.8nm)","Graso","Sweden (GMT +02H)","Port","00:31:19 +01:00 06/12/2025","00:42:49 +01:00 06/12/2025","11 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (15.7nm)","Graso","Sweden (GMT +02H)","Port","19:23:29 +01:00 05/12/2025","00:31:19 +01:00 06/12/2025","5 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (60.9nm)","Olkiluoto","Finland (GMT +03H)","Port","19:54:19 +02:00 05/12/2025","20:17:28 +02:00 05/12/2025","23 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (59.8nm)","Tahkoluoto","Finland (GMT +03H)","Sub Port","16:57:38 +02:00 05/12/2025","19:48:39 +02:00 05/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (51.6nm)","Tahkoluoto","Finland (GMT +03H)","Sub Port","16:46:18 +02:00 05/12/2025","16:57:38 +02:00 05/12/2025","11 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (51.4nm)","Kaskinen","Finland (GMT +03H)","Port","14:32:58 +02:00 05/12/2025","16:40:39 +02:00 05/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (37.6nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","10:56:29 +02:00 05/12/2025","14:27:19 +02:00 05/12/2025","3 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (0.4nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","08:45:38 +02:00 05/12/2025","10:56:29 +02:00 05/12/2025","2 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (22.9nm)","Hornefors","Sweden (GMT +02H)","Port","07:33:59 +01:00 05/12/2025","07:39:49 +01:00 05/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (22.1nm)","Holmsund","Sweden (GMT +02H)","Port","06:07:59 +01:00 05/12/2025","07:28:09 +01:00 05/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (13.7nm)","Holmsund","Sweden (GMT +02H)","Port","04:11:59 +01:00 05/12/2025","06:07:59 +01:00 05/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (24.4nm)","Sikea","Sweden (GMT +02H)","Port","02:29:39 +01:00 05/12/2025","04:06:18 +01:00 05/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (17.5nm)","Sikea","Sweden (GMT +02H)","Port","02:23:58 +01:00 05/12/2025","02:29:39 +01:00 05/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (17.1nm)","Kallviken","Sweden (GMT +02H)","Port","01:15:58 +01:00 05/12/2025","02:18:19 +01:00 05/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (13.0nm)","Kallviken","Sweden (GMT +02H)","Port","00:19:19 +01:00 05/12/2025","01:15:58 +01:00 05/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (17.2nm)","Backfors","Sweden (GMT +02H)","Port","21:42:39 +01:00 04/12/2025","00:13:39 +01:00 05/12/2025","2 hours","TO ORDERAHQ<>SESTO ETA: 06 Dec 2025","—","—",6.4
+"nearing (33.1nm)","Skelleftehamn","Sweden (GMT +02H)","Port","21:14:18 +01:00 04/12/2025","21:36:59 +01:00 04/12/2025","22 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (35.6nm)","Pitea","Sweden (GMT +02H)","Port","20:17:39 +01:00 04/12/2025","21:08:38 +01:00 04/12/2025","an hour","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"nearing (34.7nm)","Pitea","Sweden (GMT +02H)","Port","20:11:59 +01:00 04/12/2025","20:17:39 +01:00 04/12/2025","5 minutes","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"distancing (34.0nm)","Lulea","Sweden (GMT +02H)","Port","15:38:19 +01:00 04/12/2025","20:05:59 +01:00 04/12/2025","4 hours","TO ORDER ETA: 06 Dec 2025","—","—",6.4
+"stopped (1.3nm)","Lulea","Sweden (GMT +02H)","Port","20:07:04 +01:00 28/11/2025","15:38:19 +01:00 04/12/2025","5 days","TO ORDER ETA: 06 Dec 2025","—","—",9.6
+"called at","Lulea","Sweden (GMT +02H)","Port","19:00:02 +01:00 28/11/2025","16:40:09 +01:00 04/12/2025","5 days","Paljassaare ETA: 15 Dec 2025","—","—","—"
+"called at","Berth Victoria","Sweden (GMT +02H)","Berth","19:15:00 +01:00 28/11/2025","16:25:03 +01:00 04/12/2025","5 days","Paljassaare ETA: 15 Dec 2025","—","Victoria Terminal","—"
+"nearing (1.3nm)","Lulea","Sweden (GMT +02H)","Port","17:42:05 +01:00 28/11/2025","20:07:04 +01:00 28/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.6
+"distancing (9.4nm)","Lulea","Sweden (GMT +02H)","Port","16:42:04 +01:00 28/11/2025","17:42:05 +01:00 28/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.6
+"stopped (9.4nm)","Lulea","Sweden (GMT +02H)","Port","08:38:49 +01:00 28/11/2025","16:42:04 +01:00 28/11/2025","8 hours","SELLA ETA: 28 Nov 2025","—","—",9.6
+"nearing (9.3nm)","Lulea","Sweden (GMT +02H)","Port","04:45:58 +01:00 28/11/2025","08:38:49 +01:00 28/11/2025","3 hours","SELLA ETA: 28 Nov 2025","—","—",9.6
+"nearing (35.2nm)","Pitea","Sweden (GMT +02H)","Port","03:40:37 +01:00 28/11/2025","04:40:08 +01:00 28/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (36.5nm)","Skelleftehamn","Sweden (GMT +02H)","Port","03:17:07 +01:00 28/11/2025","03:34:39 +01:00 28/11/2025","17 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (33.6nm)","Backfors","Sweden (GMT +02H)","Port","00:33:57 +01:00 28/11/2025","03:11:18 +01:00 28/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (17.4nm)","Kallviken","Sweden (GMT +02H)","Port","23:22:28 +01:00 27/11/2025","00:28:07 +01:00 28/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (13.8nm)","Kallviken","Sweden (GMT +02H)","Port","22:17:48 +01:00 27/11/2025","23:22:28 +01:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (18.3nm)","Sikea","Sweden (GMT +02H)","Port","21:59:59 +01:00 27/11/2025","22:11:57 +01:00 27/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (18.3nm)","Sikea","Sweden (GMT +02H)","Port","20:23:59 +01:00 27/11/2025","21:59:59 +01:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (24.6nm)","Holmsund","Sweden (GMT +02H)","Port","18:18:38 +01:00 27/11/2025","20:17:57 +01:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (14.4nm)","Holmsund","Sweden (GMT +02H)","Port","16:54:27 +01:00 27/11/2025","18:18:38 +01:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (22.6nm)","Hornefors","Sweden (GMT +02H)","Port","16:36:49 +01:00 27/11/2025","16:48:27 +01:00 27/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (22.4nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","16:13:35 +02:00 27/11/2025","17:30:58 +02:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (6.2nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","16:12:18 +02:00 27/11/2025","16:13:35 +02:00 27/11/2025","a minute","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (9.0nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","15:19:27 +02:00 27/11/2025","16:12:18 +02:00 27/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (0.4nm)","Gulf of Bothnia","Finland (GMT +03H)","Anchorage","11:50:27 +02:00 27/11/2025","15:19:27 +02:00 27/11/2025","3 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (37.5nm)","Kaskinen","Finland (GMT +03H)","Port","09:30:39 +02:00 27/11/2025","11:44:27 +02:00 27/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (50.6nm)","Tahkoluoto","Finland (GMT +03H)","Sub Port","06:32:34 +02:00 27/11/2025","09:18:58 +02:00 27/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (59.0nm)","Olkiluoto","Finland (GMT +03H)","Port","05:53:34 +02:00 27/11/2025","06:02:33 +02:00 27/11/2025","8 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (57.8nm)","Marsund Anchorage","Aland (GMT +03H)","Anchorage","05:30:58 +02:00 27/11/2025","05:36:27 +02:00 27/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (55.9nm)","Graso","Sweden (GMT +02H)","Port","00:03:07 +01:00 27/11/2025","04:25:18 +01:00 27/11/2025","4 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (16.1nm)","Grisslehamn","Sweden (GMT +02H)","Port","23:08:17 +01:00 26/11/2025","23:57:38 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (10.3nm)","Grisslehamn","Sweden (GMT +02H)","Port","22:45:38 +01:00 26/11/2025","23:08:17 +01:00 26/11/2025","22 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (11.6nm)","Eckero","Aland (GMT +03H)","Port","23:28:37 +02:00 26/11/2025","23:39:57 +02:00 26/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (11.4nm)","Eckero","Aland (GMT +03H)","Port","22:31:58 +02:00 26/11/2025","23:28:37 +02:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (15.3nm)","Mariehamn (Maarianhamina)","Aland (GMT +03H)","Port","22:14:28 +02:00 26/11/2025","22:26:07 +02:00 26/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (15.2nm)","Mariehamn (Maarianhamina)","Aland (GMT +03H)","Port","20:25:28 +02:00 26/11/2025","22:14:28 +02:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (24.2nm)","Foglo","Aland (GMT +03H)","Port","18:47:18 +02:00 26/11/2025","20:19:48 +02:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (35.6nm)","Kapellskar","Sweden (GMT +02H)","Port","17:30:18 +01:00 26/11/2025","17:41:39 +01:00 26/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (34.9nm)","Sandhamn","Sweden (GMT +02H)","Port","15:20:27 +01:00 26/11/2025","17:24:39 +01:00 26/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (25.5nm)","Sandhamn","Sweden (GMT +02H)","Port","13:20:39 +01:00 26/11/2025","15:20:27 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (32.5nm)","Hasselmara","Sweden (GMT +02H)","Port","11:51:49 +01:00 26/11/2025","13:14:57 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (37.2nm)","Ar","Sweden (GMT +02H)","Port","09:11:18 +01:00 26/11/2025","11:46:18 +01:00 26/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (19.2nm)","Kappelshamn","Sweden (GMT +02H)","Port","08:16:08 +01:00 26/11/2025","09:05:48 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (17.0nm)","Kappelshamn","Sweden (GMT +02H)","Port","08:00:08 +01:00 26/11/2025","08:16:08 +01:00 26/11/2025","16 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (17.4nm)","Visby","Sweden (GMT +02H)","Port","06:41:18 +01:00 26/11/2025","07:54:48 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (10.3nm)","Visby","Sweden (GMT +02H)","Port","05:42:58 +01:00 26/11/2025","06:41:18 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (15.1nm)","Klintehamn","Sweden (GMT +02H)","Port","05:05:29 +01:00 26/11/2025","05:37:38 +01:00 26/11/2025","32 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (13.6nm)","Klintehamn","Sweden (GMT +02H)","Port","04:05:48 +01:00 26/11/2025","05:05:29 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (18.3nm)","Grankullavik","Sweden (GMT +02H)","Port","03:49:38 +01:00 26/11/2025","04:00:28 +01:00 26/11/2025","10 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (18.2nm)","Grankullavik","Sweden (GMT +02H)","Port","02:55:39 +01:00 26/11/2025","03:49:38 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (21.1nm)","Karehamn","Sweden (GMT +02H)","Port","01:45:00 +01:00 26/11/2025","02:50:09 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (16.7nm)","Karehamn","Sweden (GMT +02H)","Port","00:11:49 +01:00 26/11/2025","01:45:00 +01:00 26/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (24.0nm)","Farjestaden","Sweden (GMT +02H)","Port","23:44:48 +01:00 25/11/2025","00:06:19 +01:00 26/11/2025","21 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (23.6nm)","Farjestaden","Sweden (GMT +02H)","Port","23:23:09 +01:00 25/11/2025","23:44:48 +01:00 25/11/2025","21 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (24.0nm)","Degerhamn","Sweden (GMT +02H)","Port","22:11:58 +01:00 25/11/2025","23:17:48 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (20.3nm)","Degerhamn","Sweden (GMT +02H)","Port","22:06:28 +01:00 25/11/2025","22:11:58 +01:00 25/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (20.3nm)","Degerhamn","Sweden (GMT +02H)","Port","21:49:47 +01:00 25/11/2025","22:06:28 +01:00 25/11/2025","16 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (20.0nm)","Degerhamn","Sweden (GMT +02H)","Port","21:11:08 +01:00 25/11/2025","21:49:47 +01:00 25/11/2025","38 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (21.9nm)","Degerhamn","Sweden (GMT +02H)","Port","20:49:29 +01:00 25/11/2025","21:11:08 +01:00 25/11/2025","21 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (21.6nm)","Degerhamn","Sweden (GMT +02H)","Port","19:18:07 +01:00 25/11/2025","20:49:29 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (27.8nm)","Karlskrona","Sweden (GMT +02H)","Port","18:29:28 +01:00 25/11/2025","19:12:39 +01:00 25/11/2025","43 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (26.4nm)","Karlskrona","Sweden (GMT +02H)","Port","17:25:28 +01:00 25/11/2025","18:29:28 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (28.5nm)","Christianso Havn","Denmark (GMT +02H)","Port","15:04:09 +01:00 25/11/2025","17:19:59 +01:00 25/11/2025","2 hours","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (11.9nm)","Christianso Havn","Denmark (GMT +02H)","Port","14:47:57 +01:00 25/11/2025","15:04:09 +01:00 25/11/2025","16 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (12.0nm)","Sandvig","Denmark (GMT +02H)","Port","13:53:38 +01:00 25/11/2025","14:42:39 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (7.5nm)","Sandvig","Denmark (GMT +02H)","Port","13:48:08 +01:00 25/11/2025","13:53:38 +01:00 25/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (7.6nm)","Hammerhavn","Denmark (GMT +02H)","Port","13:26:29 +01:00 25/11/2025","13:42:39 +01:00 25/11/2025","16 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (7.2nm)","Hammerhavn","Denmark (GMT +02H)","Port","13:15:47 +01:00 25/11/2025","13:26:29 +01:00 25/11/2025","10 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (7.9nm)","Vang","Denmark (GMT +02H)","Port","13:04:48 +01:00 25/11/2025","13:10:19 +01:00 25/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (8.4nm)","Helligpeder","Denmark (GMT +02H)","Port","12:48:18 +01:00 25/11/2025","12:59:18 +01:00 25/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (9.5nm)","Hasle","Denmark (GMT +02H)","Port","12:09:48 +01:00 25/11/2025","12:42:48 +01:00 25/11/2025","33 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (13.5nm)","Ronne","Denmark (GMT +02H)","Port","10:41:58 +01:00 25/11/2025","12:04:18 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (26.4nm)","Ystad","Sweden (GMT +02H)","Port","10:25:37 +01:00 25/11/2025","10:36:28 +01:00 25/11/2025","10 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (27.0nm)","Glowe","Germany (GMT +02H)","Port","09:36:38 +01:00 25/11/2025","10:20:18 +01:00 25/11/2025","43 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (20.7nm)","Wiek","Germany (GMT +02H)","Port","08:42:28 +01:00 25/11/2025","09:31:18 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (14.6nm)","Dranske","Germany (GMT +02H)","Port","07:57:57 +01:00 25/11/2025","08:36:58 +01:00 25/11/2025","39 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (12.3nm)","Dranske","Germany (GMT +02H)","Port","07:29:47 +01:00 25/11/2025","07:57:57 +01:00 25/11/2025","28 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (13.5nm)","Kloster","Germany (GMT +02H)","Port","06:49:48 +01:00 25/11/2025","07:24:09 +01:00 25/11/2025","34 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (15.7nm)","Klintholm","Denmark (GMT +02H)","Port","06:20:27 +01:00 25/11/2025","06:43:48 +01:00 25/11/2025","23 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (15.0nm)","Klintholm","Denmark (GMT +02H)","Port","06:03:38 +01:00 25/11/2025","06:20:27 +01:00 25/11/2025","16 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (16.2nm)","Zingst","Germany (GMT +02H)","Port","05:29:38 +01:00 25/11/2025","05:57:58 +01:00 25/11/2025","28 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (15.3nm)","Zingst","Germany (GMT +02H)","Port","05:23:58 +01:00 25/11/2025","05:29:38 +01:00 25/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (14.9nm)","Althagen","Germany (GMT +02H)","Port","04:09:59 +01:00 25/11/2025","05:18:19 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (8.9nm)","Althagen","Germany (GMT +02H)","Port","03:58:38 +01:00 25/11/2025","04:09:59 +01:00 25/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (9.5nm)","Graal-Muritz","Germany (GMT +02H)","Port","03:35:27 +01:00 25/11/2025","03:52:45 +01:00 25/11/2025","17 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (10.5nm)","Gedser","Denmark (GMT +02H)","Port","03:06:39 +01:00 25/11/2025","03:29:37 +01:00 25/11/2025","22 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (9.7nm)","Gedser","Denmark (GMT +02H)","Port","02:08:38 +01:00 25/11/2025","03:06:39 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (12.4nm)","Kettinge","Denmark (GMT +02H)","Port","01:57:17 +01:00 25/11/2025","02:02:58 +01:00 25/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (11.9nm)","Puttgarden","Germany (GMT +02H)","Port","00:49:07 +01:00 25/11/2025","01:51:29 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (3.5nm)","Puttgarden","Germany (GMT +02H)","Port","23:51:37 +01:00 24/11/2025","00:49:07 +01:00 25/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (11.2nm)","Nakskov","Denmark (GMT +02H)","Port","23:39:48 +01:00 24/11/2025","23:45:37 +01:00 24/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (10.8nm)","Bagenkop","Denmark (GMT +02H)","Port","22:51:58 +01:00 24/11/2025","23:33:58 +01:00 24/11/2025","42 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (6.7nm)","Bagenkop","Denmark (GMT +02H)","Port","22:39:28 +01:00 24/11/2025","22:51:58 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (6.4nm)","Spodsbjerg","Denmark (GMT +02H)","Port","21:56:18 +01:00 24/11/2025","22:27:08 +01:00 24/11/2025","30 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (2.5nm)","Spodsbjerg","Denmark (GMT +02H)","Port","21:26:57 +01:00 24/11/2025","21:56:18 +01:00 24/11/2025","29 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (8.0nm)","Lohals","Denmark (GMT +02H)","Port","20:34:09 +01:00 24/11/2025","21:09:07 +01:00 24/11/2025","34 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (4.4nm)","Omo","Denmark (GMT +02H)","Port","20:04:38 +01:00 24/11/2025","20:28:18 +01:00 24/11/2025","23 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (3.4nm)","Agerso","Denmark (GMT +02H)","Port","19:46:17 +01:00 24/11/2025","19:58:39 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (3.9nm)","Korsor Anchorage","Denmark (GMT +02H)","Anchorage","19:28:39 +01:00 24/11/2025","19:40:19 +01:00 24/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (2.5nm)","Sprogo","Denmark (GMT +02H)","Port","19:16:36 +01:00 24/11/2025","19:22:38 +01:00 24/11/2025","6 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (2.2nm)","Sprogo","Denmark (GMT +02H)","Port","18:26:59 +01:00 24/11/2025","19:16:36 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (7.5nm)","Reerso","Denmark (GMT +02H)","Port","18:09:59 +01:00 24/11/2025","18:21:14 +01:00 24/11/2025","11 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (7.8nm)","Kerteminde","Denmark (GMT +02H)","Port","17:51:47 +01:00 24/11/2025","18:04:08 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (7.5nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","16:55:58 +01:00 24/11/2025","17:45:27 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (1.0nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","16:27:19 +01:00 24/11/2025","16:55:58 +01:00 24/11/2025","28 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (5.8nm)","Ballen","Denmark (GMT +02H)","Port","16:09:09 +01:00 24/11/2025","16:21:18 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (5.3nm)","Ballen","Denmark (GMT +02H)","Port","15:51:58 +01:00 24/11/2025","16:09:09 +01:00 24/11/2025","17 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (8.1nm)","Langor","Denmark (GMT +02H)","Port","15:39:58 +01:00 24/11/2025","15:45:58 +01:00 24/11/2025","6 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (7.9nm)","Sejero","Denmark (GMT +02H)","Port","15:10:38 +01:00 24/11/2025","15:34:08 +01:00 24/11/2025","23 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (6.5nm)","Sejero","Denmark (GMT +02H)","Port","14:47:08 +01:00 24/11/2025","15:10:38 +01:00 24/11/2025","23 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (8.2nm)","Odden","Denmark (GMT +02H)","Port","14:35:28 +01:00 24/11/2025","14:41:18 +01:00 24/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (8.0nm)","Odden","Denmark (GMT +02H)","Port","13:08:57 +01:00 24/11/2025","14:35:28 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (17.0nm)","Grenaa","Denmark (GMT +02H)","Port","12:51:28 +01:00 24/11/2025","12:57:18 +01:00 24/11/2025","5 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (17.0nm)","Grenaa","Denmark (GMT +02H)","Port","12:10:07 +01:00 24/11/2025","12:51:28 +01:00 24/11/2025","41 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (19.1nm)","Anholt","Denmark (GMT +02H)","Port","10:31:59 +01:00 24/11/2025","12:04:18 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (10.0nm)","Anholt","Denmark (GMT +02H)","Port","09:44:29 +01:00 24/11/2025","10:31:59 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (12.2nm)","Anholt","Denmark (GMT +02H)","Port","09:26:27 +01:00 24/11/2025","09:44:29 +01:00 24/11/2025","18 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (11.9nm)","Anholt","Denmark (GMT +02H)","Port","08:33:37 +01:00 24/11/2025","09:26:27 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (15.9nm)","Kattegat","Denmark (GMT +02H)","Anchorage","07:57:48 +01:00 24/11/2025","08:27:48 +01:00 24/11/2025","30 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (15.0nm)","Kattegat","Denmark (GMT +02H)","Anchorage","07:14:08 +01:00 24/11/2025","07:57:48 +01:00 24/11/2025","43 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (16.9nm)","Bua","Sweden (GMT +02H)","Port","06:54:38 +01:00 24/11/2025","07:07:39 +01:00 24/11/2025","13 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (16.4nm)","Osterby Havn","Denmark (GMT +02H)","Port","05:31:58 +01:00 24/11/2025","06:48:09 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (11.7nm)","Osterby Havn","Denmark (GMT +02H)","Port","05:25:38 +01:00 24/11/2025","05:31:58 +01:00 24/11/2025","6 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"distancing (11.7nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","05:06:48 +01:00 24/11/2025","05:19:19 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.5
+"nearing (11.3nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","04:54:07 +01:00 24/11/2025","05:06:48 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.3
+"distancing (12.2nm)","Osterby Havn","Denmark (GMT +02H)","Port","04:28:47 +01:00 24/11/2025","04:47:48 +01:00 24/11/2025","19 minutes","SELLA ETA: 28 Nov 2025","—","—",9.3
+"nearing (12.0nm)","Osterby Havn","Denmark (GMT +02H)","Port","04:16:07 +01:00 24/11/2025","04:28:47 +01:00 24/11/2025","12 minutes","SELLA ETA: 28 Nov 2025","—","—",9.3
+"distancing (12.3nm)","Frederikshavn OPL","Denmark (GMT +02H)","Anchorage","03:25:38 +01:00 24/11/2025","04:09:48 +01:00 24/11/2025","44 minutes","SELLA ETA: 28 Nov 2025","—","—",9.3
+"distancing (8.2nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","02:34:28 +01:00 24/11/2025","03:19:29 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.3
+"nearing (1.9nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","01:13:56 +01:00 24/11/2025","02:34:28 +01:00 24/11/2025","an hour","SELLA ETA: 28 Nov 2025","—","—",9.3
+"distancing (3.9nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","00:13:51 +01:00 24/11/2025","01:13:56 +01:00 24/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"stopped (3.9nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","14:32:59 +01:00 23/11/2025","00:13:51 +01:00 24/11/2025","9 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"called at","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","13:45:04 +01:00 23/11/2025","03:10:08 +01:00 24/11/2025","13 hours","Lulea ETA: 28 Nov 2025","—","—","—"
+"distancing (3.9nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","13:01:43 +01:00 23/11/2025","14:32:59 +01:00 23/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (1.5nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","12:26:44 +01:00 23/11/2025","13:01:43 +01:00 23/11/2025","34 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (7.0nm)","Skagen","Denmark (GMT +02H)","Port","12:07:53 +01:00 23/11/2025","12:07:04 +01:00 23/11/2025","a minute","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (5.9nm)","Skagen","Denmark (GMT +02H)","Port","12:07:04 +01:00 23/11/2025","12:19:54 +01:00 23/11/2025","12 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"passing","Skaw Passing","Denmark (GMT +02H)","Passing Place","12:07:04 +01:00 23/11/2025","12:07:04 +01:00 23/11/2025","a few seconds","Skagen Anchorage ETA: 23 Nov 2025","Passed South","—","—"
+"nearing (6.5nm)","Skagen","Denmark (GMT +02H)","Port","11:54:34 +01:00 23/11/2025","12:07:53 +01:00 23/11/2025","13 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (7.4nm)","Skagen","Denmark (GMT +02H)","Port","11:17:33 +01:00 23/11/2025","11:54:34 +01:00 23/11/2025","37 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (6.0nm)","Skagen","Denmark (GMT +02H)","Port","10:15:14 +01:00 23/11/2025","11:17:33 +01:00 23/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (14.3nm)","Hirtshals","Denmark (GMT +02H)","Port","09:32:14 +01:00 23/11/2025","10:10:03 +01:00 23/11/2025","37 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (12.8nm)","Hirtshals","Denmark (GMT +02H)","Port","06:46:14 +01:00 23/11/2025","09:32:14 +01:00 23/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (30.5nm)","Hanstholm","Denmark (GMT +02H)","Port","04:20:43 +01:00 23/11/2025","06:41:24 +01:00 23/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (13.7nm)","Hanstholm","Denmark (GMT +02H)","Port","02:52:24 +01:00 23/11/2025","04:20:43 +01:00 23/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (23.5nm)","Thyboron","Denmark (GMT +02H)","Port","01:51:34 +01:00 23/11/2025","02:47:33 +01:00 23/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (19.6nm)","Thyboron","Denmark (GMT +02H)","Port","00:19:40 +01:00 23/11/2025","01:51:34 +01:00 23/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (26.2nm)","Torsminde","Denmark (GMT +02H)","Port","00:08:52 +01:00 23/11/2025","00:14:39 +01:00 23/11/2025","5 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.2nm)","Torsminde","Denmark (GMT +02H)","Port","21:47:25 +01:00 22/11/2025","00:08:52 +01:00 23/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (38.9nm)","Hvide Sande","Denmark (GMT +02H)","Port","19:42:14 +01:00 22/11/2025","21:41:04 +01:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (52.4nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","15:45:11 +01:00 22/11/2025","19:35:54 +01:00 22/11/2025","3 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.7nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","13:57:05 +01:00 22/11/2025","15:45:11 +01:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (33.4nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","12:20:04 +01:00 22/11/2025","13:50:22 +01:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (28.8nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","08:50:55 +01:00 22/11/2025","12:20:04 +01:00 22/11/2025","3 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (49.2nm)","Terschelling","Netherlands (GMT +02H)","Port","07:35:11 +01:00 22/11/2025","08:44:50 +01:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (40.7nm)","Vlieland","Netherlands (GMT +02H)","Port","06:37:41 +01:00 22/11/2025","07:30:08 +01:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (38.5nm)","Vlieland","Netherlands (GMT +02H)","Port","06:04:18 +01:00 22/11/2025","06:37:41 +01:00 22/11/2025","33 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (40.0nm)","Texel","Netherlands (GMT +02H)","Port","05:38:30 +01:00 22/11/2025","05:58:33 +01:00 22/11/2025","20 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (40.2nm)","Shamrock Field","U.K. (GMT +01H)","Hydrocarbon Field","02:39:10 +00:00 22/11/2025","04:29:02 +00:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (25.1nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","00:51:43 +00:00 22/11/2025","02:33:49 +00:00 22/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (14.4nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","00:32:38 +00:00 22/11/2025","00:51:43 +00:00 22/11/2025","19 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (14.6nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","23:46:01 +00:00 21/11/2025","00:26:27 +00:00 22/11/2025","40 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (13.2nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","22:27:34 +00:00 21/11/2025","23:46:01 +00:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (19.2nm)","Wissey Field","U.K. (GMT +01H)","Hydrocarbon Field","22:15:03 +00:00 21/11/2025","22:21:33 +00:00 21/11/2025","6 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (19.1nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","22:14:24 +01:00 21/11/2025","23:07:14 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (16.6nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","20:28:24 +01:00 21/11/2025","22:14:24 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (24.2nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","19:08:53 +01:00 21/11/2025","20:22:35 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (21.7nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","18:47:35 +01:00 21/11/2025","19:08:53 +01:00 21/11/2025","21 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (21.5nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","17:45:24 +01:00 21/11/2025","18:42:15 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (16.3nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","17:14:55 +01:00 21/11/2025","17:45:24 +01:00 21/11/2025","30 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (18.4nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","16:49:25 +01:00 21/11/2025","17:09:33 +01:00 21/11/2025","20 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (17.9nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","15:41:15 +01:00 21/11/2025","16:49:25 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (21.6nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","13:55:05 +01:00 21/11/2025","15:36:15 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (5.1nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","13:27:23 +01:00 21/11/2025","13:55:05 +01:00 21/11/2025","27 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (7.8nm)","Calais","France (GMT +02H)","Port","12:50:33 +01:00 21/11/2025","13:22:54 +01:00 21/11/2025","32 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (12.7nm)","Dover","U.K. (GMT +01H)","Port","11:46:24 +00:00 21/11/2025","11:45:53 +00:00 21/11/2025","a few seconds","SELLA ETA: 27 Nov 2025","—","—",9.3
+"passing","Dover Strait Passing","—","Passing Place","11:45:53 +00:00 21/11/2025","11:45:53 +00:00 21/11/2025","a few seconds","Skaw Passing ETA: 23 Nov 2025","Passed East","—","—"
+"nearing (12.4nm)","Dover","U.K. (GMT +01H)","Port","11:36:43 +00:00 21/11/2025","11:46:24 +00:00 21/11/2025","9 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (12.5nm)","Boulogne-sur-Mer","France (GMT +02H)","Port","11:45:53 +01:00 21/11/2025","12:31:43 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (8.4nm)","Boulogne-sur-Mer","France (GMT +02H)","Port","10:27:13 +01:00 21/11/2025","11:45:53 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (20.8nm)","Etaples","France (GMT +02H)","Port","09:51:59 +01:00 21/11/2025","10:20:18 +01:00 21/11/2025","28 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.0nm)","Dungeness","U.K. (GMT +01H)","Port","08:26:57 +00:00 21/11/2025","08:41:31 +00:00 21/11/2025","14 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (27.8nm)","Eastbourne","U.K. (GMT +01H)","Port","06:59:33 +00:00 21/11/2025","08:19:48 +00:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (23.6nm)","Eastbourne","U.K. (GMT +01H)","Port","05:56:24 +00:00 21/11/2025","06:59:33 +00:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.6nm)","Newhaven","U.K. (GMT +01H)","Port","05:21:30 +00:00 21/11/2025","05:49:33 +00:00 21/11/2025","28 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (27.5nm)","Newhaven","U.K. (GMT +01H)","Port","05:21:21 +00:00 21/11/2025","05:21:30 +00:00 21/11/2025","a few seconds","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (27.4nm)","Newhaven","U.K. (GMT +01H)","Port","04:27:02 +00:00 21/11/2025","05:21:21 +00:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (30.7nm)","Antifer Anchorage","France (GMT +02H)","Anchorage","04:13:14 +01:00 21/11/2025","05:20:23 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (28.7nm)","Antifer Anchorage","France (GMT +02H)","Anchorage","03:02:53 +01:00 21/11/2025","04:13:14 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (30.3nm)","Ventnor","U.K. (GMT +01H)","Port","00:38:23 +00:00 21/11/2025","01:55:43 +00:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (27.7nm)","Ventnor","U.K. (GMT +01H)","Port","00:12:13 +00:00 21/11/2025","00:38:23 +00:00 21/11/2025","26 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (27.9nm)","Barfleur","France (GMT +02H)","Port","00:41:23 +01:00 21/11/2025","01:05:54 +01:00 21/11/2025","24 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (25.8nm)","Fermanville","France (GMT +02H)","Port","23:23:13 +01:00 20/11/2025","00:35:23 +01:00 21/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (21.1nm)","Fermanville","France (GMT +02H)","Port","22:57:43 +01:00 20/11/2025","23:23:13 +01:00 20/11/2025","25 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (21.8nm)","Cherbourg-en-Cotentin","France (GMT +02H)","Port","22:38:24 +01:00 20/11/2025","22:52:53 +01:00 20/11/2025","14 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (21.9nm)","Braye","Guernsey (GMT +01H)","Port","20:10:38 +00:00 20/11/2025","21:33:44 +00:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (12.2nm)","Braye","Guernsey (GMT +01H)","Port","18:42:38 +00:00 20/11/2025","20:10:38 +00:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (22.8nm)","Saint Sampson","Guernsey (GMT +01H)","Sub Port","17:10:10 +00:00 20/11/2025","18:37:38 +00:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (29.1nm)","Saint Peter Port","Guernsey (GMT +01H)","Port","15:31:29 +00:00 20/11/2025","17:05:10 +00:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (43.0nm)","Perros","France (GMT +02H)","Port","15:33:06 +01:00 20/11/2025","16:18:13 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (40.4nm)","Ile de Batz","France (GMT +02H)","Port","13:24:46 +01:00 20/11/2025","15:23:05 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (33.1nm)","Ile de Batz","France (GMT +02H)","Port","12:39:58 +01:00 20/11/2025","13:24:46 +01:00 20/11/2025","44 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (33.5nm)","Aber Wrac'h","France (GMT +02H)","Port","10:45:49 +01:00 20/11/2025","12:24:06 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (29.4nm)","Aber Wrac'h","France (GMT +02H)","Port","10:15:46 +01:00 20/11/2025","10:45:49 +01:00 20/11/2025","30 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (29.7nm)","Argenton","France (GMT +02H)","Port","09:50:44 +01:00 20/11/2025","10:07:57 +01:00 20/11/2025","17 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (29.0nm)","Port du Stiff","France (GMT +02H)","Port","08:30:36 +01:00 20/11/2025","09:39:18 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.7nm)","Port du Stiff","France (GMT +02H)","Port","08:20:35 +01:00 20/11/2025","08:30:36 +01:00 20/11/2025","10 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (26.7nm)","Creac'h-Point","France (GMT +02H)","Port","07:59:48 +01:00 20/11/2025","08:10:34 +01:00 20/11/2025","10 minutes","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.6nm)","Creac'h-Point","France (GMT +02H)","Port","07:05:17 +01:00 20/11/2025","07:59:48 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (27.6nm)","Creac'h-Point","France (GMT +02H)","Port","06:20:13 +01:00 20/11/2025","07:05:17 +01:00 20/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (26.9nm)","Creac'h-Point","France (GMT +02H)","Port","19:59:24 +01:00 19/11/2025","06:20:13 +01:00 20/11/2025","10 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"nearing (96.2nm)","Plogoff","France (GMT +02H)","Port","11:50:46 +01:00 19/11/2025","19:49:23 +01:00 19/11/2025","7 hours","SELLA ETA: 27 Nov 2025","—","—",9.3
+"distancing (155.1nm)","Viveiro Anchorage","Spain (GMT +02H)","Anchorage","09:19:33 +01:00 19/11/2025","11:44:45 +01:00 19/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (132.9nm)","Carino","Spain (GMT +02H)","Port","03:45:39 +01:00 19/11/2025","09:13:47 +01:00 19/11/2025","5 hours","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (82.3nm)","Carino","Spain (GMT +02H)","Port","03:45:03 +01:00 19/11/2025","03:45:39 +01:00 19/11/2025","a few seconds","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (82.7nm)","Carino","Spain (GMT +02H)","Port","01:43:52 +01:00 19/11/2025","03:45:03 +01:00 19/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (67.3nm)","Cedeira","Spain (GMT +02H)","Port","22:51:31 +01:00 18/11/2025","01:37:59 +01:00 19/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (53.5nm)","Malpica","Spain (GMT +02H)","Port","20:49:23 +01:00 18/11/2025","22:43:36 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (38.4nm)","Corme","Spain (GMT +02H)","Port","19:18:18 +01:00 18/11/2025","20:43:26 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (30.3nm)","Camelle","Spain (GMT +02H)","Port","18:38:15 +01:00 18/11/2025","19:08:17 +01:00 18/11/2025","30 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (27.8nm)","Camarinas","Spain (GMT +02H)","Port","18:08:12 +01:00 18/11/2025","18:33:14 +01:00 18/11/2025","25 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (25.4nm)","Mugia","Spain (GMT +02H)","Port","17:08:07 +01:00 18/11/2025","17:58:11 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (24.1nm)","Mugia","Spain (GMT +02H)","Port","16:28:03 +01:00 18/11/2025","17:08:07 +01:00 18/11/2025","40 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (24.8nm)","Mugia","Spain (GMT +02H)","Port","16:13:02 +01:00 18/11/2025","16:28:03 +01:00 18/11/2025","15 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (24.6nm)","Mugia","Spain (GMT +02H)","Port","15:22:57 +01:00 18/11/2025","16:13:02 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (26.1nm)","Corcubion","Spain (GMT +02H)","Port","13:23:28 +01:00 18/11/2025","14:52:55 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (34.8nm)","Ribeira (Santa Uxia)","Spain (GMT +02H)","Port","11:48:07 +01:00 18/11/2025","12:48:18 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (37.9nm)","Ons","Spain (GMT +02H)","Port","10:23:28 +01:00 18/11/2025","11:35:58 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (41.8nm)","La Guardia","Spain (GMT +02H)","Port","09:23:07 +01:00 18/11/2025","10:13:31 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (40.9nm)","La Guardia","Spain (GMT +02H)","Port","07:49:51 +01:00 18/11/2025","09:23:07 +01:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (44.8nm)","Viana do Castelo","Portugal (GMT +01H)","Port","06:07:54 +00:00 18/11/2025","06:34:49 +00:00 18/11/2025","26 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (47.5nm)","Povoa de Varzim","Portugal (GMT +01H)","Port","04:21:44 +00:00 18/11/2025","05:16:49 +00:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (48.8nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","03:51:42 +00:00 18/11/2025","04:10:53 +00:00 18/11/2025","19 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (48.1nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","02:57:59 +00:00 18/11/2025","03:51:42 +00:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (49.0nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","00:44:54 +00:00 18/11/2025","02:47:58 +00:00 18/11/2025","2 hours","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (45.0nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","23:00:07 +00:00 17/11/2025","00:44:54 +00:00 18/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (48.0nm)","Figueira da Foz","Portugal (GMT +01H)","Port","21:25:09 +00:00 17/11/2025","22:53:20 +00:00 17/11/2025","an hour","SELLA ETA: 27 Nov 2025","—","—",9.4
+"nearing (45.5nm)","Figueira da Foz","Portugal (GMT +01H)","Port","20:42:59 +00:00 17/11/2025","21:25:09 +00:00 17/11/2025","42 minutes","SELLA ETA: 27 Nov 2025","—","—",9.4
+"distancing (46.0nm)","Peniche","Portugal (GMT +01H)","Port","16:15:50 +00:00 17/11/2025","20:36:34 +00:00 17/11/2025","4 hours","SELLA ETA: 27 Nov 2025","—","—",9.4

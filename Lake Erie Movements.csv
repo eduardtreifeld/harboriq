@@ -1,0 +1,1011 @@
+﻿"Status and Distance","Place","Country/Region","Type","From","To","Duration","Destination","Passing details","Terminal name","Draught (m)"
+"distancing (1.0nm)","Leixoes","Portugal (GMT +01H)","Port","23:10:09 +01:00 19/04/2026","00:10:34 +01:00 20/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"called at","Leixoes","Portugal (GMT +01H)","Port","23:10:00 +01:00 19/04/2026","—","—","Leixoes ETA: 20 Apr 2026","—","—","—"
+"called at","Dock 4 North- Agibulk Terminal","Portugal (GMT +01H)","Berth","23:29:39 +01:00 19/04/2026","—","—","Leixoes ETA: 20 Apr 2026","—","North Dock Facilities","—"
+"nearing (0.8nm)","Leixoes","Portugal (GMT +01H)","Port","22:52:29 +01:00 19/04/2026","23:10:09 +01:00 19/04/2026","17 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (1.9nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","22:14:28 +01:00 19/04/2026","22:40:38 +01:00 19/04/2026","26 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (0.0nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","20:26:28 +01:00 19/04/2026","22:14:28 +01:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (7.1nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","19:21:20 +01:00 19/04/2026","20:26:28 +01:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (5.6nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","19:09:31 +01:00 19/04/2026","19:21:20 +01:00 19/04/2026","11 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (5.4nm)","Leixoes","Portugal (GMT +01H)","Port","18:15:19 +01:00 19/04/2026","18:57:39 +01:00 19/04/2026","42 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (4.3nm)","Leixoes","Portugal (GMT +01H)","Port","17:52:08 +01:00 19/04/2026","18:15:19 +01:00 19/04/2026","23 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (6.1nm)","Vila do Conde","Portugal (GMT +01H)","Port","17:37:39 +01:00 19/04/2026","17:45:09 +01:00 19/04/2026","7 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (6.0nm)","Vila do Conde","Portugal (GMT +01H)","Port","17:23:08 +01:00 19/04/2026","17:37:39 +01:00 19/04/2026","14 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (6.4nm)","Povoa de Varzim","Portugal (GMT +01H)","Port","15:55:19 +01:00 19/04/2026","17:16:18 +01:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (15.4nm)","Viana do Castelo","Portugal (GMT +01H)","Port","15:37:09 +01:00 19/04/2026","15:49:08 +01:00 19/04/2026","11 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (15.3nm)","Viana do Castelo","Portugal (GMT +01H)","Port","14:20:20 +01:00 19/04/2026","15:37:09 +01:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (20.9nm)","La Guardia","Spain (GMT +02H)","Port","13:00:18 +02:00 19/04/2026","15:14:20 +02:00 19/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (34.5nm)","Baiona","Spain (GMT +02H)","Port","12:42:22 +02:00 19/04/2026","12:54:19 +02:00 19/04/2026","11 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (35.9nm)","Ons","Spain (GMT +02H)","Port","11:21:29 +02:00 19/04/2026","12:36:12 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (39.0nm)","Ribeira (Santa Uxia)","Spain (GMT +02H)","Port","11:02:59 +02:00 19/04/2026","11:15:29 +02:00 19/04/2026","12 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (38.5nm)","Ribeira (Santa Uxia)","Spain (GMT +02H)","Port","10:16:23 +02:00 19/04/2026","11:02:59 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (40.3nm)","Corcubion","Spain (GMT +02H)","Port","09:09:41 +02:00 19/04/2026","10:04:43 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (38.6nm)","Corcubion","Spain (GMT +02H)","Port","08:07:31 +02:00 19/04/2026","09:09:41 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (39.7nm)","Corcubion","Spain (GMT +02H)","Port","07:55:30 +02:00 19/04/2026","08:07:31 +02:00 19/04/2026","12 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (39.5nm)","Mugia","Spain (GMT +02H)","Port","06:58:24 +02:00 19/04/2026","07:49:29 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (38.3nm)","Mugia","Spain (GMT +02H)","Port","05:48:17 +02:00 19/04/2026","06:58:24 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (39.4nm)","Mugia","Spain (GMT +02H)","Port","04:55:28 +02:00 19/04/2026","05:48:17 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (38.7nm)","Mugia","Spain (GMT +02H)","Port","03:34:41 +02:00 19/04/2026","04:55:28 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (40.9nm)","Camarinas","Spain (GMT +02H)","Port","02:45:27 +02:00 19/04/2026","03:29:50 +02:00 19/04/2026","44 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (43.8nm)","Camelle","Spain (GMT +02H)","Port","02:09:04 +02:00 19/04/2026","02:39:09 +02:00 19/04/2026","30 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (46.4nm)","Corme","Spain (GMT +02H)","Port","00:06:19 +02:00 19/04/2026","02:02:46 +02:00 19/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (55.8nm)","Malpica","Spain (GMT +02H)","Port","21:57:30 +02:00 18/04/2026","23:58:17 +02:00 18/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (68.8nm)","Cedeira","Spain (GMT +02H)","Port","18:33:49 +02:00 18/04/2026","21:47:26 +02:00 18/04/2026","3 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (83.7nm)","Carino","Spain (GMT +02H)","Port","09:21:12 +02:00 18/04/2026","18:27:21 +02:00 18/04/2026","9 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (155.4nm)","Viveiro Anchorage","Spain (GMT +02H)","Anchorage","08:53:52 +02:00 18/04/2026","09:18:57 +02:00 18/04/2026","25 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (158.8nm)","Plogoff","France (GMT +02H)","Port","04:43:57 +02:00 18/04/2026","08:43:51 +02:00 18/04/2026","3 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (119.8nm)","Creac'h-Point","France (GMT +02H)","Port","18:37:16 +02:00 17/04/2026","04:38:12 +02:00 18/04/2026","10 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (36.2nm)","Creac'h-Point","France (GMT +02H)","Port","18:31:45 +02:00 17/04/2026","18:37:16 +02:00 17/04/2026","5 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (36.5nm)","Creac'h-Point","France (GMT +02H)","Port","18:26:55 +02:00 17/04/2026","18:31:45 +02:00 17/04/2026","4 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (35.9nm)","Creac'h-Point","France (GMT +02H)","Port","18:22:45 +02:00 17/04/2026","18:26:55 +02:00 17/04/2026","4 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (36.3nm)","Creac'h-Point","France (GMT +02H)","Port","18:16:45 +02:00 17/04/2026","18:22:45 +02:00 17/04/2026","6 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (35.7nm)","Creac'h-Point","France (GMT +02H)","Port","18:11:59 +02:00 17/04/2026","18:16:45 +02:00 17/04/2026","4 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (36.0nm)","Creac'h-Point","France (GMT +02H)","Port","17:54:48 +02:00 17/04/2026","18:11:59 +02:00 17/04/2026","17 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (35.6nm)","Creac'h-Point","France (GMT +02H)","Port","17:52:42 +02:00 17/04/2026","17:54:48 +02:00 17/04/2026","2 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (35.7nm)","Creac'h-Point","France (GMT +02H)","Port","17:42:30 +02:00 17/04/2026","17:52:42 +02:00 17/04/2026","10 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (35.6nm)","Creac'h-Point","France (GMT +02H)","Port","16:17:33 +02:00 17/04/2026","17:42:30 +02:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (37.3nm)","Creac'h-Point","France (GMT +02H)","Port","15:06:16 +02:00 17/04/2026","16:17:33 +02:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (36.6nm)","Creac'h-Point","France (GMT +02H)","Port","14:56:46 +02:00 17/04/2026","15:06:16 +02:00 17/04/2026","9 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (36.7nm)","Port du Stiff","France (GMT +02H)","Port","12:56:35 +02:00 17/04/2026","14:46:28 +02:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (40.0nm)","Aber Wrac'h","France (GMT +02H)","Port","12:16:32 +02:00 17/04/2026","12:36:34 +02:00 17/04/2026","20 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (39.9nm)","Aber Wrac'h","France (GMT +02H)","Port","10:36:23 +02:00 17/04/2026","12:16:32 +02:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (43.7nm)","Ile de Batz","France (GMT +02H)","Port","09:59:56 +02:00 17/04/2026","10:30:11 +02:00 17/04/2026","30 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (43.5nm)","Ile de Batz","France (GMT +02H)","Port","09:56:57 +02:00 17/04/2026","09:59:56 +02:00 17/04/2026","2 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (43.5nm)","Ile de Batz","France (GMT +02H)","Port","09:54:51 +02:00 17/04/2026","09:56:57 +02:00 17/04/2026","2 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (43.5nm)","Ile de Batz","France (GMT +02H)","Port","09:20:04 +02:00 17/04/2026","09:54:51 +02:00 17/04/2026","34 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (43.9nm)","Ile de Batz","France (GMT +02H)","Port","09:19:26 +02:00 17/04/2026","09:20:04 +02:00 17/04/2026","a few seconds","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (43.9nm)","Ile de Batz","France (GMT +02H)","Port","07:59:57 +02:00 17/04/2026","09:19:26 +02:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (45.9nm)","Hope Cove","U.K. (GMT +01H)","Port","06:17:15 +01:00 17/04/2026","06:49:56 +01:00 17/04/2026","32 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (42.8nm)","Salcombe","U.K. (GMT +01H)","Port","02:08:30 +01:00 17/04/2026","06:07:14 +01:00 17/04/2026","3 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (28.8nm)","Salcombe","U.K. (GMT +01H)","Port","00:58:20 +01:00 17/04/2026","02:08:30 +01:00 17/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (32.4nm)","Dartmouth","U.K. (GMT +01H)","Port","00:36:29 +01:00 17/04/2026","00:53:00 +01:00 17/04/2026","16 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (32.5nm)","Braye","Guernsey (GMT +01H)","Port","22:06:20 +01:00 16/04/2026","00:31:09 +01:00 17/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (22.6nm)","Braye","Guernsey (GMT +01H)","Port","19:49:20 +01:00 16/04/2026","22:06:20 +01:00 16/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (27.0nm)","Swanage","U.K. (GMT +01H)","Port","18:06:38 +01:00 16/04/2026","19:38:08 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (25.1nm)","Swanage","U.K. (GMT +01H)","Port","17:28:58 +01:00 16/04/2026","18:06:38 +01:00 16/04/2026","37 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (25.8nm)","Ventnor","U.K. (GMT +01H)","Port","15:38:49 +01:00 16/04/2026","17:22:20 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (18.0nm)","Ventnor","U.K. (GMT +01H)","Port","15:20:09 +01:00 16/04/2026","15:38:49 +01:00 16/04/2026","18 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (19.0nm)","Ventnor","U.K. (GMT +01H)","Port","15:18:18 +01:00 16/04/2026","15:20:09 +01:00 16/04/2026","a minute","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (18.5nm)","Ventnor","U.K. (GMT +01H)","Port","14:35:51 +01:00 16/04/2026","15:18:18 +01:00 16/04/2026","42 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (22.1nm)","Selsey","U.K. (GMT +01H)","Port","14:11:50 +01:00 16/04/2026","14:30:59 +01:00 16/04/2026","19 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (21.8nm)","Selsey","U.K. (GMT +01H)","Port","13:21:08 +01:00 16/04/2026","14:11:50 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (24.2nm)","Brighton","U.K. (GMT +01H)","Port","12:35:49 +01:00 16/04/2026","13:09:59 +01:00 16/04/2026","34 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (20.8nm)","Newhaven","U.K. (GMT +01H)","Port","11:13:19 +01:00 16/04/2026","12:29:59 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (16.7nm)","Eastbourne","U.K. (GMT +01H)","Port","09:50:59 +01:00 16/04/2026","11:06:19 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (14.1nm)","Eastbourne","U.K. (GMT +01H)","Port","08:25:59 +01:00 16/04/2026","09:50:59 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (16.2nm)","Rye","U.K. (GMT +01H)","Port","07:48:59 +01:00 16/04/2026","08:18:39 +01:00 16/04/2026","29 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (13.3nm)","Dungeness","U.K. (GMT +01H)","Port","06:37:28 +01:00 16/04/2026","07:41:51 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (8.7nm)","Dungeness","U.K. (GMT +01H)","Port","05:57:28 +01:00 16/04/2026","06:37:28 +01:00 16/04/2026","40 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (11.1nm)","Folkestone","U.K. (GMT +01H)","Port","05:35:19 +01:00 16/04/2026","05:51:39 +01:00 16/04/2026","16 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"passing","Dover Strait Passing","—","Passing Place","05:12:55 +01:00 16/04/2026","05:12:55 +01:00 16/04/2026","a few seconds","Leixoes ETA: 20 Apr 2026","Passed West","—","—"
+"distancing (9.7nm)","Dover","U.K. (GMT +01H)","Port","05:12:55 +01:00 16/04/2026","05:29:48 +01:00 16/04/2026","16 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (7.9nm)","Dover","U.K. (GMT +01H)","Port","05:10:09 +01:00 16/04/2026","05:12:55 +01:00 16/04/2026","2 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (7.9nm)","Dover","U.K. (GMT +01H)","Port","04:53:20 +01:00 16/04/2026","05:10:09 +01:00 16/04/2026","16 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (7.5nm)","Dover","U.K. (GMT +01H)","Port","04:11:09 +01:00 16/04/2026","04:53:20 +01:00 16/04/2026","42 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (10.8nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","04:45:28 +02:00 16/04/2026","05:04:49 +02:00 16/04/2026","19 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (10.2nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","03:43:16 +02:00 16/04/2026","04:45:28 +02:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (15.0nm)","Broadstairs","U.K. (GMT +01H)","Port","00:41:35 +01:00 16/04/2026","02:36:00 +01:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (25.8nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","00:19:30 +02:00 16/04/2026","01:34:38 +02:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (23.4nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","00:12:43 +02:00 16/04/2026","00:19:30 +02:00 16/04/2026","6 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (23.4nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","23:05:09 +02:00 15/04/2026","00:06:09 +02:00 16/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (21.0nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","22:25:58 +02:00 15/04/2026","23:05:09 +02:00 15/04/2026","39 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (22.3nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","21:01:11 +02:00 15/04/2026","22:20:09 +02:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (16.1nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","20:38:49 +02:00 15/04/2026","21:01:11 +02:00 15/04/2026","22 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (16.3nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","19:32:05 +02:00 15/04/2026","20:33:08 +02:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (10.6nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","17:50:58 +02:00 15/04/2026","19:32:05 +02:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (19.3nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","14:57:49 +01:00 15/04/2026","16:43:04 +01:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (10.9nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","14:15:45 +01:00 15/04/2026","14:57:49 +01:00 15/04/2026","42 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (11.9nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","13:34:32 +01:00 15/04/2026","14:07:06 +01:00 15/04/2026","32 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (11.0nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","11:43:31 +01:00 15/04/2026","13:34:32 +01:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (19.4nm)","Shamrock Field","U.K. (GMT +01H)","Hydrocarbon Field","09:23:05 +01:00 15/04/2026","11:36:23 +01:00 15/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (28.8nm)","Markham Field","U.K. (GMT +01H)","Hydrocarbon Field","06:10:59 +01:00 15/04/2026","09:16:18 +01:00 15/04/2026","3 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (50.3nm)","Vlieland","Netherlands (GMT +02H)","Port","06:43:09 +02:00 15/04/2026","07:03:59 +02:00 15/04/2026","20 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (50.9nm)","Terschelling","Netherlands (GMT +02H)","Port","06:14:57 +02:00 15/04/2026","06:36:19 +02:00 15/04/2026","21 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (51.0nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","01:25:45 +02:00 15/04/2026","06:06:30 +02:00 15/04/2026","4 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (25.9nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","23:32:07 +02:00 14/04/2026","01:25:45 +02:00 15/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (31.8nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","21:34:59 +02:00 14/04/2026","23:23:40 +02:00 14/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (26.4nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","16:55:28 +02:00 14/04/2026","21:34:59 +02:00 14/04/2026","4 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (52.2nm)","Hvide Sande","Denmark (GMT +02H)","Port","14:24:13 +02:00 14/04/2026","16:49:10 +02:00 14/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (38.6nm)","Torsminde","Denmark (GMT +02H)","Port","11:17:11 +02:00 14/04/2026","14:17:52 +02:00 14/04/2026","3 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (23.5nm)","Thyboron","Denmark (GMT +02H)","Port","09:24:08 +02:00 14/04/2026","11:11:00 +02:00 14/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (15.4nm)","Thyboron","Denmark (GMT +02H)","Port","08:12:59 +02:00 14/04/2026","09:24:08 +02:00 14/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (19.4nm)","Hanstholm","Denmark (GMT +02H)","Port","06:00:40 +02:00 14/04/2026","08:06:35 +02:00 14/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (6.9nm)","Hanstholm","Denmark (GMT +02H)","Port","03:08:30 +02:00 14/04/2026","06:00:40 +02:00 14/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (26.7nm)","Hirtshals","Denmark (GMT +02H)","Port","00:16:48 +02:00 14/04/2026","03:01:40 +02:00 14/04/2026","2 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (7.7nm)","Hirtshals","Denmark (GMT +02H)","Port","23:02:38 +02:00 13/04/2026","00:16:48 +02:00 14/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (14.7nm)","Skagen","Denmark (GMT +02H)","Port","21:37:00 +02:00 13/04/2026","22:56:28 +02:00 13/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (8.7nm)","Skagen","Denmark (GMT +02H)","Port","20:40:39 +02:00 13/04/2026","21:37:00 +02:00 13/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (12.0nm)","Skagen","Denmark (GMT +02H)","Port","20:28:13 +02:00 13/04/2026","20:40:39 +02:00 13/04/2026","12 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (11.3nm)","Skagen","Denmark (GMT +02H)","Port","20:10:09 +02:00 13/04/2026","20:28:13 +02:00 13/04/2026","18 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"passing","Skaw Passing","Denmark (GMT +02H)","Passing Place","20:04:00 +02:00 13/04/2026","20:04:00 +02:00 13/04/2026","a few seconds","Dover Strait Passing ETA: 16 Apr 2026","Passed North","—","—"
+"distancing (12.8nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","19:59:19 +02:00 13/04/2026","20:04:00 +02:00 13/04/2026","4 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (12.8nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","19:22:09 +02:00 13/04/2026","19:59:19 +02:00 13/04/2026","37 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (14.9nm)","Hyppeln","Sweden (GMT +02H)","Port","18:51:17 +02:00 13/04/2026","19:15:58 +02:00 13/04/2026","24 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (12.4nm)","Ockero","Sweden (GMT +02H)","Port","18:39:09 +02:00 13/04/2026","18:45:09 +02:00 13/04/2026","6 minutes","LEIXOES ETA: 19 Apr 2026","—","—",10
+"distancing (11.1nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","17:09:08 +02:00 13/04/2026","18:33:09 +02:00 13/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"nearing (0.3nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","16:17:02 +02:00 13/04/2026","17:09:08 +02:00 13/04/2026","an hour","LEIXOES ETA: 19 Apr 2026","—","—",10
+"stopped (0.7nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","09:05:15 +02:00 13/04/2026","16:17:02 +02:00 13/04/2026","7 hours","LEIXOES ETA: 19 Apr 2026","—","—",10
+"called at","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","08:36:27 +02:00 13/04/2026","17:12:27 +02:00 13/04/2026","8 hours","Skaw Passing ETA: 13 Apr 2026","—","—","—"
+"nearing (0.7nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","06:12:56 +02:00 13/04/2026","09:05:15 +02:00 13/04/2026","2 hours","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (13.3nm)","Osterby Havn","Denmark (GMT +02H)","Port","05:20:26 +02:00 13/04/2026","06:05:27 +02:00 13/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (15.9nm)","Bua","Sweden (GMT +02H)","Port","04:36:37 +02:00 13/04/2026","05:05:27 +02:00 13/04/2026","28 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (15.4nm)","Bua","Sweden (GMT +02H)","Port","04:07:36 +02:00 13/04/2026","04:36:37 +02:00 13/04/2026","29 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.4nm)","Kattegat","Denmark (GMT +02H)","Anchorage","03:50:37 +02:00 13/04/2026","04:01:57 +02:00 13/04/2026","11 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (16.2nm)","Kattegat","Denmark (GMT +02H)","Anchorage","03:28:18 +02:00 13/04/2026","03:50:37 +02:00 13/04/2026","22 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.8nm)","Anholt","Denmark (GMT +02H)","Port","02:18:26 +02:00 13/04/2026","03:22:37 +02:00 13/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (13.2nm)","Anholt","Denmark (GMT +02H)","Port","02:00:07 +02:00 13/04/2026","02:18:26 +02:00 13/04/2026","18 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (13.7nm)","Anholt","Denmark (GMT +02H)","Port","01:06:17 +02:00 13/04/2026","02:00:07 +02:00 13/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (11.0nm)","Anholt","Denmark (GMT +02H)","Port","23:39:06 +02:00 12/04/2026","01:06:17 +02:00 13/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (19.4nm)","Grenaa","Denmark (GMT +02H)","Port","22:52:26 +02:00 12/04/2026","23:33:17 +02:00 12/04/2026","40 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (17.5nm)","Sjaellands Odde","Denmark (GMT +02H)","Port","22:40:27 +02:00 12/04/2026","22:46:27 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (15.7nm)","Odden","Denmark (GMT +02H)","Port","21:00:26 +02:00 12/04/2026","22:34:27 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (7.5nm)","Odden","Denmark (GMT +02H)","Port","20:54:07 +02:00 12/04/2026","21:00:26 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (7.4nm)","Sejero","Denmark (GMT +02H)","Port","20:22:56 +02:00 12/04/2026","20:47:57 +02:00 12/04/2026","25 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (6.1nm)","Sejero","Denmark (GMT +02H)","Port","19:45:06 +02:00 12/04/2026","20:22:56 +02:00 12/04/2026","37 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (7.7nm)","Ballen","Denmark (GMT +02H)","Port","19:08:17 +02:00 12/04/2026","19:30:17 +02:00 12/04/2026","22 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (6.1nm)","Ballen","Denmark (GMT +02H)","Port","19:00:56 +02:00 12/04/2026","19:08:17 +02:00 12/04/2026","7 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (5.9nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","18:10:27 +02:00 12/04/2026","18:53:36 +02:00 12/04/2026","43 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (0.5nm)","Kalundborg OPL","Denmark (GMT +02H)","Anchorage","17:17:47 +02:00 12/04/2026","18:10:27 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (8.1nm)","Reerso","Denmark (GMT +02H)","Port","16:36:27 +02:00 12/04/2026","17:04:17 +02:00 12/04/2026","27 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (6.6nm)","Sprogo","Denmark (GMT +02H)","Port","16:06:56 +02:00 12/04/2026","16:29:37 +02:00 12/04/2026","22 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (3.3nm)","Korsor Anchorage","Denmark (GMT +02H)","Anchorage","15:45:57 +02:00 12/04/2026","16:01:38 +02:00 12/04/2026","15 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (2.1nm)","Korsor Anchorage","Denmark (GMT +02H)","Anchorage","15:24:07 +02:00 12/04/2026","15:45:57 +02:00 12/04/2026","21 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (3.8nm)","Agerso","Denmark (GMT +02H)","Port","15:12:27 +02:00 12/04/2026","15:18:27 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (2.9nm)","Omo","Denmark (GMT +02H)","Port","15:01:07 +02:00 12/04/2026","15:06:47 +02:00 12/04/2026","5 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (2.9nm)","Omo","Denmark (GMT +02H)","Port","14:34:26 +02:00 12/04/2026","15:01:07 +02:00 12/04/2026","26 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (5.5nm)","Lohals","Denmark (GMT +02H)","Port","14:07:56 +02:00 12/04/2026","14:29:06 +02:00 12/04/2026","21 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (8.1nm)","Tars","Denmark (GMT +02H)","Port","13:45:26 +02:00 12/04/2026","14:02:26 +02:00 12/04/2026","17 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (4.8nm)","Spodsbjerg","Denmark (GMT +02H)","Port","13:22:37 +02:00 12/04/2026","13:39:56 +02:00 12/04/2026","17 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (2.8nm)","Spodsbjerg","Denmark (GMT +02H)","Port","13:00:37 +02:00 12/04/2026","13:22:37 +02:00 12/04/2026","22 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (5.9nm)","Tars","Denmark (GMT +02H)","Port","12:43:16 +02:00 12/04/2026","12:54:58 +02:00 12/04/2026","11 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (7.2nm)","Bagenkop","Denmark (GMT +02H)","Port","12:24:57 +02:00 12/04/2026","12:37:17 +02:00 12/04/2026","12 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (7.1nm)","Bagenkop","Denmark (GMT +02H)","Port","11:59:06 +02:00 12/04/2026","12:24:57 +02:00 12/04/2026","25 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (9.9nm)","Nakskov","Denmark (GMT +02H)","Port","11:34:58 +02:00 12/04/2026","11:52:55 +02:00 12/04/2026","17 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (9.8nm)","Puttgarden","Germany (GMT +02H)","Port","10:39:26 +02:00 12/04/2026","11:23:38 +02:00 12/04/2026","44 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (4.5nm)","Puttgarden","Germany (GMT +02H)","Port","09:40:27 +02:00 12/04/2026","10:39:26 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (11.6nm)","Kettinge","Denmark (GMT +02H)","Port","09:28:27 +02:00 12/04/2026","09:34:27 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (11.6nm)","Kettinge","Denmark (GMT +02H)","Port","09:22:26 +02:00 12/04/2026","09:28:27 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (11.7nm)","Gedser","Denmark (GMT +02H)","Port","08:15:06 +02:00 12/04/2026","09:16:17 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (8.3nm)","Gedser","Denmark (GMT +02H)","Port","07:32:16 +02:00 12/04/2026","08:15:06 +02:00 12/04/2026","42 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (10.2nm)","Althagen","Germany (GMT +02H)","Port","07:19:20 +02:00 12/04/2026","07:25:56 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (9.5nm)","Althagen","Germany (GMT +02H)","Port","07:00:16 +02:00 12/04/2026","07:19:20 +02:00 12/04/2026","19 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (10.7nm)","Gedser","Denmark (GMT +02H)","Port","05:56:57 +02:00 12/04/2026","06:53:37 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.7nm)","Zingst","Germany (GMT +02H)","Port","05:38:37 +02:00 12/04/2026","05:44:47 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (16.7nm)","Zingst","Germany (GMT +02H)","Port","05:32:27 +02:00 12/04/2026","05:38:37 +02:00 12/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.2nm)","Klintholm","Denmark (GMT +02H)","Port","04:36:17 +02:00 12/04/2026","05:26:16 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (13.6nm)","Klintholm","Denmark (GMT +02H)","Port","03:46:26 +02:00 12/04/2026","04:36:17 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.6nm)","Dranske","Germany (GMT +02H)","Port","02:57:28 +02:00 12/04/2026","03:34:07 +02:00 12/04/2026","36 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (15.7nm)","Dranske","Germany (GMT +02H)","Port","02:09:17 +02:00 12/04/2026","02:57:28 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (18.2nm)","Wiek","Germany (GMT +02H)","Port","00:57:17 +02:00 12/04/2026","02:02:57 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (25.4nm)","Glowe","Germany (GMT +02H)","Port","00:45:18 +02:00 12/04/2026","00:51:16 +02:00 12/04/2026","5 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (26.0nm)","Ystad","Sweden (GMT +02H)","Port","23:39:48 +02:00 11/04/2026","00:39:18 +02:00 12/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (22.5nm)","Ronne","Denmark (GMT +02H)","Port","22:49:06 +02:00 11/04/2026","23:33:38 +02:00 11/04/2026","44 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.9nm)","Hasle","Denmark (GMT +02H)","Port","22:05:26 +02:00 11/04/2026","22:42:36 +02:00 11/04/2026","37 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (13.1nm)","Helligpeder","Denmark (GMT +02H)","Port","21:35:46 +02:00 11/04/2026","21:59:26 +02:00 11/04/2026","23 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (11.2nm)","Hammerhavn","Denmark (GMT +02H)","Port","20:59:37 +02:00 11/04/2026","21:23:47 +02:00 11/04/2026","24 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (10.2nm)","Simrishamn","Sweden (GMT +02H)","Port","20:34:27 +02:00 11/04/2026","20:53:27 +02:00 11/04/2026","19 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (9.4nm)","Simrishamn","Sweden (GMT +02H)","Port","19:58:57 +02:00 11/04/2026","20:34:27 +02:00 11/04/2026","35 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (12.9nm)","Sandvig","Denmark (GMT +02H)","Port","19:22:37 +02:00 11/04/2026","19:52:56 +02:00 11/04/2026","30 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (16.5nm)","Christianso Havn","Denmark (GMT +02H)","Port","19:10:17 +02:00 11/04/2026","19:16:27 +02:00 11/04/2026","6 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (16.5nm)","Christianso Havn","Denmark (GMT +02H)","Port","17:13:26 +02:00 11/04/2026","19:10:17 +02:00 11/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (25.9nm)","Torko","Sweden (GMT +02H)","Port","16:30:56 +02:00 11/04/2026","17:07:17 +02:00 11/04/2026","36 minutes","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (23.5nm)","Karlskrona","Sweden (GMT +02H)","Port","15:24:27 +02:00 11/04/2026","16:24:47 +02:00 11/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (21.0nm)","Karlskrona","Sweden (GMT +02H)","Port","14:23:38 +02:00 11/04/2026","15:24:27 +02:00 11/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"distancing (23.6nm)","Degerhamn","Sweden (GMT +02H)","Port","12:26:26 +02:00 11/04/2026","14:17:26 +02:00 11/04/2026","an hour","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",9.9
+"nearing (16.6nm)","Degerhamn","Sweden (GMT +02H)","Port","09:33:17 +02:00 11/04/2026","12:26:26 +02:00 11/04/2026","2 hours","GOTHENBURG,ACH ETA: 13 Apr 2026","—","—",10.1
+"nearing (33.6nm)","Farjestaden","Sweden (GMT +02H)","Port","09:02:26 +02:00 11/04/2026","09:27:07 +02:00 11/04/2026","24 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (35.7nm)","Karehamn","Sweden (GMT +02H)","Port","08:43:57 +02:00 11/04/2026","08:56:18 +02:00 11/04/2026","12 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (35.7nm)","Karehamn","Sweden (GMT +02H)","Port","08:19:37 +02:00 11/04/2026","08:43:57 +02:00 11/04/2026","24 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (35.2nm)","Burgsvik","Sweden (GMT +02H)","Port","04:32:56 +02:00 11/04/2026","08:13:36 +02:00 11/04/2026","3 hours","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (10.7nm)","Burgsvik","Sweden (GMT +02H)","Port","04:14:57 +02:00 11/04/2026","04:32:56 +02:00 11/04/2026","17 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (11.5nm)","Ronehamn","Sweden (GMT +02H)","Port","03:44:17 +02:00 11/04/2026","04:08:47 +02:00 11/04/2026","24 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (9.4nm)","Tomtbod","Sweden (GMT +02H)","Port","03:19:57 +02:00 11/04/2026","03:38:17 +02:00 11/04/2026","18 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (8.8nm)","Tomtbod","Sweden (GMT +02H)","Port","02:49:56 +02:00 11/04/2026","03:19:57 +02:00 11/04/2026","30 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (9.8nm)","Ljugarn","Sweden (GMT +02H)","Port","02:20:16 +02:00 11/04/2026","02:43:58 +02:00 11/04/2026","23 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (8.9nm)","Ljugarn","Sweden (GMT +02H)","Port","00:42:58 +02:00 11/04/2026","02:20:16 +02:00 11/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (19.2nm)","Furillen","Sweden (GMT +02H)","Port","23:36:27 +02:00 10/04/2026","00:36:46 +02:00 11/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (16.9nm)","Furillen","Sweden (GMT +02H)","Port","23:24:28 +02:00 10/04/2026","23:36:27 +02:00 10/04/2026","11 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (17.0nm)","Bungenas","Sweden (GMT +02H)","Port","23:12:26 +02:00 10/04/2026","23:18:27 +02:00 10/04/2026","6 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (17.0nm)","Bungenas","Sweden (GMT +02H)","Port","22:01:07 +02:00 10/04/2026","23:12:26 +02:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (21.8nm)","Broa","Sweden (GMT +02H)","Port","18:47:46 +02:00 10/04/2026","21:55:18 +02:00 10/04/2026","3 hours","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (47.5nm)","Vikati Sadam","Estonia (GMT +03H)","Port","16:33:09 +03:00 10/04/2026","19:41:38 +03:00 10/04/2026","3 hours","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (34.4nm)","Vikati Sadam","Estonia (GMT +03H)","Port","16:27:17 +03:00 10/04/2026","16:33:09 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (34.0nm)","Kalana","Estonia (GMT +03H)","Port","13:39:17 +03:00 10/04/2026","16:21:28 +03:00 10/04/2026","2 hours","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (19.7nm)","Kalana","Estonia (GMT +03H)","Port","13:21:57 +03:00 10/04/2026","13:39:17 +03:00 10/04/2026","17 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (19.9nm)","Kalana","Estonia (GMT +03H)","Port","13:16:17 +03:00 10/04/2026","13:21:57 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (19.8nm)","Kalana","Estonia (GMT +03H)","Port","12:03:27 +03:00 10/04/2026","13:16:17 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (24.1nm)","Korgessaare","Estonia (GMT +03H)","Port","11:35:08 +03:00 10/04/2026","11:57:47 +03:00 10/04/2026","22 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (24.5nm)","Lehtma","Estonia (GMT +03H)","Port","11:18:06 +03:00 10/04/2026","11:29:27 +03:00 10/04/2026","11 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (24.4nm)","Lehtma","Estonia (GMT +03H)","Port","10:49:36 +03:00 10/04/2026","11:18:06 +03:00 10/04/2026","28 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (25.0nm)","Rosalalandet","Finland (GMT +03H)","Port","10:04:17 +03:00 10/04/2026","10:43:58 +03:00 10/04/2026","39 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (20.7nm)","Hanko (Hango)","Finland (GMT +03H)","Port","08:39:17 +03:00 10/04/2026","09:58:37 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (14.6nm)","Hanko (Hango)","Finland (GMT +03H)","Port","08:33:37 +03:00 10/04/2026","08:39:17 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (14.5nm)","Tvarminne","Finland (GMT +03H)","Port","07:53:56 +03:00 10/04/2026","08:27:57 +03:00 10/04/2026","34 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (13.2nm)","Tvarminne","Finland (GMT +03H)","Port","07:48:17 +03:00 10/04/2026","07:53:56 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (13.0nm)","Jussaro","Finland (GMT +03H)","Port","06:51:48 +03:00 10/04/2026","07:42:36 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (9.8nm)","Jussaro","Finland (GMT +03H)","Port","05:50:17 +03:00 10/04/2026","06:51:48 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (15.6nm)","Baronsalmi","Finland (GMT +03H)","Port","05:27:36 +03:00 10/04/2026","05:44:37 +03:00 10/04/2026","17 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (15.9nm)","Naissaare","Estonia (GMT +03H)","Port","04:37:47 +03:00 10/04/2026","05:21:56 +03:00 10/04/2026","44 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (14.1nm)","Naissaare","Estonia (GMT +03H)","Port","04:21:17 +03:00 10/04/2026","04:37:47 +03:00 10/04/2026","16 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (14.6nm)","Aegna","Estonia (GMT +03H)","Port","04:10:17 +03:00 10/04/2026","04:15:47 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (14.3nm)","Kelnase","Estonia (GMT +03H)","Port","03:19:47 +03:00 10/04/2026","04:04:46 +03:00 10/04/2026","44 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (11.8nm)","Kelnase","Estonia (GMT +03H)","Port","02:21:37 +03:00 10/04/2026","03:19:47 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (15.0nm)","Tapurla","Estonia (GMT +03H)","Port","01:33:16 +03:00 10/04/2026","02:08:36 +03:00 10/04/2026","35 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (10.5nm)","Viinistu Sadam","Estonia (GMT +03H)","Port","01:16:07 +03:00 10/04/2026","01:21:47 +03:00 10/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (9.4nm)","Gulf of Finland","Estonia (GMT +03H)","Anchorage","00:19:36 +03:00 10/04/2026","01:10:27 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (0.5nm)","Gulf of Finland","Estonia (GMT +03H)","Anchorage","23:17:49 +03:00 09/04/2026","00:19:36 +03:00 10/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (11.4nm)","Eisma","Estonia (GMT +03H)","Port","23:06:29 +03:00 09/04/2026","23:12:08 +03:00 09/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (11.4nm)","Eisma","Estonia (GMT +03H)","Port","23:00:48 +03:00 09/04/2026","23:06:29 +03:00 09/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (11.3nm)","Kunda Anchorage","Estonia (GMT +03H)","Anchorage","21:56:33 +03:00 09/04/2026","22:55:08 +03:00 09/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (8.1nm)","Kunda Anchorage","Estonia (GMT +03H)","Anchorage","21:38:39 +03:00 09/04/2026","21:56:33 +03:00 09/04/2026","17 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (9.0nm)","Aseri","Estonia (GMT +03H)","Port","21:09:53 +03:00 09/04/2026","21:32:51 +03:00 09/04/2026","22 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (7.9nm)","Aseri","Estonia (GMT +03H)","Port","20:58:42 +03:00 09/04/2026","21:09:53 +03:00 09/04/2026","11 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (8.4nm)","Purtse","Estonia (GMT +03H)","Port","20:47:22 +03:00 09/04/2026","20:53:02 +03:00 09/04/2026","5 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (8.3nm)","Purtse","Estonia (GMT +03H)","Port","20:12:23 +03:00 09/04/2026","20:47:22 +03:00 09/04/2026","34 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (9.5nm)","Toila","Estonia (GMT +03H)","Port","19:21:52 +03:00 09/04/2026","20:05:13 +03:00 09/04/2026","43 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (3.2nm)","Sillamae Anchorage","Estonia (GMT +03H)","Anchorage","18:55:02 +03:00 09/04/2026","19:11:42 +03:00 09/04/2026","16 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"nearing (1.1nm)","Sillamae Anchorage","Estonia (GMT +03H)","Anchorage","18:48:49 +03:00 09/04/2026","18:55:02 +03:00 09/04/2026","6 minutes","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (1.9nm)","Sillamae","Estonia (GMT +03H)","Port","17:29:26 +03:00 09/04/2026","18:36:21 +03:00 09/04/2026","an hour","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"stopped (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","11:11:06 +03:00 09/04/2026","17:29:26 +03:00 09/04/2026","6 hours","SKAGEN ETA: 13 Apr 2026","—","—",10.1
+"distancing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","09:59:59 +03:00 09/04/2026","11:11:06 +03:00 09/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","08:09:46 +03:00 09/04/2026","09:59:59 +03:00 09/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"stopped (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","11:02:09 +03:00 08/04/2026","08:09:46 +03:00 09/04/2026","21 hours","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","07:17:39 +03:00 08/04/2026","07:17:39 +03:00 08/04/2026","a few seconds","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"stopped (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","00:12:13 +03:00 08/04/2026","01:42:56 +03:00 08/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","21:39:31 +03:00 07/04/2026","00:12:13 +03:00 08/04/2026","2 hours","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","20:39:22 +03:00 07/04/2026","21:39:31 +03:00 07/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"stopped (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","01:36:04 +03:00 07/04/2026","20:39:22 +03:00 07/04/2026","19 hours","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","00:35:32 +03:00 07/04/2026","01:36:04 +03:00 07/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"stopped (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","17:41:27 +03:00 05/04/2026","00:35:32 +03:00 07/04/2026","a day","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"called at","Sillamae","Estonia (GMT +03H)","Port","16:38:35 +03:00 05/04/2026","18:27:01 +03:00 09/04/2026","4 days","Goteborg Anchorage ETA: 13 Apr 2026","—","—","—"
+"called at","Berth 13","Estonia (GMT +03H)","Berth","16:59:03 +03:00 05/04/2026","18:17:31 +03:00 09/04/2026","4 days","Goteborg Anchorage ETA: 13 Apr 2026","—","Silsteve Terminal","—"
+"nearing (1.0nm)","Sillamae","Estonia (GMT +03H)","Port","16:37:05 +03:00 05/04/2026","17:41:27 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (2.6nm)","Sillamae Anchorage","Estonia (GMT +03H)","Anchorage","16:02:13 +03:00 05/04/2026","16:20:32 +03:00 05/04/2026","18 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.1nm)","Sillamae Anchorage","Estonia (GMT +03H)","Anchorage","15:45:24 +03:00 05/04/2026","16:02:13 +03:00 05/04/2026","16 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (4.6nm)","Toila","Estonia (GMT +03H)","Port","14:34:55 +03:00 05/04/2026","15:24:45 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (10.2nm)","Purtse","Estonia (GMT +03H)","Port","14:01:05 +03:00 05/04/2026","14:29:24 +03:00 05/04/2026","28 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (8.2nm)","Aseri","Estonia (GMT +03H)","Port","13:47:14 +03:00 05/04/2026","13:56:04 +03:00 05/04/2026","8 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (7.9nm)","Aseri","Estonia (GMT +03H)","Port","13:29:04 +03:00 05/04/2026","13:47:14 +03:00 05/04/2026","18 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (8.6nm)","Kunda Anchorage","Estonia (GMT +03H)","Anchorage","13:04:34 +03:00 05/04/2026","13:19:15 +03:00 05/04/2026","14 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (8.2nm)","Kunda Anchorage","Estonia (GMT +03H)","Anchorage","12:22:21 +03:00 05/04/2026","13:04:34 +03:00 05/04/2026","42 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (11.8nm)","Eisma","Estonia (GMT +03H)","Port","12:08:34 +03:00 05/04/2026","12:17:45 +03:00 05/04/2026","9 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (11.0nm)","Gulf of Finland","Estonia (GMT +03H)","Anchorage","11:13:59 +03:00 05/04/2026","12:03:55 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.4nm)","Gulf of Finland","Estonia (GMT +03H)","Anchorage","10:42:17 +03:00 05/04/2026","11:13:59 +03:00 05/04/2026","31 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (8.6nm)","Viinistu Sadam","Estonia (GMT +03H)","Port","10:24:28 +03:00 05/04/2026","10:37:47 +03:00 05/04/2026","13 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (10.9nm)","Tapurla","Estonia (GMT +03H)","Port","09:52:29 +03:00 05/04/2026","10:15:08 +03:00 05/04/2026","22 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (13.3nm)","Kelnase","Estonia (GMT +03H)","Port","08:56:38 +03:00 05/04/2026","09:47:37 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (8.2nm)","Kelnase","Estonia (GMT +03H)","Port","08:28:48 +03:00 05/04/2026","08:56:38 +03:00 05/04/2026","27 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (10.7nm)","Aegna","Estonia (GMT +03H)","Port","08:19:18 +03:00 05/04/2026","08:23:57 +03:00 05/04/2026","4 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (10.6nm)","Aegna","Estonia (GMT +03H)","Port","08:14:49 +03:00 05/04/2026","08:19:18 +03:00 05/04/2026","4 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (10.8nm)","Naissaare","Estonia (GMT +03H)","Port","07:51:18 +03:00 05/04/2026","08:09:59 +03:00 05/04/2026","18 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (10.1nm)","Naissaare","Estonia (GMT +03H)","Port","06:55:18 +03:00 05/04/2026","07:51:18 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (15.8nm)","Lohusalu","Estonia (GMT +03H)","Port","06:36:39 +03:00 05/04/2026","06:50:29 +03:00 05/04/2026","13 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (15.9nm)","Jussaro","Finland (GMT +03H)","Port","06:03:48 +03:00 05/04/2026","06:31:58 +03:00 05/04/2026","28 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (14.5nm)","Jussaro","Finland (GMT +03H)","Port","05:26:19 +03:00 05/04/2026","06:03:48 +03:00 05/04/2026","37 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (16.8nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","04:54:08 +03:00 05/04/2026","05:21:38 +03:00 05/04/2026","27 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (15.6nm)","Osmussaare Sadam","Estonia (GMT +03H)","Port","03:45:09 +03:00 05/04/2026","04:54:08 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (21.5nm)","Lehtma","Estonia (GMT +03H)","Port","02:35:19 +03:00 05/04/2026","03:40:29 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (18.2nm)","Lehtma","Estonia (GMT +03H)","Port","02:20:59 +03:00 05/04/2026","02:35:19 +03:00 05/04/2026","14 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (18.1nm)","Korgessaare","Estonia (GMT +03H)","Port","01:52:37 +03:00 05/04/2026","02:16:18 +03:00 05/04/2026","23 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (17.0nm)","Kalana","Estonia (GMT +03H)","Port","00:36:47 +03:00 05/04/2026","01:47:48 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (11.7nm)","Kalana","Estonia (GMT +03H)","Port","22:56:45 +03:00 04/04/2026","00:36:47 +03:00 05/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (24.7nm)","Vikati Sadam","Estonia (GMT +03H)","Port","22:08:45 +03:00 04/04/2026","22:48:54 +03:00 04/04/2026","40 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (22.4nm)","Vikati Sadam","Estonia (GMT +03H)","Port","20:43:27 +03:00 04/04/2026","22:08:45 +03:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (28.9nm)","Roopa","Estonia (GMT +03H)","Port","19:27:20 +03:00 04/04/2026","20:37:59 +03:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (38.3nm)","Ventspils Anchorage","Latvia (GMT +03H)","Anchorage","17:44:30 +03:00 04/04/2026","19:22:39 +03:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (31.6nm)","Ventspils Anchorage","Latvia (GMT +03H)","Anchorage","15:51:39 +03:00 04/04/2026","17:44:30 +03:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (41.2nm)","Furillen","Sweden (GMT +02H)","Port","14:42:48 +02:00 04/04/2026","14:47:17 +02:00 04/04/2026","4 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (41.0nm)","Ljugarn","Sweden (GMT +02H)","Port","13:18:21 +02:00 04/04/2026","14:38:28 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (36.9nm)","Ljugarn","Sweden (GMT +02H)","Port","12:37:51 +02:00 04/04/2026","13:18:21 +02:00 04/04/2026","40 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (38.0nm)","Tomtbod","Sweden (GMT +02H)","Port","12:24:19 +02:00 04/04/2026","12:33:21 +02:00 04/04/2026","9 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (38.0nm)","Tomtbod","Sweden (GMT +02H)","Port","11:16:00 +02:00 04/04/2026","12:24:19 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (42.2nm)","Burgsvik","Sweden (GMT +02H)","Port","07:44:02 +02:00 04/04/2026","11:11:30 +02:00 04/04/2026","3 hours","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (67.5nm)","Wladyslawowo","Poland (GMT +02H)","Port","06:34:07 +02:00 04/04/2026","07:39:12 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (57.9nm)","Leba","Poland (GMT +02H)","Port","02:58:02 +02:00 04/04/2026","06:21:51 +02:00 04/04/2026","3 hours","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (32.8nm)","Leba","Poland (GMT +02H)","Port","02:03:12 +02:00 04/04/2026","02:58:02 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (35.1nm)","Ustka","Poland (GMT +02H)","Port","00:43:41 +02:00 04/04/2026","01:58:33 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (30.8nm)","Ustka","Poland (GMT +02H)","Port","00:29:42 +02:00 04/04/2026","00:43:41 +02:00 04/04/2026","13 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (30.5nm)","Darlowo","Poland (GMT +02H)","Port","23:20:43 +02:00 03/04/2026","00:25:03 +02:00 04/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (26.5nm)","Darlowo","Poland (GMT +02H)","Port","22:43:11 +02:00 03/04/2026","23:20:43 +02:00 03/04/2026","37 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (27.5nm)","Ustronie Morskie","Poland (GMT +02H)","Port","21:56:22 +02:00 03/04/2026","22:38:32 +02:00 03/04/2026","42 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (22.9nm)","Kolobrzeg","Poland (GMT +02H)","Port","21:19:52 +02:00 03/04/2026","21:51:41 +02:00 03/04/2026","31 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (19.7nm)","Mrzezyno","Poland (GMT +02H)","Port","20:27:28 +02:00 03/04/2026","21:15:28 +02:00 03/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (15.4nm)","Mrzezyno","Poland (GMT +02H)","Port","20:00:23 +02:00 03/04/2026","20:27:28 +02:00 03/04/2026","27 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (15.9nm)","Dziwnow","Poland (GMT +02H)","Port","18:56:54 +02:00 03/04/2026","19:55:54 +02:00 03/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (9.7nm)","Dziwnow","Poland (GMT +02H)","Port","18:47:53 +02:00 03/04/2026","18:56:54 +02:00 03/04/2026","9 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (10.1nm)","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","17:56:12 +02:00 03/04/2026","18:43:04 +02:00 03/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (0.3nm)","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","17:41:45 +02:00 03/04/2026","17:56:12 +02:00 03/04/2026","14 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (1.9nm)","Swinoujscie","Poland (GMT +02H)","Port","17:14:08 +02:00 03/04/2026","17:32:45 +02:00 03/04/2026","18 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (0.6nm)","Swinoujscie","Poland (GMT +02H)","Port","17:05:06 +02:00 03/04/2026","17:14:08 +02:00 03/04/2026","9 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (0.3nm)","Karsibor","Poland (GMT +02H)","Port","16:23:45 +02:00 03/04/2026","16:56:05 +02:00 03/04/2026","32 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (4.6nm)","Nowe Warpno","Poland (GMT +02H)","Port","15:59:25 +02:00 03/04/2026","16:11:25 +02:00 03/04/2026","12 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (3.9nm)","Trzebiez","Poland (GMT +02H)","Port","15:28:58 +02:00 03/04/2026","15:50:15 +02:00 03/04/2026","21 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (0.5nm)","Trzebiez","Poland (GMT +02H)","Port","15:21:11 +02:00 03/04/2026","15:28:58 +02:00 03/04/2026","7 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (1.8nm)","Police","Poland (GMT +02H)","Port","14:59:07 +02:00 03/04/2026","15:08:56 +02:00 03/04/2026","9 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (1.0nm)","Police","Poland (GMT +02H)","Port","14:26:23 +02:00 03/04/2026","14:59:07 +02:00 03/04/2026","32 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"distancing (4.2nm)","Szczecin","Poland (GMT +02H)","Port","13:45:35 +02:00 03/04/2026","14:18:23 +02:00 03/04/2026","32 minutes","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"nearing (0.9nm)","Szczecin","Poland (GMT +02H)","Port","12:31:27 +02:00 03/04/2026","13:45:35 +02:00 03/04/2026","an hour","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"stopped (1.4nm)","Szczecin","Poland (GMT +02H)","Port","02:22:10 +01:00 27/03/2026","12:31:27 +02:00 03/04/2026","7 days","SILLAMAE ETA: 05 Apr 2026","—","—",6.1
+"called at","Szczecin","Poland (GMT +02H)","Port","01:20:09 +01:00 27/03/2026","14:33:53 +02:00 03/04/2026","7 days","Sillamae ETA: 05 Apr 2026","—","—","—"
+"called at","Gliwickie Berth","Poland (GMT +02H)","Berth","01:30:10 +01:00 27/03/2026","13:23:44 +02:00 03/04/2026","7 days","Sillamae ETA: 05 Apr 2026","—","Gliwickie Terminal","—"
+"distancing (1.4nm)","Szczecin","Poland (GMT +02H)","Port","01:08:18 +01:00 27/03/2026","02:22:10 +01:00 27/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (0.9nm)","Szczecin","Poland (GMT +02H)","Port","00:31:08 +01:00 27/03/2026","01:08:18 +01:00 27/03/2026","37 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (5.0nm)","Police","Poland (GMT +02H)","Port","23:45:50 +01:00 26/03/2026","00:19:29 +01:00 27/03/2026","33 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (0.9nm)","Police","Poland (GMT +02H)","Port","23:32:30 +01:00 26/03/2026","23:45:50 +01:00 26/03/2026","13 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (1.8nm)","Trzebiez","Poland (GMT +02H)","Port","23:13:13 +01:00 26/03/2026","23:21:10 +01:00 26/03/2026","7 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (0.6nm)","Trzebiez","Poland (GMT +02H)","Port","22:42:23 +01:00 26/03/2026","23:13:13 +01:00 26/03/2026","30 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (5.2nm)","Nowe Warpno","Poland (GMT +02H)","Port","22:26:05 +01:00 26/03/2026","22:41:07 +01:00 26/03/2026","15 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (2.9nm)","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","18:47:01 +01:00 26/03/2026","19:55:29 +01:00 26/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"stopped (3.0nm)","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","16:37:59 +01:00 26/03/2026","18:47:01 +01:00 26/03/2026","2 hours","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"called at","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","15:34:57 +01:00 26/03/2026","20:09:09 +01:00 26/03/2026","4 hours","Szczecin ETA: 27 Mar 2026","—","—","—"
+"nearing (3.0nm)","Swinoujscie Anchorage","Poland (GMT +02H)","Anchorage","14:13:16 +01:00 26/03/2026","16:37:59 +01:00 26/03/2026","2 hours","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (11.2nm)","Greifswalder Oie","Germany (GMT +02H)","Port","12:14:37 +01:00 26/03/2026","13:59:27 +01:00 26/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (5.3nm)","Greifswalder Oie","Germany (GMT +02H)","Port","11:42:26 +01:00 26/03/2026","12:14:37 +01:00 26/03/2026","32 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (6.4nm)","Gohren","Germany (GMT +02H)","Port","11:12:56 +01:00 26/03/2026","11:32:07 +01:00 26/03/2026","19 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (6.1nm)","Gohren","Germany (GMT +02H)","Port","11:04:12 +01:00 26/03/2026","11:12:56 +01:00 26/03/2026","8 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (6.4nm)","Sellin","Germany (GMT +02H)","Port","10:42:26 +01:00 26/03/2026","10:57:28 +01:00 26/03/2026","15 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (6.3nm)","Sassnitz","Germany (GMT +02H)","Port","10:10:16 +01:00 26/03/2026","10:36:20 +01:00 26/03/2026","26 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (4.4nm)","Sassnitz","Germany (GMT +02H)","Port","09:35:17 +01:00 26/03/2026","10:10:16 +01:00 26/03/2026","34 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (8.1nm)","Glowe","Germany (GMT +02H)","Port","08:43:47 +01:00 26/03/2026","09:29:06 +01:00 26/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (13.2nm)","Wiek","Germany (GMT +02H)","Port","07:38:07 +01:00 26/03/2026","08:38:07 +01:00 26/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (20.4nm)","Dranske","Germany (GMT +02H)","Port","07:18:36 +01:00 26/03/2026","07:31:27 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (22.6nm)","Trelleborg","Sweden (GMT +02H)","Port","05:42:27 +01:00 26/03/2026","07:12:07 +01:00 26/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (13.5nm)","Trelleborg","Sweden (GMT +02H)","Port","05:31:47 +01:00 26/03/2026","05:42:27 +01:00 26/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (14.8nm)","Skanor","Sweden (GMT +02H)","Port","05:16:07 +01:00 26/03/2026","05:26:35 +01:00 26/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (14.5nm)","Skanor","Sweden (GMT +02H)","Port","05:10:56 +01:00 26/03/2026","05:16:07 +01:00 26/03/2026","5 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (13.2nm)","Rodvig Havn","Denmark (GMT +02H)","Port","04:37:26 +01:00 26/03/2026","05:00:37 +01:00 26/03/2026","23 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (9.0nm)","Stevns Pier","Denmark (GMT +02H)","Port","03:55:27 +01:00 26/03/2026","04:31:27 +01:00 26/03/2026","36 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (6.2nm)","Stevns Pier","Denmark (GMT +02H)","Port","03:42:46 +01:00 26/03/2026","03:55:27 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (6.9nm)","Skanor","Sweden (GMT +02H)","Port","03:10:06 +01:00 26/03/2026","03:36:16 +01:00 26/03/2026","26 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (5.8nm)","Skanor","Sweden (GMT +02H)","Port","02:57:37 +01:00 26/03/2026","03:10:06 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (5.7nm)","Dragor","Denmark (GMT +02H)","Port","02:14:56 +01:00 26/03/2026","02:51:26 +01:00 26/03/2026","36 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (2.2nm)","Kastrup","Denmark (GMT +02H)","Port","01:58:37 +01:00 26/03/2026","02:09:16 +01:00 26/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (1.0nm)","Kastrup","Denmark (GMT +02H)","Port","01:48:27 +01:00 26/03/2026","01:58:37 +01:00 26/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (2.7nm)","The Sound","Denmark (GMT +02H)","Anchorage","01:25:46 +01:00 26/03/2026","01:37:36 +01:00 26/03/2026","11 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (1.7nm)","The Sound","Denmark (GMT +02H)","Anchorage","01:13:26 +01:00 26/03/2026","01:25:46 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (3.2nm)","Taarbaek","Denmark (GMT +02H)","Port","00:54:37 +01:00 26/03/2026","01:07:07 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (2.6nm)","Kyrkbacken","Sweden (GMT +02H)","Port","00:25:16 +01:00 26/03/2026","00:37:17 +01:00 26/03/2026","12 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (1.2nm)","Kyrkbacken","Sweden (GMT +02H)","Port","00:07:06 +01:00 26/03/2026","00:25:16 +01:00 26/03/2026","18 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (2.0nm)","Snekkersten","Denmark (GMT +02H)","Port","23:47:47 +01:00 25/03/2026","23:54:16 +01:00 25/03/2026","6 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (1.3nm)","Snekkersten","Denmark (GMT +02H)","Port","23:41:07 +01:00 25/03/2026","23:47:47 +01:00 25/03/2026","6 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (1.0nm)","Helsingor","Denmark (GMT +02H)","Port","23:14:36 +01:00 25/03/2026","23:34:27 +01:00 25/03/2026","19 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (3.4nm)","Hornbaek","Denmark (GMT +02H)","Port","22:55:06 +01:00 25/03/2026","23:09:56 +01:00 25/03/2026","14 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (2.2nm)","Hornbaek","Denmark (GMT +02H)","Port","22:44:46 +01:00 25/03/2026","22:55:06 +01:00 25/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (4.1nm)","Gilleleje","Denmark (GMT +02H)","Port","22:28:37 +01:00 25/03/2026","22:39:27 +01:00 25/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (3.7nm)","Gilleleje","Denmark (GMT +02H)","Port","21:07:26 +01:00 25/03/2026","22:28:37 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (15.7nm)","Molle","Sweden (GMT +02H)","Port","20:17:07 +01:00 25/03/2026","21:01:06 +01:00 25/03/2026","43 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (20.8nm)","Anholt","Denmark (GMT +02H)","Port","18:25:47 +01:00 25/03/2026","20:10:56 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (12.2nm)","Anholt","Denmark (GMT +02H)","Port","17:22:26 +01:00 25/03/2026","18:25:47 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (16.2nm)","Kattegat","Denmark (GMT +02H)","Anchorage","16:48:47 +01:00 25/03/2026","17:16:47 +01:00 25/03/2026","28 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (15.4nm)","Kattegat","Denmark (GMT +02H)","Anchorage","16:15:46 +01:00 25/03/2026","16:48:47 +01:00 25/03/2026","33 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (16.7nm)","Bua","Sweden (GMT +02H)","Port","15:59:17 +01:00 25/03/2026","16:10:16 +01:00 25/03/2026","10 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (17.0nm)","Osterby Havn","Denmark (GMT +02H)","Port","14:51:17 +01:00 25/03/2026","15:53:47 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (11.3nm)","Osterby Havn","Denmark (GMT +02H)","Port","14:35:27 +01:00 25/03/2026","14:51:17 +01:00 25/03/2026","15 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (11.3nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","14:24:37 +01:00 25/03/2026","14:30:06 +01:00 25/03/2026","5 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (11.2nm)","Goteborg Anchorage","Sweden (GMT +02H)","Anchorage","13:41:17 +01:00 25/03/2026","14:24:37 +01:00 25/03/2026","43 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (15.1nm)","Frederikshavn OPL","Denmark (GMT +02H)","Anchorage","13:32:16 +01:00 25/03/2026","13:36:47 +01:00 25/03/2026","4 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (14.7nm)","Skagen Anchorage","Denmark (GMT +02H)","Anchorage","12:36:47 +01:00 25/03/2026","13:27:46 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"passing","Skaw Passing","Denmark (GMT +02H)","Passing Place","12:32:17 +01:00 25/03/2026","12:32:17 +01:00 25/03/2026","a few seconds","Swinoujscie Anchorage ETA: 26 Mar 2026","Passed South","—","—"
+"nearing (9.9nm)","Skagen","Denmark (GMT +02H)","Port","12:32:06 +01:00 25/03/2026","12:32:17 +01:00 25/03/2026","a few seconds","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (9.9nm)","Skagen","Denmark (GMT +02H)","Port","11:54:10 +01:00 25/03/2026","12:32:06 +01:00 25/03/2026","37 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (5.5nm)","Skagen","Denmark (GMT +02H)","Port","10:54:52 +01:00 25/03/2026","11:54:10 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (13.5nm)","Hirtshals","Denmark (GMT +02H)","Port","09:58:52 +01:00 25/03/2026","10:50:03 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (6.6nm)","Hirtshals","Denmark (GMT +02H)","Port","07:58:53 +01:00 25/03/2026","09:58:52 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (26.3nm)","Hanstholm","Denmark (GMT +02H)","Port","06:00:56 +01:00 25/03/2026","07:54:12 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (5.2nm)","Hanstholm","Denmark (GMT +02H)","Port","04:42:36 +01:00 25/03/2026","06:00:56 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (19.4nm)","Thyboron","Denmark (GMT +02H)","Port","03:53:52 +01:00 25/03/2026","04:38:17 +01:00 25/03/2026","44 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (17.0nm)","Thyboron","Denmark (GMT +02H)","Port","02:23:52 +01:00 25/03/2026","03:53:52 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (27.3nm)","Torsminde","Denmark (GMT +02H)","Port","00:09:22 +01:00 25/03/2026","02:17:43 +01:00 25/03/2026","2 hours","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (41.9nm)","Hvide Sande","Denmark (GMT +02H)","Port","22:33:49 +01:00 24/03/2026","00:03:05 +01:00 25/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (52.9nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","19:00:09 +01:00 24/03/2026","22:28:46 +01:00 24/03/2026","3 hours","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (26.3nm)","Dan Oil Field","Denmark (GMT +02H)","Hydrocarbon Field","17:43:54 +01:00 24/03/2026","19:00:09 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (32.8nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","16:18:05 +01:00 24/03/2026","17:38:54 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (27.8nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","15:15:19 +01:00 24/03/2026","16:18:05 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (31.2nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","15:14:49 +01:00 24/03/2026","15:15:19 +01:00 24/03/2026","a few seconds","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (30.9nm)","Hanze Field","Netherlands (GMT +02H)","Hydrocarbon Field","13:19:38 +01:00 24/03/2026","15:14:49 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (49.6nm)","Terschelling","Netherlands (GMT +02H)","Port","12:14:32 +01:00 24/03/2026","13:14:38 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (40.5nm)","Vlieland","Netherlands (GMT +02H)","Port","11:26:56 +01:00 24/03/2026","12:09:32 +01:00 24/03/2026","42 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (39.0nm)","Vlieland","Netherlands (GMT +02H)","Port","10:59:21 +01:00 24/03/2026","11:26:56 +01:00 24/03/2026","27 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"nearing (40.1nm)","Texel","Netherlands (GMT +02H)","Port","10:32:49 +01:00 24/03/2026","10:53:16 +01:00 24/03/2026","20 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (40.0nm)","Shamrock Field","U.K. (GMT +01H)","Hydrocarbon Field","07:55:10 +00:00 24/03/2026","09:29:18 +00:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.3
+"distancing (24.6nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","06:28:19 +00:00 24/03/2026","07:50:09 +00:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (15.2nm)","Orwell Field","U.K. (GMT +01H)","Hydrocarbon Field","06:19:36 +00:00 24/03/2026","06:28:19 +00:00 24/03/2026","8 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (15.3nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","05:54:50 +00:00 24/03/2026","06:15:01 +00:00 24/03/2026","20 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (14.2nm)","Davy East Field","U.K. (GMT +01H)","Hydrocarbon Field","05:01:50 +00:00 24/03/2026","05:54:50 +00:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (19.5nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","04:39:00 +01:00 24/03/2026","05:57:54 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (3.2nm)","De Ruyter Field","Netherlands (GMT +02H)","Hydrocarbon Field","03:49:08 +01:00 24/03/2026","04:39:00 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (12.2nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","03:15:09 +01:00 24/03/2026","03:44:43 +01:00 24/03/2026","29 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (9.9nm)","Rotterdam Anchorage","Netherlands (GMT +02H)","Anchorage","02:05:04 +01:00 24/03/2026","03:15:09 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (17.5nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","01:11:13 +01:00 24/03/2026","01:59:44 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (15.2nm)","Thorntonbank","Belgium (GMT +02H)","Anchorage","00:29:15 +01:00 24/03/2026","01:11:13 +01:00 24/03/2026","41 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (17.6nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","00:07:47 +01:00 24/03/2026","00:24:02 +01:00 24/03/2026","16 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (17.4nm)","Westhinder Anchorage","Belgium (GMT +02H)","Anchorage","22:58:12 +01:00 23/03/2026","00:07:47 +01:00 24/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (22.7nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","21:04:14 +01:00 23/03/2026","22:53:12 +01:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (8.2nm)","Dunkerque Anchorage","France (GMT +02H)","Anchorage","20:44:55 +01:00 23/03/2026","21:04:14 +01:00 23/03/2026","19 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (9.8nm)","Calais","France (GMT +02H)","Port","20:17:24 +01:00 23/03/2026","20:40:13 +01:00 23/03/2026","22 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"passing","Dover Strait Passing","—","Passing Place","19:03:24 +00:00 23/03/2026","19:03:24 +00:00 23/03/2026","a few seconds","Skaw Passing ETA: 25 Mar 2026","Passed East","—","—"
+"nearing (11.5nm)","Dover","U.K. (GMT +01H)","Port","18:57:54 +00:00 23/03/2026","19:12:43 +00:00 23/03/2026","14 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (12.8nm)","Boulogne-sur-Mer","France (GMT +02H)","Port","19:08:42 +01:00 23/03/2026","19:53:24 +01:00 23/03/2026","44 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (7.9nm)","Boulogne-sur-Mer","France (GMT +02H)","Port","18:00:51 +01:00 23/03/2026","19:08:42 +01:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (20.9nm)","Etaples","France (GMT +02H)","Port","17:36:57 +01:00 23/03/2026","17:55:57 +01:00 23/03/2026","19 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (25.0nm)","Dungeness","U.K. (GMT +01H)","Port","16:08:47 +00:00 23/03/2026","16:32:28 +00:00 23/03/2026","23 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (26.3nm)","Eastbourne","U.K. (GMT +01H)","Port","15:08:30 +00:00 23/03/2026","16:04:08 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (23.4nm)","Eastbourne","U.K. (GMT +01H)","Port","14:11:29 +00:00 23/03/2026","15:08:30 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (27.5nm)","Newhaven","U.K. (GMT +01H)","Port","13:19:46 +00:00 23/03/2026","14:07:00 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (30.8nm)","Antifer Anchorage","France (GMT +02H)","Anchorage","13:27:15 +01:00 23/03/2026","14:15:22 +01:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (28.2nm)","Antifer Anchorage","France (GMT +02H)","Anchorage","12:49:03 +01:00 23/03/2026","13:27:15 +01:00 23/03/2026","38 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (30.4nm)","Ventnor","U.K. (GMT +01H)","Port","11:37:46 +00:00 23/03/2026","11:45:09 +00:00 23/03/2026","7 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (29.4nm)","Ventnor","U.K. (GMT +01H)","Port","11:37:40 +00:00 23/03/2026","11:37:46 +00:00 23/03/2026","a few seconds","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (29.7nm)","Ventnor","U.K. (GMT +01H)","Port","11:04:22 +00:00 23/03/2026","11:37:40 +00:00 23/03/2026","33 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (28.4nm)","Ventnor","U.K. (GMT +01H)","Port","11:00:45 +00:00 23/03/2026","11:04:22 +00:00 23/03/2026","3 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (28.5nm)","Barfleur","France (GMT +02H)","Port","11:35:33 +01:00 23/03/2026","11:57:09 +01:00 23/03/2026","21 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (25.6nm)","Fermanville","France (GMT +02H)","Port","10:41:03 +01:00 23/03/2026","11:31:52 +01:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (21.5nm)","Fermanville","France (GMT +02H)","Port","10:26:15 +01:00 23/03/2026","10:41:03 +01:00 23/03/2026","14 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (22.1nm)","Cherbourg-en-Cotentin","France (GMT +02H)","Port","10:18:51 +01:00 23/03/2026","10:22:33 +01:00 23/03/2026","3 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (22.1nm)","Cherbourg-en-Cotentin","France (GMT +02H)","Port","10:11:21 +01:00 23/03/2026","10:18:51 +01:00 23/03/2026","7 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (22.0nm)","Braye","Guernsey (GMT +01H)","Port","07:55:33 +00:00 23/03/2026","09:07:40 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (12.3nm)","Braye","Guernsey (GMT +01H)","Port","06:29:32 +00:00 23/03/2026","07:55:33 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (23.7nm)","Saint Sampson","Guernsey (GMT +01H)","Sub Port","05:02:41 +00:00 23/03/2026","06:24:52 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (33.0nm)","Salcombe","U.K. (GMT +01H)","Port","03:36:12 +00:00 23/03/2026","04:57:42 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (28.0nm)","Salcombe","U.K. (GMT +01H)","Port","02:37:32 +00:00 23/03/2026","03:36:12 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (30.4nm)","Hope Cove","U.K. (GMT +01H)","Port","01:33:41 +00:00 23/03/2026","02:32:12 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (34.6nm)","Coverack","U.K. (GMT +01H)","Port","23:53:35 +00:00 22/03/2026","01:28:11 +00:00 23/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (21.8nm)","Cadgwith","U.K. (GMT +01H)","Port","22:37:10 +00:00 22/03/2026","23:46:38 +00:00 22/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (16.4nm)","Cadgwith","U.K. (GMT +01H)","Port","21:52:19 +00:00 22/03/2026","22:37:10 +00:00 22/03/2026","44 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (18.8nm)","Mullion","U.K. (GMT +01H)","Port","21:18:38 +00:00 22/03/2026","21:45:26 +00:00 22/03/2026","26 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (20.6nm)","Mousehole","U.K. (GMT +01H)","Port","20:47:13 +00:00 22/03/2026","21:12:15 +00:00 22/03/2026","25 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (20.3nm)","Mousehole","U.K. (GMT +01H)","Port","20:18:29 +00:00 22/03/2026","20:47:13 +00:00 22/03/2026","28 minutes","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (20.4nm)","Hugh Town","U.K. (GMT +01H)","Port","19:26:32 +00:00 22/03/2026","20:12:52 +00:00 22/03/2026","an hour","SZCZECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (11.2nm)","Saint Martins","U.K. (GMT +01H)","Port","19:03:57 +00:00 22/03/2026","19:18:17 +00:00 22/03/2026","14 minutes","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (11.1nm)","Saint Martins","U.K. (GMT +01H)","Port","18:01:21 +00:00 22/03/2026","19:03:57 +00:00 22/03/2026","an hour","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (18.7nm)","Newlyn","U.K. (GMT +01H)","Port","17:43:50 +00:00 22/03/2026","17:55:42 +00:00 22/03/2026","11 minutes","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (20.2nm)","Saint Ives","U.K. (GMT +01H)","Port","13:54:50 +00:00 22/03/2026","17:33:48 +00:00 22/03/2026","3 hours","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (60.7nm)","Dale Roads","U.K. (GMT +01H)","Port","13:00:21 +00:00 22/03/2026","13:50:01 +00:00 22/03/2026","an hour","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"distancing (56.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:27:21 +00:00 22/03/2026","12:55:27 +00:00 22/03/2026","4 hours","SZCSECIN ETA: 26 Mar 2026","—","—",7.2
+"nearing (0.7nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:12:42 +00:00 22/03/2026","08:27:21 +00:00 22/03/2026","14 minutes","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"distancing (2.0nm)","Duncannon/Saint Helens","Republic of Ireland (GMT +01H)","Port","07:56:31 +00:00 22/03/2026","08:07:32 +00:00 22/03/2026","11 minutes","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"nearing (0.2nm)","Duncannon/Saint Helens","Republic of Ireland (GMT +01H)","Port","07:42:31 +00:00 22/03/2026","07:56:31 +00:00 22/03/2026","14 minutes","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"nearing (2.3nm)","Waterford","Republic of Ireland (GMT +01H)","Port","07:25:02 +00:00 22/03/2026","07:35:01 +00:00 22/03/2026","9 minutes","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"distancing (2.5nm)","Waterford","Republic of Ireland (GMT +01H)","Port","07:04:11 +00:00 22/03/2026","07:25:02 +00:00 22/03/2026","20 minutes","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"stopped (1.0nm)","Waterford","Republic of Ireland (GMT +01H)","Port","18:51:50 +00:00 19/03/2026","07:04:11 +00:00 22/03/2026","2 days","SZCSECIN ETA: 27 Mar 2026","—","—",7.2
+"called at","Waterford","Republic of Ireland (GMT +01H)","Port","17:51:44 +00:00 19/03/2026","07:27:02 +00:00 22/03/2026","2 days","Dover Strait Passing ETA: 23 Mar 2026","—","—","—"
+"called at","Berth 3","Republic of Ireland (GMT +01H)","Berth","05:32:46 +00:00 20/03/2026","11:58:21 +00:00 20/03/2026","6 hours","Dover Strait Passing ETA: 23 Mar 2026","—","Belview Bulk Terminal","—"
+"called at","Berth 3","Republic of Ireland (GMT +01H)","Berth","17:23:49 +00:00 20/03/2026","16:30:52 +00:00 21/03/2026","a day","Dover Strait Passing ETA: 23 Mar 2026","—","Belview Bulk Terminal","—"
+"called at","Berth 3","Republic of Ireland (GMT +01H)","Berth","22:45:47 +00:00 21/03/2026","02:46:03 +00:00 22/03/2026","4 hours","Dover Strait Passing ETA: 23 Mar 2026","—","Belview Bulk Terminal","—"
+"nearing (1.0nm)","Waterford","Republic of Ireland (GMT +01H)","Port","17:29:54 +00:00 19/03/2026","18:51:50 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (2.5nm)","Duncannon/Saint Helens","Republic of Ireland (GMT +01H)","Port","17:01:44 +00:00 19/03/2026","17:21:14 +00:00 19/03/2026","19 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (0.4nm)","Duncannon/Saint Helens","Republic of Ireland (GMT +01H)","Port","16:50:44 +00:00 19/03/2026","17:01:44 +00:00 19/03/2026","11 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (2.3nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","16:26:55 +00:00 19/03/2026","16:43:14 +00:00 19/03/2026","16 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (0.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","13:25:58 +00:00 19/03/2026","16:26:55 +00:00 19/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","10:23:56 +00:00 19/03/2026","13:25:58 +00:00 19/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","09:23:55 +00:00 19/03/2026","10:23:56 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:21:02 +00:00 19/03/2026","09:23:55 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","07:18:24 +00:00 19/03/2026","08:21:02 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","06:18:17 +00:00 19/03/2026","07:18:24 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","05:15:20 +00:00 19/03/2026","06:18:17 +00:00 19/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","20:04:15 +00:00 18/03/2026","05:15:20 +00:00 19/03/2026","9 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","19:04:10 +00:00 18/03/2026","20:04:15 +00:00 18/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","14:58:44 +00:00 18/03/2026","19:04:10 +00:00 18/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","13:58:34 +00:00 18/03/2026","14:58:44 +00:00 18/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","12:58:29 +00:00 18/03/2026","13:58:34 +00:00 18/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","11:58:18 +00:00 18/03/2026","12:58:29 +00:00 18/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","10:54:29 +00:00 18/03/2026","11:58:18 +00:00 18/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","00:49:48 +00:00 18/03/2026","10:54:29 +00:00 18/03/2026","10 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","21:46:06 +00:00 17/03/2026","00:49:48 +00:00 18/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","17:45:24 +00:00 17/03/2026","21:46:06 +00:00 17/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","15:44:34 +00:00 17/03/2026","17:45:24 +00:00 17/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","13:44:24 +00:00 17/03/2026","15:44:34 +00:00 17/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","12:44:18 +00:00 17/03/2026","13:44:24 +00:00 17/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","11:44:03 +00:00 17/03/2026","12:44:18 +00:00 17/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","09:43:51 +00:00 17/03/2026","11:44:03 +00:00 17/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:43:48 +00:00 17/03/2026","09:43:51 +00:00 17/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","05:43:08 +00:00 17/03/2026","08:43:48 +00:00 17/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (6.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","04:43:07 +00:00 17/03/2026","05:43:08 +00:00 17/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","00:42:41 +00:00 17/03/2026","04:43:07 +00:00 17/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","21:41:52 +00:00 16/03/2026","00:42:41 +00:00 17/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","14:40:54 +00:00 16/03/2026","21:41:52 +00:00 16/03/2026","7 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","13:40:48 +00:00 16/03/2026","14:40:54 +00:00 16/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","11:40:28 +00:00 16/03/2026","13:40:48 +00:00 16/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","10:40:12 +00:00 16/03/2026","11:40:28 +00:00 16/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.0nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","03:34:11 +00:00 16/03/2026","10:40:12 +00:00 16/03/2026","7 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","02:34:05 +00:00 16/03/2026","03:34:11 +00:00 16/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","01:34:00 +00:00 16/03/2026","02:34:05 +00:00 16/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","23:33:44 +00:00 15/03/2026","01:34:00 +00:00 16/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","22:33:20 +00:00 15/03/2026","23:33:44 +00:00 15/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","17:32:43 +00:00 15/03/2026","22:33:20 +00:00 15/03/2026","5 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","16:32:37 +00:00 15/03/2026","17:32:43 +00:00 15/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","09:26:55 +00:00 15/03/2026","16:32:37 +00:00 15/03/2026","7 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:26:45 +00:00 15/03/2026","09:26:55 +00:00 15/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","20:59:50 +00:00 13/03/2026","08:26:45 +00:00 15/03/2026","a day","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","19:56:54 +00:00 13/03/2026","20:59:50 +00:00 13/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","17:51:46 +00:00 13/03/2026","19:56:54 +00:00 13/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","16:51:40 +00:00 13/03/2026","17:51:46 +00:00 13/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","15:48:53 +00:00 13/03/2026","16:51:40 +00:00 13/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","14:45:54 +00:00 13/03/2026","15:48:53 +00:00 13/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","12:42:54 +00:00 13/03/2026","14:45:54 +00:00 13/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:00:30 +00:00 13/03/2026","12:42:54 +00:00 13/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (43.9nm)","Youghal","Republic of Ireland (GMT +01H)","Port","04:09:16 +00:00 13/03/2026","06:46:17 +00:00 13/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (55.2nm)","Youghal","Republic of Ireland (GMT +01H)","Port","23:04:47 +00:00 12/03/2026","04:09:16 +00:00 13/03/2026","5 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (33.4nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","18:44:54 +00:00 12/03/2026","22:40:38 +00:00 12/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (9.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","16:46:49 +00:00 12/03/2026","18:44:54 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (29.9nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","09:40:37 +00:00 12/03/2026","16:46:49 +00:00 12/03/2026","7 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (7.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","08:00:39 +00:00 12/03/2026","09:40:37 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (22.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","04:36:16 +00:00 12/03/2026","08:00:39 +00:00 12/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (4.1nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","03:36:08 +00:00 12/03/2026","04:36:16 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (4.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","03:18:07 +00:00 12/03/2026","03:36:08 +00:00 12/03/2026","18 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (3.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","02:16:54 +00:00 12/03/2026","03:18:07 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (4.3nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","01:40:12 +00:00 12/03/2026","02:16:54 +00:00 12/03/2026","36 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (4.3nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","01:04:54 +00:00 12/03/2026","01:40:12 +00:00 12/03/2026","35 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (5.2nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","00:09:38 +00:00 12/03/2026","01:04:54 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (3.3nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","22:28:20 +00:00 11/03/2026","00:09:38 +00:00 12/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (4.4nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","21:54:50 +00:00 10/03/2026","22:28:20 +00:00 11/03/2026","a day","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (4.4nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","18:48:55 +00:00 10/03/2026","21:54:50 +00:00 10/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"stopped (4.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","10:30:53 +00:00 10/03/2026","18:48:55 +00:00 10/03/2026","8 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (4.8nm)","Dunmore East","Republic of Ireland (GMT +01H)","Port","06:10:02 +00:00 10/03/2026","10:30:53 +00:00 10/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (30.4nm)","Youghal","Republic of Ireland (GMT +01H)","Port","02:59:33 +00:00 10/03/2026","05:56:06 +00:00 10/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (63.7nm)","Kinsale","Republic of Ireland (GMT +01H)","Port","01:25:53 +00:00 10/03/2026","01:33:43 +00:00 10/03/2026","7 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (60.1nm)","Bryher","U.K. (GMT +01H)","Port","22:42:25 +00:00 09/03/2026","23:25:53 +00:00 09/03/2026","43 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (59.0nm)","Bryher","U.K. (GMT +01H)","Port","21:10:03 +00:00 09/03/2026","22:42:25 +00:00 09/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (90.0nm)","Saint Agnes","U.K. (GMT +01H)","Port","12:00:13 +00:00 09/03/2026","17:21:33 +00:00 09/03/2026","5 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (149.1nm)","Creac'h-Point","France (GMT +02H)","Port","07:09:33 +01:00 09/03/2026","12:51:04 +01:00 09/03/2026","5 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (193.1nm)","Carino","Spain (GMT +02H)","Port","02:29:21 +01:00 09/03/2026","07:04:42 +01:00 09/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (145.7nm)","Cedeira","Spain (GMT +02H)","Port","22:54:08 +01:00 08/03/2026","02:20:11 +01:00 09/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (115.6nm)","Malpica","Spain (GMT +02H)","Port","21:32:07 +01:00 08/03/2026","22:45:07 +01:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (103.1nm)","Corme","Spain (GMT +02H)","Port","18:55:03 +01:00 08/03/2026","21:23:06 +01:00 08/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (81.3nm)","Camelle","Spain (GMT +02H)","Port","18:21:47 +01:00 08/03/2026","18:50:22 +01:00 08/03/2026","28 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (76.2nm)","Camarinas","Spain (GMT +02H)","Port","17:26:58 +01:00 08/03/2026","18:12:38 +01:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (69.6nm)","Mugia","Spain (GMT +02H)","Port","13:24:00 +01:00 08/03/2026","17:19:35 +01:00 08/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (51.6nm)","Mugia","Spain (GMT +02H)","Port","12:25:24 +01:00 08/03/2026","13:24:00 +01:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (53.2nm)","Corcubion","Spain (GMT +02H)","Port","09:56:37 +01:00 08/03/2026","12:18:49 +01:00 08/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (63.1nm)","Ribeira (Santa Uxia)","Spain (GMT +02H)","Port","09:06:56 +01:00 08/03/2026","09:48:33 +01:00 08/03/2026","41 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (65.4nm)","Ons","Spain (GMT +02H)","Port","08:17:20 +01:00 08/03/2026","09:01:51 +01:00 08/03/2026","44 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (67.6nm)","La Guardia","Spain (GMT +02H)","Port","07:49:13 +01:00 08/03/2026","08:07:22 +01:00 08/03/2026","18 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (67.5nm)","La Guardia","Spain (GMT +02H)","Port","05:56:50 +01:00 08/03/2026","07:49:13 +01:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (71.6nm)","Viana do Castelo","Portugal (GMT +01H)","Port","03:53:48 +00:00 08/03/2026","04:45:26 +00:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (74.0nm)","Povoa de Varzim","Portugal (GMT +01H)","Port","03:10:52 +00:00 08/03/2026","03:47:12 +00:00 08/03/2026","36 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (75.0nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","02:39:58 +00:00 08/03/2026","02:58:47 +00:00 08/03/2026","18 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (74.9nm)","Leixoes Anchorage","Portugal (GMT +01H)","Anchorage","02:23:28 +00:00 08/03/2026","02:39:58 +00:00 08/03/2026","16 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (74.8nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","00:19:07 +00:00 08/03/2026","02:16:23 +00:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (71.1nm)","Aveiro Anchorage","Portugal (GMT +01H)","Anchorage","22:58:22 +00:00 07/03/2026","00:19:07 +00:00 08/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (73.2nm)","Figueira da Foz","Portugal (GMT +01H)","Port","22:12:22 +00:00 07/03/2026","22:44:33 +00:00 07/03/2026","32 minutes","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (71.8nm)","Peniche","Portugal (GMT +01H)","Port","17:15:43 +00:00 07/03/2026","22:06:13 +00:00 07/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (48.0nm)","Peniche","Portugal (GMT +01H)","Port","15:44:41 +00:00 07/03/2026","17:15:43 +00:00 07/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (50.7nm)","Cascais","Portugal (GMT +01H)","Port","13:42:17 +00:00 07/03/2026","15:34:40 +00:00 07/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (46.9nm)","Cascais","Portugal (GMT +01H)","Port","10:51:34 +00:00 07/03/2026","13:42:17 +00:00 07/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (51.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","08:17:06 +00:00 07/03/2026","10:43:17 +00:00 07/03/2026","2 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (63.0nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","06:54:29 +00:00 07/03/2026","08:07:58 +00:00 07/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (61.4nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","05:57:29 +00:00 07/03/2026","06:54:29 +00:00 07/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (62.1nm)","Sagres","Portugal (GMT +01H)","Port","01:35:33 +00:00 07/03/2026","05:47:49 +00:00 07/03/2026","4 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (47.2nm)","Sagres","Portugal (GMT +01H)","Port","13:04:33 +00:00 06/03/2026","01:35:33 +00:00 07/03/2026","12 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (116.8nm)","El Jadida","Morocco (GMT +01H)","Port","03:28:23 +00:00 06/03/2026","12:10:07 +00:00 06/03/2026","8 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"distancing (37.3nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:53:53 +00:00 05/03/2026","03:16:13 +00:00 06/03/2026","3 hours","WATERFORD ETA: 10 Mar 2026","—","—",8.8
+"nearing (0.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:40:26 +00:00 05/03/2026","23:53:53 +00:00 05/03/2026","13 minutes","WATERFORD ETA: 10 Mar 2026","—","—",7.4
+"distancing (2.2nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","22:28:45 +00:00 05/03/2026","23:33:44 +00:00 05/03/2026","an hour","WATERFORD ETA: 10 Mar 2026","—","—",7.4
+"stopped (0.4nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","04:14:40 +00:00 02/03/2026","22:28:45 +00:00 05/03/2026","3 days","WATERFORD ETA: 10 Mar 2026","—","—",7.4
+"called at","Jorf Lasfar","Morocco (GMT +01H)","Port","03:13:08 +00:00 02/03/2026","23:22:43 +00:00 05/03/2026","3 days","Waterford ETA: 19 Mar 2026","—","—","—"
+"called at","Berth 2 Bis","Morocco (GMT +01H)","Berth","03:35:00 +00:00 02/03/2026","23:07:49 +00:00 05/03/2026","3 days","Waterford ETA: 19 Mar 2026","—","Terminal No. 2","—"
+"nearing (0.4nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","02:48:25 +00:00 02/03/2026","04:14:40 +00:00 02/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:56:41 +00:00 02/03/2026","02:34:30 +00:00 02/03/2026","37 minutes","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:56:25 +00:00 02/03/2026","01:56:41 +00:00 02/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:56:18 +00:00 01/03/2026","00:56:25 +00:00 02/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:56:11 +00:00 01/03/2026","23:56:18 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:56:10 +00:00 01/03/2026","22:56:11 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:55:58 +00:00 01/03/2026","21:56:10 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:55:52 +00:00 01/03/2026","20:55:58 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:55:44 +00:00 01/03/2026","19:55:52 +00:00 01/03/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:55:41 +00:00 01/03/2026","17:55:44 +00:00 01/03/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:55:39 +00:00 01/03/2026","15:55:41 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:55:26 +00:00 01/03/2026","14:55:39 +00:00 01/03/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:55:24 +00:00 01/03/2026","12:55:26 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","10:55:13 +00:00 01/03/2026","11:55:24 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:54:44 +00:00 01/03/2026","10:55:13 +00:00 01/03/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:54:43 +00:00 01/03/2026","08:54:44 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:54:26 +00:00 01/03/2026","07:54:43 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:54:20 +00:00 01/03/2026","06:54:26 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:54:13 +00:00 01/03/2026","05:54:20 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:54:02 +00:00 01/03/2026","04:54:13 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:53:42 +00:00 01/03/2026","03:54:02 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:53:36 +00:00 01/03/2026","02:53:42 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:53:31 +00:00 01/03/2026","01:53:36 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:53:25 +00:00 28/02/2026","00:53:31 +00:00 01/03/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:53:20 +00:00 28/02/2026","23:53:25 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:52:54 +00:00 28/02/2026","22:53:20 +00:00 28/02/2026","4 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:52:39 +00:00 28/02/2026","18:52:54 +00:00 28/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:52:02 +00:00 28/02/2026","15:52:39 +00:00 28/02/2026","6 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:51:10 +00:00 28/02/2026","09:52:02 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:50:53 +00:00 28/02/2026","08:51:10 +00:00 28/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:50:46 +00:00 28/02/2026","06:50:53 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:50:40 +00:00 28/02/2026","05:50:46 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:50:34 +00:00 28/02/2026","04:50:40 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:50:07 +00:00 28/02/2026","03:50:34 +00:00 28/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:50:02 +00:00 27/02/2026","00:50:07 +00:00 28/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:49:56 +00:00 27/02/2026","23:50:02 +00:00 27/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:49:51 +00:00 27/02/2026","22:49:56 +00:00 27/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:49:40 +00:00 27/02/2026","21:49:51 +00:00 27/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"called at","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:54:58 +00:00 27/02/2026","02:57:13 +00:00 02/03/2026","2 days","Jorf Lasfar ETA: 02 Mar 2026","—","—","—"
+"distancing (2.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:49:29 +00:00 27/02/2026","19:49:40 +00:00 27/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"nearing (2.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:34:27 +00:00 27/02/2026","17:49:29 +00:00 27/02/2026","15 minutes","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"distancing (2.7nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","16:05:00 +00:00 27/02/2026","17:23:28 +00:00 27/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",7.4
+"stopped (0.4nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","15:55:01 +00:00 24/02/2026","16:05:00 +00:00 27/02/2026","3 days","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"called at","Jorf Lasfar","Morocco (GMT +01H)","Port","14:54:29 +00:00 24/02/2026","17:06:47 +00:00 27/02/2026","3 days","Jorf Lasfar Anchorage ETA: 27 Feb 2026","—","—","—"
+"called at","Berth 2 Bis","Morocco (GMT +01H)","Berth","15:23:37 +00:00 24/02/2026","16:56:10 +00:00 27/02/2026","3 days","Jorf Lasfar Anchorage ETA: 27 Feb 2026","—","Terminal No. 2","—"
+"nearing (0.4nm)","Jorf Lasfar","Morocco (GMT +01H)","Port","14:32:50 +00:00 24/02/2026","15:55:01 +00:00 24/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (2.3nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:05:54 +00:00 24/02/2026","14:22:30 +00:00 24/02/2026","16 minutes","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (0.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","10:30:49 +00:00 24/02/2026","14:05:54 +00:00 24/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:30:01 +00:00 24/02/2026","10:30:49 +00:00 24/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:29:56 +00:00 24/02/2026","07:30:01 +00:00 24/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:29:45 +00:00 24/02/2026","06:29:56 +00:00 24/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:29:37 +00:00 24/02/2026","04:29:45 +00:00 24/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:29:35 +00:00 24/02/2026","03:29:37 +00:00 24/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:29:32 +00:00 24/02/2026","02:29:35 +00:00 24/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:26:45 +00:00 23/02/2026","00:29:32 +00:00 24/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:26:39 +00:00 23/02/2026","22:26:45 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:26:34 +00:00 23/02/2026","21:26:39 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:26:14 +00:00 23/02/2026","20:26:34 +00:00 23/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:25:47 +00:00 23/02/2026","17:26:14 +00:00 23/02/2026","5 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:25:40 +00:00 23/02/2026","12:25:47 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:25:06 +00:00 23/02/2026","11:25:40 +00:00 23/02/2026","6 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:24:54 +00:00 23/02/2026","05:25:06 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:23:57 +00:00 23/02/2026","04:24:54 +00:00 23/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:23:52 +00:00 23/02/2026","02:23:57 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:22:58 +00:00 23/02/2026","01:23:52 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:22:53 +00:00 22/02/2026","00:22:58 +00:00 23/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:22:42 +00:00 22/02/2026","23:22:53 +00:00 22/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:22:37 +00:00 22/02/2026","21:22:42 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:22:20 +00:00 22/02/2026","20:22:37 +00:00 22/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:22:06 +00:00 22/02/2026","17:22:20 +00:00 22/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:21:56 +00:00 22/02/2026","15:22:06 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:21:55 +00:00 22/02/2026","14:21:56 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:21:44 +00:00 22/02/2026","13:21:55 +00:00 22/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:21:28 +00:00 22/02/2026","11:21:44 +00:00 22/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:21:22 +00:00 22/02/2026","08:21:28 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:20:57 +00:00 22/02/2026","07:21:22 +00:00 22/02/2026","4 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:20:52 +00:00 22/02/2026","03:20:57 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:20:46 +00:00 22/02/2026","02:20:52 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:20:41 +00:00 22/02/2026","01:20:46 +00:00 22/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:20:28 +00:00 21/02/2026","00:20:41 +00:00 22/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:20:19 +00:00 21/02/2026","22:20:28 +00:00 21/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:20:13 +00:00 21/02/2026","20:20:19 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:20:05 +00:00 21/02/2026","19:20:13 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:19:54 +00:00 21/02/2026","18:20:05 +00:00 21/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:19:48 +00:00 21/02/2026","16:19:54 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:19:37 +00:00 21/02/2026","15:19:48 +00:00 21/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:19:35 +00:00 21/02/2026","13:19:37 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:19:29 +00:00 21/02/2026","12:19:35 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","10:18:55 +00:00 21/02/2026","11:19:29 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:18:49 +00:00 21/02/2026","10:18:55 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:17:33 +00:00 21/02/2026","09:18:49 +00:00 21/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:17:21 +00:00 21/02/2026","07:17:33 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:17:19 +00:00 21/02/2026","06:17:21 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:16:22 +00:00 21/02/2026","05:17:19 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:16:20 +00:00 21/02/2026","04:16:22 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:16:17 +00:00 21/02/2026","03:16:20 +00:00 21/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:15:10 +00:00 21/02/2026","01:16:17 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:15:04 +00:00 20/02/2026","00:15:10 +00:00 21/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:14:59 +00:00 20/02/2026","23:15:04 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:14:53 +00:00 20/02/2026","22:14:59 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:14:48 +00:00 20/02/2026","21:14:53 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:14:42 +00:00 20/02/2026","20:14:48 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:14:37 +00:00 20/02/2026","19:14:42 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:14:23 +00:00 20/02/2026","18:14:37 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:14:21 +00:00 20/02/2026","17:14:23 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:12:30 +00:00 20/02/2026","16:14:21 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:12:24 +00:00 20/02/2026","15:12:30 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:11:57 +00:00 20/02/2026","14:12:24 +00:00 20/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:11:52 +00:00 20/02/2026","12:11:57 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:11:41 +00:00 20/02/2026","11:11:52 +00:00 20/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:11:36 +00:00 20/02/2026","09:11:41 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:11:20 +00:00 20/02/2026","08:11:36 +00:00 20/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:11:15 +00:00 20/02/2026","05:11:20 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:11:10 +00:00 20/02/2026","04:11:15 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:11:04 +00:00 20/02/2026","03:11:10 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:10:59 +00:00 20/02/2026","02:11:04 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:08:53 +00:00 20/02/2026","01:10:59 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:08:37 +00:00 19/02/2026","00:08:53 +00:00 20/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:07:14 +00:00 19/02/2026","23:08:37 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:07:08 +00:00 19/02/2026","22:07:14 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:06:48 +00:00 19/02/2026","21:07:08 +00:00 19/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:06:16 +00:00 19/02/2026","19:06:48 +00:00 19/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:06:11 +00:00 19/02/2026","16:06:16 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:06:02 +00:00 19/02/2026","15:06:11 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:05:57 +00:00 19/02/2026","14:06:02 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:05:51 +00:00 19/02/2026","13:05:57 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:05:46 +00:00 19/02/2026","12:05:51 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:05:35 +00:00 19/02/2026","11:05:46 +00:00 19/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:05:29 +00:00 19/02/2026","09:05:35 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:05:18 +00:00 19/02/2026","08:05:29 +00:00 19/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:05:13 +00:00 19/02/2026","06:05:18 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:05:04 +00:00 19/02/2026","05:05:13 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:04:59 +00:00 19/02/2026","04:05:04 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:04:53 +00:00 19/02/2026","03:04:59 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:04:48 +00:00 19/02/2026","02:04:53 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:04:42 +00:00 19/02/2026","01:04:48 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:04:37 +00:00 18/02/2026","00:04:42 +00:00 19/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:04:31 +00:00 18/02/2026","23:04:37 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:04:21 +00:00 18/02/2026","22:04:31 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:04:06 +00:00 18/02/2026","21:04:21 +00:00 18/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:04:01 +00:00 18/02/2026","18:04:06 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:03:55 +00:00 18/02/2026","17:04:01 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:03:50 +00:00 18/02/2026","16:03:55 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:03:44 +00:00 18/02/2026","15:03:50 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:03:39 +00:00 18/02/2026","14:03:44 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:02:53 +00:00 18/02/2026","13:03:39 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:02:44 +00:00 18/02/2026","12:02:53 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","10:01:44 +00:00 18/02/2026","11:02:44 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:01:38 +00:00 18/02/2026","10:01:44 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:00:47 +00:00 18/02/2026","09:01:38 +00:00 18/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:00:44 +00:00 18/02/2026","07:00:47 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:59:31 +00:00 18/02/2026","06:00:44 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:59:21 +00:00 18/02/2026","04:59:31 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:59:15 +00:00 18/02/2026","03:59:21 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:58:47 +00:00 18/02/2026","02:59:15 +00:00 18/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:57:59 +00:00 17/02/2026","01:58:47 +00:00 18/02/2026","4 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:57:44 +00:00 17/02/2026","21:57:59 +00:00 17/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:57:43 +00:00 17/02/2026","19:57:44 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:57:37 +00:00 17/02/2026","18:57:43 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:57:34 +00:00 17/02/2026","17:57:37 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:57:23 +00:00 17/02/2026","16:57:34 +00:00 17/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:57:15 +00:00 17/02/2026","14:57:23 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:56:49 +00:00 17/02/2026","13:57:15 +00:00 17/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:56:46 +00:00 17/02/2026","11:56:49 +00:00 17/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:56:35 +00:00 17/02/2026","09:56:46 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:56:02 +00:00 17/02/2026","08:56:35 +00:00 17/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:55:48 +00:00 17/02/2026","05:56:02 +00:00 17/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:55:41 +00:00 17/02/2026","02:55:48 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:55:09 +00:00 17/02/2026","01:55:41 +00:00 17/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:54:52 +00:00 16/02/2026","00:55:09 +00:00 17/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:54:47 +00:00 16/02/2026","21:54:52 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:54:30 +00:00 16/02/2026","20:54:47 +00:00 16/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:54:25 +00:00 16/02/2026","17:54:30 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:54:05 +00:00 16/02/2026","16:54:25 +00:00 16/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:54:00 +00:00 16/02/2026","13:54:05 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","10:53:49 +00:00 16/02/2026","12:54:00 +00:00 16/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","09:53:43 +00:00 16/02/2026","10:53:49 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:53:38 +00:00 16/02/2026","09:53:43 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:53:27 +00:00 16/02/2026","08:53:38 +00:00 16/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:53:21 +00:00 16/02/2026","06:53:27 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:53:13 +00:00 16/02/2026","05:53:21 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:53:07 +00:00 16/02/2026","04:53:13 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:52:57 +00:00 16/02/2026","03:53:07 +00:00 16/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:52:51 +00:00 16/02/2026","01:52:57 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:52:44 +00:00 15/02/2026","00:52:51 +00:00 16/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:52:41 +00:00 15/02/2026","23:52:44 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:52:26 +00:00 15/02/2026","22:52:41 +00:00 15/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:52:20 +00:00 15/02/2026","20:52:26 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:52:15 +00:00 15/02/2026","19:52:20 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:52:10 +00:00 15/02/2026","18:52:15 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:51:46 +00:00 15/02/2026","17:52:10 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:51:30 +00:00 15/02/2026","16:51:46 +00:00 15/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:51:24 +00:00 15/02/2026","13:51:30 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:51:03 +00:00 15/02/2026","12:51:24 +00:00 15/02/2026","4 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:50:58 +00:00 15/02/2026","08:51:03 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:50:42 +00:00 15/02/2026","07:50:58 +00:00 15/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:50:37 +00:00 15/02/2026","04:50:42 +00:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","02:50:24 +01:00 15/02/2026","03:50:37 +00:00 15/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:50:19 +01:00 15/02/2026","02:50:24 +01:00 15/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","23:50:17 +01:00 14/02/2026","00:50:19 +01:00 15/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:50:13 +01:00 14/02/2026","23:50:17 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:50:09 +01:00 14/02/2026","22:50:13 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:50:03 +01:00 14/02/2026","21:50:09 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.0nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","17:49:46 +01:00 14/02/2026","20:50:03 +01:00 14/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:49:40 +01:00 14/02/2026","17:49:46 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:49:34 +01:00 14/02/2026","16:49:40 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","14:49:29 +01:00 14/02/2026","15:49:34 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.1nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:48:50 +01:00 14/02/2026","14:49:29 +01:00 14/02/2026","6 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:48:45 +01:00 14/02/2026","08:48:50 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:48:35 +01:00 14/02/2026","07:48:45 +01:00 14/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (5.2nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:48:24 +01:00 14/02/2026","05:48:35 +01:00 14/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.5nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","01:48:12 +01:00 14/02/2026","03:48:24 +01:00 14/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.7nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","00:48:07 +01:00 14/02/2026","01:48:12 +01:00 14/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.6nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","21:47:50 +01:00 13/02/2026","00:48:07 +01:00 14/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","20:47:44 +01:00 13/02/2026","21:47:50 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.7nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","18:47:33 +01:00 13/02/2026","20:47:44 +01:00 13/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","16:47:25 +01:00 13/02/2026","18:47:33 +01:00 13/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (4.7nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","15:47:20 +01:00 13/02/2026","16:47:25 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","13:47:10 +01:00 13/02/2026","15:47:20 +01:00 13/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","12:46:56 +01:00 13/02/2026","13:47:10 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","11:46:41 +01:00 13/02/2026","12:46:56 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","08:46:05 +01:00 13/02/2026","11:46:41 +01:00 13/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","07:45:50 +01:00 13/02/2026","08:46:05 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","06:45:30 +01:00 13/02/2026","07:45:50 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","05:44:40 +01:00 13/02/2026","06:45:30 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.9nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","04:44:32 +01:00 13/02/2026","05:44:40 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","03:44:24 +01:00 13/02/2026","04:44:32 +01:00 13/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (4.8nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","22:09:58 +01:00 12/02/2026","03:44:24 +01:00 13/02/2026","5 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (4.3nm)","Jorf Lasfar Anchorage","Morocco (GMT +01H)","Anchorage","19:29:27 +01:00 12/02/2026","22:09:58 +01:00 12/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (39.6nm)","El Jadida","Morocco (GMT +01H)","Port","13:25:39 +01:00 12/02/2026","19:24:54 +01:00 12/02/2026","5 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (116.8nm)","Sagres","Portugal (GMT +01H)","Port","04:23:18 +00:00 12/02/2026","12:20:37 +00:00 12/02/2026","7 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (49.8nm)","Sagres","Portugal (GMT +01H)","Port","01:39:37 +00:00 12/02/2026","04:23:18 +00:00 12/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (61.2nm)","Sagres","Portugal (GMT +01H)","Port","00:37:34 +00:00 12/02/2026","01:39:37 +00:00 12/02/2026","an hour","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (59.5nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","21:00:29 +00:00 11/02/2026","00:27:29 +00:00 12/02/2026","3 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (40.4nm)","Sesimbra","Portugal (GMT +01H)","Port","18:29:30 +00:00 11/02/2026","20:56:24 +00:00 11/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"distancing (21.9nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","15:33:31 +00:00 11/02/2026","18:18:57 +00:00 11/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"nearing (0.2nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","13:05:14 +00:00 11/02/2026","15:33:31 +00:00 11/02/2026","2 hours","JORF LASFAR ETA: 13 Feb 2026","—","—",6
+"stopped (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","12:05:09 +00:00 11/02/2026","13:05:14 +00:00 11/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","11:05:04 +00:00 11/02/2026","12:05:09 +00:00 11/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","03:00:43 +00:00 11/02/2026","11:05:04 +00:00 11/02/2026","8 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","02:00:27 +00:00 11/02/2026","03:00:43 +00:00 11/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","01:00:12 +00:00 11/02/2026","02:00:27 +00:00 11/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","23:59:52 +00:00 10/02/2026","01:00:12 +00:00 11/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","22:59:27 +00:00 10/02/2026","23:59:52 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","21:59:12 +00:00 10/02/2026","22:59:27 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.4nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","20:58:52 +00:00 10/02/2026","21:59:12 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","19:58:45 +00:00 10/02/2026","20:58:52 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","18:58:16 +00:00 10/02/2026","19:58:45 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","15:55:36 +00:00 10/02/2026","18:58:16 +00:00 10/02/2026","3 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"called at","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","13:04:54 +00:00 10/02/2026","15:43:39 +00:00 11/02/2026","a day","Jorf Lasfar ETA: 24 Feb 2026","—","—","—"
+"nearing (0.4nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","12:50:01 +00:00 10/02/2026","15:55:36 +00:00 10/02/2026","3 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.9nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","12:41:24 +00:00 10/02/2026","12:50:01 +00:00 10/02/2026","8 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","12:14:26 +00:00 10/02/2026","12:41:24 +00:00 10/02/2026","26 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (2.8nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","11:53:54 +00:00 10/02/2026","12:14:26 +00:00 10/02/2026","20 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (2.1nm)","Oeiras","Portugal (GMT +01H)","Port","11:34:44 +00:00 10/02/2026","11:46:04 +00:00 10/02/2026","11 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.4nm)","Oeiras","Portugal (GMT +01H)","Port","11:14:53 +00:00 10/02/2026","11:34:44 +00:00 10/02/2026","19 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (2.4nm)","Lisbon","Portugal (GMT +01H)","Port","09:14:10 +00:00 10/02/2026","11:08:44 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (1.0nm)","Lisbon","Portugal (GMT +01H)","Port","06:13:28 +00:00 10/02/2026","09:14:10 +00:00 10/02/2026","3 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.9nm)","Lisbon","Portugal (GMT +01H)","Port","05:13:02 +00:00 10/02/2026","06:13:28 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.9nm)","Lisbon","Portugal (GMT +01H)","Port","04:12:54 +00:00 10/02/2026","05:13:02 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.8nm)","Lisbon","Portugal (GMT +01H)","Port","00:12:12 +00:00 10/02/2026","04:12:54 +00:00 10/02/2026","4 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.7nm)","Lisbon","Portugal (GMT +01H)","Port","23:11:52 +00:00 09/02/2026","00:12:12 +00:00 10/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.7nm)","Lisbon","Portugal (GMT +01H)","Port","21:11:28 +00:00 09/02/2026","23:11:52 +00:00 09/02/2026","2 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.7nm)","Lisbon","Portugal (GMT +01H)","Port","20:11:24 +00:00 09/02/2026","21:11:28 +00:00 09/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"stopped (0.9nm)","Lisbon","Portugal (GMT +01H)","Port","16:32:26 +00:00 09/02/2026","20:11:24 +00:00 09/02/2026","3 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (0.9nm)","Lisbon","Portugal (GMT +01H)","Port","14:30:51 +00:00 09/02/2026","16:32:26 +00:00 09/02/2026","2 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.7nm)","Lisbon","Portugal (GMT +01H)","Port","13:57:51 +00:00 09/02/2026","14:30:51 +00:00 09/02/2026","33 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (3.0nm)","Oeiras","Portugal (GMT +01H)","Port","13:33:32 +00:00 09/02/2026","13:51:42 +00:00 09/02/2026","18 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (0.6nm)","Oeiras","Portugal (GMT +01H)","Port","13:20:32 +00:00 09/02/2026","13:33:32 +00:00 09/02/2026","13 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (2.6nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","12:28:23 +00:00 09/02/2026","13:14:22 +00:00 09/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (10.0nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","11:53:30 +00:00 09/02/2026","12:28:23 +00:00 09/02/2026","34 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (6.8nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","10:40:22 +00:00 09/02/2026","11:53:30 +00:00 09/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (17.1nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","08:45:05 +00:00 09/02/2026","10:40:22 +00:00 09/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (7.5nm)","Lisbon Anchorage","Portugal (GMT +01H)","Anchorage","05:13:35 +00:00 09/02/2026","08:45:05 +00:00 09/02/2026","3 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (41.8nm)","Sesimbra","Portugal (GMT +01H)","Port","03:54:59 +00:00 09/02/2026","05:05:41 +00:00 09/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (54.2nm)","Sines Anchorage","Portugal (GMT +01H)","Anchorage","23:19:21 +00:00 08/02/2026","03:48:57 +00:00 09/02/2026","4 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (100.7nm)","Sagres","Portugal (GMT +01H)","Port","15:46:50 +00:00 08/02/2026","23:02:25 +00:00 08/02/2026","7 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (166.5nm)","Sagres","Portugal (GMT +01H)","Port","15:44:50 +00:00 08/02/2026","15:46:50 +00:00 08/02/2026","2 minutes","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (166.1nm)","Sagres","Portugal (GMT +01H)","Port","04:09:11 +00:00 08/02/2026","15:44:50 +00:00 08/02/2026","11 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (218.5nm)","Porto Santo","Portugal (GMT +01H)","Port","11:23:28 +00:00 07/02/2026","03:52:00 +00:00 08/02/2026","16 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (173.2nm)","Porto Santo","Portugal (GMT +01H)","Port","07:20:12 +00:00 07/02/2026","11:23:28 +00:00 07/02/2026","4 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (180.1nm)","Porto Santo","Portugal (GMT +01H)","Port","06:07:32 +00:00 07/02/2026","07:20:12 +00:00 07/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (179.8nm)","Porto Santo","Portugal (GMT +01H)","Port","04:09:23 +00:00 07/02/2026","06:07:32 +00:00 07/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (181.1nm)","Safi Anchorage","Morocco (GMT +01H)","Anchorage","03:38:33 +01:00 07/02/2026","05:00:22 +01:00 07/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (175.3nm)","Essaouira","Morocco (GMT +01H)","Port","17:08:11 +01:00 06/02/2026","03:29:23 +01:00 07/02/2026","10 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (123.3nm)","Essaouira","Morocco (GMT +01H)","Port","12:33:41 +01:00 06/02/2026","17:08:11 +01:00 06/02/2026","4 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (161.0nm)","Caleta de Sebo","Spain (GMT +01H)","Port","08:09:50 +00:00 06/02/2026","10:11:02 +00:00 06/02/2026","2 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (154.7nm)","Porto Santo","Portugal (GMT +01H)","Port","01:48:12 +00:00 06/02/2026","08:03:12 +00:00 06/02/2026","6 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (108.4nm)","Zona Franca da Madeira","Portugal (GMT +01H)","Anchorage","18:28:21 +00:00 05/02/2026","01:39:02 +00:00 06/02/2026","7 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (72.1nm)","Funchal","Portugal (GMT +01H)","Port","16:33:22 +00:00 05/02/2026","18:05:41 +00:00 05/02/2026","an hour","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (69.9nm)","Socorridos","Portugal (GMT +01H)","Port","07:04:14 +00:00 05/02/2026","15:45:31 +00:00 05/02/2026","8 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (117.5nm)","Porto Moniz","Portugal (GMT +01H)","Port","12:23:41 +00:00 04/02/2026","06:55:36 +00:00 05/02/2026","18 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"distancing (293.8nm)","Vila Do Porto","Portugal (GMT +00H)","Port","20:14:41 -01:00 03/02/2026","11:14:20 -01:00 04/02/2026","14 hours","LISBON ETA: 09 Feb 2026","—","—",5.9
+"nearing (238.2nm)","Vila Do Porto","Portugal (GMT +00H)","Port","20:01:32 -01:00 03/02/2026","20:14:41 -01:00 03/02/2026","13 minutes","LISBOA ETA: 09 Feb 2026","—","—",5.9
+"distancing (238.3nm)","Vila Do Porto","Portugal (GMT +00H)","Port","19:56:00 -01:00 03/02/2026","20:01:32 -01:00 03/02/2026","5 minutes","LISBOA ETA: 09 Feb 2026","—","—",5.9
+"nearing (238.3nm)","Vila Do Porto","Portugal (GMT +00H)","Port","08:16:44 -01:00 03/02/2026","19:56:00 -01:00 03/02/2026","11 hours","LISBOA ETA: 09 Feb 2026","—","—",5.9
+"distancing (284.6nm)","Lajes","Portugal (GMT +00H)","Port","03:41:58 -01:00 03/02/2026","07:41:42 -01:00 03/02/2026","3 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"nearing (281.0nm)","Lajes","Portugal (GMT +00H)","Port","00:41:24 -01:00 03/02/2026","03:41:58 -01:00 03/02/2026","3 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"nearing (283.9nm)","Horta","Portugal (GMT +00H)","Port","20:00:56 -01:00 02/02/2026","00:31:41 -01:00 03/02/2026","4 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"distancing (294.0nm)","Lajes Das Flores","Portugal (GMT +00H)","Port","16:03:48 -01:00 02/02/2026","19:49:01 -01:00 02/02/2026","3 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"nearing (290.8nm)","Lajes Das Flores","Portugal (GMT +00H)","Port","14:00:15 -01:00 02/02/2026","16:03:48 -01:00 02/02/2026","2 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"distancing (291.6nm)","Lajes Das Flores","Portugal (GMT +00H)","Port","10:51:05 -01:00 02/02/2026","14:00:15 -01:00 02/02/2026","3 hours","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"nearing (280.4nm)","Lajes Das Flores","Portugal (GMT +00H)","Port","13:02:35 -01:00 31/01/2026","10:51:05 -01:00 02/02/2026","a day","GIBRALTAR ETA: 07 Feb 2026","—","—",6.2
+"distancing (535.0nm)","Terra Nova Field","Canada (GMT -02:30H)","Hydrocarbon Field","11:03:27 -03:30 29/01/2026","10:18:41 -03:30 31/01/2026","a day","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (278.9nm)","Saint-Shotts","Canada (GMT -02:30H)","Port","19:54:13 -03:30 28/01/2026","10:57:26 -03:30 29/01/2026","15 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (194.8nm)","Saint-Pierre","St. Pierre & Miquelon (GMT -02H)","Port","19:18:03 -03:00 28/01/2026","19:49:36 -03:00 28/01/2026","31 minutes","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (182.7nm)","Sable Island","Canada (GMT -03H)","Port","07:20:23 -04:00 28/01/2026","17:23:44 -04:00 28/01/2026","10 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (82.1nm)","Louisbourg","Canada (GMT -03H)","Port","23:56:03 -04:00 27/01/2026","06:15:15 -04:00 28/01/2026","6 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (17.7nm)","Louisbourg","Canada (GMT -03H)","Port","20:50:07 -04:00 27/01/2026","23:56:03 -04:00 27/01/2026","3 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (28.0nm)","Glace Bay","Canada (GMT -03H)","Port","18:08:53 -04:00 27/01/2026","20:41:53 -04:00 27/01/2026","2 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (20.6nm)","Glace Bay","Canada (GMT -03H)","Port","16:13:01 -04:00 27/01/2026","18:08:53 -04:00 27/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (28.3nm)","Dingwall","Canada (GMT -03H)","Port","12:35:22 -04:00 27/01/2026","15:47:59 -04:00 27/01/2026","3 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (14.3nm)","Dingwall","Canada (GMT -03H)","Port","03:40:37 -04:00 27/01/2026","12:35:22 -04:00 27/01/2026","8 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.5nm)","Dingwall","Canada (GMT -03H)","Port","01:58:44 -04:00 27/01/2026","03:40:37 -04:00 27/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"stopped (31.5nm)","Dingwall","Canada (GMT -03H)","Port","00:28:54 -04:00 27/01/2026","01:58:44 -04:00 27/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.5nm)","Dingwall","Canada (GMT -03H)","Port","23:04:52 -04:00 26/01/2026","00:28:54 -04:00 27/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.5nm)","Dingwall","Canada (GMT -03H)","Port","20:47:59 -04:00 26/01/2026","23:04:52 -04:00 26/01/2026","2 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","17:28:52 -04:00 26/01/2026","20:47:59 -04:00 26/01/2026","3 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.5nm)","Dingwall","Canada (GMT -03H)","Port","14:55:57 -04:00 26/01/2026","17:28:52 -04:00 26/01/2026","2 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"stopped (31.4nm)","Dingwall","Canada (GMT -03H)","Port","13:19:49 -04:00 26/01/2026","14:55:57 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","09:55:44 -04:00 26/01/2026","13:19:49 -04:00 26/01/2026","3 hours","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","08:16:40 -04:00 26/01/2026","09:55:44 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","06:30:31 -04:00 26/01/2026","08:16:40 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.3nm)","Dingwall","Canada (GMT -03H)","Port","05:30:25 -04:00 26/01/2026","06:30:31 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"stopped (31.3nm)","Dingwall","Canada (GMT -03H)","Port","04:30:20 -04:00 26/01/2026","05:30:25 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.3nm)","Dingwall","Canada (GMT -03H)","Port","03:30:15 -04:00 26/01/2026","04:30:20 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"stopped (31.4nm)","Dingwall","Canada (GMT -03H)","Port","02:30:10 -04:00 26/01/2026","03:30:15 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"nearing (31.3nm)","Dingwall","Canada (GMT -03H)","Port","01:30:04 -04:00 26/01/2026","02:30:10 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 06 Feb 2026","—","—",6.2
+"distancing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","00:29:59 -04:00 26/01/2026","01:30:04 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (31.4nm)","Dingwall","Canada (GMT -03H)","Port","23:04:51 -04:00 25/01/2026","00:29:59 -04:00 26/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (33.3nm)","Grosse Ile Nord Port","Canada (GMT -03H)","Port","21:41:05 -04:00 25/01/2026","22:49:50 -04:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (30.5nm)","Grosse Ile Nord Port","Canada (GMT -03H)","Port","21:26:42 -04:00 25/01/2026","21:41:05 -04:00 25/01/2026","14 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (30.5nm)","Grosse Ile Nord Port","Canada (GMT -03H)","Port","20:16:45 -04:00 25/01/2026","21:26:42 -04:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (29.1nm)","Grosse Ile Nord Port","Canada (GMT -03H)","Port","13:07:32 -04:00 25/01/2026","20:16:45 -04:00 25/01/2026","7 hours","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (64.7nm)","Perce","Canada (GMT -04H)","Port","07:18:08 -05:00 25/01/2026","11:59:32 -05:00 25/01/2026","4 hours","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (31.1nm)","Gaspe","Canada (GMT -04H)","Port","05:37:59 -05:00 25/01/2026","07:13:08 -05:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (24.6nm)","Gaspe","Canada (GMT -04H)","Port","03:52:50 -05:00 25/01/2026","05:37:59 -05:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (29.5nm)","Riviere Madeleine","Canada (GMT -04H)","Port","01:41:55 -05:00 25/01/2026","03:27:48 -05:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (7.8nm)","Riviere Madeleine","Canada (GMT -04H)","Port","00:54:43 -05:00 25/01/2026","01:41:55 -05:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (9.4nm)","Mont Louis","Canada (GMT -04H)","Port","23:13:50 -05:00 24/01/2026","00:29:32 -05:00 25/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (17.5nm)","Sainte-Anne-des-Monts","Canada (GMT -04H)","Port","22:06:38 -05:00 24/01/2026","23:09:50 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (8.6nm)","Sainte-Anne-des-Monts","Canada (GMT -04H)","Port","21:53:37 -05:00 24/01/2026","22:06:38 -05:00 24/01/2026","13 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (9.2nm)","Cap-Chat","Canada (GMT -04H)","Port","21:36:35 -05:00 24/01/2026","21:49:30 -05:00 24/01/2026","12 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (8.6nm)","Cap-Chat","Canada (GMT -04H)","Port","21:06:33 -05:00 24/01/2026","21:36:35 -05:00 24/01/2026","30 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (11.2nm)","Les Mechins","Canada (GMT -04H)","Port","20:51:31 -05:00 24/01/2026","20:59:06 -05:00 24/01/2026","7 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (10.9nm)","Les Mechins","Canada (GMT -04H)","Port","19:59:06 -05:00 24/01/2026","20:51:31 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (15.6nm)","Godbout","Canada (GMT -04H)","Port","19:38:51 -05:00 24/01/2026","19:52:35 -05:00 24/01/2026","13 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (13.4nm)","Matane","Canada (GMT -04H)","Port","18:40:33 -05:00 24/01/2026","19:24:40 -05:00 24/01/2026","44 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (11.5nm)","Matane","Canada (GMT -04H)","Port","17:22:04 -05:00 24/01/2026","18:40:33 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (22.5nm)","Father Point","Canada (GMT -04H)","Port","15:47:02 -05:00 24/01/2026","17:17:34 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (7.8nm)","Father Point","Canada (GMT -04H)","Port","15:34:13 -05:00 24/01/2026","15:47:02 -05:00 24/01/2026","12 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (8.7nm)","Rimouski","Canada (GMT -04H)","Port","14:59:48 -05:00 24/01/2026","15:30:01 -05:00 24/01/2026","30 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (12.0nm)","Port Alfred Anchorage","Canada (GMT -04H)","Anchorage","13:57:16 -05:00 24/01/2026","14:50:47 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (2.0nm)","Port Alfred Anchorage","Canada (GMT -04H)","Anchorage","13:33:38 -05:00 24/01/2026","13:57:16 -05:00 24/01/2026","23 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (4.7nm)","Les Escoumins","Canada (GMT -04H)","Port","13:06:44 -05:00 24/01/2026","13:24:38 -05:00 24/01/2026","17 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (1.6nm)","Les Escoumins","Canada (GMT -04H)","Port","12:25:57 -05:00 24/01/2026","13:06:44 -05:00 24/01/2026","40 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (9.1nm)","Tadoussac","Canada (GMT -04H)","Port","11:55:54 -05:00 24/01/2026","12:20:56 -05:00 24/01/2026","25 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (5.9nm)","Tadoussac","Canada (GMT -04H)","Port","11:34:52 -05:00 24/01/2026","11:55:54 -05:00 24/01/2026","21 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (7.3nm)","Gros Cacouna","Canada (GMT -04H)","Port","11:25:52 -05:00 24/01/2026","11:30:52 -05:00 24/01/2026","5 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (7.0nm)","Gros Cacouna","Canada (GMT -04H)","Port","11:15:51 -05:00 24/01/2026","11:25:52 -05:00 24/01/2026","10 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (7.1nm)","Saint Simeon","Canada (GMT -04H)","Port","10:45:48 -05:00 24/01/2026","11:05:50 -05:00 24/01/2026","20 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (3.0nm)","Saint Simeon","Canada (GMT -04H)","Port","10:10:24 -05:00 24/01/2026","10:45:48 -05:00 24/01/2026","35 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (8.5nm)","Pointe-au-Pic","Canada (GMT -04H)","Port","09:51:09 -05:00 24/01/2026","10:06:25 -05:00 24/01/2026","15 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (5.2nm)","Pointe-au-Pic","Canada (GMT -04H)","Port","09:17:51 -05:00 24/01/2026","09:51:09 -05:00 24/01/2026","33 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (6.4nm)","Ile aux Coudres","Canada (GMT -04H)","Port","08:15:15 -05:00 24/01/2026","08:55:30 -05:00 24/01/2026","40 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (1.7nm)","Ile aux Coudres","Canada (GMT -04H)","Port","07:14:18 -05:00 24/01/2026","08:15:15 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (8.7nm)","Ile aux Grues","Canada (GMT -04H)","Port","06:02:20 -05:00 24/01/2026","06:43:50 -05:00 24/01/2026","41 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (9.2nm)","Sainte-Famille","Canada (GMT -04H)","Port","05:12:16 -05:00 24/01/2026","05:52:19 -05:00 24/01/2026","40 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (5.0nm)","Sainte-Famille","Canada (GMT -04H)","Port","04:51:35 -05:00 24/01/2026","05:12:16 -05:00 24/01/2026","20 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (6.9nm)","Chateau-Richer","Canada (GMT -04H)","Port","04:42:13 -05:00 24/01/2026","04:46:03 -05:00 24/01/2026","3 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (6.8nm)","Quebec","Canada (GMT -04H)","Port","03:57:59 -05:00 24/01/2026","04:37:57 -05:00 24/01/2026","39 minutes","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (0.6nm)","Quebec","Canada (GMT -04H)","Port","02:56:12 -05:00 24/01/2026","03:57:59 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"distancing (14.5nm)","Portneuf","Canada (GMT -04H)","Port","02:01:48 -05:00 24/01/2026","02:51:42 -05:00 24/01/2026","an hour","GIBRALTAR ETA: 05 Feb 2026","—","—",6.2
+"nearing (3.6nm)","Portneuf","Canada (GMT -04H)","Port","01:17:06 -05:00 24/01/2026","02:01:48 -05:00 24/01/2026","44 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"distancing (8.7nm)","Batiscan","Canada (GMT -04H)","Port","00:37:36 -05:00 24/01/2026","01:12:36 -05:00 24/01/2026","35 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"nearing (1.2nm)","Batiscan","Canada (GMT -04H)","Port","00:18:32 -05:00 24/01/2026","00:37:36 -05:00 24/01/2026","19 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"distancing (4.1nm)","Becancour","Canada (GMT -04H)","Port","23:57:22 -05:00 23/01/2026","00:12:30 -05:00 24/01/2026","15 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"nearing (1.3nm)","Becancour","Canada (GMT -04H)","Port","23:48:27 -05:00 23/01/2026","23:57:22 -05:00 23/01/2026","8 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"distancing (2.5nm)","Three Rivers","Canada (GMT -04H)","Port","23:32:07 -05:00 23/01/2026","23:42:13 -05:00 23/01/2026","10 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"nearing (0.1nm)","Three Rivers","Canada (GMT -04H)","Port","22:53:21 -05:00 23/01/2026","23:32:07 -05:00 23/01/2026","38 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"stopped (1.3nm)","Three Rivers","Canada (GMT -04H)","Port","14:19:36 -05:00 17/01/2026","22:53:21 -05:00 23/01/2026","6 days","THREE RIVERS ETA: 15 Jan 2026","—","—",6.5
+"nearing (1.2nm)","Three Rivers","Canada (GMT -04H)","Port","13:17:43 -05:00 17/01/2026","14:19:36 -05:00 17/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"stopped (1.9nm)","Three Rivers","Canada (GMT -04H)","Port","12:29:29 -05:00 15/01/2026","13:17:43 -05:00 17/01/2026","2 days","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"called at","Three Rivers","Canada (GMT -04H)","Port","11:29:24 -05:00 15/01/2026","23:48:27 -05:00 23/01/2026","8 days","Lisbon Anchorage ETA: 10 Feb 2026","—","—","—"
+"called at","Oil Section 20","Canada (GMT -04H)","Berth","11:56:41 -05:00 15/01/2026","13:44:23 -05:00 17/01/2026","2 days","Lisbon Anchorage ETA: 10 Feb 2026","—","Common User (incl. Somavrac, Kruger)","—"
+"called at","Berth No.9","Canada (GMT -04H)","Berth","14:20:12 -05:00 17/01/2026","23:18:22 -05:00 23/01/2026","6 days","Lisbon Anchorage ETA: 10 Feb 2026","—","Terminal General Cargo & Containers","—"
+"distancing (1.9nm)","Three Rivers","Canada (GMT -04H)","Port","11:14:37 -05:00 15/01/2026","12:29:29 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (0.1nm)","Three Rivers","Canada (GMT -04H)","Port","10:54:06 -05:00 15/01/2026","11:14:37 -05:00 15/01/2026","20 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (2.1nm)","Becancour","Canada (GMT -04H)","Port","10:34:19 -05:00 15/01/2026","10:44:20 -05:00 15/01/2026","10 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.3nm)","Becancour","Canada (GMT -04H)","Port","09:54:15 -05:00 15/01/2026","10:34:19 -05:00 15/01/2026","40 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (4.5nm)","Batiscan","Canada (GMT -04H)","Port","09:19:12 -05:00 15/01/2026","09:44:18 -05:00 15/01/2026","25 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.2nm)","Batiscan","Canada (GMT -04H)","Port","08:14:07 -05:00 15/01/2026","09:19:12 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (9.0nm)","Portneuf","Canada (GMT -04H)","Port","06:58:07 -05:00 15/01/2026","08:05:48 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.0nm)","Portneuf","Canada (GMT -04H)","Port","05:34:38 -05:00 15/01/2026","06:58:07 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (14.9nm)","Quebec","Canada (GMT -04H)","Port","04:10:48 -05:00 15/01/2026","05:28:48 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (0.6nm)","Quebec","Canada (GMT -04H)","Port","03:22:59 -05:00 15/01/2026","04:10:48 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.9nm)","Chateau-Richer","Canada (GMT -04H)","Port","03:11:49 -05:00 15/01/2026","03:16:11 -05:00 15/01/2026","4 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.2nm)","Sainte-Famille","Canada (GMT -04H)","Port","02:48:03 -05:00 15/01/2026","03:07:21 -05:00 15/01/2026","19 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (5.0nm)","Sainte-Famille","Canada (GMT -04H)","Port","02:42:53 -05:00 15/01/2026","02:48:03 -05:00 15/01/2026","5 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (8.6nm)","Ile aux Grues","Canada (GMT -04H)","Port","01:56:30 -05:00 15/01/2026","02:07:45 -05:00 15/01/2026","11 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (7.9nm)","Ile aux Grues","Canada (GMT -04H)","Port","01:10:18 -05:00 15/01/2026","01:56:30 -05:00 15/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.0nm)","Ile aux Coudres","Canada (GMT -04H)","Port","00:15:25 -05:00 15/01/2026","00:41:33 -05:00 15/01/2026","26 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.1nm)","Ile aux Coudres","Canada (GMT -04H)","Port","23:38:22 -05:00 14/01/2026","00:15:25 -05:00 15/01/2026","37 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (8.7nm)","Pointe-au-Pic","Canada (GMT -04H)","Port","22:57:51 -05:00 14/01/2026","23:33:54 -05:00 14/01/2026","36 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.5nm)","Pointe-au-Pic","Canada (GMT -04H)","Port","22:41:53 -05:00 14/01/2026","22:57:51 -05:00 14/01/2026","15 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.3nm)","Saint Simeon","Canada (GMT -04H)","Port","21:41:15 -05:00 14/01/2026","22:08:25 -05:00 14/01/2026","27 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.3nm)","Saint Simeon","Canada (GMT -04H)","Port","21:02:11 -05:00 14/01/2026","21:41:15 -05:00 14/01/2026","39 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (8.2nm)","Tadoussac","Canada (GMT -04H)","Port","19:53:13 -05:00 14/01/2026","20:35:52 -05:00 14/01/2026","42 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (5.7nm)","Tadoussac","Canada (GMT -04H)","Port","19:32:52 -05:00 14/01/2026","19:53:13 -05:00 14/01/2026","20 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (9.5nm)","Les Escoumins","Canada (GMT -04H)","Port","18:20:22 -05:00 14/01/2026","19:16:42 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (1.4nm)","Les Escoumins","Canada (GMT -04H)","Port","17:31:22 -05:00 14/01/2026","18:20:22 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.3nm)","Port Alfred Anchorage","Canada (GMT -04H)","Anchorage","17:07:31 -05:00 14/01/2026","17:22:33 -05:00 14/01/2026","15 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (5.8nm)","Port Alfred Anchorage","Canada (GMT -04H)","Anchorage","16:50:31 -05:00 14/01/2026","17:07:31 -05:00 14/01/2026","17 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (6.9nm)","Pointe au Boisvert","Canada (GMT -04H)","Port","16:35:30 -05:00 14/01/2026","16:40:30 -05:00 14/01/2026","5 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (6.8nm)","Pointe au Boisvert","Canada (GMT -04H)","Port","16:15:28 -05:00 14/01/2026","16:35:30 -05:00 14/01/2026","20 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (7.9nm)","Portneuf-sur-Mer","Canada (GMT -04H)","Port","15:01:03 -05:00 14/01/2026","16:06:31 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (12.9nm)","Father Point","Canada (GMT -04H)","Port","14:26:14 -05:00 14/01/2026","14:55:24 -05:00 14/01/2026","29 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (11.7nm)","Father Point","Canada (GMT -04H)","Port","12:51:13 -05:00 14/01/2026","14:26:14 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (20.6nm)","Baie Comeau","Canada (GMT -04H)","Port","11:42:53 -05:00 14/01/2026","12:46:12 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (16.6nm)","Baie Comeau","Canada (GMT -04H)","Port","11:32:32 -05:00 14/01/2026","11:42:53 -05:00 14/01/2026","10 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (15.3nm)","Matane","Canada (GMT -04H)","Port","10:46:13 -05:00 14/01/2026","10:51:44 -05:00 14/01/2026","5 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (13.0nm)","Godbout","Canada (GMT -04H)","Port","09:45:32 -05:00 14/01/2026","10:24:02 -05:00 14/01/2026","38 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (9.7nm)","Godbout","Canada (GMT -04H)","Port","09:16:19 -05:00 14/01/2026","09:45:32 -05:00 14/01/2026","29 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"nearing (11.0nm)","Trinity Bay","Canada (GMT -04H)","Port","08:07:12 -05:00 14/01/2026","09:09:03 -05:00 14/01/2026","an hour","THREE RIVERS ETA: 15 Jan 2026","—","—",9.9
+"distancing (14.0nm)","Sainte-Anne-des-Monts","Canada (GMT -04H)","Port","06:47:06 -05:00 14/01/2026","07:04:15 -05:00 14/01/2026","17 minutes","THREE RIVERS ETA: 15 Jan 2026","—","—",9.6
