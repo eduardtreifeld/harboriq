@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HarborIQ – Laevajälgija</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --bg: #0a0e14;
+    --surface: #111820;
+    --surface2: #1a2332;
+    --border: #1e2d3d;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --green: #39d353;
+    --amber: #f0a500;
+    --red: #ff4757;
+    --text: #cdd6f4;
+    --text2: #7f8ea3;
+    --text3: #4a5568;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    min-height: 100vh;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--surface);
+  }
+
+  .logo {
+    font-family: var(--mono);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+
+  .logo span { color: var(--text2); font-size: 12px; margin-left: 8px; }
+
+  .status-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text2);
+    background: var(--surface2);
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--text3);
+  }
+
+  .dot.live { background: var(--green); animation: pulse 2s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .main { padding: 1.5rem; max-width: 1200px; margin: 0 auto; }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .metric {
+    background: var(--surface);
+    padding: 1rem 1.25rem;
+  }
+
+  .metric-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+  }
+
+  .metric-value {
+    font-family: var(--mono);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  .metric-sub {
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 2px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  select, input {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: var(--sans);
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+
+  select:hover, input:hover { border-color: var(--accent); }
+  select:focus, input:focus { border-color: var(--accent); }
+
+  input { flex: 1; min-width: 200px; }
+  input::placeholder { color: var(--text3); }
+
+  button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-family: var(--mono);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  button:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    font-weight: 500;
+  }
+
+  .btn-primary:hover { background: #00b8d9; color: #000; border-color: #00b8d9; }
+
+  .btn-csv {
+    background: transparent;
+    border-color: var(--green);
+    color: var(--green);
+  }
+
+  .btn-csv:hover { background: var(--green); color: #000; }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-title {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text2);
+  }
+
+  .count-badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    background: var(--surface2);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead th {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text3);
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+    cursor: pointer;
+  }
+
+  tbody tr:hover { background: var(--surface2); }
+  tbody tr:last-child { border-bottom: none; }
+
+  td {
+    padding: 10px 12px;
+    color: var(--text);
+    vertical-align: middle;
+  }
+
+  .vessel-name {
+    font-weight: 500;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .vessel-imo {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 2px;
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+
+  .badge-high { color: var(--red); border-color: var(--red); background: rgba(255,71,87,0.1); }
+  .badge-med  { color: var(--amber); border-color: var(--amber); background: rgba(240,165,0,0.1); }
+  .badge-low  { color: var(--green); border-color: var(--green); background: rgba(57,211,83,0.1); }
+  .badge-cargo { color: var(--accent); border-color: var(--accent); background: rgba(0,212,255,0.1); }
+  .badge-tanker { color: var(--accent2); border-color: var(--accent2); background: rgba(255,107,53,0.1); }
+  .badge-other { color: var(--text3); border-color: var(--text3); background: transparent; }
+
+  .port-code {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+  }
+
+  .port-arrow {
+    color: var(--text3);
+    margin: 0 4px;
+    font-size: 10px;
+  }
+
+  .time-val {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text2);
+  }
+
+  .table-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  #loading {
+    text-align: center;
+    padding: 3rem;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--text3);
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 16px; height: 16px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  #error-box {
+    display: none;
+    background: rgba(255,71,87,0.1);
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--red);
+  }
+
+  .updated-bar {
+    display: none;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    margin-bottom: 1rem;
+  }
+
+  .highlight-imo {
+    background: rgba(0,212,255,0.15) !important;
+  }
+
+  .search-match {
+    background: rgba(0,212,255,0.08) !important;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    background: var(--surface);
+  }
+
+  .pagination button {
+    padding: 4px 12px;
+    font-size: 11px;
+  }
+
+  .watchlist-bar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .watchlist-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .watchlist-vessels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .vessel-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text2);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .vessel-chip:hover { border-color: var(--accent); color: var(--accent); }
+  .vessel-chip.active { border-color: var(--accent); color: var(--accent); background: rgba(0,212,255,0.08); }
+  .vessel-chip .chip-imo { color: var(--text3); font-size: 10px; }
+  .imo-search-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imo-input {
+    font-family: var(--mono) !important;
+    font-size: 12px !important;
+    width: 160px !important;
+    min-width: unset !important;
+  }
+  .vessel-detail-card {
+    display: none;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--green);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .vessel-detail-card.visible { display: block; }
+  .vdc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .vdc-name {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .vdc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .vdc-item { font-size: 12px; }
+  .vdc-label { color: var(--text3); font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px; }
+  .vdc-val { color: var(--text); }
+  .row-estland { background: rgba(57,211,83,0.05) !important; }
+  .row-estland:hover { background: rgba(57,211,83,0.1) !important; }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">HarborIQ <span>// laevajälgija v1.1</span></div>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <div class="status-pill">
+      <div class="dot" id="status-dot"></div>
+      <span id="status-text">ühendub...</span>
+    </div>
+    <div class="status-pill" id="updated-pill" style="display:none;">
+      <span id="updated-time"></span>
+    </div>
+  </div>
+</header>
+
+<div class="main">
+
+  <div class="watchlist-bar">
+    <div class="watchlist-title">Jälgimisloend – Tom Wörden laevastik &amp; testlaevad</div>
+    <div class="watchlist-vessels" id="watchlist-chips"></div>
+    <div class="imo-search-row">
+      <input type="text" class="imo-input" id="imo-input" placeholder="IMO number..." maxlength="10">
+      <button onclick="searchByIMO()">Otsi IMO järgi</button>
+      <button onclick="loadIMOHistory()">Lae ajalugu API-st</button>
+      <button onclick="clearIMOFilter()" style="color:var(--text3);">Tühista IMO filter</button>
+      <span id="imo-status" style="font-family:var(--mono);font-size:11px;color:var(--text3);"></span>
+    </div>
+  </div>
+
+  <div class="vessel-detail-card" id="vessel-detail-card">
+    <div class="vdc-header">
+      <span class="vdc-name" id="vdc-name">—</span>
+      <span class="badge badge-cargo" id="vdc-type">—</span>
+    </div>
+    <div class="vdc-grid">
+      <div class="vdc-item"><div class="vdc-label">IMO</div><div class="vdc-val" id="vdc-imo">—</div></div>
+      <div class="vdc-item"><div class="vdc-label">MMSI</div><div class="vdc-val" id="vdc-mmsi">—</div></div>
+      <div class="vdc-item"><div class="vdc-label">Lipuriik</div><div class="vdc-val" id="vdc-nat">—</div></div>
+      <div class="vdc-item"><div class="vdc-label">Kirjeid selles andmestikus</div><div class="vdc-val" id="vdc-count">—</div></div>
+    </div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-label">Kirjeid kokku</div>
+      <div class="metric-value" id="m-total">—</div>
+      <div class="metric-sub">sadamakülastust</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Cargo laevad</div>
+      <div class="metric-value" id="m-cargo">—</div>
+      <div class="metric-sub">tüüp 70-79</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Tankerid</div>
+      <div class="metric-value" id="m-tanker">—</div>
+      <div class="metric-sub">tüüp 80-89</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Filtreeritud</div>
+      <div class="metric-value" id="m-filtered">—</div>
+      <div class="metric-sub">praegune vaade</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <select id="port-filter" onchange="renderTable()">
+      <option value="">Kõik sadamad</option>
+      <option value="EEPKU">Pärnu (EEPKU)</option>
+      <option value="EETLL">Tallinn (EETLL)</option>
+      <option value="EEMUG">Muuga (EEMUG)</option>
+      <option value="EERMS">Roomassaare (EERMS)</option>
+      <option value="EEKUN">Kunda (EEKUN)</option>
+      <option value="FIHKO">Kotka (FIHKO)</option>
+      <option value="FIHMN">Hamina (FIHMN)</option>
+      <option value="FIHEL">Helsinki (FIHEL)</option>
+      <option value="FITKU">Turku (FITKU)</option>
+    </select>
+    <select id="type-filter" onchange="renderTable()">
+      <option value="">Kõik tüübid</option>
+      <option value="cargo">Cargo (70-79)</option>
+      <option value="tanker">Tanker (80-89)</option>
+      <option value="passenger">Reisijad (60-69)</option>
+    </select>
+    <select id="cargo-filter" onchange="renderTable()">
+      <option value="">Kõik laadungid</option>
+      <option value="1">Lastiga</option>
+      <option value="0">Tühi</option>
+    </select>
+    <input type="text" id="search" placeholder="Otsi laeva nime, IMO, sadamat..." oninput="renderTable()">
+    <button class="btn-primary" onclick="loadData()"><span class="spinner" id="spin" style="display:none;"></span>Uuenda</button>
+    <button class="btn-csv" onclick="downloadCSV()">Laadi CSV</button>
+  </div>
+
+  <div id="error-box"></div>
+  <div class="updated-bar" id="updated-bar"></div>
+
+  <div class="section-header">
+    <span class="section-title">Sadamakülastused – Soome Digitraffic API</span>
+    <span class="count-badge" id="count-badge">—</span>
+  </div>
+
+  <div class="table-wrap">
+    <div id="loading"><div class="spinner"></div>Laen andmeid...</div>
+    <table id="data-table" style="display:none;">
+      <thead>
+        <tr>
+          <th>Laev</th>
+          <th>Tüüp</th>
+          <th>Sadam</th>
+          <th>Eelmine → Järgmine</th>
+          <th>Saabumissüvis</th>
+          <th>Lastiga</th>
+          <th>ATA</th>
+          <th>Agent</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div class="pagination" id="pagination" style="display:none;">
+      <button onclick="prevPage()">← Eelmine</button>
+      <span id="page-info"></span>
+      <button onclick="nextPage()">Järgmine →</button>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  HarborIQ v1.0 &nbsp;·&nbsp; Andmed: Soome Digitraffic API (meri.digitraffic.fi) &nbsp;·&nbsp; Tasuta avalik API
+</footer>
+
+<script>
+const API_URL = 'https://meri.digitraffic.fi/api/port-call/v1/port-calls';
+const PAGE_SIZE = 100;
+
+let allData = [];
+let filteredData = [];
+let currentPage = 0;
+let activeIMO = null;
+
+const WATCHLIST = [
+  { name: 'ESTLAND',  imo: '9247314',  mmsi: '255802660' },
+  { name: 'LETTLAND', imo: '9237022',  mmsi: '255801860' },
+  { name: 'LIVLAND',  imo: '9237034',  mmsi: '255801870' },
+  { name: 'SILVA',    imo: '9237010',  mmsi: '255801850' },
+  { name: 'FINNTIDE', imo: '9468920',  mmsi: '230631000' },
+];
+
+const VESSEL_TYPES = {
+  0:'Teadmata',20:'WIG',30:'Kalakas',31:'Puksiir',32:'Puksiir',
+  33:'Sukeldumis',34:'Sõjaväe',35:'Sõjaväe',36:'Purje',37:'Pleasure',
+  40:'Kiirlaev',41:'Kiirlaev',50:'Piloot',51:'SAR',52:'Puksiir',
+  53:'Sadama',54:'Meditsiin',55:'Politsei',
+  60:'Reisijad',61:'Reisijad',62:'Reisijad',63:'Reisijad',64:'Reisijad',
+  65:'Reisijad',66:'Reisijad',67:'Reisijad',68:'Reisijad',69:'Reisijad',
+  70:'Cargo',71:'Cargo',72:'Cargo',73:'Cargo',74:'Cargo',
+  75:'Cargo',76:'Cargo',77:'Cargo',78:'Cargo',79:'Cargo',
+  80:'Tanker',81:'Tanker',82:'Tanker',83:'Tanker',84:'Tanker',
+  85:'Tanker',86:'Tanker',87:'Tanker',88:'Tanker',89:'Tanker',
+  90:'Muu',91:'Muu',92:'Muu',99:'Muu'
+};
+
+function getTypeCategory(code) {
+  if (code >= 70 && code <= 79) return 'cargo';
+  if (code >= 80 && code <= 89) return 'tanker';
+  if (code >= 60 && code <= 69) return 'passenger';
+  return 'other';
+}
+
+function getTypeBadge(code) {
+  const cat = getTypeCategory(code);
+  const name = VESSEL_TYPES[code] || ('Tüüp ' + code);
+  if (cat === 'cargo') return `<span class="badge badge-cargo">${name}</span>`;
+  if (cat === 'tanker') return `<span class="badge badge-tanker">${name}</span>`;
+  if (cat === 'passenger') return `<span class="badge badge-other">${name}</span>`;
+  return `<span class="badge badge-other">${name}</span>`;
+}
+
+function getDraughtBadge(d) {
+  if (!d || d <= 0) return '<span style="color:#4a5568;font-family:var(--mono);font-size:11px;">—</span>';
+  if (d >= 5.0) return `<span class="badge badge-high">${d.toFixed(1)}m</span>`;
+  if (d >= 3.0) return `<span class="badge badge-med">${d.toFixed(1)}m</span>`;
+  return `<span class="badge badge-low">${d.toFixed(1)}m</span>`;
+}
+
+function formatTime(ts) {
+  if (!ts) return '—';
+  try {
+    const d = new Date(ts);
+    return d.toLocaleDateString('et-EE',{day:'2-digit',month:'2-digit'}) + ' ' +
+           d.toLocaleTimeString('et-EE',{hour:'2-digit',minute:'2-digit'});
+  } catch(e) { return '—'; }
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function initWatchlist() {
+  const container = document.getElementById('watchlist-chips');
+  WATCHLIST.forEach(v => {
+    const chip = document.createElement('div');
+    chip.className = 'vessel-chip';
+    chip.id = 'chip-' + v.imo;
+    chip.innerHTML = `<span>${v.name}</span><span class="chip-imo">${v.imo}</span>`;
+    chip.onclick = () => selectWatchlistVessel(v);
+    container.appendChild(chip);
+  });
+}
+
+function selectWatchlistVessel(v) {
+  WATCHLIST.forEach(w => {
+    const c = document.getElementById('chip-' + w.imo);
+    if (c) c.classList.remove('active');
+  });
+  const chip = document.getElementById('chip-' + v.imo);
+  if (chip) chip.classList.add('active');
+  document.getElementById('imo-input').value = v.imo;
+  activeIMO = v.imo;
+  document.getElementById('imo-status').textContent = 'Filter: ' + v.name + ' (' + v.imo + ')';
+  showVesselDetail(v);
+  renderTable();
+}
+
+function showVesselDetail(v) {
+  const card = document.getElementById('vessel-detail-card');
+  card.classList.add('visible');
+  document.getElementById('vdc-name').textContent = v.name;
+  document.getElementById('vdc-imo').textContent = v.imo;
+  document.getElementById('vdc-mmsi').textContent = v.mmsi || '—';
+  document.getElementById('vdc-nat').textContent = '—';
+  const count = allData.filter(pc => String(pc.imoLloyds||'') === String(v.imo)).length;
+  document.getElementById('vdc-count').textContent = count + ' kirjet';
+}
+
+function searchByIMO() {
+  const val = document.getElementById('imo-input').value.trim();
+  if (!val) { alert('Sisesta IMO number!'); return; }
+  activeIMO = val;
+  WATCHLIST.forEach(w => {
+    const c = document.getElementById('chip-' + w.imo);
+    if (c) c.classList.remove('active');
+    const chip = document.getElementById('chip-' + w.imo);
+    if (chip && w.imo === val) chip.classList.add('active');
+  });
+  document.getElementById('imo-status').textContent = 'Filter: IMO ' + val;
+  const found = allData.find(pc => String(pc.imoLloyds||'') === String(val));
+  if (found) {
+    const name = (found.vesselNamePrefix||'') + (found.vesselName||'');
+    document.getElementById('vessel-detail-card').classList.add('visible');
+    document.getElementById('vdc-name').textContent = name || 'Teadmata';
+    document.getElementById('vdc-imo').textContent = val;
+    document.getElementById('vdc-mmsi').textContent = found.mmsi || '—';
+    document.getElementById('vdc-nat').textContent = found.nationality || '—';
+    const count = allData.filter(pc => String(pc.imoLloyds||'') === String(val)).length;
+    document.getElementById('vdc-count').textContent = count + ' kirjet';
+  }
+  renderTable();
+}
+
+async function loadIMOHistory() {
+  const val = document.getElementById('imo-input').value.trim();
+  if (!val) { alert('Sisesta IMO number esmalt!'); return; }
+  document.getElementById('imo-status').textContent = 'Laen ajalugu IMO ' + val + '...';
+  try {
+    const resp = await fetch(
+      'https://meri.digitraffic.fi/api/port-call/v1/port-calls?imo=' + val,
+      { headers: { 'Digitraffic-User': 'HarborIQ/1.0' } }
+    );
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+    const calls = json.portCalls || [];
+    if (calls.length === 0) {
+      document.getElementById('imo-status').textContent = 'IMO ' + val + ' – andmeid ei leitud Soome API-st';
+      return;
+    }
+    const merged = [...allData];
+    calls.forEach(c => {
+      if (!merged.find(x => x.portCallId === c.portCallId)) merged.push(c);
+    });
+    allData = merged;
+    activeIMO = val;
+    document.getElementById('imo-status').textContent = 'IMO ' + val + ' – leitud ' + calls.length + ' kirjet';
+    document.getElementById('vessel-detail-card').classList.add('visible');
+    const name = (calls[0].vesselNamePrefix||'') + (calls[0].vesselName||'');
+    document.getElementById('vdc-name').textContent = name || 'IMO ' + val;
+    document.getElementById('vdc-imo').textContent = val;
+    document.getElementById('vdc-mmsi').textContent = calls[0].mmsi || '—';
+    document.getElementById('vdc-nat').textContent = calls[0].nationality || '—';
+    document.getElementById('vdc-count').textContent = calls.length + ' kirjet';
+    renderTable();
+  } catch(e) {
+    document.getElementById('imo-status').textContent = 'Viga: ' + e.message;
+  }
+}
+
+function clearIMOFilter() {
+  activeIMO = null;
+  document.getElementById('imo-input').value = '';
+  document.getElementById('imo-status').textContent = '';
+  document.getElementById('vessel-detail-card').classList.remove('visible');
+  WATCHLIST.forEach(w => {
+    const c = document.getElementById('chip-' + w.imo);
+    if (c) c.classList.remove('active');
+  });
+  renderTable();
+}
+
+async function loadData() {
+  document.getElementById('spin').style.display = 'inline-block';
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('data-table').style.display = 'none';
+  document.getElementById('pagination').style.display = 'none';
+  document.getElementById('error-box').style.display = 'none';
+  document.getElementById('status-dot').className = 'dot';
+  document.getElementById('status-text').textContent = 'ühendub...';
+
+  try {
+    const resp = await fetch(API_URL, {
+      headers: { 'Digitraffic-User': 'HarborIQ/1.0' }
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+
+    allData = json.portCalls || [];
+    const upd = json.dataUpdatedTime || '';
+
+    document.getElementById('status-dot').className = 'dot live';
+    document.getElementById('status-text').textContent = 'live';
+    document.getElementById('updated-pill').style.display = 'flex';
+    document.getElementById('updated-time').textContent = 'upd: ' + formatTime(upd);
+    document.getElementById('updated-bar').style.display = 'block';
+    document.getElementById('updated-bar').textContent =
+      'Andmed uuendatud: ' + formatTime(upd) + ' · Kokku kirjeid: ' + allData.length;
+
+    const cargo = allData.filter(p => getTypeCategory(p.vesselTypeCode||0) === 'cargo').length;
+    const tanker = allData.filter(p => getTypeCategory(p.vesselTypeCode||0) === 'tanker').length;
+    document.getElementById('m-total').textContent = allData.length.toLocaleString('et-EE');
+    document.getElementById('m-cargo').textContent = cargo.toLocaleString('et-EE');
+    document.getElementById('m-tanker').textContent = tanker.toLocaleString('et-EE');
+
+    currentPage = 0;
+    renderTable();
+
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('status-dot').className = 'dot';
+    document.getElementById('status-dot').style.background = 'var(--red)';
+    document.getElementById('status-text').textContent = 'viga';
+    document.getElementById('error-box').style.display = 'block';
+    document.getElementById('error-box').textContent = 'Viga: ' + e.message;
+  } finally {
+    document.getElementById('spin').style.display = 'none';
+  }
+}
+
+function renderTable() {
+  if (!allData.length) return;
+
+  const portF = document.getElementById('port-filter').value;
+  const typeF = document.getElementById('type-filter').value;
+  const cargoF = document.getElementById('cargo-filter').value;
+  const search = document.getElementById('search').value.toLowerCase().trim();
+
+  filteredData = allData.filter(pc => {
+    if (activeIMO && String(pc.imoLloyds||'') !== String(activeIMO)) return false;
+    if (portF && pc.portToVisit !== portF) return false;
+    if (typeF && getTypeCategory(pc.vesselTypeCode||0) !== typeF) return false;
+    if (cargoF !== '') {
+      const hasCargo = pc.arrivalWithCargo ? '1' : '0';
+      if (hasCargo !== cargoF) return false;
+    }
+    if (search) {
+      const name = ((pc.vesselNamePrefix||'') + (pc.vesselName||'')).toLowerCase();
+      const imo = String(pc.imoLloyds||'');
+      const port = (pc.portToVisit||'').toLowerCase();
+      const prev = (pc.prevPort||'').toLowerCase();
+      const next = (pc.nextPort||'').toLowerCase();
+      if (!name.includes(search) && !imo.includes(search) &&
+          !port.includes(search) && !prev.includes(search) && !next.includes(search)) {
+        return false;
+      }
+    }
+    return true;
+  });
+
+  document.getElementById('m-filtered').textContent = filteredData.length.toLocaleString('et-EE');
+  document.getElementById('count-badge').textContent = filteredData.length + ' kirjet';
+
+  const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+  if (currentPage >= totalPages) currentPage = 0;
+
+  const start = currentPage * PAGE_SIZE;
+  const pageData = filteredData.slice(start, start + PAGE_SIZE);
+
+  const tbody = document.getElementById('table-body');
+  tbody.innerHTML = '';
+
+  if (pageData.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:2rem;color:var(--text3);font-family:var(--mono);font-size:12px;">Laevad puuduvad selle filtriga</td></tr>';
+  } else {
+    pageData.forEach(pc => {
+      const name = esc((pc.vesselNamePrefix ? pc.vesselNamePrefix + ' ' : '') + (pc.vesselName || 'Teadmata'));
+      const imo = pc.imoLloyds || '—';
+      const pArea = pc.portAreaDetails && pc.portAreaDetails[0] ? pc.portAreaDetails[0] : {};
+      const draught = pArea.arrivalDraught || null;
+      const ata = pArea.ata || null;
+      const agent = pc.agentInfo && pc.agentInfo[0] ? esc(pc.agentInfo[0].name) : '—';
+      const hasCargo = pc.arrivalWithCargo;
+      const port = pc.portToVisit || '—';
+      const prev = pc.prevPort || '—';
+      const next = pc.nextPort || '—';
+
+      const isEstonian = ['EEPKU','EETLL','EEMUG','EERMS','EEKUN','EEPLD'].includes(port);
+      const isWatched = WATCHLIST.some(w => String(w.imo) === String(pc.imoLloyds||''));
+      const rowClass = isWatched ? 'row-estland' : (isEstonian ? 'highlight-imo' : '');
+
+      const tr = document.createElement('tr');
+      if (rowClass) tr.className = rowClass;
+      tr.innerHTML = `
+        <td>
+          <div class="vessel-name">${name}${isWatched ? ' <span style="color:var(--green);font-size:10px;font-family:var(--mono);">&#9733;</span>' : ''}</div>
+          <div class="vessel-imo">IMO: ${imo}</div>
+        </td>
+        <td>${getTypeBadge(pc.vesselTypeCode||0)}</td>
+        <td><span class="port-code" style="${isEstonian ? 'color:var(--green)' : ''}">${esc(port)}</span></td>
+        <td style="font-family:var(--mono);font-size:11px;">
+          <span style="color:var(--text3)">${esc(prev)}</span>
+          <span class="port-arrow">→</span>
+          <span style="color:var(--text2)">${esc(next)}</span>
+        </td>
+        <td>${getDraughtBadge(draught)}</td>
+        <td>${hasCargo
+          ? '<span class="badge badge-cargo">lastiga</span>'
+          : '<span class="badge badge-other">tühi</span>'}</td>
+        <td><span class="time-val">${formatTime(ata)}</span></td>
+        <td style="color:var(--text3);font-size:12px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${agent}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('data-table').style.display = 'table';
+
+  if (totalPages > 1) {
+    document.getElementById('pagination').style.display = 'flex';
+    document.getElementById('page-info').textContent =
+      'Lehekülg ' + (currentPage + 1) + ' / ' + totalPages +
+      ' (' + start + '–' + Math.min(start + PAGE_SIZE, filteredData.length) + ')';
+  } else {
+    document.getElementById('pagination').style.display = 'none';
+  }
+}
+
+function prevPage() {
+  if (currentPage > 0) { currentPage--; renderTable(); }
+}
+
+function nextPage() {
+  const total = Math.ceil(filteredData.length / PAGE_SIZE);
+  if (currentPage < total - 1) { currentPage++; renderTable(); }
+}
+
+function downloadCSV() {
+  if (!filteredData.length) { alert('Lae esmalt andmed!'); return; }
+  const headers = ['vesselName','imoLloyds','vesselType','portToVisit','prevPort',
+                   'nextPort','arrivalWithCargo','arrivalDraught','ata','agent','nationality'];
+  const rows = filteredData.map(pc => {
+    const pa = pc.portAreaDetails && pc.portAreaDetails[0] ? pc.portAreaDetails[0] : {};
+    const ag = pc.agentInfo && pc.agentInfo[0] ? pc.agentInfo[0].name : '';
+    return [
+      (pc.vesselNamePrefix||'') + (pc.vesselName||''),
+      pc.imoLloyds||'',
+      VESSEL_TYPES[pc.vesselTypeCode||0] || pc.vesselTypeCode||'',
+      pc.portToVisit||'', pc.prevPort||'', pc.nextPort||'',
+      pc.arrivalWithCargo ? 'jah' : 'ei',
+      pa.arrivalDraught||'', pa.ata||'', ag,
+      pc.nationality||''
+    ].map(v => '"' + String(v).replace(/"/g,'""') + '"').join(',');
+  });
+  const csv = '\uFEFF' + [headers.join(','), ...rows].join('\r\n');
+  const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'harboriq_portcalls_' + new Date().toISOString().slice(0,10) + '.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+initWatchlist();
+loadData();
+</script>
+</body>
+</html>

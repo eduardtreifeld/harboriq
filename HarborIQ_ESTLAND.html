@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HarborIQ – ESTLAND Mudel</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#050d14;--s1:#0a1929;--s2:#0f2137;--b:#1a3a5c;
+  --ac:#00e5ff;--gr:#00ff88;--am:#ffb300;--re:#ff3d3d;--pu:#a78bfa;
+  --t1:#e0f2fe;--t2:#7cb3d4;--t3:#3a6b8a;
+}
+body{background:var(--bg);color:var(--t1);font-family:monospace;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+
+/* HEADER */
+header{display:flex;align-items:center;justify-content:space-between;padding:.55rem 1.2rem;background:var(--s1);border-bottom:1px solid var(--b);flex-shrink:0;gap:8px}
+.logo{font-size:14px;color:var(--ac);letter-spacing:.08em}
+.logo b{color:#fff}
+.logo span{color:var(--t3);font-size:10px;margin-left:6px}
+.hpill{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--t3);background:var(--s2);padding:3px 9px;border-radius:12px;border:1px solid var(--b)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--t3)}
+.dot.live{background:var(--gr);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.hbtn{background:transparent;border:1px solid var(--b);color:var(--t2);padding:4px 10px;border-radius:4px;font-size:10px;cursor:pointer;transition:all .15s;font-family:monospace}
+.hbtn:hover{border-color:var(--ac);color:var(--ac)}
+
+/* LAYOUT */
+.main{display:flex;flex:1;overflow:hidden}
+#map-wrap{flex:1;position:relative;overflow:hidden;background:#071520}
+#mc{display:block;width:100%;height:100%;cursor:grab}
+#mc:active{cursor:grabbing}
+.minfo{position:absolute;bottom:8px;left:10px;font-size:9px;color:var(--t3);background:rgba(5,13,20,.85);padding:3px 7px;border-radius:3px;pointer-events:none}
+.mctrl{position:absolute;bottom:8px;right:10px;display:flex;flex-direction:column;gap:3px}
+.zbtn{width:28px;height:28px;background:var(--s1);border:1px solid var(--b);color:var(--t2);border-radius:3px;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center}
+.zbtn:hover{border-color:var(--ac);color:var(--ac)}
+
+/* SIDEBAR */
+.sidebar{width:320px;background:var(--s1);border-left:1px solid var(--b);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+.sh{padding:.55rem .9rem;border-bottom:1px solid var(--b);font-size:9px;color:var(--t3);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.tabs{display:flex;border-bottom:1px solid var(--b);flex-shrink:0}
+.tab{flex:1;padding:7px 3px;font-size:9px;text-align:center;cursor:pointer;color:var(--t3);border-bottom:2px solid transparent;text-transform:uppercase;letter-spacing:.04em;transition:all .15s}
+.tab.on{color:var(--ac);border-bottom-color:var(--ac)}
+.tc{flex:1;overflow-y:auto;padding:.7rem}
+.pane{display:none}.pane.on{display:block}
+
+/* COMPONENTS */
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:10px}
+.sbox{background:var(--s2);border:1px solid var(--b);border-radius:4px;padding:7px 9px}
+.sl{font-size:8px;color:var(--t3);text-transform:uppercase;margin-bottom:2px;letter-spacing:.06em}
+.sv{font-size:22px;color:var(--ac);font-weight:bold}
+.sv.gr{color:var(--gr)}.sv.am{color:var(--am)}.sv.re{color:var(--re)}
+
+.sec{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--t3);margin:10px 0 5px;padding-bottom:3px;border-bottom:1px solid var(--b)}
+
+/* FSS CARD */
+.fss-card{background:linear-gradient(135deg,rgba(0,229,255,.06),rgba(0,255,136,.04));border:1px solid rgba(0,229,255,.25);border-radius:6px;padding:10px 12px;margin-bottom:10px}
+.fss-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.fss-name{font-size:14px;font-weight:bold;color:#fff}
+.fss-imo{font-size:9px;color:var(--t3);margin-top:2px}
+.fss-score-wrap{text-align:right}
+.fss-score{font-size:32px;font-weight:bold}
+.fss-label{font-size:8px;color:var(--t3)}
+.sbar{height:4px;background:var(--s2);border-radius:2px;margin:6px 0;overflow:hidden}
+.sfill{height:100%;border-radius:2px;transition:width .6s}
+.fss-row{display:flex;justify-content:space-between;font-size:10px;margin-top:3px}
+.fl{color:var(--t3)}.fv{color:var(--t1);font-family:monospace}
+
+/* PROGNOOS */
+.pred-card{background:var(--s2);border:1px solid var(--b);border-radius:5px;padding:9px;margin-bottom:7px;cursor:pointer;transition:border-color .15s}
+.pred-card:hover{border-color:var(--ac)}
+.pred-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.pred-port{font-size:12px;font-weight:bold;color:#fff}
+.pred-prob{font-size:18px;font-weight:bold}
+.pred-bar{height:3px;background:#0a1929;border-radius:2px;margin:4px 0;overflow:hidden}
+.pred-fill{height:100%;border-radius:2px}
+.pred-detail{font-size:9px;color:var(--t2);line-height:1.5}
+
+/* AJALUGU */
+.hist-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--b);font-size:10px}
+.hist-row:last-child{border:none}
+.hist-port{font-weight:bold;color:var(--t1)}
+.hist-country{font-size:9px;color:var(--t3)}
+.hist-right{text-align:right}
+.hist-date{font-size:9px;color:var(--t3)}
+.badge{display:inline-block;font-size:8px;padding:1px 5px;border-radius:2px;border:1px solid;margin-left:3px;vertical-align:middle}
+.bh{color:var(--re);border-color:var(--re);background:rgba(255,61,61,.1)}
+.bm{color:var(--am);border-color:var(--am);background:rgba(255,179,0,.1)}
+.bl{color:var(--gr);border-color:var(--gr);background:rgba(0,255,136,.1)}
+.bi{color:var(--ac);border-color:var(--ac);background:rgba(0,229,255,.1)}
+
+/* MARKOVI TABEL */
+.mk-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--b);font-size:10px;align-items:center}
+.mk-row:last-child{border:none}
+.mk-arrow{color:var(--t3);margin:0 5px}
+.mk-prob{font-family:monospace;font-weight:bold}
+.mk-bar-wrap{flex:1;margin:0 8px;height:3px;background:var(--s2);border-radius:2px;overflow:hidden}
+.mk-bar{height:100%;border-radius:2px}
+
+/* POPUP */
+#popup{position:absolute;pointer-events:none;z-index:100}
+.popup-box{background:rgba(5,13,20,.97);border-radius:5px;padding:10px;min-width:190px;font-size:10px}
+.pb-name{font-size:13px;font-weight:bold;color:#fff;margin-bottom:6px}
+.pb-row{display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px solid #1a3a5c}
+.pb-row:last-child{border:none}
+.pbl{color:var(--t3)}.pbv{color:var(--t1);font-family:monospace}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">HarborIQ <b>ESTLAND</b><span>// IMO 9247314 · Markovi mudel v1.0</span></div>
+  <div style="display:flex;gap:7px;align-items:center">
+    <div class="hpill"><div class="dot" id="sd"></div><span id="st">ühendub...</span></div>
+    <div class="hpill" id="pos-pill" style="display:none"><span id="pos-txt"></span></div>
+    <button class="hbtn" onclick="fetchAIS()">↺ Uuenda</button>
+  </div>
+</header>
+
+<div class="main">
+  <div id="map-wrap">
+    <canvas id="mc"></canvas>
+    <div class="minfo">Läänemeri · zoom <span id="zv">6</span> · klikk laeval = info</div>
+    <div class="mctrl">
+      <button class="zbtn" onclick="zm(1)">+</button>
+      <button class="zbtn" onclick="zm(-1)">−</button>
+    </div>
+    <div id="popup"></div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sh"><span>ESTLAND · Ennustusmudel</span><span style="color:var(--ac)" id="upd-lbl"></span></div>
+    <div class="tabs">
+      <div class="tab on" onclick="sw('mudel')">Mudel</div>
+      <div class="tab" onclick="sw('pred')">Prognoos</div>
+      <div class="tab" onclick="sw('hist')">Ajalugu</div>
+      <div class="tab" onclick="sw('markov')">Markov</div>
+    </div>
+    <div class="tc">
+
+      <!-- MUDEL TAB -->
+      <div class="pane on" id="p-mudel">
+        <div class="fss-card" id="fss-card">
+          <div class="fss-top">
+            <div>
+              <div class="fss-name">ESTLAND ★</div>
+              <div class="fss-imo">IMO 9247314 · MMSI 255802660</div>
+            </div>
+            <div class="fss-score-wrap">
+              <div class="fss-score" id="fss-val" style="color:var(--am)">—</div>
+              <div class="fss-label">FUEL STRESS</div>
+            </div>
+          </div>
+          <div class="sbar"><div class="sfill" id="fss-bar" style="width:0%;background:var(--am)"></div></div>
+          <div class="fss-row"><span class="fl">Kiirus</span><span class="fv" id="f-speed">—</span></div>
+          <div class="fss-row"><span class="fl">Kurss</span><span class="fv" id="f-head">—</span></div>
+          <div class="fss-row"><span class="fl">Sihtkoht (AIS)</span><span class="fv" id="f-dest">—</span></div>
+          <div class="fss-row"><span class="fl">Praegune süvis</span><span class="fv" id="f-draught">—</span></div>
+          <div class="fss-row"><span class="fl">Viimane sadam</span><span class="fv" id="f-last">—</span></div>
+          <div class="fss-row"><span class="fl">AIS uuendatud</span><span class="fv" id="f-ts">—</span></div>
+        </div>
+
+        <div class="sec">FSS Komponendid</div>
+        <div id="fss-components"></div>
+
+        <div class="sec">Järgmine tõenäoline sadam</div>
+        <div id="next-port-box"></div>
+
+        <div class="sec">Mudeli alus</div>
+        <div style="font-size:9px;color:var(--t3);line-height:1.7">
+          Andmed: 21 sadamakülastust (26.02–20.04.2026)<br>
+          Meetod: 1. järgu Markov + süvise analüüs<br>
+          Marsruut: Skutskar↔Hamina↔Roomassaare/Riia/Klaipeda<br>
+          Punkerdamissignaal: süvis ≥4.5m + Hamina lähedus
+        </div>
+      </div>
+
+      <!-- PROGNOOS TAB -->
+      <div class="pane" id="p-pred">
+        <div class="sec">Järgmised sadamad (Markovi tõenäosus)</div>
+        <div id="pred-list"></div>
+        <div class="sec" style="margin-top:14px">Monte Carlo simulatsioon (100 reisi)</div>
+        <div id="mc-results"></div>
+        <div class="sec" style="margin-top:14px">Punkerdamise tõenäosus 48h</div>
+        <div id="bunker-pred"></div>
+      </div>
+
+      <!-- AJALUGU TAB -->
+      <div class="pane" id="p-hist">
+        <div class="sg">
+          <div class="sbox"><div class="sl">Külastusi</div><div class="sv">21</div></div>
+          <div class="sbox"><div class="sl">Päevi jälgitud</div><div class="sv">53</div></div>
+          <div class="sbox"><div class="sl">Ringi ~aeg</div><div class="sv" style="font-size:16px">5-7p</div></div>
+          <div class="sbox"><div class="sl">Roomassaare</div><div class="sv gr">3×</div></div>
+        </div>
+        <div class="sec">Sadamakülastuste ajalugu</div>
+        <div id="hist-list"></div>
+      </div>
+
+      <!-- MARKOVI TAB -->
+      <div class="pane" id="p-markov">
+        <div class="sec">Üleminekmaatriks</div>
+        <div id="markov-table"></div>
+        <div class="sec" style="margin-top:12px">Süvise statistika (keskmised)</div>
+        <div id="draught-table"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+// ========== MUDELI ANDMED ==========
+const MODEL = {
+  markov: {"Skutskar":[{"to":"Riga","prob":25,"n":1},{"to":"Parnu","prob":25,"n":1},{"to":"Klaipeda","prob":50,"n":2}],"Riga":[{"to":"Skutskar","prob":100,"n":2}],"Parnu":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":1}],"Hamina (Fredrikshamn)":[{"to":"Liepaja","prob":17,"n":1},{"to":"Skulte","prob":17,"n":1},{"to":"Roomassaare","prob":50,"n":3},{"to":"Riga","prob":17,"n":1}],"Liepaja":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":1}],"Skulte":[{"to":"Skutskar","prob":100,"n":1}],"Klaipeda":[{"to":"Skutskar","prob":50,"n":1},{"to":"Hamina (Fredrikshamn)","prob":50,"n":1}],"Roomassaare":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":3}]},
+  history: [{"place":"Skutskar","country":"Sweden","date":"27/02/2026","duration":"16 hours","draught":"4.3","destination":"Riga 01 Mar 2026"},{"place":"Riga","country":"Latvia","date":"01/03/2026","duration":"20 hours","draught":"5.3","destination":"Skutskar 04 Mar 2026"},{"place":"Skutskar","country":"Sweden","date":"04/03/2026","duration":"15 hours","draught":"4.3","destination":"Parnu 06 Mar 2026"},{"place":"Parnu","country":"Estonia","date":"06/03/2026","duration":"a day","draught":"4.3","destination":"Hamina (Fredrikshamn) 09 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"09/03/2026","duration":"a day","draught":"4.3","destination":"Liepaja 12 Mar 2026"},{"place":"Liepaja","country":"Latvia","date":"12/03/2026","duration":"a day","draught":"5.3","destination":"Hamina (Fredrikshamn) 14 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"14/03/2026","duration":"a day","draught":"4.3","destination":"Skulte 17 Mar 2026"},{"place":"Skulte","country":"Latvia","date":"17/03/2026","duration":"17 hours","draught":"5.3","destination":"Skutskar 19 Mar 2026"},{"place":"Skutskar","country":"Sweden","date":"19/03/2026","duration":"13 hours","draught":"3.9","destination":"Klaipeda 21 Mar 2026"},{"place":"Klaipeda","country":"Lithuania","date":"21/03/2026","duration":"17 hours","draught":"5.3","destination":"Skutskar 23 Mar 2026"},{"place":"Skutskar","country":"Sweden","date":"23/03/2026","duration":"a day","draught":"5.3","destination":"Klaipeda 26 Mar 2026"},{"place":"Klaipeda","country":"Lithuania","date":"26/03/2026","duration":"18 hours","draught":"5.3","destination":"Hamina (Fredrikshamn) 28 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"28/03/2026","duration":"a day","draught":"4.3","destination":"Roomassaare 31 Mar 2026"},{"place":"Roomassaare","country":"Estonia","date":"31/03/2026","duration":"a day","draught":"4.6","destination":"Hamina (Fredrikshamn) 02 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"02/04/2026","duration":"a day","draught":"3.9","destination":"Roomassaare 05 Apr 2026"},{"place":"Roomassaare","country":"Estonia","date":"05/04/2026","duration":"a day","draught":"4.9","destination":"Hamina (Fredrikshamn) 08 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"08/04/2026","duration":"a day","draught":"3.9","destination":"Roomassaare 11 Apr 2026"},{"place":"Roomassaare","country":"Estonia","date":"11/04/2026","duration":"15 hours","draught":"4.6","destination":"Hamina (Fredrikshamn) 14 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"14/04/2026","duration":"16 hours","draught":"4.0","destination":"Riga 16 Apr 2026"},{"place":"Riga","country":"Latvia","date":"16/04/2026","duration":"a day","draught":"5.6","destination":"Skutskar 19 Apr 2026"},{"place":"Skutskar","country":"Sweden","date":"18/04/2026","duration":"19 hours","draught":"3.9","destination":"Salacgriva 21 Apr 2026"}],
+  coords: {"Skutskar":[60.637,17.414],"Riga":[56.958,24.108],"Parnu":[58.374,24.503],"Hamina (Fredrikshamn)":[60.564,27.198],"Liepaja":[56.511,21.011],"Skulte":[57.298,24.402],"Klaipeda":[55.706,21.132],"Roomassaare":[58.222,22.506],"Salacgriva":[57.758,24.358]},
+  draughtStats: {"Skutskar":{"min":3.9,"max":5.6,"avg":4.9},"Riga":{"min":4.0,"max":5.6,"avg":4.8},"Parnu":{"min":4.3,"max":4.3,"avg":4.3},"Hamina (Fredrikshamn)":{"min":3.9,"max":5.6,"avg":4.8},"Liepaja":{"min":4.0,"max":5.3,"avg":4.8},"Skulte":{"min":3.9,"max":5.3,"avg":4.6},"Klaipeda":{"min":4.0,"max":5.3,"avg":4.8},"Roomassaare":{"min":3.9,"max":4.6,"avg":4.0}}
+};
+
+// Hetkepositsioon (viimane teadaolev – Skutskar lahkumine 18.04, suund Salacgriva)
+// AIS: 20.04.2026 kl 13:48 – liigub Salacgriva poole, süvis 3.9m
+const LAST_KNOWN = {
+  lat: 59.15, lon: 22.80, // ligikaudne positsioon (Läänemeri, Rootsi lähiveed)
+  speed: 9.2, heading: 128, dest: "LVSAL (Salacgriva)",
+  draught: 3.9, ts: "20/04/2026 13:48"
+};
+
+// ========== KAARDI MOOTOR ==========
+const canvas = document.getElementById('mc');
+const ctx = canvas.getContext('2d');
+let mv = {lat:58.5, lon:22.0, zoom:6};
+let drag=false, ds={x:0,y:0}, dv={lat:0,lon:0};
+let tileCache={}, pendingTiles={};
+let aisData = null;
+let selPort = null;
+
+function resize(){
+  const w = document.getElementById('map-wrap');
+  canvas.width = w.clientWidth; canvas.height = w.clientHeight; draw();
+}
+
+function ll2xy(lat,lon){
+  const z=mv.zoom, sc=256*Math.pow(2,z);
+  const x=(lon+180)/360*sc;
+  const sl=Math.sin(lat*Math.PI/180);
+  const y=(0.5-Math.log((1+sl)/(1-sl))/(4*Math.PI))*sc;
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc;
+  const oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  return {x:canvas.width/2+(x-ox), y:canvas.height/2+(y-oy)};
+}
+
+function getTile(z,tx,ty){
+  const k=`${z}/${tx}/${ty}`;
+  if(tileCache[k]) return tileCache[k];
+  if(pendingTiles[k]) return null;
+  pendingTiles[k]=true;
+  const img=new Image(); img.crossOrigin='anonymous';
+  img.src=`https://${'abc'[Math.abs(tx+ty)%3]}.basemaps.cartocdn.com/dark_all/${z}/${tx}/${ty}.png`;
+  img.onload=()=>{tileCache[k]=img;delete pendingTiles[k];draw();};
+  img.onerror=()=>{delete pendingTiles[k];};
+  return null;
+}
+
+function draw(){
+  if(!canvas.width) return;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle='#071520'; ctx.fillRect(0,0,canvas.width,canvas.height);
+  const z=Math.floor(mv.zoom), ts=256*Math.pow(2,mv.zoom-z), sc=256*Math.pow(2,z);
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc, oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const cx=canvas.width/2, cy=canvas.height/2;
+  for(let tx=Math.floor((ox-cx)/ts);tx<=Math.ceil((ox+cx)/ts);tx++)
+    for(let ty=Math.floor((oy-cy)/ts);ty<=Math.ceil((oy+cy)/ts);ty++){
+      const img=getTile(z,((tx%(1<<z))+(1<<z))%(1<<z),ty);
+      if(img) ctx.drawImage(img,cx+(tx*ts-ox),cy+(ty*ts-oy),ts,ts);
+    }
+  drawRouteLines();
+  drawPorts();
+  drawEstland();
+}
+
+function drawRouteLines(){
+  // Joonista marsruudi liinikesed
+  const routes = [
+    ["Skutskar","Hamina (Fredrikshamn)"],["Hamina (Fredrikshamn)","Roomassaare"],
+    ["Roomassaare","Hamina (Fredrikshamn)"],["Hamina (Fredrikshamn)","Klaipeda"],
+    ["Klaipeda","Skutskar"],["Skutskar","Riga"],["Riga","Skutskar"],
+    ["Hamina (Fredrikshamn)","Liepaja"],["Hamina (Fredrikshamn)","Skulte"],
+    ["Skulte","Skutskar"],["Parnu","Hamina (Fredrikshamn)"],
+  ];
+  ctx.save();
+  ctx.strokeStyle='rgba(0,229,255,0.12)'; ctx.lineWidth=1; ctx.setLineDash([4,6]);
+  routes.forEach(([a,b])=>{
+    const ca=MODEL.coords[a],cb=MODEL.coords[b];
+    if(!ca||!cb) return;
+    const pa=ll2xy(ca[0],ca[1]),pb=ll2xy(cb[0],cb[1]);
+    ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke();
+  });
+  ctx.restore();
+}
+
+function drawPorts(){
+  Object.entries(MODEL.coords).forEach(([name,coord])=>{
+    const p=ll2xy(coord[0],coord[1]);
+    const isSel = selPort===name;
+    const isEst = ['Roomassaare','Parnu'].includes(name);
+    const color = isEst?'#00ff88':'#00e5ff';
+    // Kroog
+    ctx.save();
+    ctx.beginPath(); ctx.arc(p.x,p.y,isSel?7:5,0,Math.PI*2);
+    ctx.fillStyle=color; ctx.globalAlpha=isSel?1:0.7; ctx.fill();
+    if(isSel){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.stroke();}
+    ctx.restore();
+    // Nimi
+    ctx.save();
+    ctx.font=`${isSel?'bold ':''} 10px monospace`;
+    ctx.fillStyle=color; ctx.strokeStyle='rgba(5,13,20,0.9)';
+    ctx.lineWidth=3; ctx.globalAlpha=isSel?1:0.85;
+    const shortName = name.replace(' (Fredrikshamn)','');
+    ctx.strokeText(shortName, p.x+8, p.y-6);
+    ctx.fillText(shortName, p.x+8, p.y-6);
+    ctx.restore();
+  });
+}
+
+function drawEstland(){
+  const pos = aisData || LAST_KNOWN;
+  const p = ll2xy(pos.lat, pos.lon);
+  const score = calcFSS(pos);
+  const color = score>=70?'#ff3d3d':score>=45?'#ffb300':'#00ff88';
+  const rot = (pos.heading||0)*Math.PI/180;
+
+  // Liikumissuuna joon
+  if(pos.speed>0.3){
+    const d=Math.min(pos.speed*4,60);
+    ctx.save(); ctx.strokeStyle=color; ctx.lineWidth=2; ctx.globalAlpha=0.5; ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.moveTo(p.x,p.y);
+    ctx.lineTo(p.x+Math.sin(rot)*d, p.y-Math.cos(rot)*d); ctx.stroke();
+    ctx.restore();
+  }
+  // Pulseeriv ring
+  ctx.save();
+  ctx.beginPath(); ctx.arc(p.x,p.y,18,0,Math.PI*2);
+  ctx.strokeStyle=color; ctx.lineWidth=1; ctx.globalAlpha=0.2; ctx.stroke();
+  ctx.restore();
+  // Laeva ikoon (nool)
+  ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(rot);
+  ctx.fillStyle=color; ctx.strokeStyle='#fff'; ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(0,-12); ctx.lineTo(7,9); ctx.lineTo(0,5); ctx.lineTo(-7,9); ctx.closePath();
+  ctx.fill(); ctx.stroke(); ctx.restore();
+  // Silt
+  ctx.save();
+  ctx.font='bold 11px monospace'; ctx.fillStyle=color;
+  ctx.strokeStyle='rgba(5,13,20,0.95)'; ctx.lineWidth=3;
+  ctx.strokeText('ESTLAND', p.x+14, p.y-14); ctx.fillText('ESTLAND', p.x+14, p.y-14);
+  ctx.font='9px monospace'; ctx.fillStyle=color; ctx.globalAlpha=0.8;
+  const scoreStr=`FSS: ${score}`;
+  ctx.strokeText(scoreStr, p.x+14, p.y-3); ctx.fillText(scoreStr, p.x+14, p.y-3);
+  ctx.restore();
+}
+
+// ========== FSS ARVUTUS ==========
+function calcFSS(pos){
+  let score=20;
+  const d=parseFloat(pos.draught||0);
+  const speed=parseFloat(pos.speed||0);
+  const dest=(pos.dest||'').toUpperCase();
+  // Süvis
+  if(d>=5.0) score+=35;
+  else if(d>=4.5) score+=25;
+  else if(d>=4.0) score+=15;
+  else score+=5;
+  // Kiirus – liigub aktiivselt
+  if(speed>8) score+=15;
+  else if(speed>4) score+=8;
+  // Sihtkoht
+  if(dest.includes('HAMINA')||dest.includes('HAMIN')) score+=20;
+  else if(dest.includes('ROOMASSAARE')||dest.includes('PARNU')) score+=15;
+  else if(dest.includes('KLAIPEDA')||dest.includes('LIEPAJA')) score+=10;
+  // Viimane külastad
+  const lastH = MODEL.history[MODEL.history.length-1];
+  if(lastH&&lastH.place==='Skutskar') score+=5; // tühi, peale tulemas?
+  return Math.min(score, 99);
+}
+
+function fssColor(s){ return s>=70?'#ff3d3d':s>=45?'#ffb300':'#00ff88'; }
+function fssClass(s){ return s>=70?'re':s>=45?'am':''; }
+
+// ========== AIS PÄRING ==========
+async function fetchAIS(){
+  document.getElementById('sd').className='dot';
+  document.getElementById('st').textContent='laen...';
+  try{
+    const r=await fetch('https://meri.digitraffic.fi/api/ais/v1/vessels/255802660',{headers:{'Digitraffic-User':'HarborIQ/1.0'}});
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    if(d?.geometry?.coordinates){
+      const [lon,lat]=d.geometry.coordinates;
+      const p=d.properties||{};
+      aisData={
+        lat, lon,
+        speed: p.speedOverGround||0,
+        heading: p.heading||p.courseOverGround||0,
+        dest: p.destination||'—',
+        draught: parseFloat(LAST_KNOWN.draught), // AIS draught pole alati täpne
+        ts: p.timestampExternal ? new Date(p.timestampExternal).toLocaleString('et-EE') : '—'
+      };
+      document.getElementById('sd').className='dot live';
+      document.getElementById('st').textContent='live';
+      document.getElementById('pos-pill').style.display='flex';
+      document.getElementById('pos-txt').textContent=`${lat.toFixed(3)}°N  ${lon.toFixed(3)}°E`;
+      document.getElementById('upd-lbl').textContent=new Date().toLocaleTimeString('et-EE',{hour:'2-digit',minute:'2-digit'});
+    }
+  }catch(e){
+    document.getElementById('sd').style.background='#ff3d3d';
+    document.getElementById('st').textContent='AIS viga – kasutan viimast';
+    aisData=null;
+  }
+  updateUI(); draw();
+}
+
+// ========== UI UUENDUS ==========
+function updateUI(){
+  const pos = aisData || LAST_KNOWN;
+  const score = calcFSS(pos);
+  const color = fssColor(score);
+
+  // FSS kaart
+  document.getElementById('fss-val').textContent=score;
+  document.getElementById('fss-val').style.color=color;
+  document.getElementById('fss-bar').style.width=score+'%';
+  document.getElementById('fss-bar').style.background=color;
+  document.getElementById('f-speed').textContent=(pos.speed||0).toFixed(1)+' kn';
+  document.getElementById('f-head').textContent=Math.round(pos.heading||0)+'°';
+  document.getElementById('f-dest').textContent=pos.dest||'—';
+  document.getElementById('f-draught').innerHTML=`${pos.draught||'—'}m <span class="badge ${parseFloat(pos.draught||0)>=4.5?'bm':'bl'}">${parseFloat(pos.draught||0)>=4.5?'lastiga':'kerge'}</span>`;
+  document.getElementById('f-last').textContent='Skutskar (18.04.2026)';
+  document.getElementById('f-ts').textContent=pos.ts||LAST_KNOWN.ts;
+
+  // FSS komponendid
+  const d=parseFloat(pos.draught||0);
+  const comps=[
+    {label:'Süvis '+d+'m', val:d>=5?35:d>=4.5?25:d>=4?15:5, max:35},
+    {label:'Kiirus '+(pos.speed||0).toFixed(1)+'kn', val:pos.speed>8?15:pos.speed>4?8:0, max:15},
+    {label:'Sihtkoht signaal', val:(pos.dest||'').includes('HAMINA')?20:(pos.dest||'').includes('ROOMS')?15:10, max:20},
+    {label:'Laeva tüüp (Cargo)', val:20, max:20},
+  ];
+  document.getElementById('fss-components').innerHTML=comps.map(c=>`
+    <div style="margin-bottom:5px">
+      <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--t3);margin-bottom:2px">
+        <span>${c.label}</span><span style="color:var(--t1)">${c.val}/${c.max}</span>
+      </div>
+      <div style="height:3px;background:var(--s2);border-radius:2px;overflow:hidden">
+        <div style="height:100%;width:${c.val/c.max*100}%;background:${color};border-radius:2px"></div>
+      </div>
+    </div>`).join('');
+
+  // Järgmine sadam (hetkel Salacgriva suund)
+  const currentDest = (pos.dest||'LVSAL').includes('LVSAL')||pos.dest.includes('Salacgriva') ? 'Salacgriva' : null;
+  const nextFromMarkov = MODEL.markov['Skutskar']||[];
+  document.getElementById('next-port-box').innerHTML=`
+    <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:4px;padding:8px;font-size:10px">
+      <div style="color:var(--ac);font-weight:bold;margin-bottom:4px">AIS sihtkoht: ${pos.dest||'—'}</div>
+      <div style="color:var(--t3);margin-bottom:6px">Pärast Salacgrivat (Markovi mudel):</div>
+      ${nextFromMarkov.map(n=>`
+        <div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid var(--b)">
+          <span style="color:var(--t1)">${n.to}</span>
+          <span style="color:${fssColor(n.prob>40?70:30)};font-weight:bold">${n.prob}%</span>
+        </div>`).join('')}
+    </div>`;
+
+  renderPredictions(pos);
+  renderHistory();
+  renderMarkov();
+}
+
+function renderPredictions(pos){
+  // Markovi prognoos praegusest positsioonist
+  const dest = (pos.dest||'').includes('SAL')||pos.dest.includes('Salacgriva') ? 'Skutskar' : 'Skutskar';
+  const nexts = MODEL.markov[dest]||[];
+
+  document.getElementById('pred-list').innerHTML = nexts.length ? nexts.map(n=>{
+    const c=n.prob>=50?'#00ff88':n.prob>=25?'#ffb300':'#00e5ff';
+    const ds=MODEL.draughtStats[n.to];
+    return `<div class="pred-card" onclick="focusPort('${n.to}')">
+      <div class="pred-top">
+        <div><div class="pred-port">${n.to}</div><div style="font-size:9px;color:var(--t3)">${ds?`avg süvis: ${ds.avg}m`:''}</div></div>
+        <div class="pred-prob" style="color:${c}">${n.prob}%</div>
+      </div>
+      <div class="pred-bar"><div class="pred-fill" style="width:${n.prob}%;background:${c}"></div></div>
+      <div class="pred-detail">Eelmine sadam: ${dest} · Vaatlusi: ${n.n}x</div>
+    </div>`;
+  }).join('') : '<div style="font-size:10px;color:var(--t3);padding:8px">Praegune positsioon teel Salacgrivasse</div>';
+
+  // Monte Carlo
+  const mc_counts={};
+  for(let i=0;i<100;i++){
+    let cur='Skutskar';
+    for(let step=0;step<3;step++){
+      const opts=MODEL.markov[cur];
+      if(!opts||!opts.length) break;
+      const r=Math.random()*100;
+      let cum=0;
+      for(const o of opts){ cum+=o.prob; if(r<cum){cur=o.to;break;} }
+    }
+    mc_counts[cur]=(mc_counts[cur]||0)+1;
+  }
+  const sorted=Object.entries(mc_counts).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('mc-results').innerHTML=sorted.slice(0,5).map(([port,cnt])=>{
+    const c=cnt>=40?'#00ff88':cnt>=20?'#ffb300':'#00e5ff';
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--b);font-size:10px">
+      <span style="color:var(--t1)">${port}</span>
+      <div style="display:flex;align-items:center;gap:6px">
+        <div style="width:60px;height:3px;background:var(--s2);border-radius:2px;overflow:hidden">
+          <div style="height:100%;width:${cnt}%;background:${c};border-radius:2px"></div>
+        </div>
+        <span style="color:${c};font-weight:bold;min-width:28px;text-align:right">${cnt}%</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Punkerdamise prognoos 48h
+  const bunkerScore = calcFSS(pos);
+  const bunkerProb = Math.min(Math.round(bunkerScore*0.85), 95);
+  const bc=bunkerProb>=60?'#ff3d3d':bunkerProb>=35?'#ffb300':'#00ff88';
+  document.getElementById('bunker-pred').innerHTML=`
+    <div style="background:rgba(255,61,61,.05);border:1px solid rgba(255,61,61,.2);border-radius:4px;padding:10px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <span style="font-size:11px;color:var(--t1)">Punkerdamise tõenäosus</span>
+        <span style="font-size:22px;font-weight:bold;color:${bc}">${bunkerProb}%</span>
+      </div>
+      <div style="height:4px;background:var(--s2);border-radius:2px;overflow:hidden;margin-bottom:8px">
+        <div style="height:100%;width:${bunkerProb}%;background:${bc};border-radius:2px"></div>
+      </div>
+      <div style="font-size:9px;color:var(--t3);line-height:1.6">
+        Süvis ${pos.draught}m → ${parseFloat(pos.draught)>=4.5?'lastiga, tõenäoline':'kerge, madal vajadus'}<br>
+        Sihtkoht: ${pos.dest} → ${(pos.dest||'').includes('HAMINA')?'Hamina on peamine punkerduspunkt!':'jälgi edasi'}<br>
+        Viimane teadaolev külastad: Skutskar 18.04 (19h)
+      </div>
+    </div>`;
+}
+
+function renderHistory(){
+  const portColors={'Estonia':'#00ff88','Finland':'#00e5ff','Sweden':'#a78bfa','Latvia':'#ffb300','Lithuania':'#ff9f43'};
+  document.getElementById('hist-list').innerHTML=[...MODEL.history].reverse().map(h=>{
+    const c=portColors[h.country]||'#7cb3d4';
+    const d=parseFloat(h.draught||0);
+    return `<div class="hist-row">
+      <div>
+        <div class="hist-port" style="color:${c}">${h.place}</div>
+        <div class="hist-country">${h.country} · ${h.duration}</div>
+      </div>
+      <div class="hist-right">
+        <div class="hist-date">${h.date}</div>
+        <div style="margin-top:2px">
+          ${d>0?`<span class="badge ${d>=5?'bh':d>=4.5?'bm':'bl'}">${d}m</span>`:''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderMarkov(){
+  let rows='';
+  Object.entries(MODEL.markov).forEach(([src,dsts])=>{
+    dsts.forEach(d=>{
+      const c=d.prob>=75?'#00ff88':d.prob>=40?'#ffb300':'#00e5ff';
+      rows+=`<div class="mk-row">
+        <span style="color:var(--t2);font-size:10px;min-width:80px">${src.replace(' (Fredrikshamn)','')}</span>
+        <span class="mk-arrow">→</span>
+        <span style="color:var(--t1);font-size:10px;min-width:80px">${d.to.replace(' (Fredrikshamn)','')}</span>
+        <div class="mk-bar-wrap"><div class="mk-bar" style="width:${d.prob}%;background:${c}"></div></div>
+        <span class="mk-prob" style="color:${c};min-width:30px;text-align:right">${d.prob}%</span>
+      </div>`;
+    });
+  });
+  document.getElementById('markov-table').innerHTML=rows;
+
+  // Süvise tabel
+  const keyPorts=['Skutskar','Hamina (Fredrikshamn)','Roomassaare','Riga','Klaipeda','Liepaja','Skulte','Parnu'];
+  document.getElementById('draught-table').innerHTML=keyPorts.map(p=>{
+    const s=MODEL.draughtStats[p]; if(!s) return '';
+    const avg=s.avg; const c=avg>=5?'#ff3d3d':avg>=4.5?'#ffb300':'#00ff88';
+    return `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--b);font-size:10px">
+      <span style="color:var(--t1)">${p.replace(' (Fredrikshamn)','')}</span>
+      <span style="color:var(--t3)">${s.min}–${s.max}m</span>
+      <span style="color:${c};font-weight:bold">${avg}m avg</span>
+    </div>`;
+  }).join('');
+}
+
+function focusPort(name){
+  const c=MODEL.coords[name]; if(!c) return;
+  mv.lat=c[0]; mv.lon=c[1]; mv.zoom=8;
+  selPort=name; draw();
+}
+
+function sw(tab){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('on',['mudel','pred','hist','markov'][i]===tab));
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.getElementById('p-'+tab).classList.add('on');
+}
+
+function zm(d){ mv.zoom=Math.max(4,Math.min(12,mv.zoom+d)); document.getElementById('zv').textContent=Math.round(mv.zoom); draw(); }
+
+// Kaardi drag
+canvas.addEventListener('mousedown',e=>{drag=true;ds={x:e.clientX,y:e.clientY};dv={lat:mv.lat,lon:mv.lon};});
+canvas.addEventListener('mousemove',e=>{
+  if(!drag) return;
+  const dx=e.clientX-ds.x,dy=e.clientY-ds.y,z=mv.zoom,sc=256*Math.pow(2,z);
+  mv.lon=dv.lon-dx/sc*360;
+  const sl0=Math.sin(dv.lat*Math.PI/180),oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const ny=oy-dy,n=Math.PI-2*Math.PI*ny/sc;
+  mv.lat=180/Math.PI*Math.atan(0.5*(Math.exp(n)-Math.exp(-n))); draw();
+});
+canvas.addEventListener('mouseup',()=>{drag=false;});
+canvas.addEventListener('mouseleave',()=>{drag=false;});
+canvas.addEventListener('wheel',e=>{
+  e.preventDefault();
+  mv.zoom=Math.max(4,Math.min(12,mv.zoom+(e.deltaY>0?-0.3:0.3)));
+  document.getElementById('zv').textContent=Math.round(mv.zoom); draw();
+},{passive:false});
+
+canvas.addEventListener('click',e=>{
+  const rect=canvas.getBoundingClientRect(),mx=e.clientX-rect.left,my=e.clientY-rect.top;
+  let found=null,minD=22;
+  // Kontrolli ESTLAND
+  const pos=aisData||LAST_KNOWN;
+  const ep=ll2xy(pos.lat,pos.lon);
+  if(Math.sqrt((ep.x-mx)**2+(ep.y-my)**2)<minD){ showEstlandPopup(mx,my,pos); return; }
+  // Kontrolli sadamaid
+  Object.entries(MODEL.coords).forEach(([name,coord])=>{
+    const p=ll2xy(coord[0],coord[1]);
+    const d=Math.sqrt((p.x-mx)**2+(p.y-my)**2);
+    if(d<minD){minD=d;found=name;}
+  });
+  document.getElementById('popup').innerHTML='';
+  if(found){ showPortPopup(mx,my,found); selPort=found; draw(); }
+  else selPort=null;
+});
+
+function showEstlandPopup(x,y,pos){
+  const score=calcFSS(pos);
+  const c=fssColor(score);
+  const px=Math.min(x+12,canvas.width-210), py=Math.max(y-120,10);
+  document.getElementById('popup').innerHTML=`
+    <div class="popup-box" style="left:${px}px;top:${py}px;position:absolute;border:1px solid ${c}">
+      <div class="pb-name" style="color:${c}">★ ESTLAND</div>
+      <div class="pb-row"><span class="pbl">IMO</span><span class="pbv">9247314</span></div>
+      <div class="pb-row"><span class="pbl">Kiirus</span><span class="pbv" style="color:#00ff88">${(pos.speed||0).toFixed(1)} kn</span></div>
+      <div class="pb-row"><span class="pbl">Kurss</span><span class="pbv">${Math.round(pos.heading||0)}°</span></div>
+      <div class="pb-row"><span class="pbl">Süvis</span><span class="pbv">${pos.draught}m</span></div>
+      <div class="pb-row"><span class="pbl">Sihtkoht</span><span class="pbv">${pos.dest}</span></div>
+      <div class="pb-row"><span class="pbl">FSS</span><span class="pbv" style="color:${c};font-weight:bold">${score}/100</span></div>
+      <div class="pb-row"><span class="pbl">AIS</span><span class="pbv">${pos.ts||LAST_KNOWN.ts}</span></div>
+    </div>`;
+}
+
+function showPortPopup(x,y,name){
+  const ds=MODEL.draughtStats[name];
+  const nexts=MODEL.markov[name]||[];
+  const px=Math.min(x+12,canvas.width-210), py=Math.max(y-100,10);
+  document.getElementById('popup').innerHTML=`
+    <div class="popup-box" style="left:${px}px;top:${py}px;position:absolute;border:1px solid var(--ac)">
+      <div class="pb-name">${name.replace(' (Fredrikshamn)','')}</div>
+      ${ds?`<div class="pb-row"><span class="pbl">Süvis avg</span><span class="pbv">${ds.min}–${ds.max}m</span></div>`:''}
+      ${nexts.length?`<div class="pb-row"><span class="pbl">Järgmine →</span><span class="pbv">${nexts[0].to.replace(' (Fredrikshamn)','')} ${nexts[0].prob}%</span></div>`:''}
+    </div>`;
+}
+
+// ========== INIT ==========
+window.addEventListener('resize',resize);
+resize();
+updateUI();
+fetchAIS();
+setInterval(fetchAIS, 30000);
+</script>
+</body>
+</html>

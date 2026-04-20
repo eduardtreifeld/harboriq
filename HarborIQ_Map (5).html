@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HarborIQ Map</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#050d14;--surface:#0a1929;--surface2:#0f2137;--border:#1a3a5c;
+  --accent:#00e5ff;--green:#00ff88;--amber:#ffb300;--red:#ff3d3d;
+  --text:#e0f2fe;--text2:#7cb3d4;--text3:#3a6b8a;
+}
+body{background:var(--bg);color:var(--text);font-family:monospace;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{display:flex;align-items:center;justify-content:space-between;padding:0.6rem 1.2rem;background:var(--surface);border-bottom:1px solid var(--border);flex-shrink:0;gap:8px}
+.logo{font-size:15px;color:var(--accent);letter-spacing:0.08em;white-space:nowrap}
+.logo span{color:var(--text3);font-size:11px;margin-left:8px}
+.hbtn{background:transparent;border:1px solid var(--border);color:var(--text2);padding:5px 12px;border-radius:4px;font-size:11px;cursor:pointer;transition:all 0.15s}
+.hbtn:hover{border-color:var(--accent);color:var(--accent)}
+.hbtn.g{border-color:var(--green);color:var(--green)}
+.hbtn.r{border-color:var(--red);color:var(--red)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--text3);display:inline-block;margin-right:5px;vertical-align:middle}
+.dot.live{background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+.main{display:flex;flex:1;overflow:hidden}
+#map-wrap{flex:1;position:relative;overflow:hidden;background:#071520}
+#mc{width:100%;height:100%;cursor:grab;display:block}
+#mc:active{cursor:grabbing}
+.minfo{position:absolute;bottom:10px;left:10px;font-size:10px;color:var(--text3);background:rgba(5,13,20,0.85);padding:4px 8px;border-radius:4px;pointer-events:none}
+.mctrl{position:absolute;bottom:10px;right:10px;display:flex;flex-direction:column;gap:4px}
+.zbtn{width:30px;height:30px;background:var(--surface);border:1px solid var(--border);color:var(--text2);border-radius:4px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center}
+.zbtn:hover{border-color:var(--accent);color:var(--accent)}
+.sidebar{width:300px;background:var(--surface);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+.sh{padding:0.6rem 1rem;border-bottom:1px solid var(--border);font-size:10px;color:var(--text3);text-transform:uppercase;display:flex;justify-content:space-between}
+.tabs{display:flex;border-bottom:1px solid var(--border)}
+.tab{flex:1;padding:7px 4px;font-size:9px;text-align:center;cursor:pointer;color:var(--text3);border-bottom:2px solid transparent;text-transform:uppercase;letter-spacing:0.05em}
+.tab.on{color:var(--accent);border-bottom-color:var(--accent)}
+.tc{flex:1;overflow-y:auto;padding:0.75rem}
+.pane{display:none}.pane.on{display:block}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:10px}
+.sb{background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:8px 10px}
+.sl{font-size:9px;color:var(--text3);text-transform:uppercase;margin-bottom:2px}
+.sv{font-size:20px;color:var(--accent);font-weight:bold}
+.vc{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:9px;margin-bottom:7px;cursor:pointer;transition:border-color 0.15s}
+.vc:hover{border-color:var(--accent)}.vc.sel{border-color:var(--accent);background:rgba(0,229,255,0.05)}
+.vn{font-size:12px;font-weight:bold;color:#fff;margin-bottom:3px}
+.vi{font-size:10px;color:var(--text3)}
+.vr{display:flex;justify-content:space-between;font-size:10px;margin-top:4px}
+.vl{color:var(--text3)}.vv{color:var(--text2)}
+.badge{display:inline-block;font-size:9px;padding:1px 5px;border-radius:3px;border:1px solid;margin-top:3px}
+.bh{color:#ff3d3d;border-color:#ff3d3d;background:rgba(255,61,61,0.1)}
+.bm{color:#ffb300;border-color:#ffb300;background:rgba(255,179,0,0.1)}
+.bl{color:#00ff88;border-color:#00ff88;background:rgba(0,255,136,0.1)}
+.empty{text-align:center;padding:2rem 1rem;color:var(--text3);font-size:11px}
+select,input{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:5px 8px;border-radius:4px;font-size:11px;outline:none;width:100%;margin-bottom:6px;font-family:monospace}
+select:focus,input:focus{border-color:var(--accent)}
+.sec{font-size:9px;text-transform:uppercase;letter-spacing:0.1em;color:var(--text3);margin:10px 0 5px}
+.chip{display:inline-flex;align-items:center;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:3px 7px;font-size:10px;color:var(--text2);cursor:pointer;margin:2px;transition:all 0.15s}
+.chip:hover,.chip.on{border-color:var(--accent);color:var(--accent)}
+.fb{background:rgba(0,229,255,0.04);border:1px solid rgba(0,229,255,0.2);border-radius:5px;padding:9px;margin-bottom:7px;cursor:pointer}
+.fbn{font-size:12px;color:#fff;font-weight:bold}
+.fbs{font-size:20px;font-weight:bold;margin:3px 0}
+.sbar{height:3px;background:var(--surface2);border-radius:2px;margin:4px 0;overflow:hidden}
+.sfill{height:100%;border-radius:2px}
+.hi{padding:7px 0;border-bottom:1px solid var(--border);font-size:10px;display:flex;justify-content:space-between}
+.hi:last-child{border:none}
+.ht{font-size:9px;color:var(--text3)}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">HarborIQ <span>// kaart v2.0</span></div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <span style="font-size:10px;color:var(--text3)" id="si"></span>
+    <span style="font-size:10px"><span class="dot" id="sd"></span><span id="st">ühendub...</span></span>
+    <button class="hbtn g" onclick="expCSV()">↓ CSV</button>
+    <button class="hbtn r" onclick="clrStore()">✕</button>
+  </div>
+</header>
+<div class="main">
+  <div id="map-wrap">
+    <canvas id="mc"></canvas>
+    <div class="minfo">Läänemeri · zoom: <span id="zv">6</span></div>
+    <div class="mctrl">
+      <button class="zbtn" onclick="zm(1)">+</button>
+      <button class="zbtn" onclick="zm(-1)">−</button>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sh"><span>HarborIQ</span><span style="color:var(--accent)" id="vcnt">0 laeva</span></div>
+    <div class="tabs">
+      <div class="tab on" onclick="sw('live')">Live</div>
+      <div class="tab" onclick="sw('watch')">Jälgi</div>
+      <div class="tab" onclick="sw('fore')">Prognoos</div>
+      <div class="tab" onclick="sw('hist')">Ajalugu</div>
+    </div>
+    <div class="tc">
+      <div class="pane on" id="p-live">
+        <div class="sg">
+          <div class="sb"><div class="sl">Kokku</div><div class="sv" id="s0">0</div></div>
+          <div class="sb"><div class="sl">Cargo</div><div class="sv" id="s1">0</div></div>
+          <div class="sb"><div class="sl">Tanker</div><div class="sv" id="s2">0</div></div>
+          <div class="sb"><div class="sl">Salvestatud</div><div class="sv" id="s3">0</div></div>
+        </div>
+        <select id="tf" onchange="filt()">
+          <option value="">Kõik tüübid</option>
+          <option value="cargo">Cargo</option>
+          <option value="tanker">Tanker</option>
+          <option value="passenger">Reisijad</option>
+        </select>
+        <input id="sf" placeholder="Otsi nime, IMO..." oninput="filt()">
+        <div class="sec">Laevad</div>
+        <div id="vlist"><div class="empty">Laadimine...</div></div>
+      </div>
+      <div class="pane" id="p-watch">
+        <div class="sec">Jälgimisloend</div>
+        <div id="wchips" style="margin-bottom:10px"></div>
+        <input id="wimo" placeholder="Lisa IMO number...">
+        <button class="hbtn" style="width:100%;margin-bottom:10px" onclick="addW()">+ Lisa jälgimisse</button>
+        <div class="sec">Reaalajas positsioonid</div>
+        <div id="wlist"></div>
+      </div>
+      <div class="pane" id="p-fore">
+        <div class="sec">Fuel Stress Skoor – Top 10</div>
+        <div id="flist"><div class="empty">Andmeid laetakse...</div></div>
+      </div>
+      <div class="pane" id="p-hist">
+        <div class="sec">Salvestatud andmepunktid</div>
+        <div id="hi" style="font-size:10px;color:var(--text3);margin-bottom:8px"></div>
+        <div id="hlist"><div class="empty">Ajalugu puudub</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const canvas=document.getElementById('mc');
+const ctx=canvas.getContext('2d');
+let mv={lat:59.0,lon:22.0,zoom:6};
+let drag=false,ds={x:0,y:0},dv={lat:0,lon:0};
+let tc={},pt={};
+let vessels=[],wais={},selIMO=null;
+let stored=[],lt=null,at=null;
+const WK='hiq_w',DK='hiq_d';
+const WLD=[
+  {name:'ESTLAND',imo:'9247314',mmsi:'255802660'},
+  {name:'LETTLAND',imo:'9237022',mmsi:'255801860'},
+  {name:'LIVLAND',imo:'9237034',mmsi:'255801870'},
+  {name:'SILVA',imo:'9237010',mmsi:'255801850'},
+];
+let wl=[...WLD];
+
+function resize(){
+  const w=document.getElementById('map-wrap');
+  canvas.width=w.clientWidth; canvas.height=w.clientHeight; draw();
+}
+
+function ll2xy(lat,lon){
+  const z=mv.zoom,sc=256*Math.pow(2,z);
+  const x=(lon+180)/360*sc;
+  const sl=Math.sin(lat*Math.PI/180);
+  const y=(0.5-Math.log((1+sl)/(1-sl))/(4*Math.PI))*sc;
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc;
+  const oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  return{x:canvas.width/2+(x-ox),y:canvas.height/2+(y-oy)};
+}
+
+function getTile(z,tx,ty){
+  const k=`${z}/${tx}/${ty}`;
+  if(tc[k]) return tc[k];
+  if(pt[k]) return null;
+  pt[k]=true;
+  const img=new Image(); img.crossOrigin='anonymous';
+  const s=['a','b','c'][Math.abs(tx+ty)%3];
+  img.src=`https://${s}.basemaps.cartocdn.com/dark_all/${z}/${tx}/${ty}.png`;
+  img.onload=()=>{tc[k]=img;delete pt[k];draw();};
+  img.onerror=()=>{delete pt[k];};
+  return null;
+}
+
+function draw(){
+  if(!canvas.width) return;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle='#071520'; ctx.fillRect(0,0,canvas.width,canvas.height);
+  const z=Math.floor(mv.zoom),ts=256*Math.pow(2,mv.zoom-z),sc=256*Math.pow(2,z);
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc,oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const cx=canvas.width/2,cy=canvas.height/2;
+  const sx=Math.floor((ox-cx)/ts),ex=Math.ceil((ox+cx)/ts);
+  const sy=Math.floor((oy-cy)/ts),ey=Math.ceil((oy+cy)/ts);
+  for(let tx=sx;tx<=ex;tx++) for(let ty=sy;ty<=ey;ty++){
+    const img=getTile(z,((tx%(1<<z))+(1<<z))%(1<<z),ty);
+    if(img) ctx.drawImage(img,cx+(tx*ts-ox),cy+(ty*ts-oy),ts,ts);
+  }
+  drawV(); drawW();
+}
+
+function drawV(){
+  const tf=document.getElementById('tf').value;
+  const sf=(document.getElementById('sf').value||'').toLowerCase();
+  vessels.forEach(v=>{
+    const imo=String(v.imoLloyds||'');
+    if(wl.some(w=>w.imo===imo)) return;
+    if(tf&&gcat(v.vesselTypeCode||0)!==tf) return;
+    if(sf){const nm=((v.vesselNamePrefix||'')+(v.vesselName||'')).toLowerCase();if(!nm.includes(sf)&&!imo.includes(sf)) return;}
+    const lat=v.portAreaDetails?.[0]?.lat,lon=v.portAreaDetails?.[0]?.lon;
+    if(!lat||!lon) return;
+    const p=ll2xy(lat,lon);
+    let c='#00e5ff';
+    if(gcat(v.vesselTypeCode||0)==='tanker') c='#ffb300';
+    if(gcat(v.vesselTypeCode||0)==='passenger') c='#00ff88';
+    ctx.save(); ctx.translate(p.x,p.y); ctx.fillStyle=c; ctx.globalAlpha=0.75;
+    ctx.beginPath(); ctx.moveTo(0,-6); ctx.lineTo(4,4); ctx.lineTo(0,2); ctx.lineTo(-4,4); ctx.closePath(); ctx.fill();
+    if(selIMO===imo){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.globalAlpha=1;ctx.stroke();}
+    ctx.restore();
+  });
+}
+
+function drawW(){
+  wl.forEach(w=>{
+    const a=wais[w.imo]; if(!a?.lat) return;
+    const p=ll2xy(a.lat,a.lon);
+    const sc=a.score||55,c=sc>=75?'#ff3d3d':sc>=50?'#ffb300':'#00ff88';
+    const r=a.heading&&a.heading<360?a.heading*Math.PI/180:0;
+    ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(r);
+    ctx.fillStyle=c; ctx.strokeStyle='#fff'; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(0,-10); ctx.lineTo(6,8); ctx.lineTo(0,5); ctx.lineTo(-6,8); ctx.closePath();
+    ctx.fill(); ctx.stroke(); ctx.restore();
+    if(a.speed&&a.speed>0.5){
+      const d=Math.min(a.speed*3,40);
+      ctx.save(); ctx.strokeStyle=c; ctx.lineWidth=1.5; ctx.globalAlpha=0.6; ctx.setLineDash([3,3]);
+      ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(p.x+Math.sin(r)*d,p.y-Math.cos(r)*d); ctx.stroke(); ctx.restore();
+    }
+    ctx.save();
+    ctx.font='bold 10px monospace'; ctx.fillStyle=c;
+    ctx.strokeStyle='rgba(5,13,20,0.9)'; ctx.lineWidth=3;
+    ctx.strokeText(w.name,p.x+10,p.y-10); ctx.fillText(w.name,p.x+10,p.y-10);
+    if(selIMO===w.imo){ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,16,0,Math.PI*2);ctx.stroke();}
+    ctx.restore();
+  });
+}
+
+canvas.addEventListener('mousedown',e=>{drag=true;ds={x:e.clientX,y:e.clientY};dv={lat:mv.lat,lon:mv.lon};});
+canvas.addEventListener('mousemove',e=>{
+  if(!drag) return;
+  const dx=e.clientX-ds.x,dy=e.clientY-ds.y,z=mv.zoom,sc=256*Math.pow(2,z);
+  mv.lon=dv.lon-dx/sc*360;
+  const sl0=Math.sin(dv.lat*Math.PI/180);
+  const oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const ny=oy-dy,n=Math.PI-2*Math.PI*ny/sc;
+  mv.lat=180/Math.PI*Math.atan(0.5*(Math.exp(n)-Math.exp(-n))); draw();
+});
+canvas.addEventListener('mouseup',()=>{drag=false;});
+canvas.addEventListener('mouseleave',()=>{drag=false;});
+canvas.addEventListener('wheel',e=>{
+  e.preventDefault();
+  mv.zoom=Math.max(3,Math.min(14,mv.zoom+(e.deltaY>0?-0.3:0.3)));
+  document.getElementById('zv').textContent=Math.round(mv.zoom); draw();
+},{passive:false});
+canvas.addEventListener('click',e=>{
+  const rect=canvas.getBoundingClientRect(),mx=e.clientX-rect.left,my=e.clientY-rect.top;
+  let found=null,minD=20;
+  wl.forEach(w=>{const a=wais[w.imo];if(!a?.lat)return;const p=ll2xy(a.lat,a.lon);const d=Math.sqrt((p.x-mx)**2+(p.y-my)**2);if(d<minD){minD=d;found=w.imo;}});
+  if(!found) vessels.forEach(v=>{const lat=v.portAreaDetails?.[0]?.lat,lon=v.portAreaDetails?.[0]?.lon;if(!lat||!lon)return;const p=ll2xy(lat,lon);const d=Math.sqrt((p.x-mx)**2+(p.y-my)**2);if(d<minD){minD=d;found=String(v.imoLloyds||'');}});
+  selIMO=found; draw();
+  document.getElementById('vp')?.remove();
+  if(!found) return;
+  const w=wl.find(w=>w.imo===found),a=wais[found],v=vessels.find(v=>String(v.imoLloyds||'')===found);
+  const nm=a?.name||w?.name||(v?(v.vesselNamePrefix||'')+(v.vesselName||''):'?');
+  const sc=a?.score||calcSc(v)||50;const cc=sc>=75?'#ff3d3d':sc>=50?'#ffb300':'#00ff88';
+  const popup=document.createElement('div');
+  popup.id='vp';
+  popup.style.cssText=`position:absolute;left:${Math.min(e.clientX-rect.left+10,canvas.width-200)}px;top:${Math.max(e.clientY-rect.top-100,10)}px;background:rgba(5,13,20,0.97);border:1px solid ${cc};border-radius:6px;padding:10px;min-width:175px;font-size:11px;z-index:50;pointer-events:none`;
+  popup.innerHTML=`<div style="color:#fff;font-weight:bold;margin-bottom:5px">${nm}${w?' ★':''}</div>
+    <div style="color:#3a6b8a">IMO: ${found}</div>
+    ${a?`<div style="border-top:1px solid #1a3a5c;margin-top:5px;padding-top:5px">
+      <div style="display:flex;justify-content:space-between"><span style="color:#3a6b8a">Kiirus</span><span style="color:#00ff88">${a.speed?.toFixed(1)||0} kn</span></div>
+      <div style="display:flex;justify-content:space-between"><span style="color:#3a6b8a">Kurss</span><span style="color:#e0f2fe">${Math.round(a.heading||0)}°</span></div>
+      <div style="display:flex;justify-content:space-between"><span style="color:#3a6b8a">Sihtkoht</span><span style="color:#e0f2fe">${a.dest||'—'}</span></div></div>`:''}
+    ${v?`<div style="display:flex;justify-content:space-between"><span style="color:#3a6b8a">Sadam</span><span style="color:#e0f2fe">${v.portToVisit||'—'}</span></div>`:''}
+    <div style="border-top:1px solid #1a3a5c;margin-top:5px;padding-top:5px;display:flex;justify-content:space-between">
+      <span style="color:#3a6b8a">FSS</span><span style="color:${cc};font-weight:bold">${sc}/100</span></div>`;
+  document.getElementById('map-wrap').appendChild(popup);
+});
+
+function zm(d){mv.zoom=Math.max(3,Math.min(14,mv.zoom+d));document.getElementById('zv').textContent=Math.round(mv.zoom);draw();}
+
+function gcat(c){if(c>=70&&c<=79)return'cargo';if(c>=80&&c<=89)return'tanker';if(c>=60&&c<=69)return'passenger';return'other';}
+
+function calcSc(v){
+  if(!v) return 50; let s=30;
+  const d=v.portAreaDetails?.[0]?.arrivalDraught||0;
+  if(gcat(v.vesselTypeCode||0)==='cargo'||gcat(v.vesselTypeCode||0)==='tanker') s+=20;
+  if(d>=5)s+=30;else if(d>=3.5)s+=15;
+  if(wl.some(w=>w.imo===String(v.imoLloyds||'')))s+=10;
+  if(['EEPKU','EETLL','EEMUG','EERMS','EEKUN'].includes(v.portToVisit||''))s+=10;
+  return Math.min(s,99);
+}
+
+async function fetchV(){
+  try{
+    const r=await fetch('https://meri.digitraffic.fi/api/port-call/v1/port-calls',{headers:{'Digitraffic-User':'HarborIQ/1.0'}});
+    if(!r.ok) throw new Error(r.status);
+    const j=await r.json(); vessels=j.portCalls||[];
+    document.getElementById('sd').className='dot live';
+    document.getElementById('st').textContent='live';
+    saveD(vessels); updStats(); filt(); rFore(); draw();
+  }catch(e){
+    document.getElementById('sd').style.background='#ff3d3d';
+    document.getElementById('st').textContent='viga';
+  }
+}
+
+async function fetchAIS(){
+  for(const w of wl){
+    if(!w.mmsi) continue;
+    try{
+      const r=await fetch(`https://meri.digitraffic.fi/api/ais/v1/vessels/${w.mmsi}`,{headers:{'Digitraffic-User':'HarborIQ/1.0'}});
+      if(!r.ok) continue;
+      const d=await r.json(); if(!d?.geometry?.coordinates) continue;
+      const [lon,lat]=d.geometry.coordinates,p=d.properties||{};
+      wais[w.imo]={lat,lon,name:w.name,heading:p.heading||p.courseOverGround||0,speed:p.speedOverGround||0,dest:p.destination||'—',ts:p.timestampExternal||'',score:calcSc(vessels.find(v=>String(v.imoLloyds||'')===w.imo))||55};
+    }catch(e){}
+  }
+  draw(); rWatch();
+}
+
+function saveD(vs){
+  const ex=ldData(),ts=new Date().toISOString();
+  const np=vs.map(v=>({ts,imo:v.imoLloyds||'',name:(v.vesselNamePrefix||'')+(v.vesselName||''),type:v.vesselTypeCode||0,port:v.portToVisit||'',prev:v.prevPort||'',next:v.nextPort||'',draught:v.portAreaDetails?.[0]?.arrivalDraught||0,nat:v.nationality||'',cargo:v.arrivalWithCargo||false}));
+  const m=[...ex,...np].slice(-10000);
+  try{localStorage.setItem(DK,JSON.stringify(m))}catch(e){}
+  stored=m; document.getElementById('s3').textContent=m.length; document.getElementById('si').textContent=m.length+' pt';
+}
+
+function ldData(){try{return JSON.parse(localStorage.getItem(DK)||'[]')}catch(e){return[]}}
+
+function updStats(){
+  document.getElementById('s0').textContent=vessels.length;
+  document.getElementById('s1').textContent=vessels.filter(v=>gcat(v.vesselTypeCode||0)==='cargo').length;
+  document.getElementById('s2').textContent=vessels.filter(v=>gcat(v.vesselTypeCode||0)==='tanker').length;
+  document.getElementById('vcnt').textContent=vessels.length+' laeva';
+}
+
+function filt(){
+  const tf=document.getElementById('tf').value,sf=(document.getElementById('sf').value||'').toLowerCase();
+  const fv=vessels.filter(v=>{
+    if(tf&&gcat(v.vesselTypeCode||0)!==tf) return false;
+    if(sf){const nm=((v.vesselNamePrefix||'')+(v.vesselName||'')).toLowerCase();if(!nm.includes(sf)&&!String(v.imoLloyds||'').includes(sf)) return false;}
+    return true;
+  });
+  const list=document.getElementById('vlist');
+  if(!fv.length){list.innerHTML='<div class="empty">Laevad puuduvad</div>';draw();return;}
+  list.innerHTML=fv.slice(0,50).map(v=>{
+    const n=(v.vesselNamePrefix||'')+(v.vesselName||'?'),i=String(v.imoLloyds||'—');
+    const sc=calcSc(v),d=v.portAreaDetails?.[0]?.arrivalDraught||0,iw=wl.some(w=>w.imo===i);
+    return `<div class="vc${selIMO===i?' sel':''}" onclick="selV('${i}')"><div class="vn">${n}${iw?' ★':''}</div><div class="vi">IMO: ${i}</div><div class="vr"><span class="vl">Sadam</span><span class="vv">${v.portToVisit||'—'}</span></div>${d>0?`<div class="vr"><span class="vl">Süvis</span><span class="vv">${d.toFixed(1)}m</span></div>`:''}<span class="badge ${sc>=75?'bh':sc>=50?'bm':'bl'}">FSS: ${sc}</span></div>`;
+  }).join('')+(fv.length>50?`<div class="empty">+${fv.length-50} veel</div>`:'');
+  draw();
+}
+
+function selV(imo){
+  selIMO=imo; filt();
+  const a=wais[imo],v=vessels.find(v=>String(v.imoLloyds||'')===imo);
+  const lat=a?.lat||v?.portAreaDetails?.[0]?.lat,lon=a?.lon||v?.portAreaDetails?.[0]?.lon;
+  if(lat&&lon){mv.lat=lat;mv.lon=lon;mv.zoom=9;} draw();
+}
+
+function rWatch(){
+  document.getElementById('wchips').innerHTML=wl.map(w=>`<span class="chip on" onclick="selV('${w.imo}')">${w.name}</span>`).join('');
+  document.getElementById('wlist').innerHTML=wl.map(w=>{
+    const a=wais[w.imo],v=vessels.find(v=>String(v.imoLloyds||'')===w.imo),sc=a?.score||calcSc(v)||55;
+    const c=sc>=75?'var(--red)':sc>=50?'var(--amber)':'var(--green)';
+    return `<div class="vc" onclick="selV('${w.imo}')">
+      <div style="display:flex;justify-content:space-between"><div class="vn" style="color:#00ff88">★ ${w.name}</div><span class="badge ${sc>=75?'bh':sc>=50?'bm':'bl'}">FSS: ${sc}</span></div>
+      <div class="vi">IMO: ${w.imo}</div>
+      ${a?`<div class="vr"><span class="vl">Kiirus</span><span class="vv" style="color:#00ff88">${a.speed?.toFixed(1)||0} kn · ${Math.round(a.heading||0)}°</span></div>
+      <div class="vr"><span class="vl">Sihtkoht</span><span class="vv">${a.dest||'—'}</span></div>`:'<div style="font-size:9px;color:var(--text3);margin-top:3px">AIS positsioon laetakse...</div>'}
+      ${v?`<div class="vr"><span class="vl">Sadam</span><span class="vv">${v.portToVisit||'—'}</span></div>`:''}
+    </div>`;
+  }).join('');
+}
+
+function rFore(){
+  const top=vessels.map(v=>({v,sc:calcSc(v)})).filter(x=>x.sc>=50).sort((a,b)=>b.sc-a.sc).slice(0,10);
+  const fl=document.getElementById('flist');
+  if(!top.length){fl.innerHTML='<div class="empty">Andmeid laetakse...</div>';return;}
+  fl.innerHTML=top.map(({v,sc})=>{
+    const n=(v.vesselNamePrefix||'')+(v.vesselName||'?'),c=sc>=75?'#ff3d3d':sc>=50?'#ffb300':'#00ff88';
+    const d=v.portAreaDetails?.[0]?.arrivalDraught||0,iw=wl.some(w=>w.imo===String(v.imoLloyds||''));
+    return `<div class="fb" onclick="selV('${v.imoLloyds||''}')"><div class="fbn">${n}${iw?' ★':''}</div><div class="fbs" style="color:${c}">${sc}<span style="font-size:11px;color:var(--text3)">/100</span></div><div class="sbar"><div class="sfill" style="width:${sc}%;background:${c}"></div></div><div style="font-size:10px;color:var(--text2)">Sadam: ${v.portToVisit||'—'} · ${d>0?d.toFixed(1)+'m':'—'}</div></div>`;
+  }).join('');
+}
+
+function rHist(){
+  stored=ldData(); document.getElementById('hi').textContent=stored.length+' kirjet';
+  const hl=document.getElementById('hlist');
+  if(!stored.length){hl.innerHTML='<div class="empty">Ajalugu puudub</div>';return;}
+  hl.innerHTML=[...stored].reverse().slice(0,30).map(d=>`<div class="hi"><div><div style="color:var(--text)">${d.name||'?'}</div><div class="ht">IMO:${d.imo||'—'} · ${d.port||'—'}</div></div><div style="text-align:right"><div class="ht">${d.ts?new Date(d.ts).toLocaleDateString('et-EE',{day:'2-digit',month:'2-digit'}):''}</div><div class="ht">${d.draught>0?d.draught.toFixed(1)+'m':'—'}</div></div></div>`).join('');
+}
+
+function addW(){
+  const i=document.getElementById('wimo').value.trim();
+  if(!i||wl.find(w=>w.imo===i)){alert(i?'Juba loendis!':'Sisesta IMO!');return;}
+  const v=vessels.find(v=>String(v.imoLloyds||'')===i);
+  wl.push({name:v?(v.vesselNamePrefix||'')+(v.vesselName||''):'IMO '+i,imo:i,mmsi:''});
+  document.getElementById('wimo').value='';
+  try{localStorage.setItem(WK,JSON.stringify(wl))}catch(e){}
+  rWatch(); fetchAIS();
+}
+
+function sw(tab){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('on',['live','watch','fore','hist'][i]===tab));
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.getElementById('p-'+tab).classList.add('on');
+  if(tab==='hist') rHist();
+  if(tab==='watch') rWatch();
+}
+
+function expCSV(){
+  const d=ldData(); if(!d.length){alert('Andmed puuduvad!');return;}
+  const h='timestamp,imo,name,type,port,prevPort,nextPort,draught,nationality,withCargo';
+  const rows=d.map(r=>[r.ts,r.imo,r.name,r.type,r.port,r.prev,r.next,r.draught,r.nat,r.cargo].map(v=>'"'+String(v||'').replace(/"/g,'""')+'"').join(','));
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob(['\uFEFF'+[h,...rows].join('\r\n')],{type:'text/csv;charset=utf-8;'}));
+  a.download='harboriq_'+new Date().toISOString().slice(0,10)+'.csv';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+}
+
+function clrStore(){
+  if(!confirm('Kustutad kõik andmed?')) return;
+  localStorage.removeItem(DK); stored=[];
+  document.getElementById('s3').textContent=0; document.getElementById('si').textContent='0 pt';
+}
+
+try{const s=localStorage.getItem(WK);if(s)wl=JSON.parse(s);}catch(e){}
+stored=ldData();
+document.getElementById('s3').textContent=stored.length;
+document.getElementById('si').textContent=stored.length+' pt';
+window.addEventListener('resize',resize);
+resize();
+fetchV(); fetchAIS();
+lt=setInterval(fetchV,60000); at=setInterval(fetchAIS,30000);
+</script>
+</body>
+</html>
