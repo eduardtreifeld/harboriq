@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HarborIQ – ESTLAND Mudel v2</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#050d14;--s1:#0a1929;--s2:#0f2137;--b:#1a3a5c;
+  --ac:#00e5ff;--gr:#00ff88;--am:#ffb300;--re:#ff3d3d;--pu:#a78bfa;
+  --t1:#e0f2fe;--t2:#7cb3d4;--t3:#3a6b8a;
+}
+body{background:var(--bg);color:var(--t1);font-family:monospace;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{display:flex;align-items:center;justify-content:space-between;padding:.5rem 1rem;background:var(--s1);border-bottom:1px solid var(--b);flex-shrink:0;gap:8px;flex-wrap:wrap}
+.logo{font-size:13px;color:var(--ac);letter-spacing:.08em}
+.logo b{color:#fff}.logo span{color:var(--t3);font-size:10px;margin-left:6px}
+.hpill{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--t3);background:var(--s2);padding:3px 9px;border-radius:12px;border:1px solid var(--b)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--t3);flex-shrink:0}
+.dot.live{background:var(--gr);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.hbtn{background:transparent;border:1px solid var(--b);color:var(--t2);padding:4px 10px;border-radius:4px;font-size:10px;cursor:pointer;transition:all .15s;font-family:monospace}
+.hbtn:hover{border-color:var(--ac);color:var(--ac)}
+.main{display:flex;flex:1;overflow:hidden}
+#map-wrap{flex:1;position:relative;overflow:hidden;background:#071520}
+#mc{display:block;width:100%;height:100%;cursor:grab}
+#mc:active{cursor:grabbing}
+.minfo{position:absolute;bottom:8px;left:10px;font-size:9px;color:var(--t3);background:rgba(5,13,20,.85);padding:3px 7px;border-radius:3px;pointer-events:none}
+.mctrl{position:absolute;bottom:8px;right:10px;display:flex;flex-direction:column;gap:3px}
+.zbtn{width:28px;height:28px;background:var(--s1);border:1px solid var(--b);color:var(--t2);border-radius:3px;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center}
+.zbtn:hover{border-color:var(--ac);color:var(--ac)}
+.sidebar{width:310px;background:var(--s1);border-left:1px solid var(--b);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+.sh{padding:.5rem .9rem;border-bottom:1px solid var(--b);font-size:9px;color:var(--t3);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.tabs{display:flex;border-bottom:1px solid var(--b);flex-shrink:0}
+.tab{flex:1;padding:7px 2px;font-size:9px;text-align:center;cursor:pointer;color:var(--t3);border-bottom:2px solid transparent;text-transform:uppercase;letter-spacing:.04em;transition:all .15s}
+.tab.on{color:var(--ac);border-bottom-color:var(--ac)}
+.tc{flex:1;overflow-y:auto;padding:.65rem}
+.pane{display:none}.pane.on{display:block}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:10px}
+.sbox{background:var(--s2);border:1px solid var(--b);border-radius:4px;padding:7px 9px}
+.sl{font-size:8px;color:var(--t3);text-transform:uppercase;margin-bottom:2px;letter-spacing:.06em}
+.sv{font-size:20px;color:var(--ac);font-weight:bold}
+.sec{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--t3);margin:10px 0 5px;padding-bottom:3px;border-bottom:1px solid var(--b)}
+.fss-card{background:linear-gradient(135deg,rgba(0,229,255,.06),rgba(0,255,136,.04));border:1px solid rgba(0,229,255,.25);border-radius:6px;padding:10px 12px;margin-bottom:10px}
+.fss-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.fss-name{font-size:13px;font-weight:bold;color:#fff}
+.fss-imo{font-size:9px;color:var(--t3);margin-top:2px}
+.fss-score{font-size:30px;font-weight:bold}
+.fss-lbl{font-size:8px;color:var(--t3);text-align:right}
+.sbar{height:4px;background:var(--s2);border-radius:2px;margin:5px 0;overflow:hidden}
+.sfill{height:100%;border-radius:2px;transition:width .6s}
+.fr{display:flex;justify-content:space-between;font-size:10px;margin-top:3px}
+.fl{color:var(--t3)}.fv{color:var(--t1)}
+.pred-card{background:var(--s2);border:1px solid var(--b);border-radius:5px;padding:8px;margin-bottom:6px;cursor:pointer;transition:border-color .15s}
+.pred-card:hover{border-color:var(--ac)}
+.pred-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:3px}
+.pred-port{font-size:11px;font-weight:bold;color:#fff}
+.pred-prob{font-size:17px;font-weight:bold}
+.pbar{height:3px;background:#0a1929;border-radius:2px;margin:3px 0;overflow:hidden}
+.pfill{height:100%;border-radius:2px}
+.pred-d{font-size:9px;color:var(--t2);line-height:1.4}
+.hr{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--b);font-size:10px}
+.hr:last-child{border:none}
+.badge{display:inline-block;font-size:8px;padding:1px 5px;border-radius:2px;border:1px solid;margin-left:3px}
+.bh{color:var(--re);border-color:var(--re);background:rgba(255,61,61,.1)}
+.bm{color:var(--am);border-color:var(--am);background:rgba(255,179,0,.1)}
+.bl{color:var(--gr);border-color:var(--gr);background:rgba(0,255,136,.1)}
+.bi{color:var(--ac);border-color:var(--ac);background:rgba(0,229,255,.1)}
+.ship-tab{display:flex;gap:4px;margin-bottom:8px;flex-wrap:wrap}
+.stag{background:var(--s2);border:1px solid var(--b);border-radius:3px;padding:2px 7px;font-size:9px;cursor:pointer;transition:all .15s}
+.stag:hover,.stag.on{border-color:var(--ac);color:var(--ac)}
+#popup{position:absolute;pointer-events:none;z-index:100}
+.pbox{background:rgba(5,13,20,.97);border-radius:5px;padding:10px;min-width:175px;font-size:10px;position:absolute}
+.pbn{font-size:12px;font-weight:bold;color:#fff;margin-bottom:5px}
+.pbr{display:flex;justify-content:space-between;padding:2px 0;border-bottom:1px solid #1a3a5c}
+.pbr:last-child{border:none}
+.pbl{color:var(--t3)}.pbv{color:var(--t1)}
+.legend{position:absolute;top:10px;left:10px;background:rgba(5,13,20,.85);border:1px solid var(--b);border-radius:4px;padding:8px 10px;font-size:9px;pointer-events:none}
+.leg-row{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.leg-dot{width:8px;height:8px;border-radius:50%}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">HarborIQ <b>ESTLAND</b><span>// IMO 9247314 · 4 laeva · Markov v2.0</span></div>
+  <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+    <div class="hpill"><div class="dot" id="sd"></div><span id="st">ühendub...</span></div>
+    <div class="hpill" id="pp" style="display:none"><span id="pt"></span></div>
+    <div class="hpill" style="color:var(--pu)">4 laeva · 40 üleminekut</div>
+    <button class="hbtn" onclick="fetchAIS()">↺ AIS</button>
+  </div>
+</header>
+<div class="main">
+  <div id="map-wrap">
+    <canvas id="mc"></canvas>
+    <div class="legend">
+      <div class="leg-row"><div class="leg-dot" style="background:#ff3d3d"></div><span>FSS ≥70 (kõrge)</span></div>
+      <div class="leg-row"><div class="leg-dot" style="background:#ffb300"></div><span>FSS 45-70 (kesk)</span></div>
+      <div class="leg-row"><div class="leg-dot" style="background:#00ff88"></div><span>FSS &lt;45 (madal)</span></div>
+      <div class="leg-row"><div class="leg-dot" style="background:#00e5ff;opacity:.7"></div><span>Sadam</span></div>
+    </div>
+    <div class="minfo">zoom <span id="zv">6</span> · lohista = liiguta · keri = zoom · klikk = info</div>
+    <div class="mctrl">
+      <button class="zbtn" onclick="zm(1)">+</button>
+      <button class="zbtn" onclick="zm(-1)">−</button>
+    </div>
+    <div id="popup"></div>
+  </div>
+  <div class="sidebar">
+    <div class="sh"><span>HarborIQ · ESTLAND mudel</span><span style="color:var(--ac)" id="upd"></span></div>
+    <div class="tabs">
+      <div class="tab on" onclick="sw('mudel')">Mudel</div>
+      <div class="tab" onclick="sw('pred')">Prognoos</div>
+      <div class="tab" onclick="sw('hist')">Ajalugu</div>
+      <div class="tab" onclick="sw('markov')">Markov</div>
+    </div>
+    <div class="tc">
+
+      <div class="pane on" id="p-mudel">
+        <div class="fss-card">
+          <div class="fss-top">
+            <div><div class="fss-name">ESTLAND ★</div><div class="fss-imo">IMO 9247314 · MMSI 255802660</div></div>
+            <div><div class="fss-score" id="fv" style="color:var(--am)">—</div><div class="fss-lbl">FUEL STRESS</div></div>
+          </div>
+          <div class="sbar"><div class="sfill" id="fb" style="width:0%;background:var(--am)"></div></div>
+          <div class="fr"><span class="fl">Kiirus</span><span class="fv" id="f1">—</span></div>
+          <div class="fr"><span class="fl">Kurss</span><span class="fv" id="f2">—</span></div>
+          <div class="fr"><span class="fl">AIS sihtkoht</span><span class="fv" id="f3">—</span></div>
+          <div class="fr"><span class="fl">Süvis (viimane)</span><span class="fv" id="f4">—</span></div>
+          <div class="fr"><span class="fl">Viimane sadam</span><span class="fv" id="f5">—</span></div>
+          <div class="fr"><span class="fl">AIS uuendatud</span><span class="fv" id="f6">—</span></div>
+        </div>
+        <div class="sec">FSS Komponendid</div>
+        <div id="fss-comp"></div>
+        <div class="sec">Järgmine sadam (Markov)</div>
+        <div id="next-box"></div>
+        <div class="sec">Mudeli info</div>
+        <div style="font-size:9px;color:var(--t3);line-height:1.7">
+          Andmed: 4 laeva · 44 külastust · 40 üleminekut<br>
+          ESTLAND: 21 külastust (26.02–20.04.2026)<br>
+          RUBYN: 11 · LAKE ERIE: 7 · NORDIS: 5<br>
+          Meetod: 1. järgu Markov + FSS skoor<br>
+          Punkerdamissignaal: süvis ≥4.5m + Hamina
+        </div>
+      </div>
+
+      <div class="pane" id="p-pred">
+        <div class="sec">Markovi prognoos – järgmine sadam</div>
+        <div id="pred-list"></div>
+        <div class="sec" style="margin-top:12px">Monte Carlo (100 simulatsiooni)</div>
+        <div id="mc-res"></div>
+        <div class="sec" style="margin-top:12px">Punkerdamise tõenäosus 48h</div>
+        <div id="bpred"></div>
+      </div>
+
+      <div class="pane" id="p-hist">
+        <div class="sg">
+          <div class="sbox"><div class="sl">ESTLAND külastusi</div><div class="sv">21</div></div>
+          <div class="sbox"><div class="sl">Jälgitud päevi</div><div class="sv">53</div></div>
+          <div class="sbox"><div class="sl">Roomassaare</div><div class="sv gr" style="color:var(--gr)">3×</div></div>
+          <div class="sbox"><div class="sl">Ringi ~aeg</div><div class="sv" style="font-size:15px">5-7p</div></div>
+        </div>
+        <div class="sec">Kuva laeva ajalugu</div>
+        <div class="ship-tab">
+          <span class="stag on" onclick="showHist('ESTLAND',this)">ESTLAND</span>
+          <span class="stag" onclick="showHist('RUBYN',this)">RUBYN</span>
+          <span class="stag" onclick="showHist('LAKE ERIE',this)">LAKE ERIE</span>
+          <span class="stag" onclick="showHist('NORDIS',this)">NORDIS</span>
+        </div>
+        <div id="hist-list"></div>
+      </div>
+
+      <div class="pane" id="p-markov">
+        <div class="sec">Üleminekmaatriks (4 laeva kombineeritud)</div>
+        <div id="mk-table"></div>
+        <div class="sec" style="margin-top:12px">Süvise statistika</div>
+        <div id="drt-table"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+// ===== MUDELI ANDMED (4 laeva kombineeritud) =====
+const MARKOV = {"Skutskar":[{"to":"Klaipeda","prob":50,"n":2},{"to":"Riga","prob":25,"n":1},{"to":"Parnu","prob":25,"n":1}],"Riga":[{"to":"Skutskar","prob":100,"n":2}],"Parnu":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":1}],"Hamina (Fredrikshamn)":[{"to":"Roomassaare","prob":50,"n":3},{"to":"Liepaja","prob":17,"n":1},{"to":"Skulte","prob":17,"n":1},{"to":"Riga","prob":17,"n":1}],"Liepaja":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":1}],"Skulte":[{"to":"Skutskar","prob":100,"n":1}],"Klaipeda":[{"to":"Skutskar","prob":33,"n":1},{"to":"Hamina (Fredrikshamn)","prob":33,"n":1},{"to":"Wismar","prob":33,"n":1}],"Roomassaare":[{"to":"Hamina (Fredrikshamn)","prob":100,"n":3}],"Lulea":[{"to":"Oxelosund","prob":50,"n":1},{"to":"Monfalcone","prob":50,"n":1}],"Oxelosund":[{"to":"Raahe (Brahestad)","prob":100,"n":1}],"Raahe (Brahestad)":[{"to":"Lulea","prob":100,"n":1}],"Three Rivers":[{"to":"Jorf Lasfar","prob":100,"n":1}],"Jorf Lasfar":[{"to":"Jorf Lasfar","prob":50,"n":1},{"to":"Waterford","prob":50,"n":1}],"Waterford":[{"to":"Szczecin","prob":100,"n":1}],"Szczecin":[{"to":"Sillamae","prob":100,"n":1}],"Sillamae":[{"to":"Leixoes","prob":100,"n":1}],"Vyborg":[{"to":"Klaipeda","prob":100,"n":1}],"Wismar":[{"to":"Kolding","prob":100,"n":1}],"Kolding":[{"to":"Svetly","prob":100,"n":1}],"Svetly":[{"to":"Brake","prob":100,"n":1}],"Brake":[{"to":"Hamburg","prob":100,"n":1}],"Hamburg":[{"to":"Dordrecht","prob":100,"n":1}],"Dordrecht":[{"to":"Larvik","prob":100,"n":1}],"Larvik":[{"to":"Pozzallo","prob":100,"n":1}],"Pozzallo":[{"to":"Izmir","prob":100,"n":1}]};
+
+const HISTORY = {"ESTLAND":[{"place":"Skutskar","country":"Sweden","date":"27/02/2026","duration":"16 hours","draught":"4.3","destination":"Riga 01 Mar 2026"},{"place":"Riga","country":"Latvia","date":"01/03/2026","duration":"20 hours","draught":"5.3","destination":"Skutskar 04 Mar 2026"},{"place":"Skutskar","country":"Sweden","date":"04/03/2026","duration":"15 hours","draught":"4.3","destination":"Parnu 06 Mar 2026"},{"place":"Parnu","country":"Estonia","date":"06/03/2026","duration":"a day","draught":"4.3","destination":"Hamina 09 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"09/03/2026","duration":"a day","draught":"4.3","destination":"Liepaja 12 Mar"},{"place":"Liepaja","country":"Latvia","date":"12/03/2026","duration":"a day","draught":"5.3","destination":"Hamina 14 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"14/03/2026","duration":"a day","draught":"4.3","destination":"Skulte 17 Mar"},{"place":"Skulte","country":"Latvia","date":"17/03/2026","duration":"17 hours","draught":"5.3","destination":"Skutskar 19 Mar"},{"place":"Skutskar","country":"Sweden","date":"19/03/2026","duration":"13 hours","draught":"3.9","destination":"Klaipeda 21 Mar"},{"place":"Klaipeda","country":"Lithuania","date":"21/03/2026","duration":"17 hours","draught":"5.3","destination":"Skutskar 23 Mar"},{"place":"Skutskar","country":"Sweden","date":"23/03/2026","duration":"a day","draught":"5.3","destination":"Klaipeda 26 Mar"},{"place":"Klaipeda","country":"Lithuania","date":"26/03/2026","duration":"18 hours","draught":"5.3","destination":"Hamina 28 Mar"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"28/03/2026","duration":"a day","draught":"4.3","destination":"Roomassaare 31 Mar"},{"place":"Roomassaare","country":"Estonia","date":"31/03/2026","duration":"a day","draught":"4.6","destination":"Hamina 02 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"02/04/2026","duration":"a day","draught":"3.9","destination":"Roomassaare 05 Apr"},{"place":"Roomassaare","country":"Estonia","date":"05/04/2026","duration":"a day","draught":"4.9","destination":"Hamina 08 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"08/04/2026","duration":"a day","draught":"3.9","destination":"Roomassaare 11 Apr"},{"place":"Roomassaare","country":"Estonia","date":"11/04/2026","duration":"15 hours","draught":"4.6","destination":"Hamina 14 Apr"},{"place":"Hamina (Fredrikshamn)","country":"Finland","date":"14/04/2026","duration":"16 hours","draught":"4.0","destination":"Riga 16 Apr"},{"place":"Riga","country":"Latvia","date":"16/04/2026","duration":"a day","draught":"5.6","destination":"Skutskar 19 Apr"},{"place":"Skutskar","country":"Sweden","date":"18/04/2026","duration":"19 hours","draught":"3.9","destination":"Salacgriva 21 Apr"}],"RUBYN":[{"place":"Klaipeda","country":"Lithuania","date":"31/12/2025","duration":"2 days","draught":"2.7","destination":"Wismar 06 Jan"},{"place":"Wismar","country":"Germany","date":"06/01/2026","duration":"a day","draught":"4.3","destination":"Kolding 08 Jan"},{"place":"Kolding","country":"Denmark","date":"08/01/2026","duration":"a day","draught":"4.3","destination":"Kaliningrad 13 Jan"},{"place":"Svetly","country":"Russia","date":"13/01/2026","duration":"2 days","draught":"2.7","destination":"Kiel Canal 18 Jan"},{"place":"Brake","country":"Germany","date":"18/01/2026","duration":"a day","draught":"4.5","destination":"Weserport 20 Jan"},{"place":"Hamburg","country":"Germany","date":"19/02/2026","duration":"11 days","draught":"4.8","destination":"Rotterdam 04 Mar"},{"place":"Dordrecht","country":"Netherlands","date":"05/03/2026","duration":"9 hours","draught":"2.8","destination":"Larvik 09 Mar"},{"place":"Larvik","country":"Norway","date":"09/03/2026","duration":"5 days","draught":"4.8","destination":"Dover Strait 19 Mar"},{"place":"Pozzallo","country":"Italy","date":"09/04/2026","duration":"11 hours","draught":"3.1","destination":"Izmir 13 Apr"},{"place":"Izmir","country":"Turkiye","date":"17/04/2026","duration":"—","draught":"3.1","destination":"Izmir"}],"LAKE ERIE":[{"place":"Three Rivers","country":"Canada","date":"15/01/2026","duration":"a day","draught":"6.5","destination":"Lisbon 10 Feb"},{"place":"Jorf Lasfar","country":"Morocco","date":"24/02/2026","duration":"6 days","draught":"7.4","destination":"Jorf Lasfar 27 Feb"},{"place":"Jorf Lasfar","country":"Morocco","date":"02/03/2026","duration":"17 days","draught":"7.4","destination":"Waterford 19 Mar"},{"place":"Waterford","country":"Ireland","date":"19/03/2026","duration":"4 days","draught":"7.2","destination":"Szczecin 27 Mar"},{"place":"Szczecin","country":"Poland","date":"27/03/2026","duration":"9 days","draught":"6.1","destination":"Sillamae 05 Apr"},{"place":"Sillamae","country":"Estonia","date":"05/04/2026","duration":"8 days","draught":"6.1","destination":"Leixoes 13 Apr"},{"place":"Leixoes","country":"Portugal","date":"19/04/2026","duration":"—","draught":"10.0","destination":"Leixoes"}],"NORDIS":[{"place":"Lulea","country":"Sweden","date":"28/11/2025","duration":"12 days","draught":"6.4","destination":"Paljassaare 15 Dec"},{"place":"Oxelosund","country":"Sweden","date":"11/03/2026","duration":"4 days","draught":"7.0","destination":"Raahe 15 Mar"},{"place":"Raahe (Brahestad)","country":"Finland","date":"15/03/2026","duration":"3 days","draught":"7.6","destination":"Lulea 18 Mar"},{"place":"Lulea","country":"Sweden","date":"18/03/2026","duration":"32 days","draught":"9.3","destination":"Skagen 25 Mar"},{"place":"Monfalcone","country":"Italy","date":"19/04/2026","duration":"—","draught":"9.3","destination":"Monfalcone"}]};
+
+const COORDS = {"Skutskar":[60.637,17.414],"Riga":[56.958,24.108],"Parnu":[58.374,24.503],"Hamina (Fredrikshamn)":[60.564,27.198],"Liepaja":[56.511,21.011],"Skulte":[57.298,24.402],"Klaipeda":[55.706,21.132],"Roomassaare":[58.222,22.506],"Salacgriva":[57.758,24.358],"Wismar":[53.898,11.453],"Kolding":[55.490,9.472],"Hamburg":[53.545,9.955],"Brake":[53.331,8.478],"Dordrecht":[51.805,4.669],"Larvik":[59.054,10.028],"Lulea":[65.584,22.157],"Oxelosund":[58.666,17.102],"Raahe (Brahestad)":[64.685,24.481],"Sillamae":[59.400,27.762],"Szczecin":[53.431,14.552],"Waterford":[52.259,-7.110],"Pozzallo":[36.729,14.849],"Izmir":[38.418,27.129],"Monfalcone":[45.789,13.534],"Leixoes":[41.185,-8.703],"Three Rivers":[46.350,-72.540]};
+
+const LAST = {lat:59.15,lon:22.80,speed:9.2,heading:128,dest:"LVSAL (Salacgriva)",draught:3.9,ts:"20/04/2026 13:48"};
+
+const SHIP_COLORS = {'ESTLAND':'#00ff88','RUBYN':'#00e5ff','LAKE ERIE':'#a78bfa','NORDIS':'#ffb300'};
+
+// ===== KAARDI MOOTOR =====
+const canvas=document.getElementById('mc'), ctx=canvas.getContext('2d');
+let mv={lat:58.0,lon:20.0,zoom:5.5};
+let drag=false,ds={x:0,y:0},dv={lat:0,lon:0};
+let tileCache={},pt={};
+let aisData=null, selPort=null;
+let activeShip='ESTLAND';
+
+function resize(){const w=document.getElementById('map-wrap');canvas.width=w.clientWidth;canvas.height=w.clientHeight;draw();}
+
+function ll2xy(lat,lon){
+  const z=mv.zoom,sc=256*Math.pow(2,z);
+  const x=(lon+180)/360*sc;
+  const sl=Math.sin(lat*Math.PI/180);
+  const y=(0.5-Math.log((1+sl)/(1-sl))/(4*Math.PI))*sc;
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc,oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  return{x:canvas.width/2+(x-ox),y:canvas.height/2+(y-oy)};
+}
+
+function getTile(z,tx,ty){
+  const k=`${z}/${tx}/${ty}`;
+  if(tileCache[k]) return tileCache[k];
+  if(pt[k]) return null;
+  pt[k]=true;
+  const img=new Image(); img.crossOrigin='anonymous';
+  img.src=`https://${'abc'[Math.abs(tx+ty)%3]}.basemaps.cartocdn.com/dark_all/${z}/${tx}/${ty}.png`;
+  img.onload=()=>{tileCache[k]=img;delete pt[k];draw();};
+  img.onerror=()=>{delete pt[k];};
+  return null;
+}
+
+function draw(){
+  if(!canvas.width) return;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle='#071520'; ctx.fillRect(0,0,canvas.width,canvas.height);
+  const z=Math.floor(mv.zoom),ts=256*Math.pow(2,mv.zoom-z),sc=256*Math.pow(2,z);
+  const sl0=Math.sin(mv.lat*Math.PI/180);
+  const ox=(mv.lon+180)/360*sc,oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const cx=canvas.width/2,cy=canvas.height/2;
+  for(let tx=Math.floor((ox-cx)/ts);tx<=Math.ceil((ox+cx)/ts);tx++)
+    for(let ty=Math.floor((oy-cy)/ts);ty<=Math.ceil((oy+cy)/ts);ty++){
+      const img=getTile(z,((tx%(1<<z))+(1<<z))%(1<<z),ty);
+      if(img) ctx.drawImage(img,cx+(tx*ts-ox),cy+(ty*ts-oy),ts,ts);
+    }
+  drawRoutes(); drawPorts(); drawEstland();
+}
+
+function drawRoutes(){
+  const routes=[["Skutskar","Hamina (Fredrikshamn)"],["Hamina (Fredrikshamn)","Roomassaare"],["Roomassaare","Hamina (Fredrikshamn)"],["Hamina (Fredrikshamn)","Klaipeda"],["Klaipeda","Skutskar"],["Skutskar","Riga"],["Riga","Skutskar"],["Hamina (Fredrikshamn)","Liepaja"],["Hamina (Fredrikshamn)","Skulte"],["Skulte","Skutskar"],["Parnu","Hamina (Fredrikshamn)"],["Skutskar","Parnu"]];
+  ctx.save(); ctx.strokeStyle='rgba(0,229,255,0.1)'; ctx.lineWidth=1; ctx.setLineDash([4,6]);
+  routes.forEach(([a,b])=>{
+    const ca=COORDS[a],cb=COORDS[b]; if(!ca||!cb) return;
+    const pa=ll2xy(ca[0],ca[1]),pb=ll2xy(cb[0],cb[1]);
+    ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke();
+  });
+  ctx.restore();
+}
+
+function drawPorts(){
+  Object.entries(COORDS).forEach(([name,coord])=>{
+    if(!coord||coord[1]<-20) return; // skip Americas for Baltic view
+    const p=ll2xy(coord[0],coord[1]);
+    if(p.x<-50||p.x>canvas.width+50||p.y<-50||p.y>canvas.height+50) return;
+    const isSel=selPort===name, isEst=['Roomassaare','Parnu'].includes(name);
+    const color=isEst?'#00ff88':'#00e5ff';
+    ctx.save();
+    ctx.beginPath(); ctx.arc(p.x,p.y,isSel?7:4,0,Math.PI*2);
+    ctx.fillStyle=color; ctx.globalAlpha=isSel?1:0.65; ctx.fill();
+    if(isSel){ctx.strokeStyle='#fff';ctx.lineWidth=1.5;ctx.globalAlpha=1;ctx.stroke();}
+    ctx.restore();
+    if(mv.zoom>5){
+      ctx.save();
+      ctx.font=`${isSel?'bold ':''} 9px monospace`;
+      ctx.fillStyle=color; ctx.strokeStyle='rgba(5,13,20,0.9)';
+      ctx.lineWidth=2.5; ctx.globalAlpha=isSel?1:0.8;
+      const n=name.replace(' (Fredrikshamn)','');
+      ctx.strokeText(n,p.x+6,p.y-4); ctx.fillText(n,p.x+6,p.y-4);
+      ctx.restore();
+    }
+  });
+}
+
+function drawEstland(){
+  const pos=aisData||LAST;
+  const p=ll2xy(pos.lat,pos.lon);
+  const sc=calcFSS(pos);
+  const c=fssC(sc);
+  const rot=(pos.heading||0)*Math.PI/180;
+  // Liikumisjoon
+  if(pos.speed>0.3){
+    const d=Math.min(pos.speed*5,70);
+    ctx.save(); ctx.strokeStyle=c; ctx.lineWidth=2; ctx.globalAlpha=0.45; ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(p.x+Math.sin(rot)*d,p.y-Math.cos(rot)*d); ctx.stroke(); ctx.restore();
+  }
+  // Pulseeriv ring
+  ctx.save(); ctx.beginPath(); ctx.arc(p.x,p.y,20,0,Math.PI*2);
+  ctx.strokeStyle=c; ctx.lineWidth=1; ctx.globalAlpha=0.15; ctx.stroke(); ctx.restore();
+  // Laev
+  ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(rot);
+  ctx.fillStyle=c; ctx.strokeStyle='#fff'; ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(0,-13); ctx.lineTo(8,10); ctx.lineTo(0,6); ctx.lineTo(-8,10); ctx.closePath();
+  ctx.fill(); ctx.stroke(); ctx.restore();
+  // Silt
+  ctx.save();
+  ctx.font='bold 11px monospace'; ctx.fillStyle=c;
+  ctx.strokeStyle='rgba(5,13,20,0.95)'; ctx.lineWidth=3;
+  ctx.strokeText('ESTLAND',p.x+15,p.y-15); ctx.fillText('ESTLAND',p.x+15,p.y-15);
+  ctx.font='9px monospace'; ctx.fillStyle=c; ctx.globalAlpha=0.85;
+  ctx.strokeText(`FSS:${sc} · ${(pos.speed||0).toFixed(1)}kn`,p.x+15,p.y-4);
+  ctx.fillText(`FSS:${sc} · ${(pos.speed||0).toFixed(1)}kn`,p.x+15,p.y-4);
+  ctx.restore();
+}
+
+// ===== FSS =====
+function calcFSS(pos){
+  let s=20;
+  const d=parseFloat(pos.draught||0),sp=parseFloat(pos.speed||0);
+  const dest=(pos.dest||'').toUpperCase();
+  if(d>=5.0)s+=35; else if(d>=4.5)s+=25; else if(d>=4.0)s+=15; else s+=5;
+  if(sp>8)s+=15; else if(sp>4)s+=8;
+  if(dest.includes('HAMINA')||dest.includes('HAMIN'))s+=20;
+  else if(dest.includes('ROOMASSAARE')||dest.includes('PARNU'))s+=15;
+  else if(dest.includes('KLAIPEDA')||dest.includes('LIEPAJA'))s+=10;
+  s+=10; // cargo type
+  return Math.min(s,99);
+}
+function fssC(s){return s>=70?'#ff3d3d':s>=45?'#ffb300':'#00ff88';}
+function fssBC(s){return s>=70?'bh':s>=45?'bm':'bl';}
+
+// ===== AIS =====
+async function fetchAIS(){
+  document.getElementById('sd').className='dot';
+  document.getElementById('st').textContent='laen...';
+  try{
+    const r=await fetch('https://meri.digitraffic.fi/api/ais/v1/vessels/255802660',{headers:{'Digitraffic-User':'HarborIQ/1.0'}});
+    if(!r.ok) throw new Error(r.status);
+    const d=await r.json();
+    if(d?.geometry?.coordinates){
+      const[lon,lat]=d.geometry.coordinates,p=d.properties||{};
+      aisData={lat,lon,speed:p.speedOverGround||0,heading:p.heading||p.courseOverGround||0,
+        dest:p.destination||'—',draught:LAST.draught,
+        ts:p.timestampExternal?new Date(p.timestampExternal).toLocaleString('et-EE'):'—'};
+      document.getElementById('sd').className='dot live';
+      document.getElementById('st').textContent='live';
+      document.getElementById('pp').style.display='flex';
+      document.getElementById('pt').textContent=`${lat.toFixed(3)}°N  ${lon.toFixed(3)}°E`;
+      document.getElementById('upd').textContent=new Date().toLocaleTimeString('et-EE',{hour:'2-digit',minute:'2-digit'});
+    }
+  }catch(e){
+    document.getElementById('sd').style.background='#ff3d3d';
+    document.getElementById('st').textContent='viga – kasutan viimast';
+    aisData=null;
+  }
+  updateUI(); draw();
+}
+
+// ===== UI =====
+function updateUI(){
+  const pos=aisData||LAST, sc=calcFSS(pos), c=fssC(sc);
+  document.getElementById('fv').textContent=sc;
+  document.getElementById('fv').style.color=c;
+  document.getElementById('fb').style.width=sc+'%';
+  document.getElementById('fb').style.background=c;
+  document.getElementById('f1').textContent=(pos.speed||0).toFixed(1)+' kn';
+  document.getElementById('f2').textContent=Math.round(pos.heading||0)+'°';
+  document.getElementById('f3').textContent=pos.dest||'—';
+  const d=parseFloat(pos.draught||0);
+  document.getElementById('f4').innerHTML=`${d}m <span class="badge ${d>=4.5?'bm':'bl'}">${d>=4.5?'lastiga':'kerge'}</span>`;
+  document.getElementById('f5').textContent='Skutskar (18.04.2026)';
+  document.getElementById('f6').textContent=pos.ts||LAST.ts;
+
+  const comps=[
+    {l:`Süvis ${d}m`,v:d>=5?35:d>=4.5?25:d>=4?15:5,m:35},
+    {l:`Kiirus ${(pos.speed||0).toFixed(1)}kn`,v:pos.speed>8?15:pos.speed>4?8:0,m:15},
+    {l:'Sihtkoht signaal',v:(pos.dest||'').includes('HAMINA')?20:(pos.dest||'').includes('ROOM')?15:10,m:20},
+    {l:'Cargo tüüp',v:10,m:10},
+    {l:'Baasskooor',v:20,m:20},
+  ];
+  document.getElementById('fss-comp').innerHTML=comps.map(x=>`
+    <div style="margin-bottom:4px">
+      <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--t3);margin-bottom:2px">
+        <span>${x.l}</span><span style="color:var(--t1)">${x.v}/${x.m}</span>
+      </div>
+      <div style="height:3px;background:var(--s2);border-radius:2px;overflow:hidden">
+        <div style="height:100%;width:${x.v/x.m*100}%;background:${c};border-radius:2px"></div>
+      </div>
+    </div>`).join('');
+
+  // Järgmine sadam
+  const nexts=MARKOV['Skutskar']||[];
+  document.getElementById('next-box').innerHTML=`
+    <div style="background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.2);border-radius:4px;padding:8px;font-size:10px">
+      <div style="color:var(--ac);font-weight:bold;margin-bottom:4px">AIS: ${pos.dest||'—'}</div>
+      <div style="color:var(--t3);margin-bottom:5px;font-size:9px">Pärast Salacgrivat → Skutskar → (Markov):</div>
+      ${nexts.map(n=>`<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid var(--b)">
+        <span style="color:var(--t1)">${n.to}</span>
+        <span style="color:${fssC(n.prob>40?70:30)};font-weight:bold">${n.prob}%</span>
+      </div>`).join('')}
+    </div>`;
+
+  renderPred(pos);
+  showHist('ESTLAND', document.querySelector('.stag.on'));
+  renderMarkov();
+}
+
+function renderPred(pos){
+  const nexts=MARKOV['Skutskar']||[];
+  document.getElementById('pred-list').innerHTML=nexts.map(n=>{
+    const c=n.prob>=50?'#00ff88':n.prob>=25?'#ffb300':'#00e5ff';
+    return `<div class="pred-card" onclick="focusPort('${n.to}')">
+      <div class="pred-top"><div><div class="pred-port">${n.to}</div><div style="font-size:9px;color:var(--t3)">Vaatlusi: ${n.n}x</div></div>
+      <div class="pred-prob" style="color:${c}">${n.prob}%</div></div>
+      <div class="pbar"><div class="pfill" style="width:${n.prob}%;background:${c}"></div></div>
+    </div>`;
+  }).join('');
+
+  // Monte Carlo
+  const mc={};
+  for(let i=0;i<100;i++){
+    let cur='Skutskar';
+    for(let s=0;s<4;s++){
+      const opts=MARKOV[cur]; if(!opts||!opts.length) break;
+      const r=Math.random()*100; let cum=0;
+      for(const o of opts){cum+=o.prob;if(r<cum){cur=o.to;break;}}
+    }
+    mc[cur]=(mc[cur]||0)+1;
+  }
+  document.getElementById('mc-res').innerHTML=Object.entries(mc).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([p,n])=>{
+    const c=n>=40?'#00ff88':n>=20?'#ffb300':'#00e5ff';
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--b);font-size:10px">
+      <span style="color:var(--t1)">${p.replace(' (Fredrikshamn)','')}</span>
+      <div style="display:flex;align-items:center;gap:5px">
+        <div style="width:55px;height:3px;background:var(--s2);border-radius:2px;overflow:hidden"><div style="height:100%;width:${n}%;background:${c}"></div></div>
+        <span style="color:${c};font-weight:bold;min-width:28px;text-align:right">${n}%</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  const bp=Math.min(Math.round(calcFSS(pos)*0.85),95);
+  const bc=bp>=60?'#ff3d3d':bp>=35?'#ffb300':'#00ff88';
+  document.getElementById('bpred').innerHTML=`
+    <div style="background:rgba(255,61,61,.05);border:1px solid rgba(255,61,61,.2);border-radius:4px;padding:9px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px">
+        <span style="font-size:10px;color:var(--t1)">Punkerdamistõenäosus</span>
+        <span style="font-size:22px;font-weight:bold;color:${bc}">${bp}%</span>
+      </div>
+      <div style="height:4px;background:var(--s2);border-radius:2px;overflow:hidden;margin-bottom:6px">
+        <div style="height:100%;width:${bp}%;background:${bc};border-radius:2px"></div>
+      </div>
+      <div style="font-size:9px;color:var(--t3);line-height:1.6">
+        Süvis ${pos.draught}m → ${parseFloat(pos.draught)>=4.5?'lastiga':'kerge'}<br>
+        Sihtkoht: ${pos.dest}<br>
+        Hamina on ESTLAND peamine pealelaadimissadam
+      </div>
+    </div>`;
+}
+
+function showHist(ship, el){
+  if(el){document.querySelectorAll('.stag').forEach(t=>t.classList.remove('on'));el.classList.add('on');}
+  const hist=HISTORY[ship]||[];
+  const cc={'Estonia':'#00ff88','Finland':'#00e5ff','Sweden':'#a78bfa','Latvia':'#ffb300','Lithuania':'#ff9f43','Norway':'#74b9ff','Germany':'#fd79a8','Denmark':'#55efc4','Italy':'#e17055','Turkiye':'#fdcb6e'};
+  document.getElementById('hist-list').innerHTML=[...hist].reverse().map(h=>{
+    const c=cc[h.country]||'#7cb3d4', d=parseFloat(h.draught||0);
+    return `<div class="hr">
+      <div><div style="font-weight:bold;color:${c};font-size:10px">${h.place}</div>
+      <div style="font-size:9px;color:var(--t3)">${h.country} · ${h.duration}</div></div>
+      <div style="text-align:right">
+        <div style="font-size:9px;color:var(--t3)">${h.date}</div>
+        ${d>0?`<span class="badge ${d>=5?'bh':d>=4.5?'bm':'bl'}">${d}m</span>`:''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderMarkov(){
+  let rows='';
+  // Näita ainult Läänemere relevantsed
+  const relevant=['Skutskar','Hamina (Fredrikshamn)','Roomassaare','Riga','Klaipeda','Parnu','Liepaja','Skulte','Wismar'];
+  relevant.forEach(src=>{
+    const dsts=MARKOV[src]; if(!dsts) return;
+    dsts.forEach(d=>{
+      const c=d.prob>=75?'#00ff88':d.prob>=40?'#ffb300':'#00e5ff';
+      rows+=`<div style="display:flex;align-items:center;padding:4px 0;border-bottom:1px solid var(--b);font-size:9px">
+        <span style="color:var(--t2);min-width:70px">${src.replace(' (Fredrikshamn)','')}</span>
+        <span style="color:var(--t3);margin:0 4px">→</span>
+        <span style="color:var(--t1);min-width:70px">${d.to.replace(' (Fredrikshamn)','')}</span>
+        <div style="flex:1;margin:0 6px;height:3px;background:var(--s2);border-radius:2px;overflow:hidden">
+          <div style="height:100%;width:${d.prob}%;background:${c};border-radius:2px"></div>
+        </div>
+        <span style="color:${c};font-weight:bold;min-width:28px;text-align:right">${d.prob}%</span>
+        <span style="color:var(--t3);margin-left:4px;min-width:20px">${d.n}x</span>
+      </div>`;
+    });
+  });
+  document.getElementById('mk-table').innerHTML=rows;
+
+  const dports=[
+    {p:'Skutskar',min:3.9,max:5.6,avg:4.9},
+    {p:'Hamina',min:3.9,max:5.6,avg:4.8},
+    {p:'Roomassaare',min:3.9,max:4.9,avg:4.4},
+    {p:'Riga',min:4.0,max:5.6,avg:4.8},
+    {p:'Klaipeda',min:4.0,max:5.3,avg:4.8},
+    {p:'Liepaja',min:4.0,max:5.3,avg:4.8},
+    {p:'Sillamae (LAKE ERIE)',min:6.1,max:6.1,avg:6.1},
+    {p:'Lulea (NORDIS)',min:6.4,max:9.3,avg:7.9},
+  ];
+  document.getElementById('drt-table').innerHTML=dports.map(x=>{
+    const c=x.avg>=6?'#ff3d3d':x.avg>=4.5?'#ffb300':'#00ff88';
+    return `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--b);font-size:9px">
+      <span style="color:var(--t1)">${x.p}</span>
+      <span style="color:var(--t3)">${x.min}–${x.max}m</span>
+      <span style="color:${c};font-weight:bold">${x.avg}m</span>
+    </div>`;
+  }).join('');
+}
+
+function focusPort(name){
+  const c=COORDS[name]; if(!c) return;
+  mv.lat=c[0]; mv.lon=c[1]; mv.zoom=8; selPort=name; draw();
+}
+
+function sw(tab){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('on',['mudel','pred','hist','markov'][i]===tab));
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.getElementById('p-'+tab).classList.add('on');
+}
+
+function zm(d){mv.zoom=Math.max(3,Math.min(12,mv.zoom+d));document.getElementById('zv').textContent=Math.round(mv.zoom);draw();}
+
+canvas.addEventListener('mousedown',e=>{drag=true;ds={x:e.clientX,y:e.clientY};dv={lat:mv.lat,lon:mv.lon};});
+canvas.addEventListener('mousemove',e=>{
+  if(!drag) return;
+  const dx=e.clientX-ds.x,dy=e.clientY-ds.y,z=mv.zoom,sc=256*Math.pow(2,z);
+  mv.lon=dv.lon-dx/sc*360;
+  const sl0=Math.sin(dv.lat*Math.PI/180),oy=(0.5-Math.log((1+sl0)/(1-sl0))/(4*Math.PI))*sc;
+  const ny=oy-dy,n=Math.PI-2*Math.PI*ny/sc;
+  mv.lat=180/Math.PI*Math.atan(0.5*(Math.exp(n)-Math.exp(-n))); draw();
+});
+canvas.addEventListener('mouseup',()=>{drag=false;});
+canvas.addEventListener('mouseleave',()=>{drag=false;});
+canvas.addEventListener('wheel',e=>{
+  e.preventDefault();
+  mv.zoom=Math.max(3,Math.min(12,mv.zoom+(e.deltaY>0?-0.3:0.3)));
+  document.getElementById('zv').textContent=Math.round(mv.zoom); draw();
+},{passive:false});
+
+canvas.addEventListener('click',e=>{
+  const rect=canvas.getBoundingClientRect(),mx=e.clientX-rect.left,my=e.clientY-rect.top;
+  document.getElementById('popup').innerHTML='';
+  const pos=aisData||LAST;
+  const ep=ll2xy(pos.lat,pos.lon);
+  if(Math.sqrt((ep.x-mx)**2+(ep.y-my)**2)<20){
+    const sc=calcFSS(pos),c=fssC(sc);
+    const px=Math.min(mx+12,canvas.width-200),py=Math.max(my-130,10);
+    document.getElementById('popup').innerHTML=`<div class="pbox" style="left:${px}px;top:${py}px;border:1px solid ${c}">
+      <div class="pbn" style="color:${c}">★ ESTLAND</div>
+      <div class="pbr"><span class="pbl">IMO</span><span class="pbv">9247314</span></div>
+      <div class="pbr"><span class="pbl">Kiirus</span><span class="pbv" style="color:#00ff88">${(pos.speed||0).toFixed(1)} kn</span></div>
+      <div class="pbr"><span class="pbl">Kurss</span><span class="pbv">${Math.round(pos.heading||0)}°</span></div>
+      <div class="pbr"><span class="pbl">Süvis</span><span class="pbv">${pos.draught}m</span></div>
+      <div class="pbr"><span class="pbl">Sihtkoht</span><span class="pbv">${pos.dest}</span></div>
+      <div class="pbr"><span class="pbl">FSS</span><span class="pbv" style="color:${c};font-weight:bold">${sc}/100</span></div>
+    </div>`;
+    return;
+  }
+  let found=null,minD=18;
+  Object.entries(COORDS).forEach(([name,coord])=>{
+    if(!coord||coord[1]<-20) return;
+    const p=ll2xy(coord[0],coord[1]),d=Math.sqrt((p.x-mx)**2+(p.y-my)**2);
+    if(d<minD){minD=d;found=name;}
+  });
+  if(found){
+    selPort=found; draw();
+    const nexts=MARKOV[found]||[];
+    const px=Math.min(mx+12,canvas.width-200),py=Math.max(my-100,10);
+    document.getElementById('popup').innerHTML=`<div class="pbox" style="left:${px}px;top:${py}px;border:1px solid var(--ac)">
+      <div class="pbn">${found.replace(' (Fredrikshamn)','')}</div>
+      ${nexts.length?nexts.map(n=>`<div class="pbr"><span class="pbl">→ ${n.to.replace(' (Fredrikshamn)','')}</span><span class="pbv" style="color:${fssC(n.prob>40?70:30)};font-weight:bold">${n.prob}%</span></div>`).join(''):'<div style="color:var(--t3);font-size:9px">Andmed puuduvad</div>'}
+    </div>`;
+  }
+});
+
+window.addEventListener('resize',resize);
+resize();
+updateUI();
+fetchAIS();
+setInterval(fetchAIS,30000);
+</script>
+
+<!-- =====================================================
+  GITHUB ÜLESLAADIMISE JUHEND
+  =====================================================
+  
+  See fail on HarborIQ_ESTLAND.html (v2.0)
+  Uuendatud: 4 laeva kombineeritud Markovi mudel
+  
+  KUIDAS GITHUB REPOSSE ÜLES LAADIDA:
+  
+  1. Mine: github.com/eduardtreifeld/harboriq
+  
+  2. Kliki vana faili peal: HarborIQ_ESTLAND.html
+  
+  3. Paremal üleval kliki pliiatsiikooni (Edit this file)
+     VÕI kliki "..." menüü → "Delete file" ja lae uus üles
+  
+  LIHTSAIM VIIS (soovituslik):
+  
+  4. Mine repo avalehele (Code tab)
+  
+  5. Kliki "Add file" → "Upload files"
+  
+  6. Lohista see fail (HarborIQ_ESTLAND.html) sinna
+     NB! GitHub küsib kas asendada – vali "Commit changes"
+     Commit message: "Update ESTLAND model v2 - 4 ships"
+  
+  7. Mõne sekundi pärast on uus versioon live:
+     https://eduardtreifeld.github.io/harboriq/HarborIQ_ESTLAND.html
+  
+  KIIRE KONTROLL:
+  - Parem ülanurk peaks näitama: "4 laeva · 40 üleminekut"
+  - Ajalugu tabis peaksid olema kõik 4 laeva
+  ===================================================== -->
+</html>
