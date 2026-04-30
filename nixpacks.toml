@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["busybox"]
-
-[start]
-cmd = "busybox httpd -f -p $PORT -h /app"
