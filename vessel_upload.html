@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VPM – Lisa laev</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07090f;--s1:#0d1117;--s2:#161b22;--b:#21262d;--b2:#30363d;
+  --ac:#1d4ed8;--gr:#16a34a;--am:#d97706;--re:#dc2626;
+  --t1:#e6edf3;--t2:#8b949e;--t3:#484f58;
+  --mono:'Courier New',monospace;--sans:system-ui,sans-serif;
+}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);
+  min-height:100vh;padding:20px}
+
+.header{display:flex;align-items:center;gap:12px;margin-bottom:24px;
+  padding-bottom:16px;border-bottom:1px solid var(--b)}
+.logo{background:var(--ac);color:#fff;font-size:13px;font-weight:700;
+  padding:4px 10px;border-radius:4px;font-family:var(--mono)}
+.title{font-size:16px;font-weight:600}
+.sub{font-size:11px;color:var(--t3);margin-top:2px}
+
+.container{max-width:800px;margin:0 auto}
+
+/* Laeva info */
+.vessel-form{background:var(--s1);border:1px solid var(--b);
+  border-radius:8px;padding:16px;margin-bottom:16px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+label{font-size:10px;color:var(--t3);font-family:var(--mono);
+  text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:4px}
+input,select{width:100%;background:var(--s2);border:1px solid var(--b2);
+  color:var(--t1);padding:8px 10px;border-radius:4px;
+  font-family:var(--mono);font-size:12px;outline:none}
+input:focus,select:focus{border-color:var(--ac)}
+
+/* Drag & drop */
+.dropzone{
+  border:2px dashed var(--b2);border-radius:8px;
+  padding:32px;text-align:center;cursor:pointer;
+  transition:all .2s;background:var(--s1);margin-bottom:16px;
+}
+.dropzone:hover,.dropzone.drag{
+  border-color:var(--ac);background:rgba(29,78,216,.05)}
+.drop-icon{font-size:32px;margin-bottom:8px}
+.drop-text{font-size:13px;color:var(--t2)}
+.drop-sub{font-size:11px;color:var(--t3);margin-top:4px}
+#file-input{display:none}
+
+/* Failide nimekiri */
+.files-list{background:var(--s1);border:1px solid var(--b);
+  border-radius:8px;margin-bottom:16px;overflow:hidden;display:none}
+.files-header{padding:10px 14px;border-bottom:1px solid var(--b);
+  font-size:10px;color:var(--t3);font-family:var(--mono);
+  text-transform:uppercase;display:flex;justify-content:space-between}
+.file-item{display:flex;align-items:center;padding:8px 14px;
+  border-bottom:1px solid var(--b);font-size:11px;font-family:var(--mono)}
+.file-item:last-child{border-bottom:none}
+.file-name{flex:1;color:var(--t2)}
+.file-size{color:var(--t3);margin:0 12px}
+.file-status{font-size:9px;padding:2px 6px;border-radius:3px}
+.st-ok{background:rgba(22,163,74,.15);color:var(--gr)}
+.st-err{background:rgba(220,38,38,.15);color:var(--re)}
+
+/* Progress */
+.progress-wrap{background:var(--s1);border:1px solid var(--b);
+  border-radius:8px;padding:16px;margin-bottom:16px;display:none}
+.progress-bar{height:4px;background:var(--b2);border-radius:2px;
+  overflow:hidden;margin:8px 0}
+.progress-fill{height:100%;background:var(--ac);border-radius:2px;
+  transition:width .3s;width:0%}
+.progress-text{font-size:11px;color:var(--t2);font-family:var(--mono)}
+.progress-step{font-size:10px;color:var(--t3);margin-top:4px}
+
+/* Tulemused */
+.result-wrap{background:var(--s1);border:1px solid var(--b);
+  border-radius:8px;padding:16px;margin-bottom:16px;display:none}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.result-cell{background:var(--s2);border-radius:4px;padding:10px;text-align:center}
+.result-num{font-size:20px;font-weight:700;font-family:var(--mono);color:var(--ac)}
+.result-lbl{font-size:9px;color:var(--t3);text-transform:uppercase;margin-top:2px}
+
+/* Nupud */
+.btn-row{display:flex;gap:10px}
+.btn{padding:10px 20px;border-radius:6px;font-size:12px;font-weight:600;
+  cursor:pointer;border:none;font-family:var(--mono);transition:all .15s}
+.btn-primary{background:var(--ac);color:#fff}
+.btn-primary:hover{background:#1e40af}
+.btn-primary:disabled{background:var(--t3);cursor:not-allowed}
+.btn-secondary{background:transparent;color:var(--t2);
+  border:1px solid var(--b2)}
+.btn-secondary:hover{border-color:var(--ac);color:var(--ac)}
+.btn-success{background:var(--gr);color:#fff}
+.btn-success:hover{background:#15803d}
+
+/* Laevade nimekiri */
+.vessels-list{background:var(--s1);border:1px solid var(--b);
+  border-radius:8px;overflow:hidden;margin-top:24px}
+.vessels-header{padding:12px 16px;border-bottom:1px solid var(--b);
+  font-size:10px;color:var(--t3);font-family:var(--mono);
+  text-transform:uppercase;display:flex;justify-content:space-between;
+  align-items:center}
+.search-input{background:var(--s2);border:1px solid var(--b2);
+  color:var(--t1);padding:5px 10px;border-radius:4px;
+  font-family:var(--mono);font-size:11px;outline:none;width:200px}
+.search-input:focus{border-color:var(--ac)}
+.vessel-row{display:flex;align-items:center;padding:10px 16px;
+  border-bottom:1px solid var(--b);cursor:pointer;transition:background .15s}
+.vessel-row:last-child{border-bottom:none}
+.vessel-row:hover{background:var(--s2)}
+.vessel-color{width:8px;height:8px;border-radius:50%;margin-right:10px;flex-shrink:0}
+.vessel-name{font-weight:600;font-size:12px;min-width:120px}
+.vessel-mmsi{font-size:10px;color:var(--t3);font-family:var(--mono);margin-right:12px}
+.vessel-calls{font-size:10px;color:var(--t2);margin-right:8px}
+.vessel-period{font-size:10px;color:var(--t3);flex:1}
+.vessel-del{font-size:10px;color:var(--re);padding:2px 6px;
+  border:1px solid rgba(220,38,38,.3);border-radius:3px;
+  background:transparent;cursor:pointer;font-family:var(--mono)}
+.vessel-del:hover{background:rgba(220,38,38,.1)}
+.empty-state{padding:32px;text-align:center;color:var(--t3);font-size:12px}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="logo">VPM</div>
+    <div>
+      <div class="title">Lisa laev</div>
+      <div class="sub">Lae üles SeaSearcheri CSV failid – mudel ehitatakse automaatselt</div>
+    </div>
+    <a href="VPM3.html" style="margin-left:auto;text-decoration:none">
+      <button class="btn btn-secondary">← Tagasi VPM-i</button>
+    </a>
+  </div>
+
+  <!-- Laeva info -->
+  <div class="vessel-form">
+    <div class="form-row">
+      <div>
+        <label>Laeva nimi *</label>
+        <input type="text" id="vessel-name" placeholder="nt ESTLAND" />
+      </div>
+      <div>
+        <label>MMSI number *</label>
+        <input type="text" id="vessel-mmsi" placeholder="nt 255802660" />
+      </div>
+    </div>
+    <div class="form-row">
+      <div>
+        <label>IMO number</label>
+        <input type="text" id="vessel-imo" placeholder="nt 9247314" />
+      </div>
+      <div>
+        <label>Laeva tüüp</label>
+        <select id="vessel-type">
+          <option value="general_cargo">General Cargo</option>
+          <option value="bulk">Bulk Carrier</option>
+          <option value="tanker">Tanker</option>
+          <option value="container">Container</option>
+          <option value="other">Muu</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Drag & Drop -->
+  <div class="dropzone" id="dropzone" onclick="document.getElementById('file-input').click()">
+    <div class="drop-icon">📂</div>
+    <div class="drop-text">Lohista CSV failid siia või kliki valimiseks</div>
+    <div class="drop-sub">Vali korraga kõik failid (kuni 30 faili · SeaSearcheri CSV formaat)</div>
+    <input type="file" id="file-input" multiple accept=".csv" onchange="handleFiles(this.files)">
+  </div>
+
+  <!-- Failide nimekiri -->
+  <div class="files-list" id="files-list">
+    <div class="files-header">
+      <span id="files-count">0 faili valitud</span>
+      <span id="files-size">0 KB</span>
+    </div>
+    <div id="files-items"></div>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-text" id="progress-text">Töötlen...</div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="progress-step" id="progress-step"></div>
+  </div>
+
+  <!-- Tulemus -->
+  <div class="result-wrap" id="result-wrap">
+    <div style="font-size:13px;font-weight:600;color:var(--gr);margin-bottom:8px">
+      ✅ Mudel edukalt ehitatud!
+    </div>
+    <div class="result-grid">
+      <div class="result-cell">
+        <div class="result-num" id="r-calls">0</div>
+        <div class="result-lbl">Sadamakülastust</div>
+      </div>
+      <div class="result-cell">
+        <div class="result-num" id="r-ports">0</div>
+        <div class="result-lbl">Unikaalset sadamat</div>
+      </div>
+      <div class="result-cell">
+        <div class="result-num" id="r-period">—</div>
+        <div class="result-lbl">Periood</div>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-success" onclick="saveVessel()">💾 Salvesta laev</button>
+      <button class="btn btn-secondary" onclick="downloadModel()">⬇ Laadi mudel alla</button>
+      <button class="btn btn-secondary" onclick="resetForm()">+ Lisa uus laev</button>
+    </div>
+  </div>
+
+  <!-- Nupud -->
+  <div class="btn-row" id="action-btns">
+    <button class="btn btn-primary" id="build-btn" onclick="buildModel()" disabled>
+      ⚙ Ehita mudel
+    </button>
+    <button class="btn btn-secondary" onclick="resetForm()">✕ Tühista</button>
+  </div>
+
+  <!-- Laevade nimekiri -->
+  <div class="vessels-list">
+    <div class="vessels-header">
+      <span>Lisatud laevad (<span id="vessel-count">0</span>)</span>
+      <input type="text" class="search-input" placeholder="Otsi laeva..." 
+             oninput="filterVessels(this.value)" id="vessel-search">
+    </div>
+    <div id="vessels-items">
+      <div class="empty-state">Ühtegi laeva pole veel lisatud</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ===== OLEK =====
+let selectedFiles = [];
+let builtModel = null;
+let vessels = JSON.parse(localStorage.getItem('vpm_vessels') || '[]');
+
+// ===== DRAG & DROP =====
+const dropzone = document.getElementById('dropzone');
+
+dropzone.addEventListener('dragover', e => {
+  e.preventDefault();
+  dropzone.classList.add('drag');
+});
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag'));
+dropzone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropzone.classList.remove('drag');
+  handleFiles(e.dataTransfer.files);
+});
+
+function handleFiles(files) {
+  selectedFiles = Array.from(files).filter(f => f.name.endsWith('.csv'));
+  if (!selectedFiles.length) { alert('Palun vali CSV failid!'); return; }
+  
+  const listEl = document.getElementById('files-list');
+  const itemsEl = document.getElementById('files-items');
+  const countEl = document.getElementById('files-count');
+  const sizeEl = document.getElementById('files-size');
+  
+  listEl.style.display = 'block';
+  countEl.textContent = `${selectedFiles.length} faili valitud`;
+  
+  const totalSize = selectedFiles.reduce((s, f) => s + f.size, 0);
+  sizeEl.textContent = `${(totalSize/1024).toFixed(0)} KB kokku`;
+  
+  itemsEl.innerHTML = selectedFiles.map(f => `
+    <div class="file-item">
+      <span class="file-name">${f.name}</span>
+      <span class="file-size">${(f.size/1024).toFixed(0)} KB</span>
+      <span class="file-status st-ok">✓ CSV</span>
+    </div>
+  `).join('');
+  
+  document.getElementById('build-btn').disabled = false;
+}
+
+// ===== MUDELI EHITAMINE =====
+async function buildModel() {
+  const name = document.getElementById('vessel-name').value.trim().toUpperCase();
+  const mmsi = document.getElementById('vessel-mmsi').value.trim();
+  
+  if (!name || !mmsi) { alert('Palun sisesta laeva nimi ja MMSI!'); return; }
+  if (!selectedFiles.length) { alert('Palun vali CSV failid!'); return; }
+  
+  // Näita progress
+  document.getElementById('progress-wrap').style.display = 'block';
+  document.getElementById('action-btns').style.display = 'none';
+  document.getElementById('result-wrap').style.display = 'none';
+  
+  setProgress(10, 'Loen CSV faile...', `0 / ${selectedFiles.length} faili`);
+  
+  // Loe failid
+  const fileContents = [];
+  for (let i = 0; i < selectedFiles.length; i++) {
+    const content = await readFile(selectedFiles[i]);
+    fileContents.push({ name: selectedFiles[i].name, content });
+    setProgress(10 + (i+1)/selectedFiles.length*30, 
+      'Loen CSV faile...', `${i+1} / ${selectedFiles.length} faili`);
+  }
+  
+  setProgress(45, 'Filtreerin andmeid...', 'Eemaldan müra...');
+  await sleep(100);
+  
+  setProgress(55, 'Ehitan Markovi mudelit...', 'Arvutan üleminekuid...');
+  await sleep(100);
+  
+  // Ehita mudel
+  const model = VPMParser.buildVesselModel(fileContents, mmsi, name);
+  
+  setProgress(75, 'Arvutan teekonnaaegu...', '');
+  await sleep(100);
+  
+  setProgress(85, 'Arvutan süvise profiili...', '');
+  await sleep(100);
+  
+  setProgress(100, 'Valmis!', '');
+  builtModel = model;
+  
+  // Näita tulemusi
+  setTimeout(() => {
+    document.getElementById('progress-wrap').style.display = 'none';
+    document.getElementById('result-wrap').style.display = 'block';
+    
+    const ports = new Set(model.history.map(h => h.place));
+    document.getElementById('r-calls').textContent = model.meta.port_calls;
+    document.getElementById('r-ports').textContent = ports.size;
+    document.getElementById('r-period').textContent = 
+      model.meta.period_start ? model.meta.period_start.slice(-4) : '—';
+    
+    console.log('Mudel valmis:', model.meta);
+  }, 500);
+}
+
+function setProgress(pct, text, step) {
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = text;
+  document.getElementById('progress-step').textContent = step;
+}
+
+function readFile(file) {
+  return new Promise(resolve => {
+    const reader = new FileReader();
+    reader.onload = e => resolve(e.target.result);
+    reader.readAsText(file, 'UTF-8');
+  });
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// ===== SALVESTA =====
+function saveVessel() {
+  if (!builtModel) return;
+  
+  const existing = vessels.findIndex(v => v.mmsi === builtModel.mmsi);
+  if (existing >= 0) {
+    if (!confirm(`${builtModel.name} on juba olemas. Asenda?`)) return;
+    vessels[existing] = builtModel;
+  } else {
+    vessels.push(builtModel);
+  }
+  
+  localStorage.setItem('vpm_vessels', JSON.stringify(vessels));
+  renderVessels();
+  resetForm();
+  alert(`✅ ${builtModel.name} salvestatud! (${builtModel.meta.port_calls} külastust)`);
+}
+
+// ===== LADI ALLA =====
+function downloadModel() {
+  if (!builtModel) return;
+  const blob = new Blob([JSON.stringify(builtModel, null, 2)], 
+    {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `model_${builtModel.mmsi}.json`;
+  a.click();
+}
+
+// ===== KUVAMINE =====
+function renderVessels(filter = '') {
+  const el = document.getElementById('vessels-items');
+  const countEl = document.getElementById('vessel-count');
+  
+  const filtered = vessels.filter(v => 
+    v.name.toLowerCase().includes(filter.toLowerCase()) ||
+    v.mmsi.includes(filter)
+  );
+  
+  countEl.textContent = vessels.length;
+  
+  if (!filtered.length) {
+    el.innerHTML = '<div class="empty-state">Ühtegi laeva pole veel lisatud</div>';
+    return;
+  }
+  
+  const colors = ['#16a34a','#2563eb','#7c3aed','#d97706','#dc2626',
+    '#0891b2','#be185d','#ca8a04'];
+  
+  el.innerHTML = filtered.map((v, i) => `
+    <div class="vessel-row">
+      <div class="vessel-color" style="background:${colors[i%colors.length]}"></div>
+      <div class="vessel-name">${v.name}</div>
+      <div class="vessel-mmsi">${v.mmsi}</div>
+      <div class="vessel-calls">${v.meta.port_calls} külastust</div>
+      <div class="vessel-period">${v.meta.period_start} – ${v.meta.period_end}</div>
+      <button class="vessel-del" onclick="deleteVessel('${v.mmsi}')">✕</button>
+    </div>
+  `).join('');
+}
+
+function filterVessels(val) { renderVessels(val); }
+
+function deleteVessel(mmsi) {
+  const v = vessels.find(v => v.mmsi === mmsi);
+  if (!confirm(`Kustuta ${v?.name}?`)) return;
+  vessels = vessels.filter(v => v.mmsi !== mmsi);
+  localStorage.setItem('vpm_vessels', JSON.stringify(vessels));
+  renderVessels();
+}
+
+function resetForm() {
+  selectedFiles = [];
+  builtModel = null;
+  document.getElementById('vessel-name').value = '';
+  document.getElementById('vessel-mmsi').value = '';
+  document.getElementById('vessel-imo').value = '';
+  document.getElementById('files-list').style.display = 'none';
+  document.getElementById('progress-wrap').style.display = 'none';
+  document.getElementById('result-wrap').style.display = 'none';
+  document.getElementById('action-btns').style.display = 'flex';
+  document.getElementById('build-btn').disabled = true;
+  document.getElementById('files-items').innerHTML = '';
+}
+
+// Initsialiseeri
+renderVessels();
+</script>
+
+<!-- VPM Parser -->
+<script>
+// ===== VPM CSV PARSER + MUDELI EHITAJA =====
+// Töötab brauseris – loeb SeaSearcheri CSV formaati
+
+const VPMParser = {
+
+  // ===== CSV PARSIMINE =====
+  parseCSV(text) {
+    const lines = text.split('\n');
+    if (lines.length < 2) return [];
+
+    // Tuvasta separator (tab või koma)
+    const sep = lines[0].includes('\t') ? '\t' : ',';
+    const headers = lines[0].split(sep).map(h => h.trim().replace(/"/g, ''));
+
+    const rows = [];
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!line) continue;
+
+      const vals = line.split(sep).map(v => v.trim().replace(/"/g, ''));
+      const row = {};
+      headers.forEach((h, idx) => { row[h] = vals[idx] || ''; });
+      rows.push(row);
+    }
+    return rows;
+  },
+
+  // ===== KUUPÄEVA PARSIMINE =====
+  parseDateTime(s) {
+    if (!s || s === '—') return null;
+    try {
+      // Formaat: "19:34:50 +02:00 01/05/2026"
+      const parts = s.trim().split(' ');
+      if (parts.length >= 3) {
+        const [day, month, year] = parts[2].split('/');
+        const [h, m, sec] = parts[0].split(':');
+        return new Date(`${year}-${month}-${day}T${h}:${m}:${sec}`);
+      }
+    } catch(e) {}
+    return null;
+  },
+
+  // ===== MÜRA FILTREERIMINE =====
+  // Võtab ainult "called at" sadamakülastused
+  filterPortCalls(rows) {
+    return rows.filter(r => {
+      const status = (r['Status and Distance'] || '').toLowerCase();
+      const type = (r['Type'] || '').toLowerCase();
+      return status === 'called at' && type === 'port';
+    });
+  },
+
+  // ===== MITME FAILI ÜHENDAMINE =====
+  mergeFiles(allRows) {
+    // Eemalda duplikaadid (sama koht + sama aeg)
+    const seen = new Set();
+    const unique = [];
+    for (const row of allRows) {
+      const key = `${row['Place']}_${row['From']}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        unique.push(row);
+      }
+    }
+    // Sorteeri kuupäeva järgi
+    unique.sort((a, b) => {
+      const da = this.parseDateTime(a['From']);
+      const db = this.parseDateTime(b['From']);
+      if (!da || !db) return 0;
+      return da - db;
+    });
+    return unique;
+  },
+
+  // ===== MARKOVI MAATRIKS =====
+  buildMarkov(portCalls) {
+    const trans1 = {};  // 1. järk
+    const trans2 = {};  // 2. järk
+    const count1 = {};
+
+    for (let i = 0; i < portCalls.length - 1; i++) {
+      const src = portCalls[i]['Place'];
+      const dst = portCalls[i+1]['Place'];
+
+      // 1. järk
+      if (!trans1[src]) trans1[src] = {};
+      trans1[src][dst] = (trans1[src][dst] || 0) + 1;
+      count1[src] = (count1[src] || 0) + 1;
+
+      // 2. järk
+      if (i > 0) {
+        const prev = portCalls[i-1]['Place'];
+        const key = `${prev}|${src}`;
+        if (!trans2[key]) trans2[key] = {};
+        trans2[key][dst] = (trans2[key][dst] || 0) + 1;
+      }
+    }
+
+    // Normaliseeri 1. järk
+    const markov = {};
+    for (const [src, dsts] of Object.entries(trans1)) {
+      const total = count1[src];
+      markov[src] = Object.entries(dsts)
+        .map(([to, n]) => ({ to, prob: Math.round(n/total*100), n }))
+        .sort((a,b) => b.prob - a.prob);
+    }
+
+    // Normaliseeri 2. järk
+    const markov2 = {};
+    for (const [key, dsts] of Object.entries(trans2)) {
+      const total = Object.values(dsts).reduce((s,v) => s+v, 0);
+      if (total < 2) continue;
+      markov2[key] = Object.entries(dsts)
+        .map(([to, n]) => ({ to, prob: Math.round(n/total*100), n }))
+        .sort((a,b) => b.prob - a.prob);
+    }
+
+    return { markov, markov2 };
+  },
+
+  // ===== TEEKONNAAEGADE ARVUTAMINE =====
+  buildJourneyTimes(portCalls) {
+    const times = {};
+    const counts = {};
+
+    for (let i = 0; i < portCalls.length - 1; i++) {
+      const src = portCalls[i]['Place'];
+      const dst = portCalls[i+1]['Place'];
+      const depart = this.parseDateTime(portCalls[i]['To']);
+      const arrive = this.parseDateTime(portCalls[i+1]['From']);
+
+      if (!depart || !arrive) continue;
+      const hours = (arrive - depart) / 3600000;
+      if (hours < 1 || hours > 168) continue;
+
+      const key = `${src}→${dst}`;
+      if (!times[key]) { times[key] = 0; counts[key] = 0; }
+      times[key] += hours;
+      counts[key]++;
+    }
+
+    const result = {};
+    for (const key of Object.keys(times)) {
+      result[key] = Math.round(times[key] / counts[key] * 10) / 10;
+    }
+    return result;
+  },
+
+  // ===== SADAMAS VIIBIMISE AJARR =====
+  buildPortStay(portCalls) {
+    const stays = {};
+    const counts = {};
+
+    for (const row of portCalls) {
+      const place = row['Place'];
+      const from = this.parseDateTime(row['From']);
+      const to = this.parseDateTime(row['To']);
+      if (!from || !to) continue;
+      const hours = (to - from) / 3600000;
+      if (hours < 0.5 || hours > 96) continue;
+
+      if (!stays[place]) { stays[place] = 0; counts[place] = 0; }
+      stays[place] += hours;
+      counts[place]++;
+    }
+
+    const result = {};
+    for (const place of Object.keys(stays)) {
+      if (counts[place] >= 2) {
+        result[place] = Math.round(stays[place] / counts[place] * 10) / 10;
+      }
+    }
+    return result;
+  },
+
+  // ===== SÜVISE PROFIIL =====
+  buildDraughtProfile(portCalls) {
+    const draughts = portCalls
+      .map(r => parseFloat(r['Draught (m)']))
+      .filter(d => d > 0 && d < 20);
+
+    if (!draughts.length) return null;
+
+    draughts.sort((a,b) => a-b);
+    const avg = draughts.reduce((s,v) => s+v, 0) / draughts.length;
+    const empty = draughts.slice(0, Math.floor(draughts.length * 0.25));
+    const loaded = draughts.slice(Math.floor(draughts.length * 0.75));
+
+    return {
+      avg: Math.round(avg * 10) / 10,
+      empty_avg: Math.round(empty.reduce((s,v)=>s+v,0)/empty.length * 10) / 10,
+      loaded_avg: Math.round(loaded.reduce((s,v)=>s+v,0)/loaded.length * 10) / 10,
+      threshold: Math.round((avg * 0.85) * 10) / 10,
+      min: draughts[0],
+      max: draughts[draughts.length-1]
+    };
+  },
+
+  // ===== AJALUGU =====
+  buildHistory(portCalls) {
+    return portCalls.map(r => ({
+      place: r['Place'],
+      country: (r['Country/Region'] || '').split('(')[0].trim(),
+      date: r['From'] ? r['From'].split(' ').pop() : '',
+      duration: r['Duration'] || '',
+      draught: parseFloat(r['Draught (m)']) || null,
+      destination: r['Destination'] || ''
+    }));
+  },
+
+  // ===== PEAMINE FUNKTSIOON =====
+  // files = [{name, content}, ...]
+  buildVesselModel(files, mmsi, vesselName) {
+    console.log(`Töötlen ${files.length} faili laevale ${vesselName}...`);
+
+    // 1. Parsi kõik failid
+    let allRows = [];
+    for (const file of files) {
+      const rows = this.parseCSV(file.content);
+      allRows = allRows.concat(rows);
+    }
+    console.log(`Kokku ridu: ${allRows.length}`);
+
+    // 2. Filtreeri ainult sadamakülastused
+    const portRows = this.filterPortCalls(allRows);
+    console.log(`Sadamakülastusi: ${portRows.length}`);
+
+    // 3. Ühenda ja sorteeri
+    const portCalls = this.mergeFiles(portRows);
+    console.log(`Unikaalseid külastusi: ${portCalls.length}`);
+
+    // 4. Ehita mudel
+    const { markov, markov2 } = this.buildMarkov(portCalls);
+    const journey_times = this.buildJourneyTimes(portCalls);
+    const port_stay_avg = this.buildPortStay(portCalls);
+    const draught_profile = this.buildDraughtProfile(portCalls);
+    const history = this.buildHistory(portCalls);
+
+    // 5. Meta info
+    const dates = portCalls
+      .map(r => this.parseDateTime(r['From']))
+      .filter(Boolean)
+      .sort((a,b) => a-b);
+
+    return {
+      mmsi,
+      name: vesselName,
+      meta: {
+        port_calls: portCalls.length,
+        transitions: portCalls.length - 1,
+        period_start: dates[0]?.toLocaleDateString('et-EE') || '',
+        period_end: dates[dates.length-1]?.toLocaleDateString('et-EE') || '',
+        files_processed: files.length,
+        generated: new Date().toISOString()
+      },
+      markov,
+      markov2,
+      journey_times,
+      port_stay_avg,
+      draught_profile,
+      history: history.slice(-200) // viimased 200 külastust
+    };
+  }
+};
+
+// Export Node.js jaoks (testimiseks)
+if (typeof module !== 'undefined') module.exports = VPMParser;
+
+</script>
+
+</body>
+</html>
